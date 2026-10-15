@@ -1,0 +1,32 @@
+name: Local CI (manual only)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    name: Documentation and core tests on local runner
+    runs-on: [self-hosted, linux, x64, project-tactics]
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Validate planning files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s docs/GDD-v0.2.md
+          test -s docs/ARCHITECTURE.md
+          test -s docs/ROADMAP.md
+          test -s docs/adr/0001-self-hosted-runners.md
+      - name: Run core tests if solution exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          if compgen -G '*.sln' > /dev/null; then
+            dotnet test --configuration Release
+          else
+            echo 'No .sln yet: planning-only repository.'
+          fi
