@@ -52,7 +52,7 @@ export function importAppearance(raw,references) {
   return {appearance:validate(c,references),warnings};
 }
 export function initialState(references) {
-  return {hero:'ryuu',base:'masculine',duo:false,mode:'illustration',direction:0,tab:'colors',zoom:100,compare:false,masks:false,saved:[],configs:Object.fromEntries(references.map(h=>[h.id,Object.fromEntries(BASES.map(b=>[b,canonical(h.id,b,references)]))]))};
+  return {hero:'ryuu',base:'masculine',duo:false,mode:'illustration',direction:0,tab:'character',zoom:100,compare:false,masks:false,saved:[],configs:Object.fromEntries(references.map(h=>[h.id,Object.fromEntries(BASES.map(b=>[b,canonical(h.id,b,references)]))]))};
 }
 export function restore(raw,references) {
   if(!object(raw)||!Array.isArray(raw.saved)||raw.saved.length>50)throw Error('Sauvegarde locale invalide.');

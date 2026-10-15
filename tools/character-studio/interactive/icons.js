@@ -1,4 +1,11 @@
 const ICONS={
+ person:'<circle cx="12" cy="6" r="3"/><path d="M5 21v-4a7 7 0 0 1 14 0v4M8 21v-5m8 5v-5"/>',
+ palette:'<path d="M21 12a9 9 0 1 0-9 9h1a2 2 0 0 0 0-4 2 2 0 0 1 0-4h5a3 3 0 0 0 3-1Z"/><circle cx="7" cy="10" r="1"/><circle cx="10" cy="6" r="1"/><circle cx="15" cy="6" r="1"/>',
+ sword:'<path d="m4 20 3-3m-2-4 6 6m-3-5 9-11h4v4L10 16"/>',
+ undo:'<path d="M4 10h10a6 6 0 0 1 0 12M4 10l5-5m-5 5 5 5" transform="translate(0 -2)"/>',
+ redo:'<path d="M20 10H10a6 6 0 0 0 0 12m10-12-5-5m5 5-5 5" transform="translate(0 -2)"/>',
+ compare:'<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M12 2v20M5 17l4-5m7 1 3 4"/>',
+
  lock:'<rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V6a4 4 0 0 1 8 0v4"/><path d="M12 14v3"/>',
  gallery:'<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>',
  bookmark:'<path d="M6 3h12v18l-6-4-6 4z"/>',download:'<path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/>',upload:'<path d="M12 16V4m-5 5 5-5 5 5M4 16v5h16v-5"/>',

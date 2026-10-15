@@ -13,7 +13,13 @@ const ROOT='../../../content/art/characters/reference-v2/';
 const LABELS=['Peau','Cheveux','Vêtement 1','Vêtement 2','Vêtement 3'];
 const BASE_LABEL={masculine:'Masculine',feminine:'Féminine'};
 const DIR_LABEL=['Sud','Sud-Ouest','Ouest','Nord-Ouest','Nord','Nord-Est','Est','Sud-Est'];
-const MODES=['illustration','iso','poses','sheet','equipment'];
+const PANELS=['character','colors','equipment','reference'];
+const PRESETS=[
+  {id:'night',name:'Nuit & jade',colors:['#65412F','#222E45','#356C72','#526E52','#B48760']},
+  {id:'ivory',name:'Ivoire & sauge',colors:['#E1B48F','#EAE4DA','#566D58','#455C68','#B99563']},
+  {id:'ember',name:'Braise & cuivre',colors:['#A66B49','#322831','#834950','#5D4543','#B9854B']},
+];
+let study='face';
 let references,lock,state,images={},cache={},ready=false,storageWorks=true,toastTimer;
 const hero=()=>references.find(h=>h.id===state.hero);
 const current=()=>state.configs[state.hero][state.base];
@@ -75,7 +81,8 @@ function persist() {
 }
 function paletteUpdate() {
   $('palettePreview').replaceChildren(...CHANNELS.map((k,i)=>{const el=document.createElement('span');el.style.background=current().colors[k];el.title=LABELS[i]+' · '+current().colors[k];return el;}));
-  $('paletteState').textContent=changed()?'Personnalisée':'Canon';$('customStatus').textContent=changed()?'Couleurs appliquées':'Palette canon';
+  $('paletteState').textContent=changed()?'Personnalisée':'D’origine';$('customStatus').textContent=changed()?'Personnalisée':'D’origine';
+  for(const b of document.querySelectorAll('[data-preset]')){const preset=PRESETS.find(p=>p.id===b.dataset.preset);b.setAttribute('aria-pressed',String(CHANNELS.every((k,i)=>current().colors[k]===preset.colors[i])));}
 }
 function buildColors() {
   $('colorRows').replaceChildren();
@@ -92,41 +99,41 @@ function buildColors() {
     hex.addEventListener('change',()=>{if(/^#[0-9a-f]{6}$/i.test(hex.value))update(hex.value);else{hex.value=current().colors[k];toast('Couleur refusée : utilisez six chiffres hexadécimaux, par exemple #C7D5B4.');}});
     const reset=document.createElement('button');reset.className='color-reset';reset.textContent='↺';reset.title='Rétablir '+LABELS[i];reset.setAttribute('aria-label','Rétablir la couleur '+LABELS[i]);reset.disabled=!editable();reset.addEventListener('click',()=>update(canonical(state.hero,state.base,references).colors[k]));row.append(chip,label,hex,reset);$('colorRows').append(row);
   });
-  $('randomColors').disabled=!editable();$('resetColors').disabled=!editable();$('palettePreset').disabled=!editable();updateHistoryControls();
+  $('randomColors').disabled=!editable();$('resetColors').disabled=!editable();for(const b of document.querySelectorAll('[data-preset]'))b.disabled=!editable();updateHistoryControls();
 }
 function buildStudies(kind) {
   const isFace=kind==='face',host=$(isFace?'faceGrid':'hairGrid');host.replaceChildren();
   (isFace?hero().faces:hero().hairs).forEach((box,i)=>{
     const button=document.createElement('button');button.className='study-button';button.disabled=true;button.setAttribute('aria-pressed','false');button.setAttribute('aria-label',`${isFace?'Visage':'Coiffure'} — étude ${i+1}, calque indisponible`);
     button.title='Étude de référence ; aucune variante composable disponible.';
-    const text=document.createElement('span');text.textContent='ÉTUDE '+String(i+1).padStart(2,'0');button.append(crop(hero(),box),text);host.append(button);
+    const text=document.createElement('span');text.textContent=String(i+1).padStart(2,'0');button.append(crop(hero(),box),text);host.append(button);
   });
-  $(isFace?'faceCurrent':'hairCurrent').textContent='1 canon · 0 variante composable disponible';$(isFace?'resetFace':'resetHair').disabled=true;
+  $(isFace?'faceCurrent':'hairCurrent').textContent='9 études · '+(isFace?'visage':'coiffure')+' d’origine dans l’aperçu';
 }
 function buildNav() {
-  $('heroNav').replaceChildren(...references.map((h,i)=>{
-    const b=document.createElement('button');b.className='hero-tab';b.dataset.hero=h.id;b.setAttribute('role','tab');b.setAttribute('aria-label',h.name+' — '+h.subtitle);b.setAttribute('aria-controls','workspace');
+  $('heroNav').replaceChildren(...references.map(h=>{
+    const b=document.createElement('button');b.className='hero-tab';b.dataset.hero=h.id;b.setAttribute('role','tab');b.setAttribute('aria-label',h.name+' — '+h.subtitle);b.setAttribute('aria-controls','stage');
     const av=document.createElement('span');av.className='nav-avatar';av.append(crop(h,h.avatar));
-    const info=document.createElement('span'),title=document.createElement('strong'),sub=document.createElement('small');title.textContent=h.name;sub.textContent=h.subtitle;info.append(title,sub);
-    const number=document.createElement('span');number.className='hero-number';number.textContent=String(i+1).padStart(2,'0');b.append(av,info,number);
+    const info=document.createElement('span'),title=document.createElement('strong'),sub=document.createElement('small');title.textContent=h.name;sub.textContent=getRecipe(h.id,state.base)?'Personnalisable':'Référence';b.title=h.subtitle;info.append(title,sub);
+    b.append(av,info);
     b.addEventListener('click',()=>{state.hero=h.id;state.zoom=100;state.compare=false;state.masks=false;render();});return b;
   }));
 }
 function drawStage() {
   const h=hero();copy($('mainCanvas'),stageCanvas());
   $('stage').className='stage '+state.mode+(state.compare?' compare':'');$('mainCanvas').style.transform=`scale(${state.zoom/100})`;
-  $('heroTitle').textContent=h.name;$('heroQuote').textContent='« '+h.quote+' »';
-  const description=state.mode==='illustration'?(state.duo?'Deux bases':'Base '+BASE_LABEL[state.base].toLowerCase())+' · '+(state.masks?'zones de couleur':supported()?'pilote personnalisé':'référence canon'):{iso:'Études isométriques · '+DIR_LABEL[state.direction],poses:'Études de mouvements',sheet:'Fiche maître complète',equipment:'Équipements · études originales'}[state.mode];
+  $('heroTitle').textContent=h.name;
+  const description=state.mode==='illustration'?(state.duo?'Deux bases':'Base '+BASE_LABEL[state.base].toLowerCase())+' · '+(state.masks?'zones de couleur':supported()?'personnalisable':'référence'):{iso:'Études isométriques · '+DIR_LABEL[state.direction],poses:'Études de mouvements',sheet:'Fiche maître complète',equipment:'Équipements · études originales'}[state.mode];
   $('heroViewSubtitle').textContent=description;$('mainCanvas').setAttribute('aria-label',h.name+' — '+description);
-  $('previewCaption').textContent=state.mode!=='illustration'?'Référence statique originale · personnalisation non appliquée à cette vue':!supported()?'Référence originale · personnalisation après validation du pilote Ryuu':state.masks?'Zones visibles uniquement · les surfaces protégées restent inchangées':state.compare?'Même cadrage, mêmes dimensions · originale à gauche, personnalisée à droite':'Cinq couleurs appliquées · visage, coiffure et équipements canoniques';
-  $('viewStatus').textContent=editable()?'Ryuu · masques en cours de validation':'Référence originale';
+  $('previewCaption').textContent=state.mode!=='illustration'?'Étude d’origine · vos couleurs ne sont pas appliquées à cette vue':!supported()?'Dessin d’origine · personnalisation à venir':state.masks?'Zones de couleur · équipements protégés':state.compare?'Originale à gauche · votre apparence à droite':'Visage, coiffure et équipements d’origine';
+
   $('directionWrap').hidden=state.mode!=='iso';$('zoomRange').value=state.zoom;$('zoomOutput').value=state.zoom+' %';
   for(const b of document.querySelectorAll('[data-mode]')){const selected=b.dataset.mode===state.mode;b.setAttribute('aria-selected',String(selected));b.tabIndex=selected?0:-1;}
   $('duoToggle').setAttribute('aria-pressed',String(state.duo));$('duoToggle').disabled=['sheet','equipment'].includes(state.mode);
   $('compareToggle').setAttribute('aria-pressed',String(state.compare));$('maskToggle').setAttribute('aria-pressed',String(state.masks));
   $('compareToggle').disabled=!editable();$('maskToggle').disabled=!editable();
   $('exportPreview').disabled=!editable()||state.masks||state.compare;
-  $('exportPreview').title=state.masks||state.compare?'Revenez au rendu personnalisé pour exporter le PNG.':'PNG à la résolution source, identique au rendu central.';
+  $('exportPreview').title=!supported()?'Personnalisation à venir pour ce personnage.':!editable()||state.masks||state.compare?'Revenez à l’illustration seule pour exporter votre apparence.':'PNG à la résolution source, identique au rendu central.';
 }
 function renderDirections() {
   $('directionGrid').replaceChildren(...hero().directions[state.base].map((box,i)=>{
@@ -139,11 +146,17 @@ function render() {
   for(const b of document.querySelectorAll('[data-hero]')){const selected=b.dataset.hero===state.hero;b.setAttribute('aria-selected',String(selected));b.tabIndex=selected?0:-1;}
   for(const b of document.querySelectorAll('[data-base]')){b.classList.toggle('active',b.dataset.base===state.base);b.setAttribute('aria-pressed',String(b.dataset.base===state.base));}
   for(const b of document.querySelectorAll('[data-panel]')){const selected=b.dataset.panel===state.tab;b.setAttribute('aria-selected',String(selected));b.tabIndex=selected?0:-1;}
-  for(const t of ['colors','face','hair'])$('pane-'+t).hidden=state.tab!==t;
+  for(const t of PANELS)$('pane-'+t).hidden=state.tab!==t;
+  for(const b of document.querySelectorAll('[data-study]')){const selected=b.dataset.study===study;b.setAttribute('aria-selected',String(selected));b.tabIndex=selected?0:-1;}
+  for(const t of ['face','hair'])$('pane-'+t).hidden=study!==t;
+  for(const base of BASES)copy($(base==='masculine'?'baseMasculine':'baseFeminine'),appearance(hero(),base,true));
+  $('heroAvailability').textContent=supported()?'Couleurs personnalisables':'Référence · couleurs à venir';
+  $('colorContext').textContent=hero().name+' · '+BASE_LABEL[state.base];
+  $('chooseColors').firstChild.textContent=supported()?'Personnaliser les couleurs ':'Voir la palette ';
   buildColors();buildStudies('face');buildStudies('hair');paletteUpdate();drawStage();renderDirections();
   copy($('sheetThumb'),crop(hero(),null));copy($('equipmentThumb'),crop(hero(),hero().equipment));$('signatureDescription').textContent=hero().description;
   $('refSource').textContent=`PNG original · ${hero().width} × ${hero().height} px · empreinte vérifiée`;
-  $('capabilityNote').textContent=!supported()?'Fiche consultable. La personnalisation de ce héros suivra la validation du pilote Ryuu.':state.mode!=='illustration'?'Cette vue montre les études d’origine. Revenez à l’illustration pour personnaliser Ryuu.':'Les cinq couleurs modifient Ryuu. Visages, coiffures et retrait d’équipement attendent leurs calques.';
+  $('capabilityNote').textContent=!supported()?'Les couleurs de ce personnage seront personnalisables après Ryuu. Sa palette d’origine est affichée.':state.mode!=='illustration'?'Revenez à l’onglet Illustration pour appliquer vos couleurs.':'Les armes et accessoires conservent leurs couleurs. Les trois zones textiles correspondent au pantalon.';
   persist();
 }
 function openDialog(id){if(!$(id).open)$(id).showModal();}
@@ -167,9 +180,9 @@ function saveLook() {
   const ok=persist();toast(ok?'Apparence enregistrée.':'Stockage indisponible : cette apparence reste en mémoire. Exportez le JSON pour la conserver.');
 }
 function savedDialog() {
-  $('savesTitle').textContent='Mes sélections';
+  $('savesTitle').textContent='Mes apparences';
   const host=$('savedBody');host.replaceChildren();
-  if(!state.saved.length){host.textContent='Aucune apparence enregistrée. Personnalisez Ryuu, puis utilisez « Enregistrer cette apparence ».';openDialog('savesDialog');return;}
+  if(!state.saved.length){host.textContent='Aucune apparence enregistrée. Personnalisez Ryuu, puis utilisez « Enregistrer ».';openDialog('savesDialog');return;}
   for(const entry of [...state.saved].reverse()) {
     const card=document.createElement('section');card.className='look-card';const title=document.createElement('strong');title.textContent=entry.name;
     const controls=document.createElement('div');controls.className='look-controls';
@@ -200,7 +213,17 @@ function review() {
 }
 function wire() {
   $('undoColors').addEventListener('click',()=>moveHistory('undo'));$('redoColors').addEventListener('click',()=>moveHistory('redo'));
-  $('palettePreset').addEventListener('change',()=>{const presets={night:['#65412F','#222E45','#356C72','#526E52','#B48760'],ivory:['#E1B48F','#EAE4DA','#566D58','#455C68','#B99563'],ember:['#A66B49','#322831','#834950','#5D4543','#B9854B']},colors=presets[$('palettePreset').value];if(!colors)return;const before=structuredClone(current());CHANNELS.forEach((k,i)=>current().colors[k]=colors[i]);remember(before);render();$('palettePreset').value='';});
+  $('palettePresets').replaceChildren(...PRESETS.map(preset=>{
+    const button=document.createElement('button');button.className='preset-card';button.dataset.preset=preset.id;button.setAttribute('aria-pressed','false');
+    const swatches=document.createElement('span');swatches.className='preset-swatches';swatches.setAttribute('aria-hidden','true');
+    swatches.append(...preset.colors.map(color=>{const i=document.createElement('i');i.style.background=color;return i;}));
+    const label=document.createElement('span');label.textContent=preset.name;button.append(swatches,label);
+    button.addEventListener('click',()=>{if(!editable())return;const before=structuredClone(current());CHANNELS.forEach((k,i)=>current().colors[k]=preset.colors[i]);remember(before);render();});return button;
+  }));
+  function switchPanel(panel){state.tab=panel;render();$('tab-'+panel).focus();}
+  $('chooseColors').addEventListener('click',()=>switchPanel('colors'));
+  $('changeCharacter').addEventListener('click',()=>switchPanel('character'));
+  for(const b of document.querySelectorAll('[data-study]'))b.addEventListener('click',()=>{study=b.dataset.study;render();});
   for(const b of document.querySelectorAll('[data-base]'))b.addEventListener('click',()=>{state.base=b.dataset.base;state.duo=false;state.zoom=100;render();});
   for(const b of document.querySelectorAll('[data-panel]'))b.addEventListener('click',()=>{state.tab=b.dataset.panel;render();});
   for(const b of document.querySelectorAll('[data-mode]'))b.addEventListener('click',()=>{state.mode=b.dataset.mode;state.compare=state.masks=false;state.zoom=100;render();});
@@ -209,7 +232,7 @@ function wire() {
   $('duoToggle').addEventListener('click',()=>{state.duo=!state.duo;drawStage();persist();});
   function zoom(value){state.zoom=Math.max(75,Math.min(150,value));drawStage();}
   $('zoomRange').addEventListener('input',e=>zoom(Number(e.target.value)));$('zoomOut').addEventListener('click',()=>zoom(state.zoom-10));$('zoomIn').addEventListener('click',()=>zoom(state.zoom+10));
-  $('resetColors').addEventListener('click',()=>{const before=structuredClone(current());state.configs[state.hero][state.base]=canonical(state.hero,state.base,references);remember(before);render();toast('Apparence canonique rétablie.');});
+  $('resetColors').addEventListener('click',()=>{const before=structuredClone(current());state.configs[state.hero][state.base]=canonical(state.hero,state.base,references);remember(before);render();toast('Couleurs d’origine rétablies.');});
   $('randomColors').addEventListener('click',()=>{const before=structuredClone(current());const pools=[['#F4D4AF','#865239','#56392C'],['#EAE4DA','#1B2439','#C77A88'],['#406C73','#77558B','#647442'],['#3D5872','#8E5269','#777352'],['#46676B','#80573C','#674775']];CHANNELS.forEach((k,i)=>current().colors[k]=pools[i][Math.floor(Math.random()*pools[i].length)]);remember(before);render();});
   $('sheetPreview').addEventListener('click',()=>openImage('sheet'));$('equipmentBtn').addEventListener('click',()=>openImage('equipment'));$('expandView').addEventListener('click',()=>openImage('view'));$('dialogZoom').addEventListener('input',e=>zoomDialog(Number(e.target.value)));
   $('downloadDialog').addEventListener('click',()=>downloadCanvas($('dialogCanvas'),'project-tactics-'+state.hero+'-apercu.png'));
@@ -244,7 +267,7 @@ async function init() {
     await Promise.all(references.map(async h=>{const response=await fetch(ROOT+h.original_png_file);if(!response.ok)throw Error('PNG introuvable : '+h.name);const bytes=await response.arrayBuffer();const hash=[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(v=>v.toString(16).padStart(2,'0')).join('');if(hash!==h.sha256)throw Error('Empreinte source incorrecte : '+h.name);return new Promise((resolve,reject)=>{const im=new Image(),url=URL.createObjectURL(new Blob([bytes],{type:'image/png'}));im.onload=()=>{URL.revokeObjectURL(url);if(im.naturalWidth!==h.width||im.naturalHeight!==h.height){reject(Error('Dimensions incorrectes : '+h.name));return;}images[h.id]=im;resolve();};im.onerror=()=>{URL.revokeObjectURL(url);reject(Error('PNG illisible : '+h.name));};im.src=url;});}));
     enabled.forEach(c=>c.disabled=false);wire();ready=true;buildNav();render();
     $('sourceList').replaceChildren(...references.map(h=>{const d=document.createElement('div');d.textContent=h.name;const code=document.createElement('code');code.textContent=h.sha256.slice(0,16)+'…';code.title=h.sha256;d.append(code);return d;}));
-    $('loading').hidden=true;$('integrityLabel').textContent='5 sources originales · pilote Ryuu · 2 bases';document.body.dataset.ready='true';
+    $('loading').hidden=true;$('integrityLabel').textContent='Ryuu personnalisable · 4 héros en référence';document.body.dataset.ready='true';
     if(storageError)toast(storageError);
   }catch(e){$('loading').textContent=e.message+' — Lancez le serveur local indiqué dans le README.';$('loading').setAttribute('role','alert');}
 }

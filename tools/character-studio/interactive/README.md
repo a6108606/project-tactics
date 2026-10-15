@@ -1,6 +1,6 @@
 # Atelier V3 — pilote Ryuu
 
-Preuve intermédiaire de recolorisation des **deux grandes illustrations originales** de Ryuu. Interface dérivée du HTML V2 vérifié : parchemin, bleu nuit et doré, navigation des cinq héros, références et vues d’étude.
+Preuve intermédiaire de recolorisation des **deux grandes illustrations originales** de Ryuu. L’interface organise les choix visuels à gauche et l’aperçu à droite, avec la palette parchemin, bleu nuit et doré. Les cinq héros, références et vues d’étude restent accessibles. L’archive HTML V2 est conservée à l’identique.
 
 Ce pilote n’achève pas l’issue #27 : aucun visage/coiffure modulaire, aucun équipement démontable et aucune personnalisation des huit autres bases. Ces contrôles sont désactivés avec explication. Ne pas confondre neuf études consultables et neuf variantes disponibles.
 
@@ -17,13 +17,17 @@ Ouvrir <http://127.0.0.1:8765/tools/character-studio/interactive/>. Aucun télé
 
 ## Essayer
 
-- Ryuu → Masculine/Féminine → modifier les cinq couleurs. Les paramètres des deux bases sont indépendants.
-- « Comparer à l’original » garde le même cadrage ; « Voir les cinq zones » affiche les masques. Les trois textiles proposés sont les deux jambes du pantalon et son panneau central. Bandeau, cuir, pans rouges et ornements sont exclus.
-- « Palette canon » restitue exactement les pixels de la source recadrée. Chaque ligne possède aussi son propre retour au canon.
-- Trois palettes de départ, Annuler/Rétablir et Ctrl/Cmd+Z (hors saisie) accélèrent les essais ; l’historique est indépendant pour chaque personnage/base et reste limité à la session.
-- « Enregistrer cette apparence », puis « Mes sélections » pour recharger. Le navigateur conserve aussi les configurations courantes. Un échec de stockage est signalé ; le JSON permet de conserver l’apparence.
-- Exporter → Apparence JSON / Rendu personnalisé PNG. Le PNG est issu directement du canvas affiché, à la résolution originale, sans le zoom CSS. Les vues d’étude sont explicitement statiques. En comparaison ou affichage des masques, revenir au rendu pour exporter le PNG personnalisé.
-- Les touches fléchées/Home/End parcourent les onglets ; 1 à 5 sélectionnent un héros hors d’un champ ou d’une fenêtre ; Échap ferme les fenêtres et le menu.
+- **Personnage** : choisir un héros par son portrait, puis une base par sa vignette. Les études de visages/coiffures restent explicitement non sélectionnables.
+- **Couleurs** : modifier les cinq zones de Ryuu ; trois palettes visuelles permettent un essai immédiat. Les paramètres masculins et féminins sont indépendants. « Couleurs d’origine » rétablit le canon exact, avec un retour individuel sur chaque ligne.
+- **Aperçu** : Annuler/Rétablir, comparaison côte à côte, duo, zoom et agrandissement. Ctrl/Cmd+Z fonctionne hors saisie ; l’historique reste propre à chaque base et limité à la session. Les vues iso/poses sont des études statiques, sans personnalisation.
+- **Enregistrer**, puis **Mes apparences**, conserve et recharge une sélection. Les réglages courants se sauvegardent aussi localement. Un échec de stockage est signalé.
+- **Exporter PNG**, sous l’aperçu, utilise directement ses pixels à la résolution originale, hors zoom CSS. En comparaison, affichage des zones ou vue d’étude, revenir à l’illustration seule pour exporter.
+- **Fichiers**, dans l’en-tête, importe/exporte une apparence JSON ou télécharge la fiche originale. Les sauvegardes V3 précédentes restent compatibles.
+- **Équipements** : consultation des sources, couleurs indépendantes, retrait désactivé tant que les vrais calques n’existent pas.
+- **Références** : fiche complète, galerie des cinq héros, charte. Le volet secondaire **Outils de création** contient les zones de couleur, la préparation Ryuu et l’accès à l’éditeur de créatures.
+- Les flèches/Home/End parcourent chaque groupe d’onglets ; 1 à 5 sélectionnent un héros hors saisie/fenêtre ; Échap ferme les dialogues et le menu.
+
+L’organisation s’inspire de [skin.souff.fr](https://skin.souff.fr/) à la demande de l’utilisateur : sélections illustrées, onglets compacts, aperçu durable sur bureau et commandes directes. Aucun asset, code ou décor de ce site n’est réutilisé. Sur écran étroit, l’aperçu passe au-dessus des commandes. L’outil de préparation reste séparé du parcours de personnalisation.
 
 ## Provenance et limites
 
@@ -33,7 +37,7 @@ Ouvrir <http://127.0.0.1:8765/tools/character-studio/interactive/>. Aucun télé
 
 `appearance_v3.schema.json` décrit les configurations prises en charge. `state.js` applique aussi les vérifications d’identité et de compatibilité. La migration V2 signale le retour aux formes canoniques et aux trois textiles canoniques : un indice d’étude V2 ne devient jamais un identifiant de variante.
 
-Aucune reconstruction n’entre dans le rendu livré. Les essais de tête ont été rejetés : l’essai génératif déplaçait visage/bandeau ; l’adaptation entre les deux grandes têtes produisait des contours résiduels et un raccord incohérent de l’attache. Les essais ne sont pas des assets disponibles. Les zones à reconstruire sont montrées dans « Préparation des variantes ».
+Aucune reconstruction n’entre dans le rendu livré. Les essais de tête ont été rejetés : l’essai génératif déplaçait visage/bandeau ; l’adaptation entre les deux grandes têtes produisait des contours résiduels et un raccord incohérent de l’attache. Les essais ne sont pas des assets disponibles. Les zones à reconstruire sont montrées dans Références → Outils de création → « Préparation de Ryuu ».
 
 ## Vérifier et régénérer les preuves
 
@@ -49,6 +53,6 @@ Ouvrir aussi <http://127.0.0.1:8765/tools/character-studio/interactive/tests/bro
 
 ## Préparer les prochains personnages et monstres
 
-Le lien « Préparer une créature » ouvre l’éditeur de contours, exclusions, protections et points témoins. Il accepte des bases et zones libres, sauvegarde un brouillon local et exporte une fiche versionnée. Le générateur commun vérifie et produit masques, catalogue et comparaisons par lot.
+Dans Références → Outils de création, le lien « Préparer une créature » ouvre l’éditeur de contours, exclusions, protections et points témoins. Il accepte des bases et zones libres, sauvegarde un brouillon local et exporte une fiche versionnée. Le générateur commun vérifie et produit masques, catalogue et comparaisons par lot.
 
 Voir la [méthode de production](../../../docs/art/ASSET_PRODUCTION_METHOD.md) pour le contrat de sources, les calques à demander dès le dessin, les commandes de génération et la validation esthétique. Les sauvegardes V3 existantes restent compatibles ; la migration du moteur conserve exactement les deux rendus Ryuu du pilote testé.

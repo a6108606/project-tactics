@@ -4,63 +4,86 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#172B38">
-<meta name="description" content="Pilote local de l’atelier esthétique Project Tactics : cinq couleurs sur Ryuu masculin et féminin, comparaison aux références et export PNG.">
-<title>Project Tactics — Atelier des héros · V3 · Pilote Ryuu</title>
-<link rel="stylesheet" href="v2-layout.css">
+<meta name="description" content="Créez votre apparence Project Tactics : choisissez un héros, personnalisez les couleurs de Ryuu et exportez votre illustration.">
+<title>Project Tactics — Atelier des apparences</title>
 <link rel="stylesheet" href="studio.css">
 </head>
 <body>
 <a class="skip" href="#workspace">Aller à l’atelier</a>
 <header class="topbar">
- <a class="brand" href="#" aria-label="Project Tactics, accueil de l’atelier"><span class="brand-mark" aria-hidden="true"></span><span class="brand-copy"><strong>Project Tactics</strong><small>L’atelier des héros</small></span></a>
+ <a class="brand" href="./" aria-label="Project Tactics, accueil de l’atelier"><span class="brand-mark" aria-hidden="true"></span><span class="brand-copy"><strong>Project Tactics</strong><small>Atelier des apparences</small></span></a>
  <nav class="top-actions" aria-label="Actions de l’atelier">
-  <button class="top-btn" id="galleryBtn"><span data-icon="gallery"></span> Les 5 références</button>
-  <button class="top-btn" id="savesBtn"><span data-icon="bookmark"></span> Mes sélections <span id="saveCount" class="small-count">0</span></button>
-  <div class="export-wrap"><button class="top-btn gold" id="exportBtn" aria-expanded="false" aria-controls="exportMenu"><span data-icon="download"></span> Exporter <span data-icon="chevron"></span></button>
+  <button class="top-btn" id="savesBtn"><span data-icon="bookmark"></span> Mes apparences <span id="saveCount" class="small-count">0</span></button>
+  <div class="export-wrap"><button class="top-btn" id="exportBtn" aria-expanded="false" aria-controls="exportMenu"><span data-icon="file"></span> Fichiers <span data-icon="chevron"></span></button>
    <div class="export-menu" id="exportMenu" hidden>
-    <button id="exportConfig"><span data-icon="code"></span> Apparence · JSON</button>
-    <button id="exportPreview"><span data-icon="image"></span> Rendu personnalisé · PNG</button>
-    <button id="exportSheet"><span data-icon="file"></span> Fiche complète · PNG</button>
-    <button id="importBtn"><span data-icon="upload"></span> Importer un projet · JSON</button>
-    <small>Le PNG personnalisé utilise les mêmes pixels que le rendu central, hors zoom et comparaison.</small>
+    <button id="importBtn"><span data-icon="upload"></span> Ouvrir une apparence · JSON</button>
+    <button id="exportConfig"><span data-icon="download"></span> Enregistrer les réglages · JSON</button>
+    <button id="exportSheet"><span data-icon="image"></span> Télécharger la fiche originale · PNG</button>
    </div>
   </div>
  </nav>
 </header>
 <main>
- <section class="intro" aria-labelledby="pageTitle"><div><div class="eyebrow">Direction artistique · Atelier V3 · Pilote Ryuu</div><h1 id="pageTitle">Un même monde. Vos personnages.</h1><p>Les cinq designs approuvés. Deux bases chacun. Aucune réinterprétation.</p></div><div class="stamp"><span data-icon="lock" data-size="20"></span><div><strong>RÉFÉRENCES VERROUILLÉES</strong><small>Parchemin · bleu nuit · doré</small></div></div></section>
- <nav class="hero-nav" id="heroNav" role="tablist" aria-label="Choisir un personnage"></nav>
- <section class="workspace" id="workspace" aria-label="Atelier de références et de personnalisation">
-  <aside class="panel controls" aria-labelledby="customTitle">
-   <div class="panel-title"><h2 id="customTitle">Apparence</h2><span id="customStatus">Palette canon</span></div>
-   <div class="control-body">
-    <div class="label-line"><strong>Base à personnaliser</strong><span style="color:var(--muted);font-size:9px">2 bases approuvées</span></div>
-    <div class="segments base-tabs" role="group" aria-label="Base à personnaliser"><button data-base="masculine" class="active" aria-pressed="true">Masculine</button><button data-base="feminine" aria-pressed="false">Féminine</button></div>
-    <div class="control-tabs" role="tablist" aria-label="Type de personnalisation"><button id="tab-colors" role="tab" data-panel="colors" aria-selected="true" aria-controls="pane-colors">Couleurs</button><button id="tab-face" role="tab" data-panel="face" aria-selected="false" aria-controls="pane-face">Visage</button><button id="tab-hair" role="tab" data-panel="hair" aria-selected="false" aria-controls="pane-hair">Coiffure</button></div>
-    <div id="pane-colors" role="tabpanel" aria-labelledby="tab-colors"><p class="pane-intro">Cinq couleurs pour la base uniquement.<br>Les équipements gardent leurs couleurs.</p><div id="colorRows"></div><label class="preset-label" for="palettePreset">Essayer une palette</label><select id="palettePreset"><option value="">Choisir…</option><option value="night">Nuit & jade</option><option value="ivory">Ivoire & sauge</option><option value="ember">Braise & cuivre</option></select><div class="history-buttons"><button class="btn-soft" id="undoColors" disabled>Annuler</button><button class="btn-soft" id="redoColors" disabled>Rétablir</button></div><div class="palette-buttons"><button class="btn-soft" id="randomColors"><span data-icon="shuffle"></span> Aléatoire</button><button class="btn-soft" id="resetColors"><span data-icon="reset"></span> Palette canon</button></div></div>
-    <div id="pane-face" role="tabpanel" aria-labelledby="tab-face" hidden><div class="label-line"><strong>Études de visage</strong><button class="tiny-button" id="resetFace">Visage canon</button></div><p class="pane-intro">Études d’origine consultables. Sélection indisponible : les visages ne sont pas encore séparés et raccordés à la tête.</p><div class="study-grid" id="faceGrid"></div><div class="study-current" id="faceCurrent"></div></div>
-    <div id="pane-hair" role="tabpanel" aria-labelledby="tab-hair" hidden><div class="label-line"><strong>Études de coiffure</strong><button class="tiny-button" id="resetHair">Coiffure canon</button></div><p class="pane-intro">Études d’origine consultables. Sélection indisponible : retirer la coiffure actuelle dévoilerait des zones absentes de la source.</p><div class="study-grid" id="hairGrid"></div><div class="study-current" id="hairCurrent"></div></div>
-    <div class="control-note" id="capabilityNote"><span data-icon="info" data-size="14"></span><span>Pilote Ryuu : les cinq couleurs modifient le dessin. Visages, coiffures et retrait d’équipement attendent leurs calques.</span></div>
+ <h1 class="sr-only">Atelier des apparences</h1>
+ <section class="workspace" id="workspace" aria-label="Personnaliser son personnage">
+  <section class="editor panel" aria-label="Choix d’apparence">
+   <nav class="editor-tabs" role="tablist" aria-label="Personnalisation">
+    <button id="tab-character" role="tab" data-panel="character" aria-selected="true" aria-controls="pane-character"><span data-icon="person"></span><span>Personnage</span></button>
+    <button id="tab-colors" role="tab" data-panel="colors" aria-selected="false" aria-controls="pane-colors"><span data-icon="palette"></span><span>Couleurs</span></button>
+    <button id="tab-equipment" role="tab" data-panel="equipment" aria-selected="false" aria-controls="pane-equipment"><span data-icon="sword"></span><span>Équipements</span></button>
+    <button id="tab-reference" role="tab" data-panel="reference" aria-selected="false" aria-controls="pane-reference"><span data-icon="gallery"></span><span>Références</span></button>
+   </nav>
+   <div class="editor-body">
+    <section id="pane-character" role="tabpanel" aria-labelledby="tab-character">
+     <div class="section-heading"><h2>Choisir un héros</h2><span class="quiet">5 personnages</span></div>
+     <nav class="hero-nav" id="heroNav" role="tablist" aria-label="Choisir un personnage"></nav>
+     <div class="section-heading"><h2>Base</h2><span id="heroAvailability" class="quiet"></span></div>
+     <div class="base-choices" role="group" aria-label="Base à personnaliser">
+      <button data-base="masculine" aria-pressed="true"><canvas id="baseMasculine" aria-hidden="true"></canvas><span>Masculine</span><span class="selection-mark" aria-hidden="true">✓</span></button>
+      <button data-base="feminine" aria-pressed="false"><canvas id="baseFeminine" aria-hidden="true"></canvas><span>Féminine</span><span class="selection-mark" aria-hidden="true">✓</span></button>
+     </div>
+     <div class="study-heading"><div class="study-tabs" role="tablist" aria-label="Études d’apparence"><button id="tab-face" data-study="face" role="tab" aria-selected="true" aria-controls="pane-face">Visages</button><button id="tab-hair" data-study="hair" role="tab" aria-selected="false" aria-controls="pane-hair">Coiffures</button></div><span class="quiet">Aperçus des références</span></div>
+     <div id="pane-face" role="tabpanel" aria-labelledby="tab-face"><div class="study-grid" id="faceGrid"></div><p class="study-current" id="faceCurrent"></p></div>
+     <div id="pane-hair" role="tabpanel" aria-labelledby="tab-hair" hidden><div class="study-grid" id="hairGrid"></div><p class="study-current" id="hairCurrent"></p></div>
+     <p class="availability-note">Le visage et la coiffure d’origine sont conservés. Ces études ne sont pas encore sélectionnables.</p>
+     <button class="primary next-step" id="chooseColors">Personnaliser les couleurs <span data-icon="arrow"></span></button>
+    </section>
+    <section id="pane-colors" role="tabpanel" aria-labelledby="tab-colors" hidden>
+     <div class="section-heading"><div><h2>Votre palette</h2><p>Un clic sur une couleur. Le dessin suit.</p></div><span class="status-chip" id="customStatus">Palette d’origine</span></div>
+     <div class="color-context"><span id="colorContext"></span><button class="text-btn" id="changeCharacter">Changer de personnage <span data-icon="arrow"></span></button></div>
+     <div id="colorRows"></div>
+     <div class="palette-buttons"><button class="primary" id="randomColors"><span data-icon="shuffle"></span> Aléatoire</button><button class="btn-soft" id="resetColors"><span data-icon="reset"></span> Couleurs d’origine</button></div>
+     <h3 class="palette-heading">Inspirations</h3><div class="preset-grid" id="palettePresets" role="group" aria-label="Palettes de couleurs"></div>
+     <p class="availability-note" id="capabilityNote"></p>
+    </section>
+    <section id="pane-equipment" role="tabpanel" aria-labelledby="tab-equipment" hidden>
+     <div class="section-heading"><div><h2>Équipements</h2><p>Leurs couleurs restent indépendantes.</p></div><span class="status-chip"><span data-icon="lock"></span> D’origine</span></div>
+     <canvas id="equipmentThumb" class="equipment-preview" role="img" aria-label="Équipements de la fiche originale"></canvas>
+     <p>Les armes et accessoires font partie du dessin approuvé. Changer la palette de Ryuu conserve leurs couleurs.</p>
+     <button class="btn-soft" disabled aria-describedby="equipmentPending"><span data-icon="lock"></span> Masquer les équipements</button><p id="equipmentPending" class="availability-note">Disponible lorsque les équipements auront été séparés du personnage.</p>
+     <button class="text-btn" id="equipmentBtn">Agrandir les références <span data-icon="expand"></span></button>
+    </section>
+    <section id="pane-reference" role="tabpanel" aria-labelledby="tab-reference" hidden>
+     <div class="section-heading"><div><h2>Le dessin d’origine</h2><p id="signatureDescription"></p></div><span class="status-chip">Approuvé</span></div>
+     <button class="sheet-preview" id="sheetPreview" aria-label="Ouvrir la fiche maître"><canvas id="sheetThumb" aria-label="Miniature de la fiche originale"></canvas><span>Agrandir la fiche <span data-icon="expand"></span></span></button>
+     <p class="quiet" id="refSource"></p>
+     <div class="reference-actions"><button class="btn-soft" id="galleryBtn"><span data-icon="gallery"></span> Les cinq fiches</button><button class="btn-soft" id="rulesBtn">Charte visuelle</button></div>
+     <details class="production-details"><summary>Outils de création</summary><p>Préparer les zones des prochains personnages et monstres, puis examiner leur fidélité aux sources.</p><div class="reference-actions"><button class="btn-soft" id="reviewBtn">Préparation de Ryuu</button><button class="btn-soft" id="maskToggle" aria-pressed="false">Voir les zones de couleur</button><a class="btn-soft" href="../prepare/" target="_blank" rel="noopener">Préparer une créature <span data-icon="arrow"></span></a></div></details>
+    </section>
    </div>
-   <div class="control-footer"><button class="save-btn" id="saveLook"><span data-icon="bookmark"></span> Enregistrer cette apparence</button><div class="storage-status" id="storageStatus"><span data-icon="check" data-size="10"></span> Sauvegarde locale dans ce navigateur</div></div>
-  </aside>
-  <section class="panel stage-panel" aria-labelledby="heroTitle">
-   <div class="stage-header"><div class="stage-tabs" role="tablist" aria-label="Vue du personnage"><button data-mode="illustration" role="tab" aria-selected="true">Illustration</button><button data-mode="iso" role="tab" aria-selected="false">Vues iso</button><button data-mode="poses" role="tab" aria-selected="false">Poses</button><button data-mode="sheet" role="tab" aria-selected="false">Fiche</button></div><button class="icon-btn" id="expandView" aria-label="Agrandir la vue" title="Agrandir la vue"><span data-icon="expand"></span></button></div>
-   <div class="review-bar"><button class="btn-soft" id="compareToggle" aria-pressed="false">Comparer à l’original</button><button class="btn-soft" id="maskToggle" aria-pressed="false">Voir les cinq zones</button><button class="btn-soft" id="reviewBtn">Préparation des variantes</button></div><div class="stage-topline"><div class="stage-name"><h2 id="heroTitle">Ryuu</h2><p id="heroViewSubtitle">Bases masculine & féminine · référence canon</p></div><button id="duoToggle" class="duo-toggle" aria-pressed="true"><span data-icon="users" data-size="13"></span> Voir le duo</button></div>
-   <div class="stage" id="stage"><canvas id="mainCanvas" role="img" aria-label="Référence originale de Ryuu"></canvas><div class="canvas-loader" id="loading"><span class="spin"></span> Ouverture des références…</div></div>
-   <div class="stage-quote" id="heroQuote">« La même flamme, différents chemins. »</div>
-   <p class="preview-caption" id="previewCaption">Illustration d’origine · couleurs et variantes non appliquées</p>
-   <div class="dir-wrap" id="directionWrap" hidden><div class="direction-grid" id="directionGrid"></div><p class="direction-note">Études de la fiche, sans interpolation ni miroir. Orientations à vérifier en production.</p></div>
-   <div class="stage-controls"><span class="view-info"><span data-icon="lock" data-size="12"></span><span id="viewStatus">Design approuvé · inchangé</span></span><div class="zoom"><button class="icon-btn" id="zoomOut" aria-label="Réduire le zoom"><span data-icon="minus" data-size="12"></span></button><input type="range" id="zoomRange" min="75" max="150" step="5" value="100" aria-label="Zoom de l’aperçu"><output id="zoomOutput">100 %</output><button class="icon-btn" id="zoomIn" aria-label="Augmenter le zoom"><span data-icon="plus" data-size="12"></span></button></div></div>
   </section>
-  <aside class="aside" aria-label="Fiche et règles visuelles">
-   <section class="panel"><div class="ref-head"><h2>Fiche maître</h2><span class="badge"><span data-icon="check" data-size="9"></span> Approuvée</span></div><button class="sheet-preview" id="sheetPreview" aria-label="Ouvrir la fiche maître"><canvas id="sheetThumb" aria-label="Miniature de la fiche originale"></canvas><span class="hover-open"><b>Ouvrir la fiche</b></span></button><p class="ref-source" id="refSource">Source originale · aucun redessin<br>Deux bases, visages, coiffures et études.</p></section>
-   <section class="panel signature"><h3 id="signatureTitle">Signature visuelle</h3><p id="signatureDescription"></p><div class="palette-preview" id="palettePreview" aria-label="Palette du projet d’apparence"></div><div class="palette-caption"><span>Votre palette</span><span id="paletteState">Canon</span></div></section>
-   <section class="panel equip-panel"><div class="equip-title"><span data-icon="lock" data-size="14"></span><strong>Équipements indépendants</strong></div><canvas id="equipmentThumb" aria-label="Exemples d’équipements de la fiche"></canvas><p>Armes, bandeau, ceinture, cuir, pans rouges et motifs dorés sont protégés.</p><button class="btn-soft" disabled aria-describedby="equipmentPending">Masquer les équipements</button><p id="equipmentPending">Indisponible : les parties cachées du corps ne sont pas présentes dans la fiche.</p><button id="equipmentBtn">Examiner les références <span data-icon="arrow" data-size="12"></span></button></section>
-  </aside>
+  <section class="preview panel" aria-labelledby="heroTitle">
+   <div class="preview-heading"><div><span class="eyebrow">Votre personnage</span><h2 id="heroTitle">Ryuu</h2><p id="heroViewSubtitle">Base masculine</p></div><div class="preview-tools"><button class="icon-btn" id="undoColors" aria-label="Annuler la dernière couleur" title="Annuler (Ctrl+Z)" disabled><span data-icon="undo"></span></button><button class="icon-btn" id="redoColors" aria-label="Rétablir la dernière couleur" title="Rétablir (Ctrl+Maj+Z)" disabled><span data-icon="redo"></span></button><button class="icon-btn" id="expandView" aria-label="Agrandir la vue" title="Agrandir"><span data-icon="expand"></span></button></div></div>
+   <div class="preview-toolbar"><div class="stage-tabs" role="tablist" aria-label="Vue du personnage"><button data-mode="illustration" role="tab" aria-selected="true">Illustration</button><button data-mode="iso" role="tab" aria-selected="false">Vues iso</button><button data-mode="poses" role="tab" aria-selected="false">Poses</button><button data-mode="sheet" role="tab" aria-selected="false">Fiche</button></div><button class="icon-btn" id="duoToggle" aria-label="Voir les deux bases" title="Voir les deux bases" aria-pressed="false"><span data-icon="users"></span></button></div>
+   <div class="stage" id="stage"><canvas id="mainCanvas" role="img" aria-label="Illustration de Ryuu"></canvas><div class="canvas-loader" id="loading"><span class="spin"></span> Ouverture des références…</div></div>
+   <div class="dir-wrap" id="directionWrap" hidden><div class="direction-grid" id="directionGrid"></div><p class="quiet">Études originales · couleurs non appliquées</p></div>
+   <div class="preview-adjust"><button class="compare-btn" id="compareToggle" aria-pressed="false"><span data-icon="compare"></span> Comparer</button><div class="zoom"><button class="icon-btn" id="zoomOut" aria-label="Réduire le zoom"><span data-icon="minus"></span></button><input type="range" id="zoomRange" min="75" max="150" step="5" value="100" aria-label="Zoom de l’aperçu"><output id="zoomOutput">100 %</output><button class="icon-btn" id="zoomIn" aria-label="Augmenter le zoom"><span data-icon="plus"></span></button></div></div>
+   <p class="preview-caption" id="previewCaption"></p>
+   <div class="preview-bottom"><div class="palette-summary"><div class="palette-preview" id="palettePreview" aria-label="Palette actuelle"></div><span id="paletteState">D’origine</span></div><div class="preview-actions"><button class="btn-soft" id="saveLook"><span data-icon="bookmark"></span> Enregistrer</button><button class="primary" id="exportPreview"><span data-icon="download"></span> Exporter PNG</button></div></div>
+   <p id="storageStatus" class="storage-status" role="status">Sauvegarde locale dans ce navigateur</p>
+  </section>
  </section>
- <section class="reference-strip" aria-label="État de production"><div class="strip-title"><strong>Le dessin reste la référence.</strong><small>L’atelier prépare son exploitation, pas une nouvelle direction artistique.</small></div><div class="steps"><div class="step done"><b>01</b><span><strong>Références</strong><small>Validées & intégrées</small></span></div><div class="step"><b>02</b><span><strong>Cinq masques Ryuu</strong><small>Découpage à examiner</small></span></div><div class="step"><b>03</b><span><strong>Visages & coiffures</strong><small>Préparation locale requise</small></span></div></div></section>
- <footer class="footer"><span>PROJECT TACTICS · ATELIER ESTHÉTIQUE V3 · PILOTE · <span class="local-dot"></span>100 % local, sans dépendance réseau</span><span><a href="../prepare/" target="_blank" rel="noopener">Préparer une créature</a> &nbsp;·&nbsp; <button id="rulesBtn">Consulter les règles verrouillées</button> &nbsp;·&nbsp; <span id="integrityLabel">5 sources originales</span></span></footer>
+ <footer class="footer"><span>PROJECT TACTICS <span class="footer-separator">/</span> ATELIER DES APPARENCES</span><span id="integrityLabel">5 sources originales</span></footer>
 </main>
 <input id="importFile" type="file" accept=".json,application/json" hidden>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>

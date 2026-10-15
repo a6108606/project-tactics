@@ -25,7 +25,7 @@ Commande de contrôle : `python3 tools/art/import_reference_bundle.py --verify-o
 
 Ouvrir `tools/character-studio/interactive/` via le serveur local indiqué dans son [README](../../tools/character-studio/interactive/README.md).
 
-- Interface issue de V2, conservant couleurs, typographie système, organisation et navigation.
+- Interface V3 à deux panneaux : choix illustrés et aperçu, conservant les couleurs parchemin/bleu nuit/doré et les cinq héros. La V2 archivée reste immuable.
 - Deux bases de Ryuu : cinq couleurs appliquées au dessin central, comparaison canon/personnalisé, visualisation des masques, remise au canon, sauvegardes, JSON versionné et PNG fidèle au rendu courant.
 - Les dix bases sont consultables, mais seules les deux bases Ryuu sont recolorisables.
 - Visages et coiffures : canon uniquement, **0 variante composable**. Les neuf études de chaque catégorie restent visibles et désactivées comme choix de production.
@@ -48,6 +48,20 @@ Le retour « pas mal pour un début » a été suivi d’une demande d’amélio
 
 Les critères ART-03, ART-04, ART-07 et ART-08 restent ouverts : cette standardisation ne prétend pas fournir des variantes de forme ni dix bases modulaires. L’atelier des cinq héros conserve son contrat V3 à cinq canaux ; les nouvelles créatures peuvent être préparées et examinées dans le catalogue, leur intégration finale reste distincte.
 
+## Interface inspirée du site proposé par l’utilisateur
+
+Après le retour « J’aime pas », l’atelier a été réorganisé selon les interactions observées sur [skin.souff.fr](https://skin.souff.fr/) : sélection visuelle à gauche, personnage à droite et commandes compactes. Aucun code ni asset de ce site n’est importé.
+
+- Quatre onglets : Personnage, Couleurs, Équipements, Références. Portraits des cinq héros, vignettes des deux bases, études regroupées et états disponibles/indisponibles explicites.
+- Palettes de départ visibles avant application, retour à l’origine par couleur, historique près de l’aperçu, comparaison et bouton PNG direct.
+- Fiches, charte et outils de préparation restent accessibles dans Références. Les explications de production ne remplissent plus le parcours de personnalisation.
+- Nouvel habillage autonome dans `studio.css`, sans changement des sources, recettes, masques, pixels de rendu ou format des sauvegardes.
+- Vérification du parcours : palette Ivoire, annulation, rétablissement, comparaison (426 × 563 pour Ryuu féminin), export désactivé en comparaison, bases indépendantes après palettes distinctes, Kael non personnalisable correctement désactivé, onglets au clavier et ouverture/fermeture de fiche.
+- Largeurs CSS observées : 480, 1280 et 2560 pixels ; pas de débordement horizontal à 480. Sur mobile les panneaux s’empilent ; l’aperçu reste fixe dans la colonne droite sur bureau.
+- Export depuis le nouveau bouton : PNG féminin 202 × 533, empreinte RGBA `7e059d5a651eea4dcd1c9d4a9dc9e44124d1c0761559d87fa879942b09676611`, identique au témoin Nuit & jade. 83 contrôles pilote, 14 tests du procédé, 74 contrôles navigateur et contrôle du catalogue passent. Les dix sources gardent leurs empreintes.
+
+Cette refonte d’interface n’ajoute pas de variante de forme ni de nouvelle approbation artistique. ART-03, ART-04, ART-07 et ART-08 restent ouverts.
+
 ## Reconstructions et décision artistique
 
 Aucune reconstruction n’est intégrée au rendu livré. Deux essais ont été rejetés pendant la préparation :
@@ -55,7 +69,7 @@ Aucune reconstruction n’est intégrée au rendu livré. Deux essais ont été 
 1. Une retouche générative limitée à la tête masculine a déplacé des détails du visage et du bandeau. Elle n’est pas devenue un asset de l’atelier.
 2. Une adaptation de pixels entre les deux grandes têtes de Ryuu a conservé des contours parasites et rendu incohérent le raccord de l’attache. Elle n’est pas devenue une variante sélectionnable.
 
-La suppression des mèches actuelles dévoile des régions absentes du PNG : front, raccord aux oreilles, arrière de tête et jonction avec le bandeau. Les petites études ne fournissent pas des calques complets à la résolution des grandes illustrations. Le dialogue « Préparation des variantes » localise ces régions. Le simple agrandissement d’une vignette ne convient pas.
+La suppression des mèches actuelles dévoile des régions absentes du PNG : front, raccord aux oreilles, arrière de tête et jonction avec le bandeau. Les petites études ne fournissent pas des calques complets à la résolution des grandes illustrations. Références → Outils de création → « Préparation de Ryuu » localise ces régions. Le simple agrandissement d’une vignette ne convient pas.
 
 La question d’un redessin en SVG a été soulevée par l’utilisateur. Un SVG entièrement reconstruit permettrait de séparer formes et couleurs, mais changerait potentiellement le rendu peint approuvé. Aucune bascule vers un redessin complet n’a été effectuée. Une approche hybride conserve les pixels du corps et des équipements, et limite la reconstruction aux variantes de tête. Toute solution doit encore produire des variantes locales fidèles et leur avant/après avant généralisation.
 
@@ -65,7 +79,7 @@ La question d’un redessin en SVG a été soulevée par l’utilisateur. Un SVG
 - Page `tests/browser.html` : **74 PASS / 0 FAIL**, dont export Canvas PNG, décodage et égalité RGBA exacte sur les deux bases.
 - Export déclenché depuis l’interface : `project-tactics-ryuu-feminine-v3.png`, 202 × 533 pixels ; décodage du fichier téléchargé et égalité RGBA exacte avec le rendu de preuve féminin.
 - Parcours navigateur : couleurs, sauvegarde d’une apparence féminine, retour au canon, rechargement de la sélection, rechargement de page, conservation des valeurs, héros non pris en charge désactivés, navigation des onglets au clavier et comparaison à l’original.
-- Mise en page observée à largeur CSS 480 et à 2560 pixels ; pas de débordement horizontal de la page à 480 pixels (hors carrousel voulu des héros). La vérification exhaustive des appareils et lecteurs d’écran reste à faire.
+- Mise en page observée à largeur CSS 480 et à 2560 pixels ; pas de débordement horizontal de la page à 480 pixels. La vérification exhaustive des appareils et lecteurs d’écran reste à faire.
 - Échec du stockage testé par injection d’accès interdit et de quota dépassé dans l’adaptateur utilisé par l’interface. Le message d’échec est explicite ; aucun test navigateur de quota réellement saturé.
 
 Les sentinelles d’équipement sont des points choisis dans le bandeau, écharpe, cuir, ceinture, pan rouge et protection de jambe. Les tests vérifient également **tous** les pixels hors masque et l’alpha. Ils ne prouvent pas l’exhaustivité sémantique d’une matte d’équipement, qui n’existe pas encore. La revue visuelle reste nécessaire, notamment aux petites bordures.
