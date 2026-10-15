@@ -1,7 +1,10 @@
 import {rectPixels} from './geometry.js';
 import {saveLocal} from './storage.js';
 import {icon,injectIcons} from './icons.js';
-import {CHANNELS,RYUU,REGION_LABELS,createMasks} from './masks.js';
+import {CHANNELS} from './appearance-contract.js';
+import {getRecipe} from './catalog.js';
+import {createRecipeMasks,recipeColors} from '../pipeline/mask-engine.js';
+import {History} from './history.js';
 import {recolor,maskPreview} from './render.js';
 import {BASES,STORAGE,canonical,validate,importAppearance,initialState,restore} from './state.js';
 
@@ -14,7 +17,12 @@ const MODES=['illustration','iso','poses','sheet','equipment'];
 let references,lock,state,images={},cache={},ready=false,storageWorks=true,toastTimer;
 const hero=()=>references.find(h=>h.id===state.hero);
 const current=()=>state.configs[state.hero][state.base];
-const supported=()=>state.hero==='ryuu';
+const supported=()=>Boolean(getRecipe(state.hero,state.base));
+const history=new History();
+const historyKey=()=>state.hero+'/'+state.base;
+function remember(before){history.remember(historyKey(),before,current());updateHistoryControls();}
+function updateHistoryControls(){const h=history.status(historyKey());$('undoColors').disabled=!editable()||!h.undo;$('redoColors').disabled=!editable()||!h.redo;}
+function moveHistory(action){if(!editable())return;const value=history[action](historyKey(),current());if(value){state.configs[state.hero][state.base]=value;render();}}
 const editable=()=>supported()&&state.mode==='illustration';
 const changed=()=>JSON.stringify(current().colors)!==JSON.stringify(canonical(state.hero,state.base,references).colors);
 
@@ -27,12 +35,13 @@ function copy(target,source) {target.width=source.width;target.height=source.hei
 function baseData(h,base) {
   const key=h.id+'-'+base;if(cache[key])return cache[key];
   const box=rectPixels(h,h[base]),canvas=crop(h,h[base]);
-  const data=canvas.getContext('2d').getImageData(0,0,canvas.width,canvas.height);
-  return cache[key]={box,canvas,data,masks:h.id==='ryuu'?createMasks(data.data,box,base):null};
+  const data=canvas.getContext('2d').getImageData(0,0,canvas.width,canvas.height),recipe=getRecipe(h.id,base);
+  if(recipe&&(recipe.source.sha256!==h.sha256||JSON.stringify(box)!==JSON.stringify(recipe.crop)))throw Error('Fiche de préparation incompatible : '+h.name+' '+base);
+  return cache[key]={box,canvas,data,masks:getRecipe(h.id,base)?createRecipeMasks(data.data,getRecipe(h.id,base)):null};
 }
 function appearance(h,base,original=false,showMasks=false) {
   const b=baseData(h,base),c=document.createElement('canvas');c.width=b.canvas.width;c.height=b.canvas.height;
-  const bytes=original||!b.masks?b.data.data:showMasks?maskPreview(b.data.data,b.masks):recolor(b.data.data,b.masks,RYUU[base].colors,state.configs[h.id][base].colors);
+  const bytes=original||!b.masks?b.data.data:showMasks?maskPreview(b.data.data,b.masks):recolor(b.data.data,b.masks,recipeColors(getRecipe(h.id,base)),state.configs[h.id][base].colors);
   c.getContext('2d').putImageData(new ImageData(new Uint8ClampedArray(bytes),c.width,c.height),0,0);return c;
 }
 function joinCanvases(parts,labels=[],vertical=false) {
@@ -75,15 +84,15 @@ function buildColors() {
     const chip=document.createElement('label');chip.className='color-chip';
     const input=document.createElement('input');input.type='color';input.id='color-'+k;input.value=current().colors[k];input.setAttribute('aria-label','Couleur '+LABELS[i]);input.disabled=!editable();chip.append(input);
     const label=document.createElement('label');label.className='color-label';label.htmlFor=input.id;label.textContent=LABELS[i];
-    if(supported()&&i>1){const small=document.createElement('small');small.textContent=REGION_LABELS[k].replace('Pantalon : ','');label.append(small);}
+    if(supported()){const small=document.createElement('small');small.textContent=getRecipe(state.hero,state.base).channels.find(c=>c.id===k).region_label.replace('Pantalon : ','');label.append(small);}
     const hex=document.createElement('input');hex.id='hex-'+k;hex.className='hex-input';hex.maxLength=7;hex.pattern='#[0-9A-Fa-f]{6}';hex.value=current().colors[k];hex.setAttribute('aria-label','Code hexadécimal '+LABELS[i]);hex.disabled=!editable();
-    const update=value=>{current().colors[k]=value.toUpperCase();input.value=value;hex.value=value.toUpperCase();paletteUpdate();drawStage();persist();};
+    const update=value=>{const before=structuredClone(current());current().colors[k]=value.toUpperCase();remember(before);input.value=value;hex.value=value.toUpperCase();paletteUpdate();drawStage();persist();};
     input.addEventListener('input',()=>update(input.value));
     hex.addEventListener('input',()=>{if(/^#[0-9a-f]{6}$/i.test(hex.value))update(hex.value);});
     hex.addEventListener('change',()=>{if(/^#[0-9a-f]{6}$/i.test(hex.value))update(hex.value);else{hex.value=current().colors[k];toast('Couleur refusée : utilisez six chiffres hexadécimaux, par exemple #C7D5B4.');}});
-    row.append(chip,label,hex);$('colorRows').append(row);
+    const reset=document.createElement('button');reset.className='color-reset';reset.textContent='↺';reset.title='Rétablir '+LABELS[i];reset.setAttribute('aria-label','Rétablir la couleur '+LABELS[i]);reset.disabled=!editable();reset.addEventListener('click',()=>update(canonical(state.hero,state.base,references).colors[k]));row.append(chip,label,hex,reset);$('colorRows').append(row);
   });
-  $('randomColors').disabled=!editable();$('resetColors').disabled=!editable();
+  $('randomColors').disabled=!editable();$('resetColors').disabled=!editable();$('palettePreset').disabled=!editable();updateHistoryControls();
 }
 function buildStudies(kind) {
   const isFace=kind==='face',host=$(isFace?'faceGrid':'hairGrid');host.replaceChildren();
@@ -164,7 +173,7 @@ function savedDialog() {
   for(const entry of [...state.saved].reverse()) {
     const card=document.createElement('section');card.className='look-card';const title=document.createElement('strong');title.textContent=entry.name;
     const controls=document.createElement('div');controls.className='look-controls';
-    const load=document.createElement('button');load.className='btn-soft';load.textContent='Charger';load.addEventListener('click',()=>{const c=validate(entry.appearance,references);state.hero=c.character_id;state.base=c.body_variant_id;state.configs[state.hero][state.base]=c;state.duo=false;state.mode='illustration';state.compare=state.masks=false;render();$('savesDialog').close();});
+    const load=document.createElement('button');load.className='btn-soft';load.textContent='Charger';load.addEventListener('click',()=>{const c=validate(entry.appearance,references);state.hero=c.character_id;state.base=c.body_variant_id;const before=state.configs[state.hero][state.base];state.configs[state.hero][state.base]=c;remember(before);state.duo=false;state.mode='illustration';state.compare=state.masks=false;render();$('savesDialog').close();});
     const remove=document.createElement('button');remove.className='btn-soft';remove.textContent='Supprimer';remove.setAttribute('aria-label','Supprimer '+entry.name);remove.addEventListener('click',()=>{state.saved=state.saved.filter(x=>x!==entry);persist();savedDialog();});
     controls.append(load,remove);card.append(title,controls);host.append(card);
   }openDialog('savesDialog');
@@ -190,6 +199,8 @@ function review() {
   for(const [url,label]of [['../../../docs/art/ATELIER_V3_STATUS.md','État des critères ART-01 à ART-12'],['README.md','Ouvrir et vérifier le pilote']]){const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener';a.textContent=label;actions.append(a);}host.append(actions);openDialog('reviewDialog');
 }
 function wire() {
+  $('undoColors').addEventListener('click',()=>moveHistory('undo'));$('redoColors').addEventListener('click',()=>moveHistory('redo'));
+  $('palettePreset').addEventListener('change',()=>{const presets={night:['#65412F','#222E45','#356C72','#526E52','#B48760'],ivory:['#E1B48F','#EAE4DA','#566D58','#455C68','#B99563'],ember:['#A66B49','#322831','#834950','#5D4543','#B9854B']},colors=presets[$('palettePreset').value];if(!colors)return;const before=structuredClone(current());CHANNELS.forEach((k,i)=>current().colors[k]=colors[i]);remember(before);render();$('palettePreset').value='';});
   for(const b of document.querySelectorAll('[data-base]'))b.addEventListener('click',()=>{state.base=b.dataset.base;state.duo=false;state.zoom=100;render();});
   for(const b of document.querySelectorAll('[data-panel]'))b.addEventListener('click',()=>{state.tab=b.dataset.panel;render();});
   for(const b of document.querySelectorAll('[data-mode]'))b.addEventListener('click',()=>{state.mode=b.dataset.mode;state.compare=state.masks=false;state.zoom=100;render();});
@@ -198,8 +209,8 @@ function wire() {
   $('duoToggle').addEventListener('click',()=>{state.duo=!state.duo;drawStage();persist();});
   function zoom(value){state.zoom=Math.max(75,Math.min(150,value));drawStage();}
   $('zoomRange').addEventListener('input',e=>zoom(Number(e.target.value)));$('zoomOut').addEventListener('click',()=>zoom(state.zoom-10));$('zoomIn').addEventListener('click',()=>zoom(state.zoom+10));
-  $('resetColors').addEventListener('click',()=>{state.configs[state.hero][state.base]=canonical(state.hero,state.base,references);render();toast('Apparence canonique rétablie.');});
-  $('randomColors').addEventListener('click',()=>{const pools=[['#F4D4AF','#865239','#56392C'],['#EAE4DA','#1B2439','#C77A88'],['#406C73','#77558B','#647442'],['#3D5872','#8E5269','#777352'],['#46676B','#80573C','#674775']];CHANNELS.forEach((k,i)=>current().colors[k]=pools[i][Math.floor(Math.random()*pools[i].length)]);render();});
+  $('resetColors').addEventListener('click',()=>{const before=structuredClone(current());state.configs[state.hero][state.base]=canonical(state.hero,state.base,references);remember(before);render();toast('Apparence canonique rétablie.');});
+  $('randomColors').addEventListener('click',()=>{const before=structuredClone(current());const pools=[['#F4D4AF','#865239','#56392C'],['#EAE4DA','#1B2439','#C77A88'],['#406C73','#77558B','#647442'],['#3D5872','#8E5269','#777352'],['#46676B','#80573C','#674775']];CHANNELS.forEach((k,i)=>current().colors[k]=pools[i][Math.floor(Math.random()*pools[i].length)]);remember(before);render();});
   $('sheetPreview').addEventListener('click',()=>openImage('sheet'));$('equipmentBtn').addEventListener('click',()=>openImage('equipment'));$('expandView').addEventListener('click',()=>openImage('view'));$('dialogZoom').addEventListener('input',e=>zoomDialog(Number(e.target.value)));
   $('downloadDialog').addEventListener('click',()=>downloadCanvas($('dialogCanvas'),'project-tactics-'+state.hero+'-apercu.png'));
   $('galleryBtn').addEventListener('click',buildGallery);$('saveLook').addEventListener('click',saveLook);$('savesBtn').addEventListener('click',savedDialog);
@@ -212,24 +223,25 @@ function wire() {
   $('importFile').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try {
     if(f.size>1024*1024)throw Error('Fichier trop volumineux (maximum 1 Mo).');
     const {appearance:c,warnings}=importAppearance(JSON.parse(await f.text()),references);
-    state.hero=c.character_id;state.base=c.body_variant_id;state.configs[state.hero][state.base]=c;state.duo=false;state.mode='illustration';state.compare=state.masks=false;render();
+    state.hero=c.character_id;state.base=c.body_variant_id;const before=state.configs[state.hero][state.base];state.configs[state.hero][state.base]=c;remember(before);state.duo=false;state.mode='illustration';state.compare=state.masks=false;render();
     if(warnings.length){$('savedBody').replaceChildren();const p=document.createElement('p');p.textContent=warnings.join(' ');$('savedBody').append(p);$('savesTitle').textContent='Migration du projet V2';openDialog('savesDialog');}else toast('Apparence importée et appliquée.');
   }catch(err){toast('Import refusé : '+err.message);}finally{e.target.value='';}});
   document.addEventListener('click',e=>{if(!e.target.closest('.export-wrap'))closeMenu();});
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu();
     if(['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)||document.querySelector('dialog[open]'))return;
+    if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='z'){e.preventDefault();moveHistory(e.shiftKey?'redo':'undo');return;}
     const tab=e.target.closest('[role=tab]');
     if(tab&&['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){const tabs=[...tab.parentElement.querySelectorAll('[role=tab]')];let i=tabs.indexOf(tab);i=e.key==='Home'?0:e.key==='End'?tabs.length-1:(i+(e.key==='ArrowRight'?1:tabs.length-1))%tabs.length;e.preventDefault();tabs[i].focus();tabs[i].click();return;}
     if(e.key>='1'&&e.key<='5'){state.hero=references[Number(e.key)-1].id;state.compare=state.masks=false;render();}
   });
 }
 async function init() {
-  const controls=[...document.querySelectorAll('button,input')];const enabled=controls.filter(c=>!c.disabled);enabled.forEach(c=>c.disabled=true);injectIcons();
+  const controls=[...document.querySelectorAll('button,input,select')];const enabled=controls.filter(c=>!c.disabled);enabled.forEach(c=>c.disabled=true);injectIcons();
   try {
     const response=await fetch('assets/references.json');if(!response.ok)throw Error('Manifeste des références indisponible.');lock=await response.json();references=lock.sources;
     state=initialState(references);let storageError='';
     try{const raw=localStorage.getItem(STORAGE);if(raw)state=restore(JSON.parse(raw),references);}catch{storageError='Sauvegarde locale indisponible ou invalide. Les apparences canoniques sont affichées ; exportez votre JSON pour les conserver.';storageWorks=false;}
-    await Promise.all(references.map(h=>new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>{if(im.naturalWidth!==h.width||im.naturalHeight!==h.height){reject(Error('Dimensions incorrectes : '+h.name));return;}images[h.id]=im;resolve();};im.onerror=()=>reject(Error('PNG introuvable : '+h.name));im.src=ROOT+h.original_png_file;})));
+    await Promise.all(references.map(async h=>{const response=await fetch(ROOT+h.original_png_file);if(!response.ok)throw Error('PNG introuvable : '+h.name);const bytes=await response.arrayBuffer();const hash=[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(v=>v.toString(16).padStart(2,'0')).join('');if(hash!==h.sha256)throw Error('Empreinte source incorrecte : '+h.name);return new Promise((resolve,reject)=>{const im=new Image(),url=URL.createObjectURL(new Blob([bytes],{type:'image/png'}));im.onload=()=>{URL.revokeObjectURL(url);if(im.naturalWidth!==h.width||im.naturalHeight!==h.height){reject(Error('Dimensions incorrectes : '+h.name));return;}images[h.id]=im;resolve();};im.onerror=()=>{URL.revokeObjectURL(url);reject(Error('PNG illisible : '+h.name));};im.src=url;});}));
     enabled.forEach(c=>c.disabled=false);wire();ready=true;buildNav();render();
     $('sourceList').replaceChildren(...references.map(h=>{const d=document.createElement('div');d.textContent=h.name;const code=document.createElement('code');code.textContent=h.sha256.slice(0,16)+'…';code.title=h.sha256;d.append(code);return d;}));
     $('loading').hidden=true;$('integrityLabel').textContent='5 sources originales · pilote Ryuu · 2 bases';document.body.dataset.ready='true';

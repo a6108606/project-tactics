@@ -19,14 +19,15 @@ Ouvrir <http://127.0.0.1:8765/tools/character-studio/interactive/>. Aucun télé
 
 - Ryuu → Masculine/Féminine → modifier les cinq couleurs. Les paramètres des deux bases sont indépendants.
 - « Comparer à l’original » garde le même cadrage ; « Voir les cinq zones » affiche les masques. Les trois textiles proposés sont les deux jambes du pantalon et son panneau central. Bandeau, cuir, pans rouges et ornements sont exclus.
-- « Palette canon » restitue exactement les pixels de la source recadrée.
+- « Palette canon » restitue exactement les pixels de la source recadrée. Chaque ligne possède aussi son propre retour au canon.
+- Trois palettes de départ, Annuler/Rétablir et Ctrl/Cmd+Z (hors saisie) accélèrent les essais ; l’historique est indépendant pour chaque personnage/base et reste limité à la session.
 - « Enregistrer cette apparence », puis « Mes sélections » pour recharger. Le navigateur conserve aussi les configurations courantes. Un échec de stockage est signalé ; le JSON permet de conserver l’apparence.
 - Exporter → Apparence JSON / Rendu personnalisé PNG. Le PNG est issu directement du canvas affiché, à la résolution originale, sans le zoom CSS. Les vues d’étude sont explicitement statiques. En comparaison ou affichage des masques, revenir au rendu pour exporter le PNG personnalisé.
 - Les touches fléchées/Home/End parcourent les onglets ; 1 à 5 sélectionnent un héros hors d’un champ ou d’une fenêtre ; Échap ferme les fenêtres et le menu.
 
 ## Provenance et limites
 
-`assets/references.json` est le manifeste V2 conservant ses coordonnées normalisées. `geometry.js` produit les recadrages entiers identiques à V2 ; aucun rééchantillonnage dans le bitmap. `masks.js` trace des régions sémantiques dans le PNG original (composantes de peau à partir de points manuels, régions limitées pour cheveux/pantalon). Les filtres de matériau ne s’appliquent jamais globalement à la fiche. `render.js` conserve l’alpha et le dessin hors masque, ainsi que les ombres et lumières dans la zone recolorée.
+`assets/references.json` est le manifeste V2 conservant ses coordonnées normalisées. `geometry.js` produit les recadrages entiers identiques à V2 ; aucun rééchantillonnage dans le bitmap. `recipes/ryuu-*.json` (dans le dossier parent de cet atelier) décrit les régions sémantiques du PNG original : composantes de peau à partir de points manuels, régions limitées pour cheveux/pantalon. `pipeline/mask-engine.js` les applique ; `masks.js` conserve seulement l’adaptateur de la suite de tests initiale. Les filtres de matériau ne s’appliquent jamais globalement à la fiche. `render.js` conserve l’alpha et le dessin hors masque, ainsi que les ombres et lumières dans la zone recolorée.
 
 `assets/manifest.json` répertorie dimensions, ancrage au sol, origine, cadrages, empreintes des masques et rendus, et statut **à examiner esthétiquement**. Les masques PNG sont des dérivés de contrôle ; l’application utilise leur définition déterministe. Ce ne sont pas des calques de corps complet. Les tests de sentinelles d’équipement et d’invariance hors masque ne remplacent pas une matte exhaustive de tous les équipements.
 
@@ -45,3 +46,9 @@ node tools/character-studio/interactive/tests/run.mjs
 Le test décode les vrais PNG, vérifie les empreintes, le canon exact, l’isolation des cinq canaux sous quatre couleurs extrêmes, l’alpha, les sentinelles d’équipement, les bases indépendantes, le JSON et les refus d’import. Il régénère les preuves et le manifeste sous `docs/art/evidence/ryuu-pilot/` et `assets/manifest.json`.
 
 Ouvrir aussi <http://127.0.0.1:8765/tools/character-studio/interactive/tests/browser.html> : mêmes tests de rendu dans le navigateur, plus décodage du PNG exporté par Canvas et comparaison RGBA exacte. Voir les [comparaisons](../../../docs/art/evidence/ryuu-pilot/index.html) et le [suivi ART-01 à ART-12](../../../docs/art/ATELIER_V3_STATUS.md).
+
+## Préparer les prochains personnages et monstres
+
+Le lien « Préparer une créature » ouvre l’éditeur de contours, exclusions, protections et points témoins. Il accepte des bases et zones libres, sauvegarde un brouillon local et exporte une fiche versionnée. Le générateur commun vérifie et produit masques, catalogue et comparaisons par lot.
+
+Voir la [méthode de production](../../../docs/art/ASSET_PRODUCTION_METHOD.md) pour le contrat de sources, les calques à demander dès le dessin, les commandes de génération et la validation esthétique. Les sauvegardes V3 existantes restent compatibles ; la migration du moteur conserve exactement les deux rendus Ryuu du pilote testé.

@@ -11,3 +11,5 @@
 .stage-name p{max-width:340px}.stage-topline{padding:16px 20px 0}.preview-caption{min-height:28px}
 @media(max-width:760px){.review-grid{grid-template-columns:1fr}.review-bar{padding:10px}.stage.compare{height:440px}.top-actions{flex-wrap:wrap}.review-grid canvas{height:240px}.stage-topline{padding:14px 12px 0}.stage-name h2{font-size:25px}.stage-name p{max-width:200px}.reference-strip{align-items:flex-start}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+.color-row{grid-template-columns:28px minmax(0,1fr) 77px 24px;gap:7px}.color-reset{border:0;background:transparent;color:var(--muted);padding:3px;min-width:22px}.preset-label{display:block;font-size:10px;margin:13px 0 4px;color:var(--muted)}#palettePreset{width:100%;padding:7px;background:var(--paper);border:1px solid var(--line);border-radius:5px;font-size:11px;color:var(--ink)}.history-buttons{display:flex;gap:7px;margin-top:10px}.history-buttons button{flex:1}.color-row .hex-input{width:100%}

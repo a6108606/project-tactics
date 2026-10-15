@@ -1,0 +1,136 @@
+{
+  "schema": "project-tactics/preparation-batch",
+  "version": 1,
+  "engine_sha256": {
+    "tools/character-studio/pipeline/mask-engine.js": "51b5b1bc527c50fd49dff4fadc0ce17e20f6a600ca7da4101085c63a6d4547bd",
+    "tools/character-studio/pipeline/recipe.js": "5b01793a02161442cb3a10ecdec753d4329850bfcd08a34263d9a5bc9e490f1d",
+    "tools/character-studio/pipeline/png.mjs": "7aed07d6e78aa7f269b2c2e4316bc8d158229ac338290db1ce9b4ee6fff50b2f",
+    "tools/character-studio/interactive/render.js": "6759f75d0fbb8d0c8a5cce2941277c32b64999e87f08d1792417c1a58b93b356"
+  },
+  "assets": [
+    {
+      "id": "ryuu-feminine",
+      "kind": "character",
+      "base_id": "feminine",
+      "status": "pilot",
+      "source_sha256": "8d7e17983eee6b29abea9e7f4a52b87eb32a8c74771442591ad846913a475c20",
+      "recipe_sha256": "937b74c42fc200927b784b0c235d67d3f839d8091042830a36a8d45865b7ad3f",
+      "crop": [
+        258,
+        187,
+        202,
+        533
+      ],
+      "anchor": [
+        351,
+        707
+      ],
+      "coverage_pixels": {
+        "skin": 8480,
+        "hair": 16214,
+        "clothing1": 3083,
+        "clothing2": 1479,
+        "clothing3": 732
+      },
+      "warnings": [
+        "Pas de protection globale tracée ; vérifier les exclusions et les équipements."
+      ],
+      "files": {
+        "canonical": {
+          "path": "docs/art/evidence/catalog/ryuu-feminine/canonical.png",
+          "sha256": "b78c217d489cdba8d18dea5bef7e6313194c0c975268fcd7165afaf8481d62a0"
+        },
+        "custom": {
+          "path": "docs/art/evidence/catalog/ryuu-feminine/custom.png",
+          "sha256": "889e40df200b9d1726c8e30db074413fb27c0f2d16a2a8f977aa7298e10a0c90"
+        },
+        "zones": {
+          "path": "docs/art/evidence/catalog/ryuu-feminine/zones.png",
+          "sha256": "5ea72900f6c3c05b229fc8265e89851e50f1202d52f60879c12e18b8a81df5ec"
+        },
+        "mask-skin": {
+          "path": "docs/art/evidence/catalog/ryuu-feminine/mask-skin.png",
+          "sha256": "e1a2045cd713a51036bb2a79517629685907fd6fd60f09b546b2232007c593eb"
+        },
+        "mask-hair": {
+          "path": "docs/art/evidence/catalog/ryuu-feminine/mask-hair.png",
+          "sha256": "e793315270ef12312bd047ada45c02adecf393823fed06ca064aeb43bc4e8c13"
+        },
+        "mask-clothing1": {
+          "path": "docs/art/evidence/catalog/ryuu-feminine/mask-clothing1.png",
+          "sha256": "5fa7615be74d0824b3f12ae9f20c1b7476ff88331f5e8bb04fdf796d4791afbb"
+        },
+        "mask-clothing2": {
+          "path": "docs/art/evidence/catalog/ryuu-feminine/mask-clothing2.png",
+          "sha256": "47d14107af4d2878edac5c0d651efe8c723c5d8deb6fa0747a170bc03b402cbd"
+        },
+        "mask-clothing3": {
+          "path": "docs/art/evidence/catalog/ryuu-feminine/mask-clothing3.png",
+          "sha256": "8de68b8701db2320efdc30cd66167e39ecba4a8a6b8c914ee4b6dcf1dae1ac4d"
+        }
+      }
+    },
+    {
+      "id": "ryuu-masculine",
+      "kind": "character",
+      "base_id": "masculine",
+      "status": "pilot",
+      "source_sha256": "8d7e17983eee6b29abea9e7f4a52b87eb32a8c74771442591ad846913a475c20",
+      "recipe_sha256": "eaf9b3fb9471b3eadaf4238a660303d58f0a0c2acc2c728f6ffb7032bad92587",
+      "crop": [
+        12,
+        183,
+        237,
+        537
+      ],
+      "anchor": [
+        132,
+        708
+      ],
+      "coverage_pixels": {
+        "skin": 8565,
+        "hair": 10653,
+        "clothing1": 4630,
+        "clothing2": 4214,
+        "clothing3": 1856
+      },
+      "warnings": [
+        "Pas de protection globale tracée ; vérifier les exclusions et les équipements."
+      ],
+      "files": {
+        "canonical": {
+          "path": "docs/art/evidence/catalog/ryuu-masculine/canonical.png",
+          "sha256": "26ab2dc86e3bf699562dc3fc3f8e86e5831a9f691f69244d5629f6820c7f1476"
+        },
+        "custom": {
+          "path": "docs/art/evidence/catalog/ryuu-masculine/custom.png",
+          "sha256": "b2b5f6b89e7226fab208aa16dfdf020579a22fc692f889abb54c75274cca686d"
+        },
+        "zones": {
+          "path": "docs/art/evidence/catalog/ryuu-masculine/zones.png",
+          "sha256": "ef2a2a302309925868c272a82ec980ffbf82409c68ef025bc076975c74027e9e"
+        },
+        "mask-skin": {
+          "path": "docs/art/evidence/catalog/ryuu-masculine/mask-skin.png",
+          "sha256": "ea741363a223578a7831632b0b729fc15899ff44a2633f89bce06c09af4e6b0d"
+        },
+        "mask-hair": {
+          "path": "docs/art/evidence/catalog/ryuu-masculine/mask-hair.png",
+          "sha256": "d065be087d506d1dfd68fc3f6ff07005244bddb6b90d1662f8050d5075eeeb89"
+        },
+        "mask-clothing1": {
+          "path": "docs/art/evidence/catalog/ryuu-masculine/mask-clothing1.png",
+          "sha256": "01b193f26aee63dfedbffd08659ea26ef60811b881057e8c856ae94aa5e36606"
+        },
+        "mask-clothing2": {
+          "path": "docs/art/evidence/catalog/ryuu-masculine/mask-clothing2.png",
+          "sha256": "7e4f4808d7708ab355d77a4679e5536c5d4398c01c9888b0363d436592c7f296"
+        },
+        "mask-clothing3": {
+          "path": "docs/art/evidence/catalog/ryuu-masculine/mask-clothing3.png",
+          "sha256": "ddabad9c25e043921558c4bf3e6345d84cc10e9d5f9d8486287e21da16df1949"
+        }
+      }
+    }
+  ]
+}

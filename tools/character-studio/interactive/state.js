@@ -1,4 +1,6 @@
-import {CHANNELS, MASK_VERSION, RYUU} from './masks.js';
+import {CHANNELS, MASK_VERSION} from './appearance-contract.js';
+import {getRecipe} from './catalog.js';
+import {recipeColors} from '../pipeline/mask-engine.js';
 export const SCHEMA = 'project-tactics/appearance';
 export const VERSION = 3;
 export const STORAGE = 'project-tactics.atelier.v3.ryuu-pilot.1';
@@ -10,7 +12,7 @@ export function canonical(character,base,references) {
     schema:SCHEMA,schema_version:VERSION,asset_manifest_version:MASK_VERSION,
     character_id:character,body_variant_id:base,view_id:'main',
     source_sha256:h.sha256,face_variant_id:'canonical',hair_variant_id:'canonical',
-    colors:structuredClone(character==='ryuu'?RYUU[base].colors:Object.fromEntries(CHANNELS.map((k,i)=>[k,h.palette[i]]))),
+    colors:getRecipe(character,base)?recipeColors(getRecipe(character,base)):Object.fromEntries(CHANNELS.map((k,i)=>[k,h.palette[i]])),
     equipment:{mode:'source-locked',visible:true},
   };
 }
@@ -30,7 +32,7 @@ export function validate(raw,references) {
     if(typeof raw.colors[k]!=='string'||!/^#[0-9a-f]{6}$/i.test(raw.colors[k]))throw Error('Couleur invalide : '+k+'.');
     c.colors[k]=raw.colors[k].toUpperCase();
   }
-  if(c.character_id!=='ryuu'&&CHANNELS.some(k=>c.colors[k]!==canonical(c.character_id,c.body_variant_id,references).colors[k]))throw Error('La personnalisation de ce héros attend la validation du pilote Ryuu.');
+  if(!getRecipe(c.character_id,c.body_variant_id)&&CHANNELS.some(k=>c.colors[k]!==canonical(c.character_id,c.body_variant_id,references).colors[k]))throw Error('La personnalisation de ce héros attend la validation du pilote Ryuu.');
   return c;
 }
 export function importAppearance(raw,references) {
@@ -44,9 +46,9 @@ export function importAppearance(raw,references) {
   for(const k of ['face_study','hair_study'])if(config[k]!==null&&(!Number.isInteger(config[k])||config[k]<0||config[k]>8))throw Error('Indice d’étude V2 invalide.');
   for(const k of CHANNELS)if(typeof config.colors[k]!=='string'||!/^#[0-9a-f]{6}$/i.test(config.colors[k]))throw Error('Couleur V2 invalide.');
   // Study indices never become production variant IDs. V2 had no textile map.
-  if(c.character_id==='ryuu')for(const k of ['skin','hair'])c.colors[k]=config.colors[k].toUpperCase();
+  if(getRecipe(c.character_id,c.body_variant_id))for(const k of ['skin','hair'])c.colors[k]=config.colors[k].toUpperCase();
   const warnings=['Migration V2 : les études restent consultables ; aucun indice n’est converti en variante. Les trois couleurs textiles reviennent au canon, car la V2 ne définissait pas leurs zones.'];
-  if(c.character_id!=='ryuu')warnings.push('Ce héros est consultable uniquement : ses cinq couleurs reviennent au canon.');
+  if(!getRecipe(c.character_id,c.body_variant_id))warnings.push('Ce héros est consultable uniquement : ses cinq couleurs reviennent au canon.');
   return {appearance:validate(c,references),warnings};
 }
 export function initialState(references) {

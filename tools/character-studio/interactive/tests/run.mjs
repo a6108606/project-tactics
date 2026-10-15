@@ -13,7 +13,7 @@ const results=runChecks(references,samples),hash=bytes=>createHash('sha256').upd
 for(const h of references)results.push({label:h.name+' : SHA-256 original',pass:hash(await readFile(new URL(h.original_png_file,sourceRoot)))===h.sha256});
 const out=new URL('docs/art/evidence/ryuu-pilot/',root);await mkdir(out,{recursive:true});
 const manifest={schema:'project-tactics/visible-mask-assets',version:MASK_VERSION,status:'technical-pilot-awaiting-art-review',source_sha256:ryuu.sha256,assets:[],derivation_files:{}};
-for(const name of ['masks.js','render.js','geometry.js'])manifest.derivation_files[name]=hash(await readFile(new URL('../'+name,import.meta.url)));
+for(const name of ['masks.js','render.js','geometry.js','catalog.js','assets/recipes.js','../pipeline/mask-engine.js'])manifest.derivation_files[name]=hash(await readFile(new URL('../'+name,import.meta.url)));
 for(const sample of samples){const {base,box,width,height,data}=sample,masks=createMasks(data,box,base),custom=recolor(data,masks,RYUU[base].colors,PROOF_COLORS);
   const anchor=RYUU[base].anchor.map((v,i)=>v-box[i]);
   for(const [layer,bytes] of [['canonical',data],['custom',custom],['zones',maskPreview(data,masks)]]){

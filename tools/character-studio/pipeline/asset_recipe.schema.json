@@ -1,0 +1,480 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": "project-tactics/asset-recipe"
+    },
+    "version": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]{0,63}$"
+    },
+    "entity_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]{0,63}$"
+    },
+    "kind": {
+      "enum": [
+        "character",
+        "monster"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000
+    },
+    "base_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]{0,63}$"
+    },
+    "view_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]{0,63}$"
+    },
+    "revision": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "pilot",
+        "approved"
+      ]
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "note": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000
+        },
+        "approved_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "approved_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "note",
+        "approved_by",
+        "approved_at"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "type": "string",
+          "pattern": "^content/[a-zA-Z0-9_./-]+[.]png$"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "size": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      },
+      "required": [
+        "path",
+        "sha256",
+        "size"
+      ]
+    },
+    "crop": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "anchor": {
+      "$ref": "#/$defs/point"
+    },
+    "channels": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": {
+        "$ref": "#/$defs/channel"
+      }
+    },
+    "priority": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "protected": {
+      "$ref": "#/$defs/polygons"
+    },
+    "equipment_samples": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/point"
+      }
+    },
+    "reconstruction": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "applied": {
+          "const": false
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000
+        }
+      },
+      "required": [
+        "applied",
+        "notes"
+      ]
+    }
+  },
+  "required": [
+    "schema",
+    "version",
+    "id",
+    "entity_id",
+    "kind",
+    "name",
+    "base_id",
+    "view_id",
+    "revision",
+    "status",
+    "review",
+    "source",
+    "crop",
+    "anchor",
+    "channels",
+    "priority",
+    "protected",
+    "equipment_samples",
+    "reconstruction"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:project-tactics:asset-recipe:1",
+  "title": "Fiche de préparation de surfaces visibles",
+  "description": "Les contrôles croisés (cadrage, ancrage, empreinte, priorité, statut et couverture) sont effectués par pipeline/recipe.js et pipeline/batch.mjs.",
+  "$defs": {
+    "point": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "number",
+        "minimum": 0
+      }
+    },
+    "polygon": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 512,
+      "items": {
+        "$ref": "#/$defs/point"
+      }
+    },
+    "polygons": {
+      "type": "array",
+      "maxItems": 256,
+      "items": {
+        "$ref": "#/$defs/polygon"
+      }
+    },
+    "material": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ranges": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "r": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {
+                "type": "number",
+                "minimum": -255,
+                "maximum": 255
+              }
+            },
+            "g": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {
+                "type": "number",
+                "minimum": -255,
+                "maximum": 255
+              }
+            },
+            "b": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {
+                "type": "number",
+                "minimum": -255,
+                "maximum": 255
+              }
+            }
+          },
+          "required": []
+        },
+        "differences": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "r-g": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {
+                "type": "number",
+                "minimum": -255,
+                "maximum": 255
+              }
+            },
+            "r-b": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {
+                "type": "number",
+                "minimum": -255,
+                "maximum": 255
+              }
+            },
+            "g-r": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {
+                "type": "number",
+                "minimum": -255,
+                "maximum": 255
+              }
+            },
+            "g-b": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {
+                "type": "number",
+                "minimum": -255,
+                "maximum": 255
+              }
+            },
+            "b-r": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {
+                "type": "number",
+                "minimum": -255,
+                "maximum": 255
+              }
+            },
+            "b-g": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {
+                "type": "number",
+                "minimum": -255,
+                "maximum": 255
+              }
+            }
+          },
+          "required": []
+        },
+        "saturation": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "number",
+            "minimum": -255,
+            "maximum": 255
+          }
+        },
+        "fade": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "number",
+            "minimum": -255,
+            "maximum": 255
+          }
+        },
+        "ratios": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "numerator": {
+                "enum": [
+                  "r",
+                  "g",
+                  "b"
+                ]
+              },
+              "denominator": {
+                "enum": [
+                  "r",
+                  "g",
+                  "b"
+                ]
+              },
+              "min_exclusive": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "numerator",
+              "denominator",
+              "min_exclusive"
+            ]
+          }
+        }
+      },
+      "required": []
+    },
+    "selection": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mode": {
+          "enum": [
+            "polygon",
+            "seeded"
+          ]
+        },
+        "include": {
+          "$ref": "#/$defs/polygons"
+        },
+        "exclude": {
+          "$ref": "#/$defs/polygons"
+        },
+        "bounds": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "seeds": {
+          "type": "array",
+          "maxItems": 4096,
+          "items": {
+            "$ref": "#/$defs/point"
+          }
+        },
+        "filter": {
+          "$ref": "#/$defs/material"
+        }
+      },
+      "required": [
+        "mode",
+        "include",
+        "exclude"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "mode": {
+                "const": "seeded"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "bounds",
+              "seeds"
+            ]
+          }
+        }
+      ]
+    },
+    "channel": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-zA-Z0-9_-]{0,63}$",
+          "not": {
+            "enum": [
+              "constructor",
+              "prototype",
+              "__proto__"
+            ]
+          }
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000
+        },
+        "region_label": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000
+        },
+        "color": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        },
+        "selection": {
+          "$ref": "#/$defs/selection"
+        },
+        "material": {
+          "$ref": "#/$defs/material"
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "region_label",
+        "color",
+        "selection",
+        "material"
+      ]
+    }
+  }
+}

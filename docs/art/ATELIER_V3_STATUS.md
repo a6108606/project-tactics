@@ -35,6 +35,19 @@ Les trois zones textiles proposées sont les deux jambes du pantalon et le panne
 
 Le [manifeste dérivé](../../tools/character-studio/interactive/assets/manifest.json) décrit source, recadrages entiers, dimensions, ancrages, masques, empreintes et statut. Les [comparaisons](evidence/ryuu-pilot/index.html) utilisent les mêmes cadrages et dimensions. Tous les dérivés peuvent être régénérés avec Node 22 sans paquet supplémentaire.
 
+## Standardisation après le premier essai utilisateur
+
+Le retour « pas mal pour un début » a été suivi d’une demande d’amélioration et de standardisation pour de nombreux personnages et monstres. Le procédé est désormais décrit dans [ASSET_PRODUCTION_METHOD.md](ASSET_PRODUCTION_METHOD.md).
+
+- Définitions de Ryuu sorties du moteur vers deux fiches JSON versionnées. Le moteur commun accepte une à huit zones nommées librement, une base arbitraire et les types personnage/monstre. Les rendus de contrôle masculin et féminin restent identiques octet RGBA pour octet RGBA au pilote `e524227`.
+- Éditeur visuel sous `tools/character-studio/prepare/` : contours, exclusions, protections globales, témoins d’équipement, ordre des zones, couleur canonique, ancrage, annuler/rétablir, saisie des points au clavier, export JSON/PNG et récupération du brouillon local.
+- Vérificateur/générateur par lot : identité des sources, validité des définitions, détection des témoins recolorables, refus des zones vides pour les pilotes, empreintes du moteur, masques et comparaisons reproductibles. Les brouillons n’activent pas de nouvelle apparence de production.
+- Atelier amélioré : trois palettes de départ, retour au canon par couleur, annuler/rétablir par base. Les empreintes PNG sont également contrôlées lors de l’ouverture dans le navigateur.
+- 14 tests du procédé commun passent, en plus des 83 contrôles du pilote. Une fixture technique vérifie le cas d’un monstre avec une seule base et un canal arbitraire ; aucun monstre dessiné n’est ajouté.
+- Parcours éditeur vérifié : une protection réduit la couverture des cheveux de 10 653 à 10 278 pixels ; Annuler retrouve 10 653. Ajout/retrait d’une sixième zone, export brouillon vérifié par le CLI et récupération après rechargement.
+
+Les critères ART-03, ART-04, ART-07 et ART-08 restent ouverts : cette standardisation ne prétend pas fournir des variantes de forme ni dix bases modulaires. L’atelier des cinq héros conserve son contrat V3 à cinq canaux ; les nouvelles créatures peuvent être préparées et examinées dans le catalogue, leur intégration finale reste distincte.
+
 ## Reconstructions et décision artistique
 
 Aucune reconstruction n’est intégrée au rendu livré. Deux essais ont été rejetés pendant la préparation :

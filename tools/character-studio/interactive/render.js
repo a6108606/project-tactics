@@ -1,4 +1,3 @@
-import {CHANNELS} from './masks.js';
 export const rgb = hex => [1,3,5].map(n=>parseInt(hex.slice(n,n+2),16));
 const luminance = c => c[0]*.2126+c[1]*.7152+c[2]*.0722;
 const clamp = x => Math.max(0,Math.min(255,Math.round(x)));
@@ -8,7 +7,7 @@ const clamp = x => Math.max(0,Math.min(255,Math.round(x)));
  */
 export function recolor(source,masks,defaults,colors) {
   const result=new Uint8ClampedArray(source);
-  for(const k of CHANNELS) {
+  for(const k of Object.keys(masks)) {
     if(colors[k].toUpperCase()===defaults[k].toUpperCase())continue;
     const target=rgb(colors[k]), reference=rgb(defaults[k]), refY=luminance(reference);
     // A tiny floor preserves modelling even at pure black.
@@ -27,10 +26,10 @@ export function recolor(source,masks,defaults,colors) {
   return result;
 }
 export function maskPreview(source,masks) {
-  const result=new Uint8ClampedArray(source), swatches=['#E88D69','#79B689','#9581C4','#4F9ABF','#D8A242'];
-  for(let k=0;k<CHANNELS.length;k++)for(let i=0;i<masks[CHANNELS[k]].length;i++) {
-    if(!masks[CHANNELS[k]][i])continue;
-    const color=rgb(swatches[k]);for(let c=0;c<3;c++)result[i*4+c]=Math.round(source[i*4+c]*.3+color[c]*.7);
+  const result=new Uint8ClampedArray(source),channels=Object.keys(masks),swatches=['#E88D69','#79B689','#9581C4','#4F9ABF','#D8A242','#D66F9E','#88A5A7','#D5A876'];
+  for(let k=0;k<channels.length;k++)for(let i=0;i<masks[channels[k]].length;i++) {
+    if(!masks[channels[k]][i])continue;
+    const color=rgb(swatches[k%swatches.length]);for(let c=0;c<3;c++)result[i*4+c]=Math.round(source[i*4+c]*.3+color[c]*.7);
   }
   return result;
 }

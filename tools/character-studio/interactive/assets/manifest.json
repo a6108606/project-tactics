@@ -406,8 +406,11 @@
     }
   ],
   "derivation_files": {
-    "masks.js": "b57ebe071e1f5d23c8e7f92ef212f41fee7b9f4f4b0b293b5f8b54216b915b22",
-    "render.js": "bea1e99ea6e0a5496ad5186281d501faead1f336fb44554c8b5a2ce7fe33092b",
-    "geometry.js": "e7325066e00e45a678f5580b8b01dc119e9defd62745a5e4cfef92fb6f2b5af6"
+    "masks.js": "611ba75f2d32b1945e425480f2d199bd95b6567ac1ff9aa5ca6889bbb7ff75fa",
+    "render.js": "6759f75d0fbb8d0c8a5cce2941277c32b64999e87f08d1792417c1a58b93b356",
+    "geometry.js": "e7325066e00e45a678f5580b8b01dc119e9defd62745a5e4cfef92fb6f2b5af6",
+    "catalog.js": "daae3a23dbedfd8a8af8542ed1def5426d54929362fa890178931bd71e625ec0",
+    "assets/recipes.js": "1f3518e84c09efe340961ad00cff33422e735604b4ac56e1a2e94109744d0a5e",
+    "../pipeline/mask-engine.js": "51b5b1bc527c50fd49dff4fadc0ce17e20f6a600ca7da4101085c63a6d4547bd"
   }
 }
