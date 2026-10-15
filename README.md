@@ -1,25 +1,26 @@
 # Project Tactics
 
-RPG tactique coopératif privé (1–4 joueurs), inspiré des principes de jeu de Disgaea et DOFUS, avec **univers et ressources originaux**.
+Original 2D isometric tactical cooperative RPG project, inspired by the tactical depth of Disgaea and DOFUS. World and assets must be original.
 
-**Décisions retenues** : monde 2D isométrique continu (aucun passage carte par carte), chargement par chunks, combats tactiques sur place, contrôle manuel du héros et des compagnons, initiative individuelle, progression modérée.
+## Product direction
+Continuous 2D isometric world with chunk streaming, encounters on the existing terrain, manual hero and companion control, individual initiative, moderate progression and 1–4 players in private co-op sessions.
 
-## Références
+## Planning documents
 - [GDD v0.2](docs/GDD-v0.2.md)
-- [Architecture technique](docs/ARCHITECTURE.md)
+- [Architecture](docs/ARCHITECTURE.md)
 - [Roadmap](docs/ROADMAP.md)
 - [Backlog](docs/backlog/ISSUES.md)
-- [Runners locaux](docs/RUNNERS.md)
-- [ADR runner](docs/adr/0001-self-hosted-runners.md)
+- [CI on GitHub-hosted runners](docs/RUNNERS.md)
+- [ADR 0002 — CI decision](docs/adr/0002-github-hosted-ci.md)
 
-## Technologies proposées
-Godot 4 .NET (C#), simulation C# testable sans moteur, réseau ENet à hôte autoritaire, Git LFS pour assets volumineux.
+## Stack
+Godot 4 .NET / C#, separate engine-agnostic combat logic, ENet private sessions.
 
-## Vertical slice
-Une zone continue de 128×128 cellules, 16 chunks de 32×32, village, forêt, rencontre et boss; 1 héros + 1 compagnon contrôlé manuellement par joueur; deux clients connectés dans une campagne privée.
-
-## Statut
-**Préproduction documentaire uniquement.** Aucun build, runner, pipeline externe ou service n'est installé/activé. Les chiffres sont des hypothèses de design à tester.
+## Status
+Preproduction plan only, no playable code yet.
 
 ## CI
-Tout job GitHub Actions doit cibler exclusivement des runners **auto-hébergés localement**. Aucun `ubuntu-latest`, `windows-latest` ou runner GitHub-hosted, même en repli. Workflow manuel seulement en V0.
+GitHub Actions uses `ubuntu-latest`, triggered on pushes to main and PRs. Jobs are gated to run **only when the repository is public**. Tests execute automatically once a C# solution is added; Godot builds need a separate workflow in P0.
+
+## License
+No open-source code license has been selected yet. Public visibility does not itself grant reuse rights. Do not add third-party proprietary assets.
