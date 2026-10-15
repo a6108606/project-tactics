@@ -1,6 +1,12 @@
 # Project Tactics — Game Design Document v0.2
 Date : 2026-10-15 · Statut : préproduction · Valeurs chiffrées à tester
 
+## Mise à jour de conception — invocations, 2026-10-15
+
+La cible de progression envisagée passe à **1 000**, provisoirement ; le périmètre du vertical slice reste 1–5. Voir [Invocations v0.4](design/INVOCATIONS-v0.4.md), le [catalogue structuré](../content/summons/catalog-v0.4.json) et le [brief chara design](art/INVOCATIONS-CHARA-DESIGN.md). Capacité : 1 point au niveau 1, puis +1 aux niveaux 100, 200… Une créature occupe de 1 à 4 points selon son rang ; les rangs élevés se débloquent à partir de 500. Coûts précis et niveaux détaillés restent proposés.
+
+Les compagnons permanents du prototype et les invocations de classe sont distincts. Le catalogue de l’atelier ne remplace pas les classes réduites du vertical slice. L’activation des invocations après leur lanceur est une proposition à arbitrer avec l’initiative individuelle ci-dessous. Les valeurs de croissance et de combat du prototype ne constituent pas un équilibrage jusqu’au niveau 1 000.
+
 ## Vision
 Jeu de rôle tactique en coop privée de 1 à 4 joueurs. Monde original 2D isométrique continu façon illustration de RPG, sans transition carte par carte. Des ennemis visibles déclenchent une grille tactique **sur le terrain existant**. Le monde et les visuels sont originaux; ne pas utiliser les assets, marques ou codes propriétaires des jeux de référence.
 
@@ -42,7 +48,7 @@ Jeu de rôle tactique en coop privée de 1 à 4 joueurs. Monde original 2D isom�
 | Terrain difficile | +1 PM à l'entrée |
 | Feu | 10 dégâts à l'entrée, une fois/activation |
 | Protection | -20 % de dégâts subis |
-| Niveaux V0 / cible | 1–5 / 100 |
+| Niveaux V0 / cible envisagée | 1–5 / 1 000 (provisoire ; voir invocations v0.4) |
 
 Ordre d'initiative individuel pour héros, compagnons et monstres; PA/PM rechargés lors de chaque activation. Le serveur valide coûts, propriétaire, cible, portée, collision et état avant d'appliquer les effets. Actions et événements journalisés pour diagnostic et replay.
 
