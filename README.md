@@ -13,6 +13,12 @@ Continuous 2D isometric world with chunk streaming, encounters on the existing t
 - [CI on GitHub-hosted runners](docs/RUNNERS.md)
 - [ADR 0002 — CI decision](docs/adr/0002-github-hosted-ci.md)
 
+## Invocations — atelier et chara design (2026-10-15)
+- [Règles et catalogue v0.4](docs/design/INVOCATIONS-v0.4.md) : 1–4 points par créature, cinq rangs, progression envisagée jusqu’à 1 000.
+- [Brief chara design / prompt de reprise](docs/art/INVOCATIONS-CHARA-DESIGN.md) : dix créatures, rôles, silhouettes proposées et évolutions de rang.
+- [Données structurées](content/summons/catalog-v0.4.json) : profils de conception, valeurs provisoires.
+- [Atelier interactif](https://tactics-grimoire-atelier.a6108606.chatgpt.site?view=invocations).
+
 ## Stack
 Godot 4 .NET / C#, separate engine-agnostic combat logic, ENet private sessions.
 
