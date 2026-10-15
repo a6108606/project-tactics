@@ -1,0 +1,626 @@
+{
+  "schemaVersion": "0.4",
+  "status": "design-proposal-not-runtime-balance",
+  "capacity": {
+    "base": 1,
+    "extraEvery": 100,
+    "maxLevel": 1000
+  },
+  "costByRank": [
+    1,
+    1,
+    2,
+    3,
+    4
+  ],
+  "skillPointCostByRank": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "summons": [
+    {
+      "classId": "leo",
+      "id": "leo-ecuyer",
+      "name": "Écuyer spectral",
+      "level": 18,
+      "role": "Pression de mêlée",
+      "inspiration": "Création originale pour accompagner les percées de Leo.",
+      "pa": 3,
+      "range": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "cooldown": 4,
+      "hp": [
+        40,
+        60,
+        80,
+        100,
+        120
+      ],
+      "pm": 3,
+      "duration": 0,
+      "maxCopies": null,
+      "actions": [
+        {
+          "name": "Estoc spectral",
+          "values": [
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          "unit": "dégâts Terre de base",
+          "range": "1 case",
+          "description": "Une frappe de mêlée par tour. Ne copie pas les sorts de Leo.",
+          "pa": 3,
+          "casts": 1
+        }
+      ],
+      "description": "Invoque un écuyer mobile qui accompagne Leo au contact et exerce une pression sur une cible.",
+      "costByRank": [
+        1,
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlockLevels": [
+        18,
+        100,
+        250,
+        500,
+        750
+      ],
+      "ap": 4
+    },
+    {
+      "classId": "leo",
+      "id": "leo-etendard",
+      "name": "Porte-étendard",
+      "level": 150,
+      "role": "Soutien offensif",
+      "inspiration": "Création originale : un soutien mobile de la ligne de front.",
+      "pa": 4,
+      "range": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "cooldown": 5,
+      "hp": [
+        50,
+        75,
+        100,
+        125,
+        150
+      ],
+      "pm": 2,
+      "duration": 0,
+      "maxCopies": 1,
+      "actions": [
+        {
+          "name": "Ralliement",
+          "values": [
+            20,
+            30,
+            40,
+            50,
+            60
+          ],
+          "unit": "Puissance pendant 1 tour",
+          "range": "Alliés à 2 cases",
+          "description": "Une impulsion par tour. Bonus du même sort non cumulable : seule la valeur la plus forte s’applique. Aucune attaque.",
+          "pa": 3,
+          "casts": 1
+        }
+      ],
+      "description": "Invoque un porteur d’étendard qui renforce brièvement la Puissance des alliés proches.",
+      "costByRank": [
+        1,
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlockLevels": [
+        150,
+        250,
+        400,
+        600,
+        900
+      ],
+      "ap": 4
+    },
+    {
+      "classId": "lina",
+      "id": "lina-luminou",
+      "name": "Luminou",
+      "level": 18,
+      "role": "Petit soigneur mobile",
+      "inspiration": "Rôle de compagnon de soutien inspiré du Lapino ; identité visuelle à concevoir séparément.",
+      "pa": 3,
+      "range": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "cooldown": 4,
+      "hp": [
+        25,
+        40,
+        55,
+        70,
+        85
+      ],
+      "pm": 3,
+      "duration": 0,
+      "maxCopies": null,
+      "actions": [
+        {
+          "name": "Lueur réparatrice",
+          "values": [
+            6,
+            9,
+            12,
+            15,
+            18
+          ],
+          "unit": "soins de base",
+          "range": "1 à 3 cases",
+          "description": "Un soin sur un allié blessé, autre que lui-même, par tour. Aucune attaque.",
+          "pa": 3,
+          "casts": 1
+        }
+      ],
+      "description": "Invoque un petit esprit lumineux qui suit les alliés et soigne une cible à chaque tour.",
+      "costByRank": [
+        1,
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlockLevels": [
+        18,
+        100,
+        250,
+        500,
+        750
+      ],
+      "ap": 4
+    },
+    {
+      "classId": "lina",
+      "id": "lina-lucioles",
+      "name": "Gardien des lucioles",
+      "level": 150,
+      "role": "Protection ciblée",
+      "inspiration": "Alternative défensive au compagnon de soin.",
+      "pa": 4,
+      "range": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "cooldown": 5,
+      "hp": [
+        40,
+        60,
+        80,
+        100,
+        120
+      ],
+      "pm": 2,
+      "duration": 0,
+      "maxCopies": 1,
+      "actions": [
+        {
+          "name": "Cocon lumineux",
+          "values": [
+            15,
+            26,
+            38,
+            49,
+            60
+          ],
+          "unit": "PV de bouclier pendant 1 tour",
+          "range": "1 à 3 cases",
+          "description": "Protège un allié par tour. Les boucliers de Cocon lumineux se remplacent ; pas de cumul entre plusieurs gardiens.",
+          "pa": 3,
+          "casts": 1
+        }
+      ],
+      "description": "Invoque un gardien qui pose un bouclier court sur un allié plutôt que de lui rendre de la vie.",
+      "costByRank": [
+        1,
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlockLevels": [
+        150,
+        250,
+        400,
+        600,
+        900
+      ],
+      "ap": 4
+    },
+    {
+      "classId": "sela",
+      "id": "sela-faucon",
+      "name": "Faucon guetteur",
+      "level": 18,
+      "role": "Reconnaissance mobile",
+      "inspiration": "Création originale liée à la vision et aux lignes de tir de Sela.",
+      "pa": 3,
+      "range": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "cooldown": 4,
+      "hp": [
+        20,
+        33,
+        45,
+        58,
+        70
+      ],
+      "pm": 5,
+      "duration": 0,
+      "maxCopies": null,
+      "actions": [
+        {
+          "name": "Regard perçant",
+          "values": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "unit": "cases de rayon",
+          "range": "Autour du faucon",
+          "description": "Révèle les ennemis dissimulés dans la zone jusqu’au prochain tour du faucon. Aucune attaque. Se déplace au sol selon les règles ordinaires ; ne traverse pas les obstacles.",
+          "pa": 3,
+          "casts": 1
+        }
+      ],
+      "description": "Invoque un éclaireur rapide qui révèle les ennemis dissimulés et prépare les lignes de tir.",
+      "costByRank": [
+        1,
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlockLevels": [
+        18,
+        100,
+        250,
+        500,
+        750
+      ],
+      "ap": 4
+    },
+    {
+      "classId": "sela",
+      "id": "sela-ronces",
+      "name": "Traqueur de ronces",
+      "level": 150,
+      "role": "Entrave des approches",
+      "inspiration": "Création originale : un compagnon qui retarde la progression adverse.",
+      "pa": 4,
+      "range": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "cooldown": 5,
+      "hp": [
+        45,
+        66,
+        88,
+        109,
+        130
+      ],
+      "pm": 3,
+      "duration": 0,
+      "maxCopies": 1,
+      "actions": [
+        {
+          "name": "Entrave végétale",
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "unit": "PM tenté pendant 1 tour",
+          "range": "1 à 2 cases",
+          "description": "Une tentative de retrait esquivable par tour sur un ennemi. Formule d’esquive et caractéristiques de retrait de l’invocation à définir ; aucune garantie de retrait.",
+          "pa": 3,
+          "casts": 1
+        }
+      ],
+      "description": "Invoque un traqueur qui gêne l’approche d’un ennemi avec un retrait de PM ciblé.",
+      "costByRank": [
+        1,
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlockLevels": [
+        150,
+        250,
+        400,
+        600,
+        900
+      ],
+      "ap": 4
+    },
+    {
+      "classId": "kael",
+      "id": "kael-5",
+      "name": "Leurre",
+      "level": 6,
+      "existing": true,
+      "role": "Double de placement",
+      "inspiration": "Double du Sram : occupation du terrain et échanges de position, sans attaque.",
+      "pa": 3,
+      "range": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "cooldown": 4,
+      "hp": [
+        30,
+        53,
+        75,
+        98,
+        120
+      ],
+      "pm": 3,
+      "duration": 3,
+      "maxCopies": 1,
+      "actions": [
+        {
+          "name": "Présence trompeuse",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "unit": "dégât",
+          "range": "Sa propre case",
+          "description": "Se déplace et occupe une case, sans attaque. Compatible avec Permutation et Plan de fuite. Héritage éventuel du tacle de Kael à définir.",
+          "pa": 3,
+          "casts": 1
+        }
+      ],
+      "description": "Invoque un double mobile qui occupe une case et sert de relais à Permutation et Plan de fuite.",
+      "costByRank": [
+        1,
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlockLevels": [
+        6,
+        100,
+        250,
+        500,
+        750
+      ],
+      "ap": 4
+    },
+    {
+      "classId": "kael",
+      "id": "kael-araignee",
+      "name": "Araignée d’ombre",
+      "level": 150,
+      "role": "Poison de proximité",
+      "inspiration": "Création originale complémentaire au Double, adaptée au jeu d’attrition.",
+      "pa": 4,
+      "range": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "cooldown": 5,
+      "hp": [
+        20,
+        35,
+        50,
+        65,
+        80
+      ],
+      "pm": 4,
+      "duration": 0,
+      "maxCopies": 1,
+      "actions": [
+        {
+          "name": "Morsure insidieuse",
+          "values": [
+            2,
+            3,
+            4,
+            4,
+            5
+          ],
+          "unit": "dégâts Air de base par déclenchement",
+          "range": "1 case",
+          "description": "Pose un poison pour les deux prochains débuts de tour de la cible, sans dégâts immédiats. Un lancer par tour ; même poison non cumulable, durée renouvelée.",
+          "pa": 3,
+          "casts": 1
+        }
+      ],
+      "description": "Invoque une araignée qui applique un poison bref au contact sans reproduire les pièges de Kael.",
+      "costByRank": [
+        1,
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlockLevels": [
+        150,
+        250,
+        400,
+        600,
+        900
+      ],
+      "ap": 4
+    },
+    {
+      "classId": "ryuu",
+      "id": "ryuu-lame",
+      "name": "Lame sanguine",
+      "level": 18,
+      "role": "Mêlée et point de transposition",
+      "inspiration": "Épée du Sacrieur : une arme animée offensive servant aussi de relais de placement.",
+      "pa": 4,
+      "range": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "cooldown": 4,
+      "hp": [
+        35,
+        54,
+        73,
+        91,
+        110
+      ],
+      "pm": 3,
+      "duration": 0,
+      "maxCopies": null,
+      "actions": [
+        {
+          "name": "Morsure d’acier",
+          "values": [
+            6,
+            8,
+            11,
+            13,
+            15
+          ],
+          "unit": "dégâts Eau de base",
+          "range": "1 case",
+          "description": "Une attaque par tour ; rend à la lame 50 % des PV effectivement retirés, sans soigner Ryuu. Compatible avec Transposition. Ne charge pas la douleur de Ryuu.",
+          "pa": 3,
+          "casts": 1
+        }
+      ],
+      "description": "Invoque une lame animée qui frappe au contact, se régénère et peut échanger sa position avec Ryuu.",
+      "costByRank": [
+        1,
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlockLevels": [
+        18,
+        100,
+        250,
+        500,
+        750
+      ],
+      "ap": 4
+    },
+    {
+      "classId": "ryuu",
+      "id": "ryuu-sentinelle",
+      "name": "Sentinelle de sang",
+      "level": 150,
+      "role": "Protection et occupation",
+      "inspiration": "Création originale : un protecteur complémentaire à l’arme offensive.",
+      "pa": 4,
+      "range": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "cooldown": 5,
+      "hp": [
+        60,
+        90,
+        120,
+        150,
+        180
+      ],
+      "pm": 2,
+      "duration": 0,
+      "maxCopies": 1,
+      "actions": [
+        {
+          "name": "Garde liée",
+          "values": [
+            10,
+            13,
+            15,
+            18,
+            20
+          ],
+          "unit": "% des dégâts transférés",
+          "range": "Un allié adjacent",
+          "description": "Protège un allié jusqu’au prochain tour de la sentinelle. Plafond transféré : 20 % des PV max de la sentinelle par tour. Aucun transfert en chaîne ; non cumulable avec Interposition ou Partage du fardeau (seul le taux le plus élevé s’applique).",
+          "pa": 3,
+          "casts": 1
+        }
+      ],
+      "description": "Invoque une sentinelle qui occupe le terrain et prend une part limitée des dégâts d’un allié proche.",
+      "costByRank": [
+        1,
+        1,
+        2,
+        3,
+        4
+      ],
+      "unlockLevels": [
+        150,
+        250,
+        400,
+        600,
+        900
+      ],
+      "ap": 4
+    }
+  ]
+}
