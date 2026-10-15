@@ -1,0 +1,85 @@
+{
+  "id": "ecuyer-spectral",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/ecuyer-spectral/n.png",
+      "recipe": "assets/catalog/ecuyer-spectral/n.json",
+      "sha256": "235be30fbd2f0b72e0c4450586781713f47da6aac48f60043d15ffd2c2ddb7e3",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 449
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/ecuyer-spectral/ne.png",
+      "recipe": "assets/catalog/ecuyer-spectral/ne.json",
+      "sha256": "1de0a54ed152938ad539f7a0f763157e8ae84c976e38377ccfd3b26eed8426e9",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 449
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/ecuyer-spectral/e.png",
+      "recipe": "assets/catalog/ecuyer-spectral/e.json",
+      "sha256": "f6d314b19f774e2cf7f785ef4183e6ce828f1f5e9c6ce5f51fa85b1aca28e3a0",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 449
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/ecuyer-spectral/se.png",
+      "recipe": "assets/catalog/ecuyer-spectral/se.json",
+      "sha256": "277fe505c824f33d4d6fa36131ad608a0a41804e7686b474ee72a94a6297fa79",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 449
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/ecuyer-spectral/s.png",
+      "recipe": "assets/catalog/ecuyer-spectral/s.json",
+      "sha256": "11509f887497a71ec219226cdc3a492732e7bf55fc5601e1aa5013130b24d433",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 449
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/ecuyer-spectral/sw.png",
+      "recipe": "assets/catalog/ecuyer-spectral/sw.json",
+      "sha256": "a1a395d496b4ca251e72e5c6daa6167b475d3dad574434b166633e1f00d75dd0",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 449
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/ecuyer-spectral/w.png",
+      "recipe": "assets/catalog/ecuyer-spectral/w.json",
+      "sha256": "7771ba1a480059e8c63c7c5e346ee1d20d5115bce1e978d9309520ad4dbbd061",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 449
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/ecuyer-spectral/nw.png",
+      "recipe": "assets/catalog/ecuyer-spectral/nw.json",
+      "sha256": "5be75a5ecfe1a589598e385a12cd78b981c568fca5f2580e080c7294c441ca16",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 449
+    }
+  ]
+}

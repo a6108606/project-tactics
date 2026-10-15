@@ -1,7 +1,7 @@
 {
-  "forms": 15,
+  "forms": 53,
   "total": 53,
-  "pass": 512,
+  "pass": 1804,
   "fail": 0,
   "rows": [
     {
@@ -344,6 +344,1342 @@
         "clothing1": 45677,
         "clothing2": 47276,
         "clothing3": 20922
+      }
+    },
+    {
+      "name": "kael-masculine eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 46530
+      }
+    },
+    {
+      "name": "kael-masculine/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 41038
+      }
+    },
+    {
+      "name": "kael-masculine/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 33325
+      }
+    },
+    {
+      "name": "kael-masculine/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 38484
+      }
+    },
+    {
+      "name": "kael-masculine/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 38222
+      }
+    },
+    {
+      "name": "kael-masculine/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 36978
+      }
+    },
+    {
+      "name": "kael-masculine/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 32247
+      }
+    },
+    {
+      "name": "kael-masculine/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "kael-masculine/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 46033
+      }
+    },
+    {
+      "name": "kael-masculine all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "hair": 97679,
+        "skin": 33932,
+        "clothing1": 47535,
+        "clothing2": 79133,
+        "clothing3": 54578
+      }
+    },
+    {
+      "name": "kael-feminine eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 47165
+      }
+    },
+    {
+      "name": "kael-feminine/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 46836
+      }
+    },
+    {
+      "name": "kael-feminine/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 34914
+      }
+    },
+    {
+      "name": "kael-feminine/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 44317
+      }
+    },
+    {
+      "name": "kael-feminine/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 44777
+      }
+    },
+    {
+      "name": "kael-feminine/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 41072
+      }
+    },
+    {
+      "name": "kael-feminine/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 35810
+      }
+    },
+    {
+      "name": "kael-feminine/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "kael-feminine/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 49758
+      }
+    },
+    {
+      "name": "kael-feminine all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "hair": 103258,
+        "skin": 46193,
+        "clothing1": 55310,
+        "clothing2": 90787,
+        "clothing3": 49101
+      }
+    },
+    {
+      "name": "sela-masculine eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 29630
+      }
+    },
+    {
+      "name": "sela-masculine/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 29056
+      }
+    },
+    {
+      "name": "sela-masculine/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 21389
+      }
+    },
+    {
+      "name": "sela-masculine/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 32580
+      }
+    },
+    {
+      "name": "sela-masculine/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 29755
+      }
+    },
+    {
+      "name": "sela-masculine/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 25765
+      }
+    },
+    {
+      "name": "sela-masculine/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 20736
+      }
+    },
+    {
+      "name": "sela-masculine/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sela-masculine/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 32085
+      }
+    },
+    {
+      "name": "sela-masculine all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "hair": 34918,
+        "skin": 72460,
+        "clothing1": 12633,
+        "clothing2": 24775,
+        "clothing3": 76210
+      }
+    },
+    {
+      "name": "sela-feminine eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 29710
+      }
+    },
+    {
+      "name": "sela-feminine/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 28185
+      }
+    },
+    {
+      "name": "sela-feminine/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 29947
+      }
+    },
+    {
+      "name": "sela-feminine/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 34040
+      }
+    },
+    {
+      "name": "sela-feminine/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 30415
+      }
+    },
+    {
+      "name": "sela-feminine/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 28382
+      }
+    },
+    {
+      "name": "sela-feminine/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 25654
+      }
+    },
+    {
+      "name": "sela-feminine/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sela-feminine/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 32279
+      }
+    },
+    {
+      "name": "sela-feminine all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "hair": 39956,
+        "skin": 97549,
+        "clothing1": 10260,
+        "clothing2": 32355,
+        "clothing3": 58492
+      }
+    },
+    {
+      "name": "leo-masculine eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 47692
+      }
+    },
+    {
+      "name": "leo-masculine/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 43742
+      }
+    },
+    {
+      "name": "leo-masculine/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 35841
+      }
+    },
+    {
+      "name": "leo-masculine/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 41429
+      }
+    },
+    {
+      "name": "leo-masculine/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 41798
+      }
+    },
+    {
+      "name": "leo-masculine/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 40842
+      }
+    },
+    {
+      "name": "leo-masculine/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 32214
+      }
+    },
+    {
+      "name": "leo-masculine/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leo-masculine/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 45039
+      }
+    },
+    {
+      "name": "leo-masculine all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "hair": 164431,
+        "skin": 44489,
+        "clothing1": 8500,
+        "clothing2": 55605,
+        "clothing3": 55572
+      }
+    },
+    {
+      "name": "leo-feminine eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 45850
+      }
+    },
+    {
+      "name": "leo-feminine/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 50358
+      }
+    },
+    {
+      "name": "leo-feminine/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 47110
+      }
+    },
+    {
+      "name": "leo-feminine/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 48162
+      }
+    },
+    {
+      "name": "leo-feminine/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 46869
+      }
+    },
+    {
+      "name": "leo-feminine/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 49303
+      }
+    },
+    {
+      "name": "leo-feminine/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 38483
+      }
+    },
+    {
+      "name": "leo-feminine/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leo-feminine/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 51272
+      }
+    },
+    {
+      "name": "leo-feminine all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "hair": 209662,
+        "skin": 61478,
+        "clothing1": 6946,
+        "clothing2": 64130,
+        "clothing3": 35191
+      }
+    },
+    {
+      "name": "lina-masculine eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 41493
+      }
+    },
+    {
+      "name": "lina-masculine/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 39581
+      }
+    },
+    {
+      "name": "lina-masculine/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 29400
+      }
+    },
+    {
+      "name": "lina-masculine/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 32545
+      }
+    },
+    {
+      "name": "lina-masculine/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 33111
+      }
+    },
+    {
+      "name": "lina-masculine/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 31571
+      }
+    },
+    {
+      "name": "lina-masculine/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 27849
+      }
+    },
+    {
+      "name": "lina-masculine/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lina-masculine/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 42525
+      }
+    },
+    {
+      "name": "lina-masculine all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "hair": 95163,
+        "skin": 113229,
+        "clothing1": 16135,
+        "clothing2": 22877,
+        "clothing3": 30671
+      }
+    },
+    {
+      "name": "lina-feminine eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 48056
+      }
+    },
+    {
+      "name": "lina-feminine/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 47631
+      }
+    },
+    {
+      "name": "lina-feminine/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 39192
+      }
+    },
+    {
+      "name": "lina-feminine/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 46664
+      }
+    },
+    {
+      "name": "lina-feminine/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 48382
+      }
+    },
+    {
+      "name": "lina-feminine/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 43743
+      }
+    },
+    {
+      "name": "lina-feminine/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 39238
+      }
+    },
+    {
+      "name": "lina-feminine/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lina-feminine/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 48118
+      }
+    },
+    {
+      "name": "lina-feminine all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "hair": 192490,
+        "skin": 106271,
+        "clothing1": 17478,
+        "clothing2": 26023,
+        "clothing3": 18762
       }
     },
     {
@@ -1336,6 +2672,171 @@
       }
     },
     {
+      "name": "trottin-piqueur eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 40022
+      }
+    },
+    {
+      "name": "trottin-piqueur/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 41896
+      }
+    },
+    {
+      "name": "trottin-piqueur/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 41509
+      }
+    },
+    {
+      "name": "trottin-piqueur/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 38817
+      }
+    },
+    {
+      "name": "trottin-piqueur/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 32197
+      }
+    },
+    {
+      "name": "trottin-piqueur/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 38460
+      }
+    },
+    {
+      "name": "trottin-piqueur/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 42437
+      }
+    },
+    {
+      "name": "trottin-piqueur/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 42500
+      }
+    },
+    {
+      "name": "trottin-piqueur all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 259737,
+        "red": 54285,
+        "leaf": 3816
+      }
+    },
+    {
       "name": "trottin-poudre eight unique sources",
       "pass": true
     },
@@ -1355,7 +2856,7 @@
       "name": "trottin-poudre/n recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 49683
+        "changed": 33759
       }
     },
     {
@@ -1374,7 +2875,7 @@
       "name": "trottin-poudre/ne recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 59311
+        "changed": 40032
       }
     },
     {
@@ -1393,7 +2894,7 @@
       "name": "trottin-poudre/e recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 59452
+        "changed": 40119
       }
     },
     {
@@ -1412,7 +2913,7 @@
       "name": "trottin-poudre/se recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 59135
+        "changed": 38506
       }
     },
     {
@@ -1431,7 +2932,7 @@
       "name": "trottin-poudre/s recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 51060
+        "changed": 35005
       }
     },
     {
@@ -1450,7 +2951,7 @@
       "name": "trottin-poudre/sw recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 57350
+        "changed": 38402
       }
     },
     {
@@ -1469,7 +2970,7 @@
       "name": "trottin-poudre/w recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 59566
+        "changed": 40755
       }
     },
     {
@@ -1488,16 +2989,16 @@
       "name": "trottin-poudre/nw recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 57845
+        "changed": 40349
       }
     },
     {
       "name": "trottin-poudre all color channels active over eight views",
       "pass": true,
       "detail": {
-        "ochre": 329680,
-        "purple": 92017,
-        "red": 31705
+        "ochre": 214098,
+        "purple": 66256,
+        "red": 26573
       }
     },
     {
@@ -2488,6 +3989,4789 @@
         "ochre": 319655,
         "leaf": 192760,
         "red": 156404
+      }
+    },
+    {
+      "name": "mache-racine eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 50920
+      }
+    },
+    {
+      "name": "mache-racine/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 52717
+      }
+    },
+    {
+      "name": "mache-racine/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 52108
+      }
+    },
+    {
+      "name": "mache-racine/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 52531
+      }
+    },
+    {
+      "name": "mache-racine/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 54706
+      }
+    },
+    {
+      "name": "mache-racine/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 50854
+      }
+    },
+    {
+      "name": "mache-racine/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 52379
+      }
+    },
+    {
+      "name": "mache-racine/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "mache-racine/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 51589
+      }
+    },
+    {
+      "name": "mache-racine all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 162700,
+        "red": 159848,
+        "leaf": 95256
+      }
+    },
+    {
+      "name": "filombre-tisseuse eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 44068
+      }
+    },
+    {
+      "name": "filombre-tisseuse/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 41660
+      }
+    },
+    {
+      "name": "filombre-tisseuse/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 38666
+      }
+    },
+    {
+      "name": "filombre-tisseuse/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 35962
+      }
+    },
+    {
+      "name": "filombre-tisseuse/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 36260
+      }
+    },
+    {
+      "name": "filombre-tisseuse/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 38990
+      }
+    },
+    {
+      "name": "filombre-tisseuse/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 38976
+      }
+    },
+    {
+      "name": "filombre-tisseuse/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "filombre-tisseuse/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 42425
+      }
+    },
+    {
+      "name": "filombre-tisseuse all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 170974,
+        "leaf": 83058,
+        "red": 62975
+      }
+    },
+    {
+      "name": "filombre-venimeuse eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 24193
+      }
+    },
+    {
+      "name": "filombre-venimeuse/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 21435
+      }
+    },
+    {
+      "name": "filombre-venimeuse/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 22959
+      }
+    },
+    {
+      "name": "filombre-venimeuse/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 25766
+      }
+    },
+    {
+      "name": "filombre-venimeuse/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 25071
+      }
+    },
+    {
+      "name": "filombre-venimeuse/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 22897
+      }
+    },
+    {
+      "name": "filombre-venimeuse/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 22053
+      }
+    },
+    {
+      "name": "filombre-venimeuse/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "filombre-venimeuse/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 21383
+      }
+    },
+    {
+      "name": "filombre-venimeuse all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "purple": 100290,
+        "leaf": 63479,
+        "ochre": 21988
+      }
+    },
+    {
+      "name": "souche-eveillee eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 43221
+      }
+    },
+    {
+      "name": "souche-eveillee/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 41457
+      }
+    },
+    {
+      "name": "souche-eveillee/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 34029
+      }
+    },
+    {
+      "name": "souche-eveillee/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 42809
+      }
+    },
+    {
+      "name": "souche-eveillee/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 44050
+      }
+    },
+    {
+      "name": "souche-eveillee/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 40932
+      }
+    },
+    {
+      "name": "souche-eveillee/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 35774
+      }
+    },
+    {
+      "name": "souche-eveillee/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "souche-eveillee/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 41540
+      }
+    },
+    {
+      "name": "souche-eveillee all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 239619,
+        "leaf": 81811,
+        "red": 2382
+      }
+    },
+    {
+      "name": "sylvaronce-gardien eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 54716
+      }
+    },
+    {
+      "name": "sylvaronce-gardien/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 50514
+      }
+    },
+    {
+      "name": "sylvaronce-gardien/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 40168
+      }
+    },
+    {
+      "name": "sylvaronce-gardien/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 60092
+      }
+    },
+    {
+      "name": "sylvaronce-gardien/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 62135
+      }
+    },
+    {
+      "name": "sylvaronce-gardien/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 57731
+      }
+    },
+    {
+      "name": "sylvaronce-gardien/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 39078
+      }
+    },
+    {
+      "name": "sylvaronce-gardien/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sylvaronce-gardien/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 52858
+      }
+    },
+    {
+      "name": "sylvaronce-gardien all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 221517,
+        "leaf": 165338,
+        "red": 30437
+      }
+    },
+    {
+      "name": "le-vieux-noueux eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 65061
+      }
+    },
+    {
+      "name": "le-vieux-noueux/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 58412
+      }
+    },
+    {
+      "name": "le-vieux-noueux/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 42893
+      }
+    },
+    {
+      "name": "le-vieux-noueux/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 61399
+      }
+    },
+    {
+      "name": "le-vieux-noueux/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 65084
+      }
+    },
+    {
+      "name": "le-vieux-noueux/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 60643
+      }
+    },
+    {
+      "name": "le-vieux-noueux/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 44697
+      }
+    },
+    {
+      "name": "le-vieux-noueux/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "le-vieux-noueux/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 60580
+      }
+    },
+    {
+      "name": "le-vieux-noueux all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 278631,
+        "leaf": 171062,
+        "red": 9076
+      }
+    },
+    {
+      "name": "bourlaine-jeune eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 48983
+      }
+    },
+    {
+      "name": "bourlaine-jeune/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 48383
+      }
+    },
+    {
+      "name": "bourlaine-jeune/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 43483
+      }
+    },
+    {
+      "name": "bourlaine-jeune/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 43150
+      }
+    },
+    {
+      "name": "bourlaine-jeune/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 41018
+      }
+    },
+    {
+      "name": "bourlaine-jeune/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 40906
+      }
+    },
+    {
+      "name": "bourlaine-jeune/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 42061
+      }
+    },
+    {
+      "name": "bourlaine-jeune/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-jeune/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 44577
+      }
+    },
+    {
+      "name": "bourlaine-jeune all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 267198,
+        "red": 44361,
+        "leaf": 41002
+      }
+    },
+    {
+      "name": "bourlaine-cornue eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 50400
+      }
+    },
+    {
+      "name": "bourlaine-cornue/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 54559
+      }
+    },
+    {
+      "name": "bourlaine-cornue/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 51125
+      }
+    },
+    {
+      "name": "bourlaine-cornue/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 51290
+      }
+    },
+    {
+      "name": "bourlaine-cornue/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 46674
+      }
+    },
+    {
+      "name": "bourlaine-cornue/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 52023
+      }
+    },
+    {
+      "name": "bourlaine-cornue/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 51098
+      }
+    },
+    {
+      "name": "bourlaine-cornue/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-cornue/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 49196
+      }
+    },
+    {
+      "name": "bourlaine-cornue all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 343229,
+        "red": 42584,
+        "leaf": 20552
+      }
+    },
+    {
+      "name": "bourlaine-epaisse eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 21437
+      }
+    },
+    {
+      "name": "bourlaine-epaisse/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 24351
+      }
+    },
+    {
+      "name": "bourlaine-epaisse/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 29207
+      }
+    },
+    {
+      "name": "bourlaine-epaisse/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 23114
+      }
+    },
+    {
+      "name": "bourlaine-epaisse/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 21476
+      }
+    },
+    {
+      "name": "bourlaine-epaisse/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 23627
+      }
+    },
+    {
+      "name": "bourlaine-epaisse/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 27404
+      }
+    },
+    {
+      "name": "bourlaine-epaisse/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "bourlaine-epaisse/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 21350
+      }
+    },
+    {
+      "name": "bourlaine-epaisse all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "blue": 161547,
+        "red": 23261,
+        "ochre": 7158
+      }
+    },
+    {
+      "name": "berger-des-hardes eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 60809
+      }
+    },
+    {
+      "name": "berger-des-hardes/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 64003
+      }
+    },
+    {
+      "name": "berger-des-hardes/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 68521
+      }
+    },
+    {
+      "name": "berger-des-hardes/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 63809
+      }
+    },
+    {
+      "name": "berger-des-hardes/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 61951
+      }
+    },
+    {
+      "name": "berger-des-hardes/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 60382
+      }
+    },
+    {
+      "name": "berger-des-hardes/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 69642
+      }
+    },
+    {
+      "name": "berger-des-hardes/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "berger-des-hardes/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 63258
+      }
+    },
+    {
+      "name": "berger-des-hardes all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 382478,
+        "leaf": 128595,
+        "teal": 1302
+      }
+    },
+    {
+      "name": "belier-couronne eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 69227
+      }
+    },
+    {
+      "name": "belier-couronne/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 70659
+      }
+    },
+    {
+      "name": "belier-couronne/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 73198
+      }
+    },
+    {
+      "name": "belier-couronne/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 71183
+      }
+    },
+    {
+      "name": "belier-couronne/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 66552
+      }
+    },
+    {
+      "name": "belier-couronne/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 69708
+      }
+    },
+    {
+      "name": "belier-couronne/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 71905
+      }
+    },
+    {
+      "name": "belier-couronne/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "belier-couronne/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 66591
+      }
+    },
+    {
+      "name": "belier-couronne all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 389071,
+        "red": 163605,
+        "leaf": 6347
+      }
+    },
+    {
+      "name": "sporignon eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "sporignon/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sporignon/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sporignon/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sporignon/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 56112
+      }
+    },
+    {
+      "name": "sporignon/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sporignon/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sporignon/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sporignon/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 54680
+      }
+    },
+    {
+      "name": "sporignon/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sporignon/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sporignon/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sporignon/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 48610
+      }
+    },
+    {
+      "name": "sporignon/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sporignon/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sporignon/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sporignon/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 55039
+      }
+    },
+    {
+      "name": "sporignon/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sporignon/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sporignon/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sporignon/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 53958
+      }
+    },
+    {
+      "name": "sporignon/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sporignon/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sporignon/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sporignon/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 50641
+      }
+    },
+    {
+      "name": "sporignon/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sporignon/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sporignon/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sporignon/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 48254
+      }
+    },
+    {
+      "name": "sporignon/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sporignon/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sporignon/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sporignon/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 53229
+      }
+    },
+    {
+      "name": "sporignon all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 420523
+      }
+    },
+    {
+      "name": "chardon-frondeur eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 54050
+      }
+    },
+    {
+      "name": "chardon-frondeur/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 49903
+      }
+    },
+    {
+      "name": "chardon-frondeur/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 48027
+      }
+    },
+    {
+      "name": "chardon-frondeur/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 52091
+      }
+    },
+    {
+      "name": "chardon-frondeur/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 54399
+      }
+    },
+    {
+      "name": "chardon-frondeur/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 50131
+      }
+    },
+    {
+      "name": "chardon-frondeur/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 44910
+      }
+    },
+    {
+      "name": "chardon-frondeur/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "chardon-frondeur/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 52550
+      }
+    },
+    {
+      "name": "chardon-frondeur all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "leaf": 220676,
+        "purple": 128108,
+        "ochre": 57277
+      }
+    },
+    {
+      "name": "solepi eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "solepi/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "solepi/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "solepi/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "solepi/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 70986
+      }
+    },
+    {
+      "name": "solepi/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "solepi/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "solepi/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "solepi/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 60352
+      }
+    },
+    {
+      "name": "solepi/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "solepi/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "solepi/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "solepi/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 50587
+      }
+    },
+    {
+      "name": "solepi/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "solepi/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "solepi/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "solepi/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 65652
+      }
+    },
+    {
+      "name": "solepi/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "solepi/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "solepi/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "solepi/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 73023
+      }
+    },
+    {
+      "name": "solepi/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "solepi/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "solepi/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "solepi/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 65195
+      }
+    },
+    {
+      "name": "solepi/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "solepi/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "solepi/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "solepi/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 51871
+      }
+    },
+    {
+      "name": "solepi/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "solepi/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "solepi/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "solepi/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 67310
+      }
+    },
+    {
+      "name": "solepi all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 419909,
+        "leaf": 83494,
+        "teal": 1573
+      }
+    },
+    {
+      "name": "paillotin eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "paillotin/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "paillotin/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "paillotin/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "paillotin/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 60630
+      }
+    },
+    {
+      "name": "paillotin/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "paillotin/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "paillotin/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "paillotin/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 59875
+      }
+    },
+    {
+      "name": "paillotin/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "paillotin/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "paillotin/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "paillotin/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 54175
+      }
+    },
+    {
+      "name": "paillotin/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "paillotin/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "paillotin/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "paillotin/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 60435
+      }
+    },
+    {
+      "name": "paillotin/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "paillotin/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "paillotin/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "paillotin/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 58914
+      }
+    },
+    {
+      "name": "paillotin/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "paillotin/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "paillotin/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "paillotin/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 57606
+      }
+    },
+    {
+      "name": "paillotin/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "paillotin/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "paillotin/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "paillotin/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 53502
+      }
+    },
+    {
+      "name": "paillotin/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "paillotin/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "paillotin/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "paillotin/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 60674
+      }
+    },
+    {
+      "name": "paillotin all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 404806,
+        "teal": 53340,
+        "leaf": 7665
+      }
+    },
+    {
+      "name": "le-moissonneur-creux eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 48822
+      }
+    },
+    {
+      "name": "le-moissonneur-creux/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 45204
+      }
+    },
+    {
+      "name": "le-moissonneur-creux/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 38712
+      }
+    },
+    {
+      "name": "le-moissonneur-creux/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 45791
+      }
+    },
+    {
+      "name": "le-moissonneur-creux/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 46077
+      }
+    },
+    {
+      "name": "le-moissonneur-creux/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 41432
+      }
+    },
+    {
+      "name": "le-moissonneur-creux/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 37391
+      }
+    },
+    {
+      "name": "le-moissonneur-creux/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "le-moissonneur-creux/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 48518
+      }
+    },
+    {
+      "name": "le-moissonneur-creux all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 214193,
+        "red": 128884,
+        "purple": 8870
+      }
+    },
+    {
+      "name": "ecuyer-spectral eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 43516
+      }
+    },
+    {
+      "name": "ecuyer-spectral/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 40669
+      }
+    },
+    {
+      "name": "ecuyer-spectral/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 31368
+      }
+    },
+    {
+      "name": "ecuyer-spectral/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 35392
+      }
+    },
+    {
+      "name": "ecuyer-spectral/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 41198
+      }
+    },
+    {
+      "name": "ecuyer-spectral/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 36500
+      }
+    },
+    {
+      "name": "ecuyer-spectral/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 34205
+      }
+    },
+    {
+      "name": "ecuyer-spectral/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "ecuyer-spectral/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 39620
+      }
+    },
+    {
+      "name": "ecuyer-spectral all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 220993,
+        "red": 41470,
+        "blue": 40005
+      }
+    },
+    {
+      "name": "porte-etendard eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 63556
+      }
+    },
+    {
+      "name": "porte-etendard/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 61380
+      }
+    },
+    {
+      "name": "porte-etendard/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 52044
+      }
+    },
+    {
+      "name": "porte-etendard/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 59804
+      }
+    },
+    {
+      "name": "porte-etendard/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 59093
+      }
+    },
+    {
+      "name": "porte-etendard/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 56748
+      }
+    },
+    {
+      "name": "porte-etendard/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 48457
+      }
+    },
+    {
+      "name": "porte-etendard/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 57553
+      }
+    },
+    {
+      "name": "porte-etendard all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 313509,
+        "red": 142769,
+        "leaf": 2357
+      }
+    },
+    {
+      "name": "luminou eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "luminou/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "luminou/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "luminou/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "luminou/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 56130
+      }
+    },
+    {
+      "name": "luminou/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "luminou/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "luminou/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "luminou/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 54428
+      }
+    },
+    {
+      "name": "luminou/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "luminou/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "luminou/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "luminou/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 53399
+      }
+    },
+    {
+      "name": "luminou/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "luminou/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "luminou/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "luminou/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 57360
+      }
+    },
+    {
+      "name": "luminou/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "luminou/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "luminou/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "luminou/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 55893
+      }
+    },
+    {
+      "name": "luminou/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "luminou/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "luminou/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "luminou/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 53105
+      }
+    },
+    {
+      "name": "luminou/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "luminou/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "luminou/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "luminou/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 50954
+      }
+    },
+    {
+      "name": "luminou/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "luminou/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "luminou/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "luminou/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 56285
+      }
+    },
+    {
+      "name": "luminou all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 262501,
+        "leaf": 167532,
+        "teal": 7521
+      }
+    },
+    {
+      "name": "gardien-des-lucioles eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 45070
+      }
+    },
+    {
+      "name": "gardien-des-lucioles/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 47054
+      }
+    },
+    {
+      "name": "gardien-des-lucioles/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 42404
+      }
+    },
+    {
+      "name": "gardien-des-lucioles/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 46251
+      }
+    },
+    {
+      "name": "gardien-des-lucioles/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 48829
+      }
+    },
+    {
+      "name": "gardien-des-lucioles/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 46424
+      }
+    },
+    {
+      "name": "gardien-des-lucioles/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 42981
+      }
+    },
+    {
+      "name": "gardien-des-lucioles/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "gardien-des-lucioles/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 46291
+      }
+    },
+    {
+      "name": "gardien-des-lucioles all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "leaf": 256442,
+        "ochre": 92296,
+        "red": 16566
+      }
+    },
+    {
+      "name": "faucon-guetteur eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 60036
+      }
+    },
+    {
+      "name": "faucon-guetteur/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 57971
+      }
+    },
+    {
+      "name": "faucon-guetteur/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 57019
+      }
+    },
+    {
+      "name": "faucon-guetteur/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 57535
+      }
+    },
+    {
+      "name": "faucon-guetteur/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 53771
+      }
+    },
+    {
+      "name": "faucon-guetteur/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 56334
+      }
+    },
+    {
+      "name": "faucon-guetteur/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 54863
+      }
+    },
+    {
+      "name": "faucon-guetteur/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "faucon-guetteur/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 57793
+      }
+    },
+    {
+      "name": "faucon-guetteur all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 308556,
+        "leaf": 98236,
+        "red": 48530
+      }
+    },
+    {
+      "name": "traqueur-de-ronces eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 43682
+      }
+    },
+    {
+      "name": "traqueur-de-ronces/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 43730
+      }
+    },
+    {
+      "name": "traqueur-de-ronces/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 44293
+      }
+    },
+    {
+      "name": "traqueur-de-ronces/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 39721
+      }
+    },
+    {
+      "name": "traqueur-de-ronces/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 37288
+      }
+    },
+    {
+      "name": "traqueur-de-ronces/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 42743
+      }
+    },
+    {
+      "name": "traqueur-de-ronces/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 47222
+      }
+    },
+    {
+      "name": "traqueur-de-ronces/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "traqueur-de-ronces/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 40644
+      }
+    },
+    {
+      "name": "traqueur-de-ronces all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 182778,
+        "leaf": 125340,
+        "red": 31205
+      }
+    },
+    {
+      "name": "leurre eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "leurre/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leurre/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leurre/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leurre/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 55301
+      }
+    },
+    {
+      "name": "leurre/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leurre/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leurre/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leurre/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 54798
+      }
+    },
+    {
+      "name": "leurre/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leurre/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leurre/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leurre/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 49462
+      }
+    },
+    {
+      "name": "leurre/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leurre/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leurre/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leurre/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 54287
+      }
+    },
+    {
+      "name": "leurre/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leurre/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leurre/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leurre/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 59060
+      }
+    },
+    {
+      "name": "leurre/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leurre/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leurre/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leurre/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 59324
+      }
+    },
+    {
+      "name": "leurre/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leurre/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leurre/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leurre/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 55512
+      }
+    },
+    {
+      "name": "leurre/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "leurre/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "leurre/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "leurre/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 55935
+      }
+    },
+    {
+      "name": "leurre all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "leaf": 249186,
+        "ochre": 99389,
+        "purple": 95104
+      }
+    },
+    {
+      "name": "araignee-d-ombre eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 25329
+      }
+    },
+    {
+      "name": "araignee-d-ombre/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 25509
+      }
+    },
+    {
+      "name": "araignee-d-ombre/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 21155
+      }
+    },
+    {
+      "name": "araignee-d-ombre/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 23410
+      }
+    },
+    {
+      "name": "araignee-d-ombre/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 23984
+      }
+    },
+    {
+      "name": "araignee-d-ombre/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 22948
+      }
+    },
+    {
+      "name": "araignee-d-ombre/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 20924
+      }
+    },
+    {
+      "name": "araignee-d-ombre/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "araignee-d-ombre/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 24617
+      }
+    },
+    {
+      "name": "araignee-d-ombre all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "purple": 174022,
+        "ochre": 11448,
+        "blue": 2406
+      }
+    },
+    {
+      "name": "lame-sanguine eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 40739
+      }
+    },
+    {
+      "name": "lame-sanguine/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 38924
+      }
+    },
+    {
+      "name": "lame-sanguine/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 36804
+      }
+    },
+    {
+      "name": "lame-sanguine/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 42495
+      }
+    },
+    {
+      "name": "lame-sanguine/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 42511
+      }
+    },
+    {
+      "name": "lame-sanguine/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 39400
+      }
+    },
+    {
+      "name": "lame-sanguine/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 35769
+      }
+    },
+    {
+      "name": "lame-sanguine/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "lame-sanguine/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 36158
+      }
+    },
+    {
+      "name": "lame-sanguine all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "red": 204799,
+        "ochre": 96321,
+        "purple": 11680
+      }
+    },
+    {
+      "name": "sentinelle-de-sang eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 54259
+      }
+    },
+    {
+      "name": "sentinelle-de-sang/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 51724
+      }
+    },
+    {
+      "name": "sentinelle-de-sang/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 46132
+      }
+    },
+    {
+      "name": "sentinelle-de-sang/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 54852
+      }
+    },
+    {
+      "name": "sentinelle-de-sang/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 58100
+      }
+    },
+    {
+      "name": "sentinelle-de-sang/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 54752
+      }
+    },
+    {
+      "name": "sentinelle-de-sang/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 45333
+      }
+    },
+    {
+      "name": "sentinelle-de-sang/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "sentinelle-de-sang/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 53944
+      }
+    },
+    {
+      "name": "sentinelle-de-sang all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "purple": 231545,
+        "ochre": 111891,
+        "red": 75660
+      }
+    },
+    {
+      "name": "brute eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "brute/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "brute/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "brute/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "brute/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 72498
+      }
+    },
+    {
+      "name": "brute/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "brute/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "brute/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "brute/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 62773
+      }
+    },
+    {
+      "name": "brute/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "brute/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "brute/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "brute/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 50132
+      }
+    },
+    {
+      "name": "brute/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "brute/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "brute/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "brute/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 82173
+      }
+    },
+    {
+      "name": "brute/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "brute/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "brute/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "brute/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 83080
+      }
+    },
+    {
+      "name": "brute/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "brute/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "brute/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "brute/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 72286
+      }
+    },
+    {
+      "name": "brute/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "brute/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "brute/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "brute/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 52005
+      }
+    },
+    {
+      "name": "brute/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "brute/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "brute/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "brute/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 77266
+      }
+    },
+    {
+      "name": "brute all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 337359,
+        "leaf": 175228,
+        "red": 39626
+      }
+    },
+    {
+      "name": "archer eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "archer/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "archer/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "archer/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "archer/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 70950
+      }
+    },
+    {
+      "name": "archer/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "archer/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "archer/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "archer/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 68349
+      }
+    },
+    {
+      "name": "archer/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "archer/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "archer/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "archer/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 61929
+      }
+    },
+    {
+      "name": "archer/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "archer/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "archer/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "archer/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 68557
+      }
+    },
+    {
+      "name": "archer/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "archer/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "archer/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "archer/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 69707
+      }
+    },
+    {
+      "name": "archer/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "archer/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "archer/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "archer/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 65804
+      }
+    },
+    {
+      "name": "archer/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "archer/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "archer/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "archer/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 62725
+      }
+    },
+    {
+      "name": "archer/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "archer/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "archer/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "archer/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 65354
+      }
+    },
+    {
+      "name": "archer all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 363245,
+        "red": 167782,
+        "leaf": 2348
+      }
+    },
+    {
+      "name": "boss-gardien eight unique sources",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/n dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/n alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/n original palette identity",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/n recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 65766
+      }
+    },
+    {
+      "name": "boss-gardien/ne dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/ne alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/ne original palette identity",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/ne recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 63554
+      }
+    },
+    {
+      "name": "boss-gardien/e dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/e alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/e original palette identity",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/e recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 46373
+      }
+    },
+    {
+      "name": "boss-gardien/se dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/se alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/se original palette identity",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/se recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 74516
+      }
+    },
+    {
+      "name": "boss-gardien/s dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/s alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/s original palette identity",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/s recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 75400
+      }
+    },
+    {
+      "name": "boss-gardien/sw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/sw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/sw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/sw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 71101
+      }
+    },
+    {
+      "name": "boss-gardien/w dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/w alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/w original palette identity",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/w recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 47114
+      }
+    },
+    {
+      "name": "boss-gardien/nw dimensions / SHA-256",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/nw alpha and safe margins",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/nw original palette identity",
+      "pass": true
+    },
+    {
+      "name": "boss-gardien/nw recolor changes only mask RGB, preserves alpha",
+      "pass": true,
+      "detail": {
+        "changed": 70998
+      }
+    },
+    {
+      "name": "boss-gardien all color channels active over eight views",
+      "pass": true,
+      "detail": {
+        "ochre": 392483,
+        "leaf": 110663,
+        "red": 11676
       }
     }
   ]

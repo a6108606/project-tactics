@@ -1,0 +1,85 @@
+{
+  "id": "luminou",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/luminou/n.png",
+      "recipe": "assets/catalog/luminou/n.json",
+      "sha256": "50171091f83179b2db99bc717b271fec86aaa71d5c5611d3ab0f409049035942",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 464
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/luminou/ne.png",
+      "recipe": "assets/catalog/luminou/ne.json",
+      "sha256": "8092b45397ec1b94bbd1ac9eb45e33be13037bdc18c5e38b92e93feed44909f8",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 464
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/luminou/e.png",
+      "recipe": "assets/catalog/luminou/e.json",
+      "sha256": "9dbc8ae39ffbf1fe73e22916e28db809c1044941c49567de4bde820d0f9ddbba",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 464
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/luminou/se.png",
+      "recipe": "assets/catalog/luminou/se.json",
+      "sha256": "3aaafbce1072c9113a4858fa4afba05eceadca78c15a835801d80967b88f4ed7",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 464
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/luminou/s.png",
+      "recipe": "assets/catalog/luminou/s.json",
+      "sha256": "15dad6ba7cc9f7ddeb78b19b591ac05f3c23d05560fdec3b6bad647539acbc3f",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 464
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/luminou/sw.png",
+      "recipe": "assets/catalog/luminou/sw.json",
+      "sha256": "ffd13d91d39bc6f3399e951b730c6e0fb05ec0e1981cb09d8c42f2fccd7feb38",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 464
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/luminou/w.png",
+      "recipe": "assets/catalog/luminou/w.json",
+      "sha256": "7567546fbb956712607ff1ae6ec375c1ccbf3bc417a40b01607ff1fe968c80b5",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 464
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/luminou/nw.png",
+      "recipe": "assets/catalog/luminou/nw.json",
+      "sha256": "221ce3a3f3d5ffb59542dd667706429f5155a1eb9cc0c9e53f0066e245386ce2",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 464
+    }
+  ]
+}

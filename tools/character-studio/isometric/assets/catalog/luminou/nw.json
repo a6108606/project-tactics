@@ -1,0 +1,69 @@
+{
+  "schema": "project-tactics/catalog-materials",
+  "version": 1,
+  "id": "luminou-nw",
+  "crop": [
+    0,
+    0,
+    384,
+    640
+  ],
+  "anchor": [
+    192,
+    615
+  ],
+  "channels": [
+    {
+      "id": "ochre",
+      "label": "Ocres",
+      "color": "#E9C293",
+      "hue": [
+        20,
+        47
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    },
+    {
+      "id": "leaf",
+      "label": "Feuillages",
+      "color": "#948A34",
+      "hue": [
+        47,
+        100
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    },
+    {
+      "id": "teal",
+      "label": "Turquoises",
+      "color": "#2AF4D3",
+      "hue": [
+        100,
+        190
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    }
+  ],
+  "chroma": false
+}

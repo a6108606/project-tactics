@@ -1,0 +1,85 @@
+{
+  "id": "bourlaine-epaisse",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/bourlaine-epaisse/n.png",
+      "recipe": "assets/catalog/bourlaine-epaisse/n.json",
+      "sha256": "e280f673e02f114d45aba072cae4a39551743b46c8485d8242a3a496e830386e",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 351
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/bourlaine-epaisse/ne.png",
+      "recipe": "assets/catalog/bourlaine-epaisse/ne.json",
+      "sha256": "ef2b271744ad94f27e2a9a482beb80cb36459eb0b6a1e76e4d29639d0e4f7550",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 351
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/bourlaine-epaisse/e.png",
+      "recipe": "assets/catalog/bourlaine-epaisse/e.json",
+      "sha256": "b2893676da2e7be03052d4d084274d4a1d446293338d9bdac3f3ef5b73431728",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 351
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/bourlaine-epaisse/se.png",
+      "recipe": "assets/catalog/bourlaine-epaisse/se.json",
+      "sha256": "9513398f3b4b2f6ac391981337fd67e7bc781112a353c0ba7caf12bb561a2c76",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 351
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/bourlaine-epaisse/s.png",
+      "recipe": "assets/catalog/bourlaine-epaisse/s.json",
+      "sha256": "7db3d5c1e2493545f182f2333aa0ee27aaba601f8b98d67ccd02e65522df2b4b",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 351
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/bourlaine-epaisse/sw.png",
+      "recipe": "assets/catalog/bourlaine-epaisse/sw.json",
+      "sha256": "94381e0be31b17ff47ce173fbb3754cd0fc44f3d98a13d2867c6612b5187e843",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 351
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/bourlaine-epaisse/w.png",
+      "recipe": "assets/catalog/bourlaine-epaisse/w.json",
+      "sha256": "fb3bffc772cc467eac100fe37d406ce2bf1304cc19b2137b45612d7413cc63e0",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 351
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/bourlaine-epaisse/nw.png",
+      "recipe": "assets/catalog/bourlaine-epaisse/nw.json",
+      "sha256": "65a40c14ffd76ea63a6c4dd30c70f3439d23b7e62d840aff803518c24d46a3e6",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 351
+    }
+  ]
+}

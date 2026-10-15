@@ -1,0 +1,85 @@
+{
+  "id": "leurre",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/leurre/n.png",
+      "recipe": "assets/catalog/leurre/n.json",
+      "sha256": "15bd535474df0ec0a524595e58fcf81704d03dfe18dd3e8f4be76c5baeecd88b",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 487
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/leurre/ne.png",
+      "recipe": "assets/catalog/leurre/ne.json",
+      "sha256": "c97d944634a0b9324d61cf0ac0eaec4ea518ecac5a2345659cdfd819475e6072",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 487
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/leurre/e.png",
+      "recipe": "assets/catalog/leurre/e.json",
+      "sha256": "618af603d7bc5107068b59ff54ec5910a7b3a83c97cbcf187884f15c45b60d04",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 487
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/leurre/se.png",
+      "recipe": "assets/catalog/leurre/se.json",
+      "sha256": "c123afc0385a9298f4ac56529bd992c4797b67a0f68087dd8b60b4214b0ed286",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 487
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/leurre/s.png",
+      "recipe": "assets/catalog/leurre/s.json",
+      "sha256": "000b04d8805092f7233552aa50cffbda164903d7d99508b2d16ce74966b2f406",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 487
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/leurre/sw.png",
+      "recipe": "assets/catalog/leurre/sw.json",
+      "sha256": "0d85cc65881c132fad1bbe61c4f694c308ec432a08382289bf6c2e36a7009f75",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 487
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/leurre/w.png",
+      "recipe": "assets/catalog/leurre/w.json",
+      "sha256": "b01a5af4b4c50c994a3550e46c755f3ea69e151ed468d56eb7908a0b0ca8f3c6",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 487
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/leurre/nw.png",
+      "recipe": "assets/catalog/leurre/nw.json",
+      "sha256": "05af61e31a93539534b3c719f0358c5346e67415b521c61c8931dbc36914486b",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 487
+    }
+  ]
+}

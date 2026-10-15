@@ -1,0 +1,69 @@
+{
+  "schema": "project-tactics/catalog-materials",
+  "version": 1,
+  "id": "gardien-des-lucioles-sw",
+  "crop": [
+    0,
+    0,
+    384,
+    640
+  ],
+  "anchor": [
+    192,
+    615
+  ],
+  "channels": [
+    {
+      "id": "leaf",
+      "label": "Feuillages",
+      "color": "#A69A53",
+      "hue": [
+        47,
+        100
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    },
+    {
+      "id": "ochre",
+      "label": "Ocres",
+      "color": "#CB8311",
+      "hue": [
+        20,
+        47
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    },
+    {
+      "id": "red",
+      "label": "Rouges",
+      "color": "#573221",
+      "hue": [
+        345,
+        20
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    }
+  ],
+  "chroma": false
+}

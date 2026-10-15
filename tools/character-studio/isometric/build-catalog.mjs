@@ -1,6 +1,7 @@
 import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';
 import {decode,crop,encode} from '../pipeline/png.mjs';
 import {removeChroma,opaqueBounds} from './sprite.js';
+import {componentFrames} from './atlas-components.mjs';
 import {hsv,families,catalogMasks} from './catalog-masks.js';
 const here=path.dirname(new URL(import.meta.url).pathname),dir=path.join(here,'assets/catalog'),cat=JSON.parse(fs.readFileSync(path.join(dir,'catalog.json'))),paths=JSON.parse(fs.readFileSync(process.argv[2]));
 const hash=b=>crypto.createHash('sha256').update(b).digest('hex'),json=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
@@ -15,15 +16,16 @@ for(const [id,src]of Object.entries(paths)){try{
  const seam=(ideal,radius,score)=>{let best=ideal,cost=Infinity;for(let n=Math.max(2,ideal-radius);n<=ideal+radius;n++){const v=score(n)*1000+Math.abs(n-ideal);if(v<cost){cost=v;best=n;}}return best;};
  const rowSeam=seam(Math.round(im.height/2),60,n=>{let t=0;for(let y=n-2;y<=n+2;y++)for(let x=0;x<im.width;x++)if(keyed.data[(y*im.width+x)*4+3]>100)t++;return t;});
  const rows=[0,rowSeam,im.height],columns=[0,1].map(row=>[0,...[1,2,3].map(c=>seam(Math.round(c*im.width/4),45,n=>{let t=0;for(let y=rows[row];y<rows[row+1];y++)for(let x=n-2;x<=n+2;x++)if(keyed.data[(y*im.width+x)*4+3]>100)t++;return t;})),im.width]);
+ const extracted=e.segmentation==='components'?componentFrames(keyed):null;
  const frames=[],report=[];let maxHeight=0;
  for(let k=0;k<8;k++){
-  const row=Math.floor(k/4),x=columns[row][k%4],y=rows[row],right=columns[row][k%4+1],bottom=rows[row+1],frame=crop(keyed,[x,y,right-x,bottom-y]);
+  const row=Math.floor(k/4),x=columns[row][k%4],y=rows[row],right=columns[row][k%4+1],bottom=rows[row+1],frame=extracted?.[k]||crop(keyed,[x,y,right-x,bottom-y]);
   const b=opaqueBounds(frame.data,frame.width,frame.height),fw=b[2]-b[0],fh=b[3]-b[1];
   let edge=0;for(let yy=0;yy<frame.height;yy++)for(let xx=0;xx<frame.width;xx++)if((xx<2||xx>=frame.width-2||yy<2||yy>=frame.height-2)&&frame.data[(yy*frame.width+xx)*4+3]>100)edge++;
   if(fw<30||fh<50||fw>W-12||fh>H-25||edge>4)throw Error(`${id}/${ids[k]}: grid unsafe ${fw}x${fh}, edge=${edge}`);
   const data=new Uint8ClampedArray(W*H*4),dx=Math.round(W/2-fw/2),dy=H-25-fh;
   for(let row=0;row<fh;row++)data.set(frame.data.subarray(((b[1]+row)*frame.width+b[0])*4,((b[1]+row)*frame.width+b[2])*4),((dy+row)*W+dx)*4);
-  maxHeight=Math.max(maxHeight,fh);frames.push({data,bounds:[dx,dy,dx+fw,dy+fh]});report.push({direction:ids[k],sourceCrop:[x,y,frame.width,frame.height],bounds:b,edgePixels:edge});
+  maxHeight=Math.max(maxHeight,fh);frames.push({data,bounds:[dx,dy,dx+fw,dy+fh]});report.push({direction:ids[k],sourceCrop:frame.sourceCrop||[x,y,frame.width,frame.height],segmentation:extracted?'components':'grid',bounds:b,edgePixels:edge});
  }
  // Find substantial color families across all views; use their median source color as identity reference.
  let channels=[];

@@ -1,0 +1,85 @@
+{
+  "id": "belier-couronne",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/belier-couronne/n.png",
+      "recipe": "assets/catalog/belier-couronne/n.json",
+      "sha256": "4ab918c1c4fed7dcc2189c4ff589e4d39dfd8fbd243fb2834113f8aaf3b3a63b",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 484
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/belier-couronne/ne.png",
+      "recipe": "assets/catalog/belier-couronne/ne.json",
+      "sha256": "a4a3f3534f6d5439fcf2cfbbd762c6b9c0d9767d1cf4c7dc7d59d19993dc4c96",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 484
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/belier-couronne/e.png",
+      "recipe": "assets/catalog/belier-couronne/e.json",
+      "sha256": "3a36651256dc64db23841f79d6cec71a11dbc40c0ca74465a9bef706574a94a4",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 484
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/belier-couronne/se.png",
+      "recipe": "assets/catalog/belier-couronne/se.json",
+      "sha256": "a8470e2f7d01e25b707c6593fd9a327b9f9b20509173ae72dfedcd2eb22773e5",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 484
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/belier-couronne/s.png",
+      "recipe": "assets/catalog/belier-couronne/s.json",
+      "sha256": "ce05ae18b85da99f23ddee3dc05970f9fc587269de6341b529311ed2ad6066f4",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 484
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/belier-couronne/sw.png",
+      "recipe": "assets/catalog/belier-couronne/sw.json",
+      "sha256": "b11a7bf077a96bfb74e70200e8dae13c5ec4936141992c39b006373395bd7b23",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 484
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/belier-couronne/w.png",
+      "recipe": "assets/catalog/belier-couronne/w.json",
+      "sha256": "47b31fa2cd8fc4a79276de73f8e6edfe4a1e08f85f595352d29d4890eec23c0b",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 484
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/belier-couronne/nw.png",
+      "recipe": "assets/catalog/belier-couronne/nw.json",
+      "sha256": "312087b09afa014fe9a2b1a09f3205ed7ffa53a385e6b8853957dda9f2929e8f",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 484
+    }
+  ]
+}

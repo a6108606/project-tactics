@@ -1,0 +1,85 @@
+{
+  "id": "le-moissonneur-creux",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/le-moissonneur-creux/n.png",
+      "recipe": "assets/catalog/le-moissonneur-creux/n.json",
+      "sha256": "7395ae63cd9c6b3e23359b945347c11eb9082180749e0a678dae25497bfdb0ff",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 489
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/le-moissonneur-creux/ne.png",
+      "recipe": "assets/catalog/le-moissonneur-creux/ne.json",
+      "sha256": "01559aaaee495371e025b265a798d757b43025f3a0fe3fa3be7c8310e1abd9c8",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 489
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/le-moissonneur-creux/e.png",
+      "recipe": "assets/catalog/le-moissonneur-creux/e.json",
+      "sha256": "51ac9307a1b58ce84f9d6b761bfdbbcc13ed5ed99f4ece221031d0c021f98bfd",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 489
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/le-moissonneur-creux/se.png",
+      "recipe": "assets/catalog/le-moissonneur-creux/se.json",
+      "sha256": "88813be54c4e02f33d662ec1ac4aa2924d2f2eb7bef2a3f71c55040186386021",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 489
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/le-moissonneur-creux/s.png",
+      "recipe": "assets/catalog/le-moissonneur-creux/s.json",
+      "sha256": "afdd708dca951b900a8204e341d670c5231445f67b5831d37e38daf759234abd",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 489
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/le-moissonneur-creux/sw.png",
+      "recipe": "assets/catalog/le-moissonneur-creux/sw.json",
+      "sha256": "7d3e68b2a6c70e747b8146f6e4aefd49a62e2c10947673a611f5b47c1e61e177",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 489
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/le-moissonneur-creux/w.png",
+      "recipe": "assets/catalog/le-moissonneur-creux/w.json",
+      "sha256": "0e6f4ce6d754c4b05fbf0c70407c06ee672ab29d7b31756140b139ddaa89fb2e",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 489
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/le-moissonneur-creux/nw.png",
+      "recipe": "assets/catalog/le-moissonneur-creux/nw.json",
+      "sha256": "c2741b3fb087d20847f9b7efe030f7b06155ce20a1d643b51d79fb416dbd9f7b",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 489
+    }
+  ]
+}

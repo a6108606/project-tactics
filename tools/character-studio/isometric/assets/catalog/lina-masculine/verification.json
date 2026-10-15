@@ -1,0 +1,195 @@
+{
+  "source_sha256": "da0f86e6beb0cd19d0c6a6ec40ec85982b380b95703af825d121cfe4319b0d10",
+  "source_dimensions": [
+    1254,
+    1254
+  ],
+  "frames": [
+    {
+      "direction": "n",
+      "sourceCrop": [
+        0,
+        0,
+        314,
+        627
+      ],
+      "bounds": [
+        38,
+        92,
+        307,
+        591
+      ],
+      "edgePixels": 0,
+      "channelPixels": {
+        "hair": 13462,
+        "skin": 17561,
+        "clothing1": 2903,
+        "clothing2": 3151,
+        "clothing3": 4416
+      }
+    },
+    {
+      "direction": "ne",
+      "sourceCrop": [
+        314,
+        0,
+        313,
+        627
+      ],
+      "bounds": [
+        39,
+        94,
+        308,
+        595
+      ],
+      "edgePixels": 0,
+      "channelPixels": {
+        "hair": 14038,
+        "skin": 16107,
+        "clothing1": 2785,
+        "clothing2": 2577,
+        "clothing3": 4074
+      }
+    },
+    {
+      "direction": "e",
+      "sourceCrop": [
+        627,
+        0,
+        314,
+        627
+      ],
+      "bounds": [
+        45,
+        93,
+        277,
+        599
+      ],
+      "edgePixels": 0,
+      "channelPixels": {
+        "hair": 11698,
+        "skin": 11035,
+        "clothing1": 1956,
+        "clothing2": 1617,
+        "clothing3": 3094
+      }
+    },
+    {
+      "direction": "se",
+      "sourceCrop": [
+        941,
+        0,
+        313,
+        627
+      ],
+      "bounds": [
+        35,
+        96,
+        299,
+        604
+      ],
+      "edgePixels": 0,
+      "channelPixels": {
+        "hair": 10129,
+        "skin": 13490,
+        "clothing1": 1937,
+        "clothing2": 2812,
+        "clothing3": 4177
+      }
+    },
+    {
+      "direction": "s",
+      "sourceCrop": [
+        0,
+        627,
+        314,
+        627
+      ],
+      "bounds": [
+        21,
+        34,
+        289,
+        535
+      ],
+      "edgePixels": 0,
+      "channelPixels": {
+        "hair": 9443,
+        "skin": 14822,
+        "clothing1": 1592,
+        "clothing2": 3289,
+        "clothing3": 3965
+      }
+    },
+    {
+      "direction": "sw",
+      "sourceCrop": [
+        314,
+        627,
+        313,
+        627
+      ],
+      "bounds": [
+        31,
+        40,
+        273,
+        548
+      ],
+      "edgePixels": 0,
+      "channelPixels": {
+        "hair": 10538,
+        "skin": 12762,
+        "clothing1": 1644,
+        "clothing2": 2985,
+        "clothing3": 3642
+      }
+    },
+    {
+      "direction": "w",
+      "sourceCrop": [
+        627,
+        627,
+        314,
+        627
+      ],
+      "bounds": [
+        26,
+        37,
+        247,
+        548
+      ],
+      "edgePixels": 0,
+      "channelPixels": {
+        "hair": 11136,
+        "skin": 9730,
+        "clothing1": 993,
+        "clothing2": 3047,
+        "clothing3": 2943
+      }
+    },
+    {
+      "direction": "nw",
+      "sourceCrop": [
+        941,
+        627,
+        313,
+        627
+      ],
+      "bounds": [
+        29,
+        34,
+        285,
+        549
+      ],
+      "edgePixels": 0,
+      "channelPixels": {
+        "hair": 14719,
+        "skin": 17722,
+        "clothing1": 2325,
+        "clothing2": 3399,
+        "clothing3": 4360
+      }
+    }
+  ],
+  "normalization": "Lossless cell cropping; chroma removal shared with Ryuu; padding and ground anchors; no artistic repainting.",
+  "art_review": "Eight idle drawings inspected; local details can differ between views. Hero material masks are conservative preliminary selections."
+}

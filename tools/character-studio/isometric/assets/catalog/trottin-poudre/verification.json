@@ -1,5 +1,5 @@
 {
-  "source_sha256": "33506d400542e8aed928bd7f3392d9efb96ac72ed1c6b59077a612b7fcfc86d7",
+  "source_sha256": "d8a4be0ae03ec572ddbf5171efbb154eeb6f6511211ce711ce5cfbdfd6a21e02",
   "source_dimensions": [
     1254,
     1254
@@ -10,62 +10,62 @@
       "sourceCrop": [
         0,
         0,
-        300,
+        314,
         627
       ],
       "bounds": [
-        47,
-        48,
-        234,
-        578
+        80,
+        134,
+        233,
+        557
       ],
       "edgePixels": 0,
       "channelPixels": {
-        "ochre": 34812,
-        "purple": 10931,
-        "red": 3940
+        "ochre": 22221,
+        "purple": 8011,
+        "red": 3527
       }
     },
     {
       "direction": "ne",
       "sourceCrop": [
-        300,
+        314,
         0,
-        316,
+        313,
         627
       ],
       "bounds": [
-        3,
-        49,
-        265,
-        570
+        27,
+        137,
+        236,
+        555
       ],
       "edgePixels": 0,
       "channelPixels": {
-        "ochre": 42420,
-        "purple": 13116,
-        "red": 3775
+        "ochre": 27679,
+        "purple": 9677,
+        "red": 2676
       }
     },
     {
       "direction": "e",
       "sourceCrop": [
-        616,
+        627,
         0,
-        325,
+        314,
         627
       ],
       "bounds": [
-        3,
-        55,
-        293,
-        580
+        26,
+        139,
+        259,
+        564
       ],
       "edgePixels": 0,
       "channelPixels": {
-        "ochre": 42976,
-        "purple": 13038,
-        "red": 3438
+        "ochre": 28254,
+        "purple": 8998,
+        "red": 2867
       }
     },
     {
@@ -77,16 +77,16 @@
         627
       ],
       "bounds": [
-        9,
-        53,
-        273,
-        587
+        32,
+        138,
+        242,
+        568
       ],
       "edgePixels": 0,
       "channelPixels": {
-        "ochre": 43312,
-        "purple": 11621,
-        "red": 4202
+        "ochre": 27421,
+        "purple": 7757,
+        "red": 3328
       }
     },
     {
@@ -98,16 +98,16 @@
         627
       ],
       "bounds": [
-        32,
-        15,
-        249,
-        544
+        67,
+        70,
+        244,
+        496
       ],
       "edgePixels": 0,
       "channelPixels": {
-        "ochre": 39978,
-        "purple": 7414,
-        "red": 3668
+        "ochre": 25872,
+        "purple": 5818,
+        "red": 3315
       }
     },
     {
@@ -119,16 +119,16 @@
         627
       ],
       "bounds": [
-        21,
-        22,
-        283,
-        553
+        53,
+        74,
+        261,
+        503
       ],
       "edgePixels": 0,
       "channelPixels": {
-        "ochre": 42554,
-        "purple": 10632,
-        "red": 4164
+        "ochre": 27186,
+        "purple": 7758,
+        "red": 3458
       }
     },
     {
@@ -140,16 +140,16 @@
         627
       ],
       "bounds": [
-        19,
-        23,
-        308,
-        551
+        44,
+        75,
+        282,
+        504
       ],
       "edgePixels": 0,
       "channelPixels": {
-        "ochre": 42551,
-        "purple": 13102,
-        "red": 3913
+        "ochre": 28088,
+        "purple": 9223,
+        "red": 3444
       }
     },
     {
@@ -161,16 +161,16 @@
         627
       ],
       "bounds": [
-        52,
-        23,
-        298,
-        541
+        60,
+        75,
+        270,
+        496
       ],
       "edgePixels": 0,
       "channelPixels": {
-        "ochre": 41077,
-        "purple": 12163,
-        "red": 4605
+        "ochre": 27377,
+        "purple": 9014,
+        "red": 3958
       }
     }
   ],

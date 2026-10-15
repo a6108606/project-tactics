@@ -1,0 +1,85 @@
+{
+  "id": "faucon-guetteur",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/faucon-guetteur/n.png",
+      "recipe": "assets/catalog/faucon-guetteur/n.json",
+      "sha256": "88a4ab23b187dff3ec4c3242069a0bffc4bd7cc47dadda6e84e6a471c441ba59",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 460
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/faucon-guetteur/ne.png",
+      "recipe": "assets/catalog/faucon-guetteur/ne.json",
+      "sha256": "80912cd3b6a4323cbb6afa523c51afdd7051a33ee44c422668b7f7955bd265c4",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 460
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/faucon-guetteur/e.png",
+      "recipe": "assets/catalog/faucon-guetteur/e.json",
+      "sha256": "69fe3c93797ba2ddf0040bed1b187da60c46989d647bf6e4322d929b007ffd33",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 460
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/faucon-guetteur/se.png",
+      "recipe": "assets/catalog/faucon-guetteur/se.json",
+      "sha256": "2657a70317a231ae2574c1bfc631531acb90a82ec54f5a66193872fc0bfb6ea9",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 460
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/faucon-guetteur/s.png",
+      "recipe": "assets/catalog/faucon-guetteur/s.json",
+      "sha256": "94a6c2f7c08ea2e847ec2b0f301f0af828095141286efc2d0b7b0b109ccf727a",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 460
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/faucon-guetteur/sw.png",
+      "recipe": "assets/catalog/faucon-guetteur/sw.json",
+      "sha256": "541d24e94ef00eb00c6333507909ed7a5f8a79193d0bd825b177408e0039b6e2",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 460
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/faucon-guetteur/w.png",
+      "recipe": "assets/catalog/faucon-guetteur/w.json",
+      "sha256": "a097911345db8f1600de9fabc9b45c39541799f911e0ceff1677ea87436d0294",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 460
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/faucon-guetteur/nw.png",
+      "recipe": "assets/catalog/faucon-guetteur/nw.json",
+      "sha256": "4da49a1acd2a88fe217191c6d882656bad81d2133286a603c50be2b89704c2d9",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 460
+    }
+  ]
+}

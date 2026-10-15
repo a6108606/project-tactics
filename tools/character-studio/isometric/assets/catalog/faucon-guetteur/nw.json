@@ -1,0 +1,69 @@
+{
+  "schema": "project-tactics/catalog-materials",
+  "version": 1,
+  "id": "faucon-guetteur-nw",
+  "crop": [
+    0,
+    0,
+    384,
+    640
+  ],
+  "anchor": [
+    192,
+    615
+  ],
+  "channels": [
+    {
+      "id": "ochre",
+      "label": "Ocres",
+      "color": "#E0B990",
+      "hue": [
+        20,
+        47
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    },
+    {
+      "id": "leaf",
+      "label": "Feuillages",
+      "color": "#807337",
+      "hue": [
+        47,
+        100
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    },
+    {
+      "id": "red",
+      "label": "Rouges",
+      "color": "#5A4037",
+      "hue": [
+        345,
+        20
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    }
+  ],
+  "chroma": false
+}

@@ -1,0 +1,85 @@
+{
+  "id": "sylvaronce-gardien",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/sylvaronce-gardien/n.png",
+      "recipe": "assets/catalog/sylvaronce-gardien/n.json",
+      "sha256": "4de386281d6a883d98a897d4ed5e52351a67ac86e365e46d74633de14114ca1e",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 488
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/sylvaronce-gardien/ne.png",
+      "recipe": "assets/catalog/sylvaronce-gardien/ne.json",
+      "sha256": "6a4efd06621f1f6978aafe58cc7bb405a9d7fc4b7b078b81e8107718e7e61550",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 488
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/sylvaronce-gardien/e.png",
+      "recipe": "assets/catalog/sylvaronce-gardien/e.json",
+      "sha256": "3197d33d9d975ee01d492766c1946b1273d58077326c149a97ea147ee9452c0f",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 488
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/sylvaronce-gardien/se.png",
+      "recipe": "assets/catalog/sylvaronce-gardien/se.json",
+      "sha256": "d5f6bcf0470afe5467ea863dbb098c04f2ee1e5ba1f4cb4843b915721e0fc975",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 488
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/sylvaronce-gardien/s.png",
+      "recipe": "assets/catalog/sylvaronce-gardien/s.json",
+      "sha256": "771074d0bfddb9f2a7c348a190e8b603bf4db5b24a899c2413fcc6d96d3f11be",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 488
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/sylvaronce-gardien/sw.png",
+      "recipe": "assets/catalog/sylvaronce-gardien/sw.json",
+      "sha256": "d73136b6d3a3a8b9b284e2be6be99f04ab1f18875b3599d1d9feb42302de5d0a",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 488
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/sylvaronce-gardien/w.png",
+      "recipe": "assets/catalog/sylvaronce-gardien/w.json",
+      "sha256": "905ac352236a55ed4976a19cd48c438f6730e6906bc1234596309e533f263246",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 488
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/sylvaronce-gardien/nw.png",
+      "recipe": "assets/catalog/sylvaronce-gardien/nw.json",
+      "sha256": "d89ef083c97644c8bc57fd07c4d5c378dbeed59ec7b5a1e2b3fbf72f988f210b",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 488
+    }
+  ]
+}

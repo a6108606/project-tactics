@@ -1,0 +1,85 @@
+{
+  "id": "bourlaine-cornue",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/bourlaine-cornue/n.png",
+      "recipe": "assets/catalog/bourlaine-cornue/n.json",
+      "sha256": "8501e1b8e00a35e338751f66ffd2d1515de3d92d0bb2b65335bcfdecd83dde65",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 375
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/bourlaine-cornue/ne.png",
+      "recipe": "assets/catalog/bourlaine-cornue/ne.json",
+      "sha256": "e5dd0455af37ae0390474b324f0a901ea95d4a1272cecef46a027085e2a4c0ac",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 375
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/bourlaine-cornue/e.png",
+      "recipe": "assets/catalog/bourlaine-cornue/e.json",
+      "sha256": "c28b6a16a2b8ca147dc68fbd20b7ecaf6a791feb27d34c160391cffecf57cd9a",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 375
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/bourlaine-cornue/se.png",
+      "recipe": "assets/catalog/bourlaine-cornue/se.json",
+      "sha256": "54b23c8d1a03c246d4e89f2adb436eeef0bdf5345a72cb8d932e9ce0c2781298",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 375
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/bourlaine-cornue/s.png",
+      "recipe": "assets/catalog/bourlaine-cornue/s.json",
+      "sha256": "733ebac39580327731cfeb76e82027a60cc32e40074f9a9752272b29b86aa6bc",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 375
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/bourlaine-cornue/sw.png",
+      "recipe": "assets/catalog/bourlaine-cornue/sw.json",
+      "sha256": "8b51ec61229688f97b786745e3fc171468632641e7a520f228f42eb00cbb80fe",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 375
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/bourlaine-cornue/w.png",
+      "recipe": "assets/catalog/bourlaine-cornue/w.json",
+      "sha256": "20e99073d286e8a7d435b0d5553176e858a5c019374889f2645e64e7fbb28f54",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 375
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/bourlaine-cornue/nw.png",
+      "recipe": "assets/catalog/bourlaine-cornue/nw.json",
+      "sha256": "7b58de54bbd32fd9ae28350d61728c736b0571b9ad776dc6789af469edaa4b93",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 375
+    }
+  ]
+}

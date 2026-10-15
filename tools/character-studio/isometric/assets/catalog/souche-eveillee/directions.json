@@ -1,0 +1,85 @@
+{
+  "id": "souche-eveillee",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/souche-eveillee/n.png",
+      "recipe": "assets/catalog/souche-eveillee/n.json",
+      "sha256": "360ee64523bb481dc304b76420078c0efa671957b1f0b2ad7ebbab8703e79465",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 362
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/souche-eveillee/ne.png",
+      "recipe": "assets/catalog/souche-eveillee/ne.json",
+      "sha256": "2ddff27cc2566d5dbbba4d70ca6e0c4e0b34cd7e4a2813f980eba4b39f19c987",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 362
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/souche-eveillee/e.png",
+      "recipe": "assets/catalog/souche-eveillee/e.json",
+      "sha256": "279eecca461d39cc6b1d2bb689445a1bc1b656a46bd3ca56ea99cb267638ef9e",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 362
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/souche-eveillee/se.png",
+      "recipe": "assets/catalog/souche-eveillee/se.json",
+      "sha256": "74f779d1ace8df9f5eeec4b06151d1f423758d1770d92bf6762c70be580400e7",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 362
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/souche-eveillee/s.png",
+      "recipe": "assets/catalog/souche-eveillee/s.json",
+      "sha256": "ea3b69d84f1cc272f034793691d0344ab975396f74b5e9bd47229fcc9745f302",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 362
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/souche-eveillee/sw.png",
+      "recipe": "assets/catalog/souche-eveillee/sw.json",
+      "sha256": "8c013b45a18496570e28e5deba707b8453ff4d7b5e9f24ba30129f45b6692d0e",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 362
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/souche-eveillee/w.png",
+      "recipe": "assets/catalog/souche-eveillee/w.json",
+      "sha256": "f418a37c72fd1f420ec6318821aa6dc9948ab3bfcffc005730cfc69497c85b29",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 362
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/souche-eveillee/nw.png",
+      "recipe": "assets/catalog/souche-eveillee/nw.json",
+      "sha256": "3a8fd370a34651faf01691fa57498dce044bad965b0de34063414b595af74e00",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 362
+    }
+  ]
+}

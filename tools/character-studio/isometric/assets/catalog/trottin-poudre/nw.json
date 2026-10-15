@@ -16,7 +16,7 @@
     {
       "id": "ochre",
       "label": "Ocres",
-      "color": "#D3AD7D",
+      "color": "#F1B46F",
       "hue": [
         20,
         47
@@ -33,7 +33,7 @@
     {
       "id": "purple",
       "label": "Violets",
-      "color": "#B38F9E",
+      "color": "#BA909C",
       "hue": [
         250,
         345
@@ -50,7 +50,7 @@
     {
       "id": "red",
       "label": "Rouges",
-      "color": "#BD958E",
+      "color": "#A27D85",
       "hue": [
         345,
         20

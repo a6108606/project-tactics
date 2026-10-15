@@ -1,0 +1,85 @@
+{
+  "id": "le-vieux-noueux",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/le-vieux-noueux/n.png",
+      "recipe": "assets/catalog/le-vieux-noueux/n.json",
+      "sha256": "4020df68fa5f0daa5cd9361400e1c8d763a60cd262fb3e9b3327a62301f40fbd",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 478
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/le-vieux-noueux/ne.png",
+      "recipe": "assets/catalog/le-vieux-noueux/ne.json",
+      "sha256": "a13f3d02b1ed10fd321ee5e01e1fcba33d918d50360c0f6538d398ff7298dc6e",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 478
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/le-vieux-noueux/e.png",
+      "recipe": "assets/catalog/le-vieux-noueux/e.json",
+      "sha256": "ddbf1a32ca4c5dd23638e85e1671ad678919706d81cadb826c446befbf107fc7",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 478
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/le-vieux-noueux/se.png",
+      "recipe": "assets/catalog/le-vieux-noueux/se.json",
+      "sha256": "fad7e102b8b51d52a9d8aab45fa170b2ef21a4dc37bf048515af39dc3c93182d",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 478
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/le-vieux-noueux/s.png",
+      "recipe": "assets/catalog/le-vieux-noueux/s.json",
+      "sha256": "af5a54811c00e9ba8e05d57acd619c2bc7d0a5ad3e82c1b7d187528b161194a4",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 478
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/le-vieux-noueux/sw.png",
+      "recipe": "assets/catalog/le-vieux-noueux/sw.json",
+      "sha256": "acf053873ab0eee02ae84e132a045835e9d5c37b785c584337e6fb7cde9f593c",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 478
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/le-vieux-noueux/w.png",
+      "recipe": "assets/catalog/le-vieux-noueux/w.json",
+      "sha256": "8b0b26d5f6861675ffe06439a3be9ebd161de42aaf4f01a6d3fe560fa00f7a36",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 478
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/le-vieux-noueux/nw.png",
+      "recipe": "assets/catalog/le-vieux-noueux/nw.json",
+      "sha256": "68384f23c2c889f5f194302dbb6c714d40b734c2980f0a63e2edce6d69668728",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 478
+    }
+  ]
+}

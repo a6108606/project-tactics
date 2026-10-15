@@ -6,80 +6,80 @@
       "label": "Dos",
       "file": "assets/catalog/trottin-poudre/n.png",
       "recipe": "assets/catalog/trottin-poudre/n.json",
-      "sha256": "1fcd47f04c5fd5051b740908f7f46bc1dc57073f7f678d025e46706b5d80853a",
+      "sha256": "70e2a279910f970040b9b7ae0aee6f42586923cb3325fbeea718b1f27717fd3e",
       "width": 384,
       "height": 640,
-      "displayHeight": 534
+      "displayHeight": 430
     },
     {
       "id": "ne",
       "label": "Dos droite",
       "file": "assets/catalog/trottin-poudre/ne.png",
       "recipe": "assets/catalog/trottin-poudre/ne.json",
-      "sha256": "a85abf5108060845f646aaafcaf9b6ee23647f2cb12c0998a796a322ad477c17",
+      "sha256": "d32a0954392e7eb6a79cf9e2a70c5ac16cd5c9a7796edb976d777ad7a234af4b",
       "width": 384,
       "height": 640,
-      "displayHeight": 534
+      "displayHeight": 430
     },
     {
       "id": "e",
       "label": "Droite",
       "file": "assets/catalog/trottin-poudre/e.png",
       "recipe": "assets/catalog/trottin-poudre/e.json",
-      "sha256": "ec6402bb16d30e703cbf35a82053dfd8c7b376a9ed20f9bdf93c8f295104dbb3",
+      "sha256": "12c86e7f414d39c27d97b3b80fbf4d2933bd8190243467fb3b0b26790bef6d7b",
       "width": 384,
       "height": 640,
-      "displayHeight": 534
+      "displayHeight": 430
     },
     {
       "id": "se",
       "label": "Face droite",
       "file": "assets/catalog/trottin-poudre/se.png",
       "recipe": "assets/catalog/trottin-poudre/se.json",
-      "sha256": "1dd568470c1d13edf08ffcefafe2144f893e066089ed034936691ea19b3e7574",
+      "sha256": "eb4104bfc699b1d91a771ff35fc594a8b8424e59dc8cb8ea00b8318aaa86e1de",
       "width": 384,
       "height": 640,
-      "displayHeight": 534
+      "displayHeight": 430
     },
     {
       "id": "s",
       "label": "Face",
       "file": "assets/catalog/trottin-poudre/s.png",
       "recipe": "assets/catalog/trottin-poudre/s.json",
-      "sha256": "d9bc7a75bd7aa19919c94a6b73962bb5ccacb6dd716993f2ce6c42b6b77924ec",
+      "sha256": "4ac12fc3668a1b5096ad30e58b1c77792d8c7ee6cac0633ec19e4751f6af5860",
       "width": 384,
       "height": 640,
-      "displayHeight": 534
+      "displayHeight": 430
     },
     {
       "id": "sw",
       "label": "Face gauche",
       "file": "assets/catalog/trottin-poudre/sw.png",
       "recipe": "assets/catalog/trottin-poudre/sw.json",
-      "sha256": "cb5f9d49e76183743d9435b42fcbcbed304d987deb73fadf45089f91d22b058d",
+      "sha256": "83c4ffa037a0156d736a74a5b6b73f716e3e6fca43ba6e4ee7877cab52b3c14f",
       "width": 384,
       "height": 640,
-      "displayHeight": 534
+      "displayHeight": 430
     },
     {
       "id": "w",
       "label": "Gauche",
       "file": "assets/catalog/trottin-poudre/w.png",
       "recipe": "assets/catalog/trottin-poudre/w.json",
-      "sha256": "ccc74635f495e090c8d4682ae129b1990dbf5df5a3a3e99f2f30fd5875f25729",
+      "sha256": "a7775ab5b5b0ef4c7355d81f09c290850edc951256df6e63ad6f4511c118f12b",
       "width": 384,
       "height": 640,
-      "displayHeight": 534
+      "displayHeight": 430
     },
     {
       "id": "nw",
       "label": "Dos gauche",
       "file": "assets/catalog/trottin-poudre/nw.png",
       "recipe": "assets/catalog/trottin-poudre/nw.json",
-      "sha256": "36f3cfcec7dcd7257c9ea7a72a1ba07a43227c49e7f6cd44822414f645fdc4aa",
+      "sha256": "81440029f0ffaecc48c02b10959dd260a6609b1c1c568957b93c13d63274d76d",
       "width": 384,
       "height": 640,
-      "displayHeight": 534
+      "displayHeight": 430
     }
   ]
 }

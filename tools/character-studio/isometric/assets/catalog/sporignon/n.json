@@ -1,0 +1,35 @@
+{
+  "schema": "project-tactics/catalog-materials",
+  "version": 1,
+  "id": "sporignon-n",
+  "crop": [
+    0,
+    0,
+    384,
+    640
+  ],
+  "anchor": [
+    192,
+    615
+  ],
+  "channels": [
+    {
+      "id": "ochre",
+      "label": "Ocres",
+      "color": "#EE9F4B",
+      "hue": [
+        20,
+        47
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    }
+  ],
+  "chroma": false
+}

@@ -1,0 +1,85 @@
+{
+  "id": "kael-feminine",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/kael-feminine/n.png",
+      "recipe": "assets/catalog/kael-feminine/n.json",
+      "sha256": "c8b10df7fe96b7cdab3fb47d655190815ccbac59aabfcfe92f1ec9320dea47f4",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 568
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/kael-feminine/ne.png",
+      "recipe": "assets/catalog/kael-feminine/ne.json",
+      "sha256": "643c3c3b859e7fda46533219f3be87a806485d40c9c82680f0bf6320c34b2840",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 568
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/kael-feminine/e.png",
+      "recipe": "assets/catalog/kael-feminine/e.json",
+      "sha256": "510211e67e360d3d2a9a00d1fa709c8b0d3ab3f614c4cfdaa3ef4230e2517cc4",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 568
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/kael-feminine/se.png",
+      "recipe": "assets/catalog/kael-feminine/se.json",
+      "sha256": "f419b0020fbef841980ade9ecb97ec11e1b5c6fc27153be910a97167a3841bfd",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 568
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/kael-feminine/s.png",
+      "recipe": "assets/catalog/kael-feminine/s.json",
+      "sha256": "e167ca02f99ed85d16d11d7be15577adc4ae00c8739e297d7ef4fc0bca77db13",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 568
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/kael-feminine/sw.png",
+      "recipe": "assets/catalog/kael-feminine/sw.json",
+      "sha256": "6c9c118f0908636d85182bdb08ebccd31996ab1464beeaa2bd49952f7dded010",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 568
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/kael-feminine/w.png",
+      "recipe": "assets/catalog/kael-feminine/w.json",
+      "sha256": "ba0a61411272d14bb20f2bbfbeec791ec18035bf9adcbd056ca88925cc1aa3ac",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 568
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/kael-feminine/nw.png",
+      "recipe": "assets/catalog/kael-feminine/nw.json",
+      "sha256": "fc657ba9c775f610f69f8bbf2c9a7c2e370f92180dc52964297a661bce5579c1",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 568
+    }
+  ]
+}

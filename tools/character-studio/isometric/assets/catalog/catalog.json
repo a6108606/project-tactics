@@ -70,10 +70,14 @@
         "#382A42",
         "#A46CC1"
       ],
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "content/art/characters/reference-v2/references/kael.png",
-      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée."
+      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée.",
+      "manifest": "assets/catalog/kael-masculine/directions.json",
+      "thumbnail": "assets/catalog/kael-masculine/se.png",
+      "atlas": "assets/catalog/kael-masculine/atlas.png",
+      "palette_status": "preliminary-semantic-zones"
     },
     {
       "id": "kael-feminine",
@@ -89,10 +93,14 @@
         "#382A42",
         "#A46CC1"
       ],
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "content/art/characters/reference-v2/references/kael.png",
-      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée."
+      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée.",
+      "manifest": "assets/catalog/kael-feminine/directions.json",
+      "thumbnail": "assets/catalog/kael-feminine/se.png",
+      "atlas": "assets/catalog/kael-feminine/atlas.png",
+      "palette_status": "preliminary-semantic-zones"
     },
     {
       "id": "sela-masculine",
@@ -108,10 +116,14 @@
         "#696444",
         "#BD633E"
       ],
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "content/art/characters/reference-v2/references/sela.png",
-      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée."
+      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée.",
+      "manifest": "assets/catalog/sela-masculine/directions.json",
+      "thumbnail": "assets/catalog/sela-masculine/se.png",
+      "atlas": "assets/catalog/sela-masculine/atlas.png",
+      "palette_status": "preliminary-semantic-zones"
     },
     {
       "id": "sela-feminine",
@@ -127,10 +139,14 @@
         "#696444",
         "#BD633E"
       ],
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "content/art/characters/reference-v2/references/sela.png",
-      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée."
+      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée.",
+      "manifest": "assets/catalog/sela-feminine/directions.json",
+      "thumbnail": "assets/catalog/sela-feminine/se.png",
+      "atlas": "assets/catalog/sela-feminine/atlas.png",
+      "palette_status": "preliminary-semantic-zones"
     },
     {
       "id": "leo-masculine",
@@ -146,10 +162,14 @@
         "#483C34",
         "#B74733"
       ],
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "content/art/characters/reference-v2/references/leo.png",
-      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée."
+      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée.",
+      "manifest": "assets/catalog/leo-masculine/directions.json",
+      "thumbnail": "assets/catalog/leo-masculine/se.png",
+      "atlas": "assets/catalog/leo-masculine/atlas.png",
+      "palette_status": "preliminary-semantic-zones"
     },
     {
       "id": "leo-feminine",
@@ -165,10 +185,14 @@
         "#483C34",
         "#B74733"
       ],
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "content/art/characters/reference-v2/references/leo.png",
-      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée."
+      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée.",
+      "manifest": "assets/catalog/leo-feminine/directions.json",
+      "thumbnail": "assets/catalog/leo-feminine/se.png",
+      "atlas": "assets/catalog/leo-feminine/atlas.png",
+      "palette_status": "preliminary-semantic-zones"
     },
     {
       "id": "lina-masculine",
@@ -184,10 +208,14 @@
         "#F7E9CB",
         "#D6A244"
       ],
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "content/art/characters/reference-v2/references/lina.png",
-      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée."
+      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée.",
+      "manifest": "assets/catalog/lina-masculine/directions.json",
+      "thumbnail": "assets/catalog/lina-masculine/se.png",
+      "atlas": "assets/catalog/lina-masculine/atlas.png",
+      "palette_status": "preliminary-semantic-zones"
     },
     {
       "id": "lina-feminine",
@@ -203,10 +231,14 @@
         "#F7E9CB",
         "#D6A244"
       ],
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "content/art/characters/reference-v2/references/lina.png",
-      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée."
+      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée.",
+      "manifest": "assets/catalog/lina-feminine/directions.json",
+      "thumbnail": "assets/catalog/lina-feminine/se.png",
+      "atlas": "assets/catalog/lina-feminine/atlas.png",
+      "palette_status": "preliminary-semantic-zones"
     },
     {
       "id": "plumet-des-mousses",
@@ -304,10 +336,15 @@
       "category": "bestiary",
       "family": "Trottins",
       "brief": "Angular lean running bird, long thin spear-shaped ivory beak, long dark legs, pointed brown leaf plumage and long sharp leafy tail, rust-red chest.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "segmentation": "components",
+      "manifest": "assets/catalog/trottin-piqueur/directions.json",
+      "thumbnail": "assets/catalog/trottin-piqueur/se.png",
+      "atlas": "assets/catalog/trottin-piqueur/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "trottin-poudre",
@@ -315,7 +352,7 @@
       "category": "bestiary",
       "family": "Trottins",
       "brief": "Long-legged runner bird with fluffy cream/ochre chest, pale dusty lavender wing tufts, feathery seed-pod tail, small broad beak, drooping crest. No particles outside silhouette.",
-      "status": "correction",
+      "status": "ready",
       "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
       "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
@@ -420,10 +457,14 @@
       "category": "bestiary",
       "family": "Gueulefleurs",
       "brief": "Heavy carnivorous root boss, huge gnarled walnut-brown lower jaw with ivory root teeth, burgundy flower crown, green narrowed eyes, four thick splayed root legs, hanging moss.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/mache-racine/directions.json",
+      "thumbnail": "assets/catalog/mache-racine/se.png",
+      "atlas": "assets/catalog/mache-racine/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "filombre-tisseuse",
@@ -431,10 +472,14 @@
       "category": "bestiary",
       "family": "Vieilles racines",
       "brief": "Small forest spider, exactly eight jointed legs, broad rounded warm brown abdomen with cream silk spool marking, friendly green eyes, moss tufts at leg joints, no web outside silhouette.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/filombre-tisseuse/directions.json",
+      "thumbnail": "assets/catalog/filombre-tisseuse/se.png",
+      "atlas": "assets/catalog/filombre-tisseuse/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "filombre-venimeuse",
@@ -442,10 +487,14 @@
       "category": "bestiary",
       "family": "Vieilles racines",
       "brief": "Low forest spider, exactly eight dark violet jointed legs, angular plum abdomen with lime teardrop motif, two visible ivory venom fangs, orange eyes.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/filombre-venimeuse/directions.json",
+      "thumbnail": "assets/catalog/filombre-venimeuse/se.png",
+      "atlas": "assets/catalog/filombre-venimeuse/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "souche-eveillee",
@@ -453,10 +502,14 @@
       "category": "bestiary",
       "family": "Vieilles racines",
       "brief": "Small awakened oak stump, squat cylindrical body, expressive amber eyes in bark, flat cut top with moss and one seedling, two branch arms, two broad root feet.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/souche-eveillee/directions.json",
+      "thumbnail": "assets/catalog/souche-eveillee/se.png",
+      "atlas": "assets/catalog/souche-eveillee/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "sylvaronce-gardien",
@@ -464,10 +517,14 @@
       "category": "bestiary",
       "family": "Vieilles racines",
       "brief": "Broad animated wooden guardian, angular dark brown trunk torso, moss mantle, heavy branch forearms, thorn shoulders, amber sap seams, two planted root feet, kindly stern carved face.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/sylvaronce-gardien/directions.json",
+      "thumbnail": "assets/catalog/sylvaronce-gardien/se.png",
+      "atlas": "assets/catalog/sylvaronce-gardien/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "le-vieux-noueux",
@@ -475,10 +532,14 @@
       "category": "bestiary",
       "family": "Vieilles racines",
       "brief": "Ancient gnarled tree creature chief, large twisted trunk face, branch antler crown with sparse olive foliage, knot eyes, hanging pale moss beard, broad low roots and crooked branch arms.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/le-vieux-noueux/directions.json",
+      "thumbnail": "assets/catalog/le-vieux-noueux/se.png",
+      "atlas": "assets/catalog/le-vieux-noueux/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "bourlaine-jeune",
@@ -486,10 +547,14 @@
       "category": "bestiary",
       "family": "Bourlaines",
       "brief": "Young woolly quadruped creature, small cream cloud-shaped fleece, short slate face and four short dark legs, tiny budding honey horns, large turquoise eyes, leaf-shaped ears. Original sheep-like creature.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/bourlaine-jeune/directions.json",
+      "thumbnail": "assets/catalog/bourlaine-jeune/se.png",
+      "atlas": "assets/catalog/bourlaine-jeune/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "bourlaine-cornue",
@@ -497,10 +562,14 @@
       "category": "bestiary",
       "family": "Bourlaines",
       "brief": "Stocky wool quadruped, cream fleece in pointed curls, broad ochre curved horns sweeping sideways, chestnut face, four stout hooves, leaf-shaped ears and determined eyes.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/bourlaine-cornue/directions.json",
+      "thumbnail": "assets/catalog/bourlaine-cornue/se.png",
+      "atlas": "assets/catalog/bourlaine-cornue/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "bourlaine-epaisse",
@@ -508,10 +577,14 @@
       "category": "bestiary",
       "family": "Bourlaines",
       "brief": "Very broad low wool quadruped, dense layered pale blue-grey fleece resembling folded cushions, dark blue short face, small tucked copper horns, four visible stout hooves.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/bourlaine-epaisse/directions.json",
+      "thumbnail": "assets/catalog/bourlaine-epaisse/se.png",
+      "atlas": "assets/catalog/bourlaine-epaisse/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "berger-des-hardes",
@@ -519,10 +592,14 @@
       "category": "bestiary",
       "family": "Bourlaines",
       "brief": "Aged woolly BEAST, NOT a human shepherd. Four-legged elderly ram-like creature, long ivory mane and beard, tawny face, swept-back dark horns, olive-grey wool back, wise amber eyes.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/berger-des-hardes/directions.json",
+      "thumbnail": "assets/catalog/berger-des-hardes/se.png",
+      "atlas": "assets/catalog/berger-des-hardes/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "belier-couronne",
@@ -530,10 +607,14 @@
       "category": "bestiary",
       "family": "Bourlaines",
       "brief": "Territorial ram chief, powerful quadruped, heavy cream wool chest, auburn face, enormous ridged golden horns branching like a crown, charcoal hooves, russet shoulder mane. Original design.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/belier-couronne/directions.json",
+      "thumbnail": "assets/catalog/belier-couronne/se.png",
+      "atlas": "assets/catalog/belier-couronne/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "sporignon",
@@ -541,10 +622,14 @@
       "category": "bestiary",
       "family": "Moisson",
       "brief": "Small squat walking mushroom, broad ochre cap with cream flecks and curled rim, cream stem body with two dark expressive eyes, short brown root feet and small arms. No floating spores.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/sporignon/directions.json",
+      "thumbnail": "assets/catalog/sporignon/se.png",
+      "atlas": "assets/catalog/sporignon/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "chardon-frondeur",
@@ -552,10 +637,14 @@
       "category": "bestiary",
       "family": "Moisson",
       "brief": "Thistle plant creature, angular sage leaf body, large mauve thistle head, yellow eyes in dark green face, spiny leaf arms with a natural fork-shaped slinging twig, two root feet.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/chardon-frondeur/directions.json",
+      "thumbnail": "assets/catalog/chardon-frondeur/se.png",
+      "atlas": "assets/catalog/chardon-frondeur/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "solepi",
@@ -563,10 +652,14 @@
       "category": "bestiary",
       "family": "Moisson",
       "brief": "Solar flower creature, radiant ochre and cream pointed petals around dark amber face, sturdy dark green stalk body, wheat-ear leaf arms, two broad root feet, mischievous smile.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/solepi/directions.json",
+      "thumbnail": "assets/catalog/solepi/se.png",
+      "atlas": "assets/catalog/solepi/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "paillotin",
@@ -574,10 +667,14 @@
       "category": "bestiary",
       "family": "Moisson",
       "brief": "Small animated scarecrow, burlap stitched face, oversized floppy ochre straw hat, rustic teal rag tunic, straw hands and feet, rope belt, crooked friendly silhouette. No floating props.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/paillotin/directions.json",
+      "thumbnail": "assets/catalog/paillotin/se.png",
+      "atlas": "assets/catalog/paillotin/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "le-moissonneur-creux",
@@ -585,10 +682,14 @@
       "category": "bestiary",
       "family": "Moisson",
       "brief": "Tall hollow harvest creature boss, hollow barrel-like straw torso, dark empty face with two amber eyes under broad ragged straw hat, burgundy cloth panels, long wooden rake-like arms, root feet, one short curved agricultural sickle attached to arm.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/le-moissonneur-creux/directions.json",
+      "thumbnail": "assets/catalog/le-moissonneur-creux/se.png",
+      "atlas": "assets/catalog/le-moissonneur-creux/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "ecuyer-spectral",
@@ -596,11 +697,15 @@
       "category": "summons",
       "family": "Invocations",
       "brief": "Leo base-rank summon. Small compact animated guard with open ivory helmet, warm cream short armor and red trim, bright blue spectral core, short modest sword, tiny shield, two planted armored feet. Not a copy of Leo.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/INVOCATIONS-CHARA-DESIGN.md",
       "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
-      "rank": "I"
+      "rank": "I",
+      "manifest": "assets/catalog/ecuyer-spectral/directions.json",
+      "thumbnail": "assets/catalog/ecuyer-spectral/se.png",
+      "atlas": "assets/catalog/ecuyer-spectral/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "porte-etendard",
@@ -608,11 +713,16 @@
       "category": "summons",
       "family": "Invocations",
       "brief": "Leo base-rank summon. Compact animated cream/red armored carrier with open simple helmet and small blue eyes, one strong vertical wooden staff bearing small red triangular banner with original gold diamond emblem, short feet.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/INVOCATIONS-CHARA-DESIGN.md",
       "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
-      "rank": "I"
+      "rank": "I",
+      "segmentation": "components",
+      "manifest": "assets/catalog/porte-etendard/directions.json",
+      "thumbnail": "assets/catalog/porte-etendard/se.png",
+      "atlas": "assets/catalog/porte-etendard/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "luminou",
@@ -620,11 +730,15 @@
       "category": "summons",
       "family": "Invocations",
       "brief": "Lina base-rank summon. Tiny rounded friendly spirit, warm ivory/ochre seed body, expressive amber eyes, visible turquoise glowing core, two soft leaf-shaped ears and short leaf feet, small tail. No external glow cloud.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/INVOCATIONS-CHARA-DESIGN.md",
       "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
-      "rank": "I"
+      "rank": "I",
+      "manifest": "assets/catalog/luminou/directions.json",
+      "thumbnail": "assets/catalog/luminou/se.png",
+      "atlas": "assets/catalog/luminou/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "gardien-des-lucioles",
@@ -632,11 +746,15 @@
       "category": "summons",
       "family": "Invocations",
       "brief": "Lina base-rank summon. Small rounded guardian made of layered sage leaf shell around warm amber core, four tiny golden firefly lights embedded in shell, two root feet, expressive dark face. One creature, no swarm.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/INVOCATIONS-CHARA-DESIGN.md",
       "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
-      "rank": "I"
+      "rank": "I",
+      "manifest": "assets/catalog/gardien-des-lucioles/directions.json",
+      "thumbnail": "assets/catalog/gardien-des-lucioles/se.png",
+      "atlas": "assets/catalog/gardien-des-lucioles/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "faucon-guetteur",
@@ -644,11 +762,15 @@
       "category": "summons",
       "family": "Invocations",
       "brief": "Sela base-rank summon. Small compact grounded raptor with folded ivory/moss wings, large alert amber eyes, dark head markings, hooked ochre beak, two visible scaled feet and short broad tail.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/INVOCATIONS-CHARA-DESIGN.md",
       "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
-      "rank": "I"
+      "rank": "I",
+      "manifest": "assets/catalog/faucon-guetteur/directions.json",
+      "thumbnail": "assets/catalog/faucon-guetteur/se.png",
+      "atlas": "assets/catalog/faucon-guetteur/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "traqueur-de-ronces",
@@ -656,11 +778,15 @@
       "category": "summons",
       "family": "Invocations",
       "brief": "Sela base-rank summon. Low small quadruped of twisted chestnut roots, flexible thorn branches along back, olive leaf shoulder mane, long twig tail, amber eyes, pointed root muzzle.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/INVOCATIONS-CHARA-DESIGN.md",
       "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
-      "rank": "I"
+      "rank": "I",
+      "manifest": "assets/catalog/traqueur-de-ronces/directions.json",
+      "thumbnail": "assets/catalog/traqueur-de-ronces/se.png",
+      "atlas": "assets/catalog/traqueur-de-ronces/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "leurre",
@@ -668,11 +794,15 @@
       "category": "summons",
       "family": "Invocations",
       "brief": "Kael base-rank summon. Compact simplified magical echo of blond Kael: purple headband, high purple collar, short angular violet coat with gold borders, dark boots, slightly offset translucent silhouette edge, empty hands, restrained cyan highlights.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/INVOCATIONS-CHARA-DESIGN.md",
       "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
-      "rank": "I"
+      "rank": "I",
+      "manifest": "assets/catalog/leurre/directions.json",
+      "thumbnail": "assets/catalog/leurre/se.png",
+      "atlas": "assets/catalog/leurre/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "araignee-d-ombre",
@@ -680,11 +810,15 @@
       "category": "summons",
       "family": "Invocations",
       "brief": "Kael base-rank summon. Small stylized shadow spider with exactly eight readable purple legs, sharp lavender abdomen marked with an ivory diamond, tiny blue eyes, solid crisp silhouette. Not a cloud of smoke.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/INVOCATIONS-CHARA-DESIGN.md",
       "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
-      "rank": "I"
+      "rank": "I",
+      "manifest": "assets/catalog/araignee-d-ombre/directions.json",
+      "thumbnail": "assets/catalog/araignee-d-ombre/se.png",
+      "atlas": "assets/catalog/araignee-d-ombre/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "lame-sanguine",
@@ -692,11 +826,15 @@
       "category": "summons",
       "family": "Invocations",
       "brief": "Ryuu base-rank summon. Animated upright floating short curved crimson blade with expressive angular gold guard as face, small violet energy core and dark red binding strips, one solid compact weapon silhouette, no human body, no blood splatter.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/INVOCATIONS-CHARA-DESIGN.md",
       "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
-      "rank": "I"
+      "rank": "I",
+      "manifest": "assets/catalog/lame-sanguine/directions.json",
+      "thumbnail": "assets/catalog/lame-sanguine/se.png",
+      "atlas": "assets/catalog/lame-sanguine/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "sentinelle-de-sang",
@@ -704,11 +842,15 @@
       "category": "summons",
       "family": "Invocations",
       "brief": "Ryuu base-rank summon. Small animated bulwark with broad dark plum armored torso, ruby protected heart behind gold diamond breastplate, two planted stocky feet, short heavy red bracers, amber slit eyes, no weapon, no blood splatter.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/INVOCATIONS-CHARA-DESIGN.md",
       "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
-      "rank": "I"
+      "rank": "I",
+      "manifest": "assets/catalog/sentinelle-de-sang/directions.json",
+      "thumbnail": "assets/catalog/sentinelle-de-sang/se.png",
+      "atlas": "assets/catalog/sentinelle-de-sang/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "brute",
@@ -716,10 +858,14 @@
       "category": "legacy",
       "family": "Prototype historique",
       "brief": "Legacy prototype archetype, new visual interpretation: squat stout stone-and-moss ogre creature with broad angular grey shoulders, long heavy arms, ochre belly, short legs, warm amber eyes and blunt tusks. No gameplay claim.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/GDD-v0.2.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/brute/directions.json",
+      "thumbnail": "assets/catalog/brute/se.png",
+      "atlas": "assets/catalog/brute/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "archer",
@@ -727,10 +873,14 @@
       "category": "legacy",
       "family": "Prototype historique",
       "brief": "Legacy prototype archetype, new visual interpretation: small foxlike forest imp with long sage ears, rust fur, ivory belly, simple brown cape, short wooden bow and quiver, two digitigrade feet. No gameplay claim.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/GDD-v0.2.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/archer/directions.json",
+      "thumbnail": "assets/catalog/archer/se.png",
+      "atlas": "assets/catalog/archer/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "boss-gardien",
@@ -738,10 +888,14 @@
       "category": "legacy",
       "family": "Prototype historique",
       "brief": "Legacy prototype archetype, new visual interpretation: massive ancient stone guardian with broad stepped slate shoulders, ivory faceplate, amber eye slits and chest crystal, moss crevices, heavy stone fists and two planted feet. No gameplay claim.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/GDD-v0.2.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/boss-gardien/directions.json",
+      "thumbnail": "assets/catalog/boss-gardien/se.png",
+      "atlas": "assets/catalog/boss-gardien/atlas.png",
+      "palette_status": "material-hues"
     }
   ]
 }

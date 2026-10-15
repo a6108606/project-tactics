@@ -1,0 +1,85 @@
+{
+  "id": "chardon-frondeur",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/chardon-frondeur/n.png",
+      "recipe": "assets/catalog/chardon-frondeur/n.json",
+      "sha256": "b6ed5ce35825e204739ada65417001d0bee3ffce502a94984ae238b2816ac750",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 455
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/chardon-frondeur/ne.png",
+      "recipe": "assets/catalog/chardon-frondeur/ne.json",
+      "sha256": "7220539a76f712702cc7aa01646c662c03c35296c7e12e78d2b0bf88aea54355",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 455
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/chardon-frondeur/e.png",
+      "recipe": "assets/catalog/chardon-frondeur/e.json",
+      "sha256": "4ba2b27b62c36c4f0223cf423ccdab8eecb81c55579f9395f4e8fad8954d7339",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 455
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/chardon-frondeur/se.png",
+      "recipe": "assets/catalog/chardon-frondeur/se.json",
+      "sha256": "4d0d495a3a258ec590f13cbb7232e795e48eaebdfec8d6e3f0b85fe630bdec4f",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 455
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/chardon-frondeur/s.png",
+      "recipe": "assets/catalog/chardon-frondeur/s.json",
+      "sha256": "5c7887a0fd74dcf1c4c02293d2197df2cdf68712d6d293213af1a10fe499ef13",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 455
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/chardon-frondeur/sw.png",
+      "recipe": "assets/catalog/chardon-frondeur/sw.json",
+      "sha256": "f3024ad21ed890fa3f71c32e992d89f98a4ecf0829b2beac2fb7c4c351333f4a",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 455
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/chardon-frondeur/w.png",
+      "recipe": "assets/catalog/chardon-frondeur/w.json",
+      "sha256": "f2bbeeb886301c0ff2f170077d701a3631649c18f7932074169665030e13aa1e",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 455
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/chardon-frondeur/nw.png",
+      "recipe": "assets/catalog/chardon-frondeur/nw.json",
+      "sha256": "0562327ddbcd9a66d9cd5d6376235260f5e471c7a2c015991423b96b601d947f",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 455
+    }
+  ]
+}

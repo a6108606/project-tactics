@@ -1,0 +1,85 @@
+{
+  "id": "filombre-venimeuse",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/filombre-venimeuse/n.png",
+      "recipe": "assets/catalog/filombre-venimeuse/n.json",
+      "sha256": "28f97347a674e465dba64190782fb53c694aeccebe945106a6a1703e40b6a1ef",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 328
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/filombre-venimeuse/ne.png",
+      "recipe": "assets/catalog/filombre-venimeuse/ne.json",
+      "sha256": "023533ca2ae10ea96b0195c3cbe5105342fab6a42a4ff781ad95b937436b9df9",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 328
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/filombre-venimeuse/e.png",
+      "recipe": "assets/catalog/filombre-venimeuse/e.json",
+      "sha256": "5bc14f654a3a0a365fa36025719a3728b25a4966289d6746e6f434dbdfc86411",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 328
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/filombre-venimeuse/se.png",
+      "recipe": "assets/catalog/filombre-venimeuse/se.json",
+      "sha256": "7087fb714b6a6267a91966e4f2b6e4d7506cc0fdbc1fda24b3dd39ee023c920f",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 328
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/filombre-venimeuse/s.png",
+      "recipe": "assets/catalog/filombre-venimeuse/s.json",
+      "sha256": "b5b052988f0bb0044a48591b61bbecef3b8cd32984e258f90ec13a5d2179c1e1",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 328
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/filombre-venimeuse/sw.png",
+      "recipe": "assets/catalog/filombre-venimeuse/sw.json",
+      "sha256": "68f25dc4a098784adea0396ef73952e39894ccb9d9ae671e2c4095142bb076ab",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 328
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/filombre-venimeuse/w.png",
+      "recipe": "assets/catalog/filombre-venimeuse/w.json",
+      "sha256": "effaed42076aad83469619dd3a2dc5879bce32d7cbe33e0e18a8b053bc6b215f",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 328
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/filombre-venimeuse/nw.png",
+      "recipe": "assets/catalog/filombre-venimeuse/nw.json",
+      "sha256": "65cf8235690ad04c77d982d146c385c31be692b161d0e291f8d181d864fbda29",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 328
+    }
+  ]
+}

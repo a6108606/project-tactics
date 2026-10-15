@@ -6,7 +6,7 @@ let catalogue,entity,asset,recipe,colors,original,views,current='se',mode='grid'
 const status=s=>$('#status').textContent=s;
 function rhombus(cx,cy,w,h,fill,stroke){ctx.beginPath();ctx.moveTo(cx,cy-h/2);ctx.lineTo(cx+w/2,cy);ctx.lineTo(cx,cy+h/2);ctx.lineTo(cx-w/2,cy);ctx.closePath();ctx.fillStyle=fill;ctx.fill();ctx.strokeStyle=stroke;ctx.stroke();}
 function ground(cx,cy,dark){for(let sum=-4;sum<=4;sum++)for(let x=-2;x<=2;x++){let y=sum-x;if(y< -2||y>2)continue;const px=cx+(x-y)*68,py=cy+(x+y)*34,active=x===0&&y===0;rhombus(px,py+5,132,66,dark?'#262f2d':'#cfc6ac',dark?'#29352e':'#cfc6ac');rhombus(px,py,132,66,active?(dark?'#677959':'#d7dfbd'):(dark?((x+y)%2?'#3c493e':'#414f41'):((x+y)%2?'#e4dfca':'#eee7d5')),active?'#9ba176':dark?'#576450':'#d3c9b0');}}
-function surface(a,overlay=false){const c=document.createElement('canvas');c.width=a.width;c.height=a.height;c.getContext('2d').putImageData(new ImageData(paint(a,colors,overlay),a.width,a.height),0,0);return c;}
+function surface(a,overlay=false,palette=colors){const c=document.createElement('canvas');c.width=a.width;c.height=a.height;c.getContext('2d').putImageData(new ImageData(paint(a,palette,overlay),a.width,a.height),0,0);return c;}
 function place(context,image,a,cx,cy,h){const s=h/a.view.displayHeight;context.drawImage(image,cx-a.recipe.anchor[0]*s,cy-a.recipe.anchor[1]*s,a.width*s,a.height*s);}
 function draw(){
  if(!ready)return;const dark=bg==='dark';ctx.clearRect(0,0,1000,800);ctx.fillStyle=dark?'#29332e':'#f6f0e3';ctx.fillRect(0,0,1000,800);
@@ -19,7 +19,7 @@ function draw(){
 }
 function repaint(){if(!asset)return;sprite.width=asset.width;sprite.height=asset.height;sprite.getContext('2d').putImageData(new ImageData(paint(asset,colors,debug),asset.width,asset.height),0,0);if(entity.category!=='heroes'){original=document.createElement('canvas');original.width=asset.width;original.height=asset.height;original.getContext('2d').putImageData(new ImageData(asset.source,asset.width,asset.height),0,0);}draw();}
 function sync(){for(const ch of recipe.channels){$('#color-'+ch.id).value=colors[ch.id];$('#hex-'+ch.id).value=colors[ch.id];}repaint();}
-function busy(message){$('#loading').hidden=!message;if(message)$('#loading').textContent=message;$('#export').disabled=!!message;$('#exportAll').disabled=!!message;document.body.dataset.busy=String(!!message);}
+function busy(message){document.querySelectorAll('aside button,aside input,.scene button,[data-mode]').forEach(el=>el.disabled=!!message);$('#loading').hidden=!message;if(message)$('#loading').textContent=message;$('#export').disabled=!!message;$('#exportAll').disabled=!!message;document.body.dataset.busy=String(!!message);}
 function selected(){document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)));document.querySelectorAll('[data-direction]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.direction===current)));$('#viewName').textContent=asset.view.label+' · pose de repos';}
 async function chooseDirection(id){
  const ticket=++request;busy('Préparation : '+views.find(v=>v.id===id).label+'…');
@@ -27,6 +27,7 @@ async function chooseDirection(id){
  catch(e){if(ticket===request)status('Vue indisponible : '+e.message);}finally{if(ticket===request)busy('');}
 }
 async function setMode(value){
+ if(!ready)return;
  const ticket=++request;mode=value;selected();busy('');
  if(mode==='detail'){height=580;$('#scale').value=580;}
  $('#gameSize').setAttribute('aria-pressed',String(height===160));
@@ -46,12 +47,16 @@ function palette(list){const order=['skin','hair','clothing1','clothing2','cloth
 $('#random').addEventListener('click',()=>{palette(Object.values(schemes)[Math.floor(Math.random()*3)]);status('Palette appliquée aux huit directions.');});
 $('#save').addEventListener('click',()=>{try{localStorage.setItem(entity.id==='ryuu-masculine'?KEY:'project-tactics.iso.'+entity.id,JSON.stringify({version:2,character:entity.id,direction:current,colors}));status('Palette et orientation enregistrées dans ce navigateur.');}catch{status('Enregistrement local indisponible.');}});
 $('#export').addEventListener('click',async()=>{await download(surface(asset),`${entity.id}-isometrique-${current}.png`);status('Vue '+asset.view.label.toLowerCase()+' exportée avec votre palette.');});
-$('#exportAll').addEventListener('click',async()=>{busy('Préparation de la planche PNG…');try{const loaded=await Promise.all(views.map(loadView)),c=document.createElement('canvas');c.width=3072;c.height=2560;const context=c.getContext('2d');loaded.forEach((a,i)=>place(context,surface(a),a,384+(i%4)*768,1160+Math.floor(i/4)*1280,1100));await download(c,entity.id+'-isometrique-8-directions.png');status('Planche transparente exportée : Dos, Dos droite, Droite, Face droite, Face, Face gauche, Gauche, Dos gauche.');}catch(e){status(e.message);}finally{busy('');}});
+$('#exportAll').addEventListener('click',async()=>{
+ const ticket=request,exportId=entity.id,exportPalette={...colors},exportViews=[...views];
+ busy('Préparation de la planche PNG…');
+ try{const loaded=await Promise.all(exportViews.map(loadView)),c=document.createElement('canvas');c.width=3072;c.height=2560;const context=c.getContext('2d');loaded.forEach((a,i)=>place(context,surface(a,false,exportPalette),a,384+(i%4)*768,1160+Math.floor(i/4)*1280,1100));await download(c,exportId+'-isometrique-8-directions.png');if(ticket===request)status('Planche transparente exportée : Dos, Dos droite, Droite, Face droite, Face, Face gauche, Gauche, Dos gauche.');}catch(e){if(ticket===request)status(e.message);}finally{if(ticket===request)busy('');}
+});
 
 function buildColors(){
  $('#colors').replaceChildren();
  for(const ch of recipe.channels){const row=document.createElement('div');row.className='color';
- const label=document.createElement('label');label.htmlFor='color-'+ch.id;label.textContent=ch.label;
+ const label=document.createElement('label');label.htmlFor='color-'+ch.id;label.textContent=entity.id==='ryuu-masculine'?({'clothing1':'Jambe droite','clothing2':'Jambe gauche'}[ch.id]||ch.label):ch.label;
  const picker=document.createElement('input');picker.type='color';picker.id='color-'+ch.id;picker.value=colors[ch.id];
  const hex=document.createElement('input');hex.type='text';hex.id='hex-'+ch.id;hex.value=colors[ch.id];hex.maxLength=7;hex.spellcheck=false;hex.setAttribute('aria-label',ch.label+' en hexadécimal');
  picker.addEventListener('input',e=>{changeColor(ch.id,e.target.value);status('Couleur appliquée aux huit orientations.');});

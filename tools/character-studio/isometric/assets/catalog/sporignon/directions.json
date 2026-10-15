@@ -1,0 +1,85 @@
+{
+  "id": "sporignon",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/sporignon/n.png",
+      "recipe": "assets/catalog/sporignon/n.json",
+      "sha256": "2f6c533eb1e2aa0f2bca38e4e40c1018ff67a9d7dde5b9a18e339e54c42fa328",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 367
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/sporignon/ne.png",
+      "recipe": "assets/catalog/sporignon/ne.json",
+      "sha256": "ae6d780e2807081e21d79dd47329b538eb8934ca73850841ddb8ed38663a3a91",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 367
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/sporignon/e.png",
+      "recipe": "assets/catalog/sporignon/e.json",
+      "sha256": "78a362c2bcabbac0e9dfcd1b57d670a7a7d158a0dfe5fd7a813e4a5136aa7760",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 367
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/sporignon/se.png",
+      "recipe": "assets/catalog/sporignon/se.json",
+      "sha256": "d32911777a89f988d582cd688e70227ab9853622ca99cb77aba17d0c4638486d",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 367
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/sporignon/s.png",
+      "recipe": "assets/catalog/sporignon/s.json",
+      "sha256": "01f8d57942d6028064466a6a2019efb6b2f9db7cb079a78a7fe40cbe8fcb5892",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 367
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/sporignon/sw.png",
+      "recipe": "assets/catalog/sporignon/sw.json",
+      "sha256": "f96a35852f6e6ffff4a6fa1f2ffa76cf2d01904c62030f78271b607f734f12ac",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 367
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/sporignon/w.png",
+      "recipe": "assets/catalog/sporignon/w.json",
+      "sha256": "e70a873664a6b81fea417c24b49159bf89f41bb075370a86500e9a63f84bde4e",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 367
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/sporignon/nw.png",
+      "recipe": "assets/catalog/sporignon/nw.json",
+      "sha256": "568e2ab038b9e42a0878b0440611b466c0693bfe0d36c8f0189252a8a7b201fd",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 367
+    }
+  ]
+}

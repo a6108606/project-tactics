@@ -1,0 +1,136 @@
+{
+  "schema": "project-tactics/catalog-materials",
+  "version": 1,
+  "id": "lina-masculine-n",
+  "crop": [
+    0,
+    0,
+    384,
+    640
+  ],
+  "anchor": [
+    192,
+    615
+  ],
+  "channels": [
+    {
+      "id": "hair",
+      "label": "Cheveux",
+      "color": "#E8E0D2",
+      "hue": [
+        20,
+        75
+      ],
+      "saturation": [
+        0,
+        0.25
+      ],
+      "value": [
+        0.35,
+        1
+      ],
+      "zone": [
+        0,
+        116,
+        384,
+        321
+      ],
+      "exclude": []
+    },
+    {
+      "id": "skin",
+      "label": "Peau",
+      "color": "#F3C38F",
+      "hue": [
+        15,
+        43
+      ],
+      "saturation": [
+        0.2,
+        0.65
+      ],
+      "value": [
+        0.67,
+        1
+      ],
+      "skin": true,
+      "exclude": [],
+      "zone": [
+        0,
+        216,
+        384,
+        640
+      ]
+    },
+    {
+      "id": "clothing1",
+      "label": "Étoffe 1",
+      "color": "#F0D575",
+      "hue": [
+        35,
+        60
+      ],
+      "saturation": [
+        0.12,
+        0.8
+      ],
+      "value": [
+        0.2,
+        1
+      ],
+      "zone": [
+        0,
+        395,
+        192,
+        640
+      ]
+    },
+    {
+      "id": "clothing2",
+      "label": "Étoffe 2",
+      "color": "#F7E9CB",
+      "hue": [
+        30,
+        65
+      ],
+      "saturation": [
+        0.12,
+        0.8
+      ],
+      "value": [
+        0.2,
+        1
+      ],
+      "zone": [
+        192,
+        395,
+        384,
+        640
+      ]
+    },
+    {
+      "id": "clothing3",
+      "label": "Étoffe 3",
+      "color": "#D6A244",
+      "hue": [
+        25,
+        48
+      ],
+      "saturation": [
+        0.12,
+        0.8
+      ],
+      "value": [
+        0.2,
+        1
+      ],
+      "zone": [
+        0,
+        306,
+        384,
+        410
+      ]
+    }
+  ],
+  "chroma": false
+}

@@ -1,0 +1,85 @@
+{
+  "id": "paillotin",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/paillotin/n.png",
+      "recipe": "assets/catalog/paillotin/n.json",
+      "sha256": "391b22d39ed809b73d4cfc1029965d5af7e85ce6cf82eee5082a82ef764bf728",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 476
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/paillotin/ne.png",
+      "recipe": "assets/catalog/paillotin/ne.json",
+      "sha256": "ec2640de7db0a6260bd6e75ee45695f792e6d10357b7f0c4b3b912426affd959",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 476
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/paillotin/e.png",
+      "recipe": "assets/catalog/paillotin/e.json",
+      "sha256": "a6f272459eae0bff002ba35199621850ddf507fa0762317bf81d6a99a777b20f",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 476
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/paillotin/se.png",
+      "recipe": "assets/catalog/paillotin/se.json",
+      "sha256": "73dcb3db711003ace05641aa200c5fe276be92c0a814769972aa2913aadd1190",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 476
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/paillotin/s.png",
+      "recipe": "assets/catalog/paillotin/s.json",
+      "sha256": "c0875671bbacc4d257e7d96533db96cd3536ee336652562c219deb215eb8da4b",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 476
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/paillotin/sw.png",
+      "recipe": "assets/catalog/paillotin/sw.json",
+      "sha256": "f943e6ad8d9fd96ecac1869dfce06a073e0e7885f1f44817fc0419ac0ba549df",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 476
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/paillotin/w.png",
+      "recipe": "assets/catalog/paillotin/w.json",
+      "sha256": "86bf9e05ecfe39ea610fc91e4d1f2ce49cb257fee0ba9c640e61a4f2b012a4c7",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 476
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/paillotin/nw.png",
+      "recipe": "assets/catalog/paillotin/nw.json",
+      "sha256": "efcfb30ce25fdff77f9d959d5462896698d38bb7ec36458c7744f8adefe2cf54",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 476
+    }
+  ]
+}
