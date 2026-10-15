@@ -1,4 +1,6 @@
-# Ryuu — proposition 3D, validation artistique en attente
+# Ryuu — premier pilote 3D rejeté artistiquement
+
+**Retour utilisateur du 15 octobre 2026 : « Horrible mdr ».** Le pilote ci-dessous reste une preuve technique ; sa direction artistique est rejetée. Une [nouvelle cible visuelle](evidence/ryuu-design-target/index.html), produite avec Imagegen, a reçu le retour « c'est déjà vachement mieux ! ». Cette appréciation porte sur une image de recherche : le véritable modèle correspondant reste à construire et à valider. Les résultats techniques historiques ci-dessous ne valent pas approbation du rendu.
 
 Le 15 octobre 2026, l’utilisateur a choisi explicitement **« Vraie 3D stylisée, avec validation du nouveau rendu »**. Cela autorise une nouvelle proposition de rendu en volume sur Ryuu, avant généralisation. Cette décision complète le verrou esthétique initial ; elle ne remplace pas les cinq fiches sources et n’autorise pas à déclarer une reconstruction identique aux dessins.
 
@@ -18,7 +20,7 @@ Deux GLB et deux fichiers Blender éditables, générateur source, deux formes d
 - La 3D est réelle, inspectable sous tous les angles. Il n’y a pas de squelette, d’animation ou de modèle de jeu final prêt à intégrer.
 - Les rendus Blender de revue et le shader toon du navigateur utilisent des éclairages différents. Les comparaisons de l’application emploient les PNG exportés par son propre bouton.
 
-La décision attendue concerne **la direction de cette traduction 3D**, avec retours sur silhouette, visage, cheveux et traitement des volumes. Elle ne vaut pas approbation automatique des finitions ni des autres personnages.
+La direction de cette première traduction 3D a été rejetée. La prochaine revue devra porter sur un nouveau modèle, guidé par la cible visuelle accueillie positivement et confronté à la fiche originale. Aucune approbation automatique des finitions ni des autres personnages n’en découle.
 
 ## Résultats techniques
 
