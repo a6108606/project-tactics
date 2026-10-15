@@ -62,6 +62,12 @@ Après le retour « J’aime pas », l’atelier a été réorganisé selon les 
 
 Cette refonte d’interface n’ajoute pas de variante de forme ni de nouvelle approbation artistique. ART-03, ART-04, ART-07 et ART-08 restent ouverts.
 
+## Disponibilité explicite des couleurs
+
+Sur Kael, Sela, Leo et Lina, l’onglet Couleurs affiche désormais « Référence uniquement », une palette non interactive et un accès explicite au pilote Ryuu. Les champs et palettes d’essai indisponibles sont masqués ; le texte ne promet plus une modification du dessin. Le parcours Sela → Ryuu est vérifié dans le navigateur. Les liens du script et de la feuille de style sont versionnés pour éviter le mélange avec une ancienne interface en cache.
+
+Le souhait d’une reconstruction 3D a été exprimé. Aucun modèle 3D n’est actuellement présent dans le dépôt et aucune reconstruction 3D n’a été livrée. Le [moteur publié du site de référence](https://github.com/PyDofus/d3-ts-renderer) décrit un assemblage de sprites Dofus. Une base artistique modulaire reste nécessaire, en 2D comme en 3D ; le choix de la suite doit distinguer maintien du dessin et passage à de vrais volumes.
+
 ## Reconstructions et décision artistique
 
 Aucune reconstruction n’est intégrée au rendu livré. Deux essais ont été rejetés pendant la préparation :

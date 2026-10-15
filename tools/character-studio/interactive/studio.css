@@ -309,3 +309,11 @@ main{padding:12px}
 
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}
 }
+
+.reference-only{padding:20px;border:1px solid var(--line);border-radius:9px;background:#f6f2e8}
+.reference-only h3{font-size:14px;margin:0 0 10px}
+.reference-only p{font-size:13px;line-height:1.65;color:var(--muted);margin-bottom:18px}
+.reference-only .primary{margin-bottom:28px}
+.reference-palette{display:grid;gap:10px}
+.reference-palette>div{display:flex;align-items:center;gap:10px;font-size:12px}
+.reference-palette>div>span:first-child{display:block;width:22px;height:22px;border-radius:5px;border:1px solid #172b3826;flex-shrink:0}

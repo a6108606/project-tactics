@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#172B38">
 <meta name="description" content="Créez votre apparence Project Tactics : choisissez un héros, personnalisez les couleurs de Ryuu et exportez votre illustration.">
 <title>Project Tactics — Atelier des apparences</title>
-<link rel="stylesheet" href="studio.css">
+<link rel="stylesheet" href="studio.css?v=3.2.1">
 </head>
 <body>
 <a class="skip" href="#workspace">Aller à l’atelier</a>
@@ -49,11 +49,19 @@
      <button class="primary next-step" id="chooseColors">Personnaliser les couleurs <span data-icon="arrow"></span></button>
     </section>
     <section id="pane-colors" role="tabpanel" aria-labelledby="tab-colors" hidden>
-     <div class="section-heading"><div><h2>Votre palette</h2><p>Un clic sur une couleur. Le dessin suit.</p></div><span class="status-chip" id="customStatus">Palette d’origine</span></div>
+     <div class="section-heading"><div><h2 id="paletteHeading">Votre palette</h2><p id="paletteSubtitle">Les cinq couleurs modifient cette illustration.</p></div><span class="status-chip" id="customStatus">Palette d’origine</span></div>
      <div class="color-context"><span id="colorContext"></span><button class="text-btn" id="changeCharacter">Changer de personnage <span data-icon="arrow"></span></button></div>
+     <section id="colorsUnavailable" class="reference-only" hidden aria-labelledby="unavailableTitle">
+      <h3 id="unavailableTitle">Personnalisation indisponible</h3>
+      <p>Ce personnage est une illustration de référence. Ses couleurs, son visage et ses cheveux ne sont pas encore modifiables.</p>
+      <button class="primary" id="tryRyuu">Essayer les couleurs sur Ryuu <span data-icon="arrow"></span></button>
+      <h3>Palette du dessin d’origine</h3><div id="referencePalette" class="reference-palette"></div>
+     </section>
+     <div id="colorEditor">
      <div id="colorRows"></div>
      <div class="palette-buttons"><button class="primary" id="randomColors"><span data-icon="shuffle"></span> Aléatoire</button><button class="btn-soft" id="resetColors"><span data-icon="reset"></span> Couleurs d’origine</button></div>
      <h3 class="palette-heading">Inspirations</h3><div class="preset-grid" id="palettePresets" role="group" aria-label="Palettes de couleurs"></div>
+     </div>
      <p class="availability-note" id="capabilityNote"></p>
     </section>
     <section id="pane-equipment" role="tabpanel" aria-labelledby="tab-equipment" hidden>
@@ -92,6 +100,6 @@
 <dialog id="savesDialog" aria-labelledby="savesTitle"><div class="dialog-head"><div><h2 id="savesTitle">Mes sélections</h2><p>Projets d’apparence enregistrés sur cet appareil, dans ce navigateur.</p></div><button class="icon-btn" data-close="savesDialog" aria-label="Fermer"><span data-icon="close"></span></button></div><div class="dialog-body" id="savedBody"></div></dialog>
 <dialog id="rulesDialog" aria-labelledby="rulesTitle"><div class="dialog-head"><div><h2 id="rulesTitle">La charte ne change pas</h2><p>Cadre esthétique verrouillé · Project Tactics</p></div><button class="icon-btn" data-close="rulesDialog" aria-label="Fermer"><span data-icon="close"></span></button></div><div class="dialog-body"><div class="rules-grid"><section><h3>Ce qui est approuvé</h3><div class="rule-item"><strong>Les cinq fiches, telles quelles.</strong><p>Ryuu, Kael, Sela, Leo et Lina. Silhouettes, proportions, costumes, coiffures canoniques, palettes par défaut et accessoires sont conservés. Aucun rapprochement de gameplay ne justifie un redessin.</p></div><div class="rule-item"><strong>Deux bases par personnage.</strong><p>Masculine et féminine, dans le style exact de leurs fiches. Les choix d’apparence n’ajoutent aucune différence de puissance.</p></div><div class="rule-item"><strong>Deux types de variantes.</strong><p>Visage et coiffure. Les neuf études affichées pour chacun sont des extraits des planches, pas neuf assets modulaires déjà validés ou un quota de variantes définitif.</p></div></section><section><h3>Ce qui est séparé</h3><div class="rule-item"><strong>Cinq couleurs de base.</strong><p>Peau, cheveux, vêtement 1, vêtement 2, vêtement 3. L’affectation précise des trois zones textiles devra être matérialisée dans les calques, sans recolorer les éléments équipés.</p></div><div class="rule-item"><strong>Équipements indépendants.</strong><p>Armes, casques, capes, armures et accessoires gardent leurs propres couleurs. Ils peuvent occulter la base et passer devant ou derrière selon la pose et l’orientation.</p></div><div class="rule-item"><strong>Les sorts et voies sont hors périmètre.</strong><p>Cette discussion et cet atelier restent consacrés à l’esthétique. Aucune classe, statistique ou mécanique de combat n’est redéfinie ici.</p></div></section></div><div class="technical-note">Pilote V3 : recolorisation localisée de Ryuu masculin et féminin. Les cinq sources originales restent inchangées. Les variantes de forme, les équipements démontables et les huit autres bases interactives restent à produire. Les études sont désactivées comme choix de production.</div><div class="source-list" id="sourceList"></div><p style="font-size:10px">Les images sont chargées directement depuis les PNG originaux vérifiés. Aucun dessin n’est régénéré.</p><button class="btn-soft" id="downloadLock"><span data-icon="download" data-size="12"></span> Exporter la charte et le manifeste</button></div></dialog>
 <dialog id="reviewDialog" aria-labelledby="reviewTitle"><div class="dialog-head"><h2 id="reviewTitle">Ryuu · préparation des variantes</h2><button class="icon-btn" data-close="reviewDialog" aria-label="Fermer">×</button></div><div class="dialog-body" id="reviewBody"></div></dialog>
-<script type="module" src="app.js"></script>
+<script type="module" src="app.js?v=3.2.1"></script>
 </body>
 </html>

@@ -152,11 +152,16 @@ function render() {
   for(const base of BASES)copy($(base==='masculine'?'baseMasculine':'baseFeminine'),appearance(hero(),base,true));
   $('heroAvailability').textContent=supported()?'Couleurs personnalisables':'Référence · couleurs à venir';
   $('colorContext').textContent=hero().name+' · '+BASE_LABEL[state.base];
+  $('colorsUnavailable').hidden=supported();$('colorEditor').hidden=!supported();
+  $('paletteHeading').textContent=supported()?'Votre palette':'Référence uniquement';
+  $('paletteSubtitle').textContent=!supported()?'Ce dessin ne se personnalise pas encore.':editable()?'Les cinq couleurs modifient cette illustration.':'Vue d’étude : revenez à Illustration pour modifier les couleurs.';
+  $('unavailableTitle').textContent=hero().name+' · personnalisation indisponible';
+  $('referencePalette').replaceChildren(...CHANNELS.map((k,i)=>{const row=document.createElement('div'),chip=document.createElement('span'),label=document.createElement('span');chip.style.background=current().colors[k];chip.setAttribute('aria-hidden','true');label.textContent=LABELS[i]+' · '+current().colors[k];row.append(chip,label);return row;}));
   $('chooseColors').firstChild.textContent=supported()?'Personnaliser les couleurs ':'Voir la palette ';
   buildColors();buildStudies('face');buildStudies('hair');paletteUpdate();drawStage();renderDirections();
   copy($('sheetThumb'),crop(hero(),null));copy($('equipmentThumb'),crop(hero(),hero().equipment));$('signatureDescription').textContent=hero().description;
   $('refSource').textContent=`PNG original · ${hero().width} × ${hero().height} px · empreinte vérifiée`;
-  $('capabilityNote').textContent=!supported()?'Les couleurs de ce personnage seront personnalisables après Ryuu. Sa palette d’origine est affichée.':state.mode!=='illustration'?'Revenez à l’onglet Illustration pour appliquer vos couleurs.':'Les armes et accessoires conservent leurs couleurs. Les trois zones textiles correspondent au pantalon.';
+  $('capabilityNote').textContent=!supported()?'Seules les deux bases de Ryuu disposent actuellement de couleurs personnalisables.':state.mode!=='illustration'?'Revenez à l’onglet Illustration pour appliquer vos couleurs.':'Les armes et accessoires conservent leurs couleurs. Les trois zones textiles correspondent au pantalon.';
   persist();
 }
 function openDialog(id){if(!$(id).open)$(id).showModal();}
@@ -222,6 +227,7 @@ function wire() {
   }));
   function switchPanel(panel){state.tab=panel;render();$('tab-'+panel).focus();}
   $('chooseColors').addEventListener('click',()=>switchPanel('colors'));
+  $('tryRyuu').addEventListener('click',()=>{state.hero='ryuu';state.mode='illustration';state.compare=state.masks=state.duo=false;state.zoom=100;switchPanel('colors');});
   $('changeCharacter').addEventListener('click',()=>switchPanel('character'));
   for(const b of document.querySelectorAll('[data-study]'))b.addEventListener('click',()=>{study=b.dataset.study;render();});
   for(const b of document.querySelectorAll('[data-base]'))b.addEventListener('click',()=>{state.base=b.dataset.base;state.duo=false;state.zoom=100;render();});
