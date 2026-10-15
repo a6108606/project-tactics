@@ -4,4 +4,7 @@
     <EnableDynamicLoading>true</EnableDynamicLoading>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../core/ProjectTactics.Core/ProjectTactics.Core.csproj" />
+  </ItemGroup>
 </Project>
