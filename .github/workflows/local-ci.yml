@@ -1,12 +1,16 @@
-name: Local CI (manual only)
+name: CI
 on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
 jobs:
-  check:
-    name: Documentation and core tests on local runner
-    runs-on: [self-hosted, linux, x64, project-tactics]
+  validate:
+    if: ${{ github.event.repository.private == false }}
+    runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
       - name: Checkout
@@ -20,13 +24,19 @@ jobs:
           test -s docs/GDD-v0.2.md
           test -s docs/ARCHITECTURE.md
           test -s docs/ROADMAP.md
-          test -s docs/adr/0001-self-hosted-runners.md
-      - name: Run core tests if solution exists
+          test -s docs/adr/0002-github-hosted-ci.md
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Test C# solutions, when present
         shell: bash
         run: |
           set -euo pipefail
-          if compgen -G '*.sln' > /dev/null; then
-            dotnet test --configuration Release
+          shopt -s nullglob
+          solutions=(*.sln *.slnx)
+          if (( ${#solutions[@]} > 0 )); then
+            dotnet test "${solutions[0]}" --configuration Release
           else
-            echo 'No .sln yet: planning-only repository.'
+            echo 'No solution yet; preproduction documentation checked.'
           fi
