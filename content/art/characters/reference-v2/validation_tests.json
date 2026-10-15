@@ -1,0 +1,448 @@
+{
+  "results": [
+    {
+      "test": "Five heroes loaded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No missing source images",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Exact canonical crop ryuu masculine",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Exact canonical crop ryuu feminine",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Eight reference directions ryuu",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference ryuu 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference ryuu 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference ryuu 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference ryuu 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference ryuu 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference ryuu 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference ryuu 7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference ryuu 8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Static pose reference ryuu",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full original sheet ryuu",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Exact canonical crop kael masculine",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Exact canonical crop kael feminine",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Eight reference directions kael",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference kael 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference kael 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference kael 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference kael 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference kael 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference kael 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference kael 7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference kael 8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Static pose reference kael",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full original sheet kael",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Exact canonical crop sela masculine",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Exact canonical crop sela feminine",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Eight reference directions sela",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference sela 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference sela 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference sela 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference sela 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference sela 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference sela 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference sela 7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference sela 8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Static pose reference sela",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full original sheet sela",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Exact canonical crop leo masculine",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Exact canonical crop leo feminine",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Eight reference directions leo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference leo 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference leo 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference leo 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference leo 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference leo 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference leo 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference leo 7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference leo 8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Static pose reference leo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full original sheet leo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Exact canonical crop lina masculine",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Exact canonical crop lina feminine",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Eight reference directions lina",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference lina 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference lina 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference lina 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference lina 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference lina 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference lina 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference lina 7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "ISO reference lina 8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Static pose reference lina",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full original sheet lina",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Hex edit updates appearance blueprint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Palette never alters canonical art",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Nine source face studies",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Nine source hairstyle studies",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Study references stored, not composited",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Separate masculine and feminine configuration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Save appearance selection",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Saved selection library",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Restore saved selection",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Valid appearance JSON export",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "JSON import works",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Invalid JSON rejected without state mutation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Gallery has exactly five originals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Full reference dialog opens correct hero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "PNG export is pixel-identical to original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Locked rules list five sources",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Storage serialization and restore",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Mobile has no horizontal overflow",
+      "passed": true,
+      "detail": "{'w': 390, 's': 390}"
+    },
+    {
+      "test": "Mobile controls remain usable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No JavaScript page errors",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "test": "No external network requests",
+      "passed": true,
+      "detail": "[]"
+    }
+  ],
+  "passed": true,
+  "test_environment": "Chromium via Playwright. HTML loaded with set_content due container administrator URL restrictions. LocalStorage serialization tested using injected in-memory Storage adapter, not a real file:// browser reload.",
+  "page_errors": [],
+  "network_requests": []
+}

@@ -1,0 +1,181 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project Tactics — Appearance reference V2",
+  "description": "A reference-only appearance blueprint. The canonical preview remains unchanged.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "version",
+    "hero",
+    "body",
+    "source",
+    "configuration",
+    "selected_study_context",
+    "equipment",
+    "preview",
+    "scope",
+    "exported_at"
+  ],
+  "properties": {
+    "schema": {
+      "const": "project-tactics/appearance-reference"
+    },
+    "version": {
+      "const": 2
+    },
+    "hero": {
+      "enum": [
+        "ryuu",
+        "kael",
+        "sela",
+        "leo",
+        "lina"
+      ]
+    },
+    "body": {
+      "enum": [
+        "masculine",
+        "feminine"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "original_png_sha256",
+        "reference_status",
+        "art_changed"
+      ],
+      "properties": {
+        "original_png_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "reference_status": {
+          "const": "approved"
+        },
+        "art_changed": {
+          "const": false
+        }
+      }
+    },
+    "configuration": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "face_study",
+        "hair_study",
+        "colors"
+      ],
+      "properties": {
+        "face_study": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 8,
+          "description": "Zero-based index of a reference study; not a production variant ID."
+        },
+        "hair_study": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 8,
+          "description": "Zero-based index of a reference study; not a production hairstyle ID."
+        },
+        "colors": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "skin",
+            "hair",
+            "clothing1",
+            "clothing2",
+            "clothing3"
+          ],
+          "properties": {
+            "skin": {
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$"
+            },
+            "hair": {
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$"
+            },
+            "clothing1": {
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$"
+            },
+            "clothing2": {
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$"
+            },
+            "clothing3": {
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$"
+            }
+          }
+        }
+      }
+    },
+    "selected_study_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "face",
+        "hair"
+      ],
+      "properties": {
+        "face": {
+          "type": "string"
+        },
+        "hair": {
+          "type": "string"
+        }
+      }
+    },
+    "equipment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "base_color_inheritance",
+        "composition_status"
+      ],
+      "properties": {
+        "base_color_inheritance": {
+          "const": false
+        },
+        "composition_status": {
+          "const": "awaiting_separate_layers"
+        }
+      }
+    },
+    "preview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "configuration_applied"
+      ],
+      "properties": {
+        "mode": {
+          "const": "canonical_reference"
+        },
+        "configuration_applied": {
+          "const": false
+        }
+      }
+    },
+    "scope": {
+      "const": "aesthetics-only"
+    },
+    "exported_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}
