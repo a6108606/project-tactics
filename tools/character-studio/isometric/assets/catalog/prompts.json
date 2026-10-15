@@ -167,7 +167,8 @@
       "revision_note": "Correction de mise en page et des directions arrière ; le fichier final remplace la première proposition.",
       "edit_input_sha256": "33506d400542e8aed928bd7f3392d9efb96ac72ed1c6b59077a612b7fcfc86d7",
       "selected_source": "tools/character-studio/isometric/assets/catalog/trottin-poudre/source.png",
-      "selected_source_sha256": "d8a4be0ae03ec572ddbf5171efbb154eeb6f6511211ce711ce5cfbdfd6a21e02"
+      "selected_source_sha256": "d8a4be0ae03ec572ddbf5171efbb154eeb6f6511211ce711ce5cfbdfd6a21e02",
+      "edit_input_git_source": "6dc1187:tools/character-studio/isometric/assets/catalog/trottin-poudre/source.png"
     },
     {
       "id": "trottin-meneur",
@@ -233,7 +234,8 @@
       "revision_note": "Correction de mise en page et des directions arrière ; le fichier final remplace la première proposition.",
       "edit_input_sha256": "18339a2078b0447dabbac3cc62fddb22fdd275232eeef4b88eeed2898dbed34c",
       "selected_source": "tools/character-studio/isometric/assets/catalog/mache-racine/source.png",
-      "selected_source_sha256": "690f57d68a782f6249b03b9e9d61446f1af6417d1e2776b1dc4d4f09b3f90087"
+      "selected_source_sha256": "690f57d68a782f6249b03b9e9d61446f1af6417d1e2776b1dc4d4f09b3f90087",
+      "edit_input_git_source": "6dc1187:tools/character-studio/isometric/assets/catalog/mache-racine/source.png"
     },
     {
       "id": "filombre-tisseuse",

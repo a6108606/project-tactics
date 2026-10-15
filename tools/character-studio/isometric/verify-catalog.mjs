@@ -1,10 +1,20 @@
 import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';
-import {decode} from '../pipeline/png.mjs';import {prepare,paint,opaqueBounds} from './sprite.js';
+import {decode} from '../pipeline/png.mjs';import {componentFrames} from './atlas-components.mjs';import {removeChroma} from './sprite.js';import {prepare,paint,opaqueBounds} from './sprite.js';
 const here=path.dirname(new URL(import.meta.url).pathname),file='assets/catalog/catalog.json',cat=JSON.parse(fs.readFileSync(path.join(here,file))),rows=[];
 const check=(name,pass,detail)=>rows.push({name,pass:!!pass,...detail===undefined?{}:{detail}}),hash=b=>crypto.createHash('sha256').update(b).digest('hex');
 check('53 unique forms',cat.entries.length===53&&new Set(cat.entries.map(e=>e.id)).size===53);
 check('10 heroes / 30 bestiary / 10 base summons / 3 legacy',JSON.stringify(['heroes','bestiary','summons','legacy'].map(c=>cat.entries.filter(e=>e.category===c).length))==='[10,30,10,3]');
 for(const e of cat.entries.filter(e=>e.status==='ready')){
+ if(e.id!=='ryuu-masculine'){
+  const source=fs.readFileSync(path.join(here,'assets/catalog',e.id,'source.png')),report=JSON.parse(fs.readFileSync(path.join(here,'assets/catalog',e.id,'verification.json')));
+  check(e.id+' source SHA-256',hash(source)===report.source_sha256);
+  if(e.segmentation==='components'){
+   const original=decode(source),keyed={...original,data:removeChroma(original.data)},frames=componentFrames(keyed);
+   const histogram=b=>{const m=new Map();for(let i=0;i<b.length;i+=4)if(b[i+3]){const key=b[i]+b[i+1]*256+b[i+2]*65536+b[i+3]*16777216;m.set(key,(m.get(key)||0)+1);}return m;};
+   const originalPixels=histogram(keyed.data),framePixels=new Map();for(const f of frames)for(const [k,n]of histogram(f.data))framePixels.set(k,(framePixels.get(k)||0)+n);
+   check(e.id+' component extraction preserves every visible source RGBA pixel',frames.length===8&&originalPixels.size===framePixels.size&&[...originalPixels].every(([k,n])=>framePixels.get(k)===n));
+  }
+ }
  const manifest=JSON.parse(fs.readFileSync(path.join(here,e.id==='ryuu-masculine'?'assets/directions.json':e.manifest)));
  check(e.id+' eight unique sources',manifest.views.length===8&&new Set(manifest.views.map(v=>v.sha256)).size===8);
  const totals={};

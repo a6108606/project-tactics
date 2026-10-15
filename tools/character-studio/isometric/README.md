@@ -1,12 +1,29 @@
-# Catalogue isométrique — production en cours
+# Catalogue isométrique — 53 formes, 424 vues
 
-L’atelier accueille désormais un catalogue consultable et filtrable : héros, bestiaire, invocations de base et anciens archétypes. Le compteur et `assets/catalog/catalog.json` indiquent les formes réellement disponibles. Les autres entrées sont explicitement à produire.
+L’atelier comprend les cinq héros dans leurs deux bases, trente monstres, dix invocations de rang I et trois archétypes historiques. Chaque forme dispose de huit dessins de repos : dos, dos droite, droite, face droite, face, face gauche, gauche, dos gauche. Recherche et filtres, palette, comparaison, sauvegarde locale, affichage à taille de jeu et export PNG individuel ou en planche sont disponibles.
 
-Les nouvelles planches sont des dessins générés par imagegen depuis les fiches originales ou les descriptions du dépôt. Sources, prompts, empreintes, découpes et contrôles sont versionnés. Les nouvelles zones de couleurs des héros sont provisoires ; celles des créatures regroupent des teintes du dessin, sans prétendre être des calques anatomiques. L’étude Ryuu masculine conserve ses masques détaillés.
+Les nouveaux dessins sont produits avec **Imagegen intégré**, depuis les cinq fiches originales ou les descriptions du dépôt, avec une inspiration Dofus 2 et bestiaires d’animation. Les 52 nouvelles planches source, les prompts effectivement utilisés, les empreintes et les recettes se trouvent dans `assets/catalog/`. L’étude Ryuu masculine déjà approuvée conserve ses sources et masques spécifiques dans `assets/`.
 
-Pipeline : `node tools/character-studio/isometric/build-catalog.mjs chemin-vers-sources.json`, puis `node tools/character-studio/isometric/verify-catalog.mjs`. Le fichier d’entrée associe chaque identifiant au chemin de sa planche source. Les sources sélectionnées sont copiées dans `assets/catalog/<id>/source.png`. Le script rejette les dessins coupés ou se chevauchant ; il ne dessine ni ne complète de membre manquant.
+Les créations sans référence illustrée sont des **propositions artistiques**, pas des designs déjà validés individuellement. Les dos et faces cachées sont reconstruits. Des détails de costume, mèches et accessoires peuvent varier entre directions. Les PNG sont des dessins matriciels, pas des SVG ni des modèles 3D.
 
-Voir [périmètre, influences et méthode](../../../docs/art/ISOMETRIC_CATALOG_PRODUCTION.md).
+## Personnalisation et limites
+
+Les cinq couleurs de Ryuu masculin disposent de masques détaillés. Les neuf nouvelles bases de héros ont cinq zones actives mais **provisoires** : leur séparation fine avec les accessoires n’est pas encore garantie. Les créatures proposent une à trois familles de teintes, selon leur dessin ; ce ne sont pas des calques anatomiques ou des équipements séparés. Le défaut restitue exactement les pixels normalisés et le PNG utilise la même recoloration que l’aperçu.
+
+Ce lot livre les directions de repos du catalogue. Les animations, variantes de visage/coiffure et équipements amovibles ne sont pas réalisés. Il ne clôt pas tous les critères ART-01 à ART-12 de l’issue #27. L’archive V2 et ses dix fichiers demeurent exacts.
+
+## Reproduire et vérifier
+
+Depuis la racine du dépôt : `python3 -m http.server 8765 --bind 127.0.0.1`, puis ouvrir `http://127.0.0.1:8765/tools/character-studio/isometric/`.
+
+- `build-catalog.mjs chemin-vers-sources.json` normalise les planches. Le JSON associe chaque identifiant au chemin de sa source. Aucune retouche artistique dans ce script : détourage, découpe et placement uniquement, sans agrandissement des sources.
+- Les cellules finales font 384 × 640, ancrées en `[192,615]` ; les planches natives font 1536 × 1280. Deux planches utilisent `segmentation: components` pour préserver leurs silhouettes complètes lorsque leurs rectangles se croisent. Les découpes ambiguës sont rejetées.
+- `node tools/character-studio/isometric/verify-catalog.mjs` contrôle inventaire, empreintes, transparence, marges, palettes et masques.
+- `catalog-tests.html` teste les 53 sélections, recolorations, changements d’orientation, vrais exports PNG, sélection rapide, filtres, recherche, responsive et export d’une planche pendant un changement de personnage.
+- `tests.html` conserve les vérifications approfondies du pilote Ryuu masculin.
+- `python3 tools/art/import_reference_bundle.py --verify-only` vérifie les dix fichiers V2.
+
+Voir [périmètre, influences et méthode](../../../docs/art/ISOMETRIC_CATALOG_PRODUCTION.md). Les sections ci-dessous conservent l’explication technique du pilote et de son premier lot de directions.
 
 ---
 
@@ -22,7 +39,7 @@ Huit sprites dessinés de **Ryuu masculin, pose de repos : face, dos, droite, ga
 
 Le sprite est une nouvelle interprétation 2D produite avec Imagegen à partir du Ryuu original et de la cible visuelle appréciée. Le volume des cheveux, le visage, les plis, les motifs et la pose sont redessinés ; aucune identité pixel à pixel avec la fiche n’est revendiquée. Le bouton Comparer montre le recadrage original sans retouche. Les deux prompts exacts et les empreintes sont dans `assets/`. La première génération avait un damier opaque ; la seconde a remplacé ce fond par un vert de détourage. `removeChroma` dans `sprite.js` normalise ensuite l’alpha de façon déterministe. Les contours fins restent à examiner sur fond sombre avant production.
 
-**À valider artistiquement avant généralisation.** Les huit orientations sont présentes ; pas encore de base féminine, animations, changements de visage/coiffure ni équipements amovibles. Les équipements présents gardent leurs couleurs, mais ne constituent pas encore des calques amovibles. Le pilote n’achève donc pas ART-01 à ART-12. L’archive V2 et ses dix fichiers restent intacts.
+**Historique du pilote, avant son approbation et la demande de généralisation.** Ce premier lot portait sur les huit orientations masculines ; la base féminine est désormais dans le catalogue. Les animations, changements de visage/coiffure et équipements amovibles restent absents. Les équipements présents gardent leurs couleurs, mais ne constituent pas encore des calques amovibles. Le pilote n’achève donc pas ART-01 à ART-12. L’archive V2 et ses dix fichiers restent intacts.
 
 ## Méthode reproductible
 
@@ -31,7 +48,7 @@ Le sprite est une nouvelle interprétation 2D produite avec Imagegen à partir d
 3. Décrire chaque canal dans une recette JSON : polygones, exclusions, critères de matière et palette de référence. Les coordonnées et filtres sont propres à ce dessin ; ils ne doivent pas être copiés aveuglément vers un autre héros ou monstre. Le moteur commun `pipeline/mask-engine.js` résout la priorité et empêche le chevauchement des canaux.
 4. Protéger yeux, dents et accessoires. Vérifier des points témoins d’équipement ainsi que les zones hors masque avec des palettes extrêmes ; examiner aussi les masques visuellement. Une couleur semblable ne suffit pas à identifier un matériau.
 5. Employer la même fonction de recoloration pour l’aperçu et l’export. Garder les ombres du dessin, l’alpha et les zones fixes ; la palette initiale restitue exactement le sprite normalisé.
-6. Produire les orientations avec le même sprite de référence, une échelle commune et une ancre au sol par vue, puis examiner la famille dans son ensemble. Les huit dessins sont distincts ; aucun miroir logiciel. Les parties interchangeables et Ryuu féminin restent une étape suivante avant les autres héros.
+6. Produire les orientations avec le même sprite de référence, une échelle commune et une ancre au sol par vue, puis examiner la famille dans son ensemble. Les huit dessins sont distincts ; aucun miroir logiciel. Les parties interchangeables restent une étape distincte ; les bases féminines et les autres héros ont ensuite été ajoutés au catalogue.
 
 | Canal | Zone de ce sprite |
 | --- | --- |

@@ -1,7 +1,7 @@
 {
   "forms": 53,
   "total": 53,
-  "pass": 1804,
+  "pass": 1858,
   "fail": 0,
   "rows": [
     {
@@ -180,6 +180,10 @@
       }
     },
     {
+      "name": "ryuu-feminine source SHA-256",
+      "pass": true
+    },
+    {
       "name": "ryuu-feminine eight unique sources",
       "pass": true
     },
@@ -345,6 +349,10 @@
         "clothing2": 47276,
         "clothing3": 20922
       }
+    },
+    {
+      "name": "kael-masculine source SHA-256",
+      "pass": true
     },
     {
       "name": "kael-masculine eight unique sources",
@@ -514,6 +522,10 @@
       }
     },
     {
+      "name": "kael-feminine source SHA-256",
+      "pass": true
+    },
+    {
       "name": "kael-feminine eight unique sources",
       "pass": true
     },
@@ -679,6 +691,10 @@
         "clothing2": 90787,
         "clothing3": 49101
       }
+    },
+    {
+      "name": "sela-masculine source SHA-256",
+      "pass": true
     },
     {
       "name": "sela-masculine eight unique sources",
@@ -848,6 +864,10 @@
       }
     },
     {
+      "name": "sela-feminine source SHA-256",
+      "pass": true
+    },
+    {
       "name": "sela-feminine eight unique sources",
       "pass": true
     },
@@ -1013,6 +1033,10 @@
         "clothing2": 32355,
         "clothing3": 58492
       }
+    },
+    {
+      "name": "leo-masculine source SHA-256",
+      "pass": true
     },
     {
       "name": "leo-masculine eight unique sources",
@@ -1182,6 +1206,10 @@
       }
     },
     {
+      "name": "leo-feminine source SHA-256",
+      "pass": true
+    },
+    {
       "name": "leo-feminine eight unique sources",
       "pass": true
     },
@@ -1347,6 +1375,10 @@
         "clothing2": 64130,
         "clothing3": 35191
       }
+    },
+    {
+      "name": "lina-masculine source SHA-256",
+      "pass": true
     },
     {
       "name": "lina-masculine eight unique sources",
@@ -1516,6 +1548,10 @@
       }
     },
     {
+      "name": "lina-feminine source SHA-256",
+      "pass": true
+    },
+    {
       "name": "lina-feminine eight unique sources",
       "pass": true
     },
@@ -1683,6 +1719,10 @@
       }
     },
     {
+      "name": "plumet-des-mousses source SHA-256",
+      "pass": true
+    },
+    {
       "name": "plumet-des-mousses eight unique sources",
       "pass": true
     },
@@ -1845,6 +1885,10 @@
         "leaf": 365026,
         "ochre": 117850
       }
+    },
+    {
+      "name": "plumet-braise source SHA-256",
+      "pass": true
     },
     {
       "name": "plumet-braise eight unique sources",
@@ -2012,6 +2056,10 @@
       }
     },
     {
+      "name": "plumet-de-rosee source SHA-256",
+      "pass": true
+    },
+    {
       "name": "plumet-de-rosee eight unique sources",
       "pass": true
     },
@@ -2175,6 +2223,10 @@
         "teal": 187260,
         "ochre": 22209
       }
+    },
+    {
+      "name": "plumet-voltigeur source SHA-256",
+      "pass": true
     },
     {
       "name": "plumet-voltigeur eight unique sources",
@@ -2342,6 +2394,10 @@
       }
     },
     {
+      "name": "grand-plumet source SHA-256",
+      "pass": true
+    },
+    {
       "name": "grand-plumet eight unique sources",
       "pass": true
     },
@@ -2505,6 +2561,10 @@
         "leaf": 210653,
         "red": 4224
       }
+    },
+    {
+      "name": "trottin-des-haies source SHA-256",
+      "pass": true
     },
     {
       "name": "trottin-des-haies eight unique sources",
@@ -2672,6 +2732,14 @@
       }
     },
     {
+      "name": "trottin-piqueur source SHA-256",
+      "pass": true
+    },
+    {
+      "name": "trottin-piqueur component extraction preserves every visible source RGBA pixel",
+      "pass": true
+    },
+    {
       "name": "trottin-piqueur eight unique sources",
       "pass": true
     },
@@ -2835,6 +2903,10 @@
         "red": 54285,
         "leaf": 3816
       }
+    },
+    {
+      "name": "trottin-poudre source SHA-256",
+      "pass": true
     },
     {
       "name": "trottin-poudre eight unique sources",
@@ -3002,6 +3074,10 @@
       }
     },
     {
+      "name": "trottin-meneur source SHA-256",
+      "pass": true
+    },
+    {
       "name": "trottin-meneur eight unique sources",
       "pass": true
     },
@@ -3165,6 +3241,10 @@
         "leaf": 140672,
         "red": 33325
       }
+    },
+    {
+      "name": "grand-trottin source SHA-256",
+      "pass": true
     },
     {
       "name": "grand-trottin eight unique sources",
@@ -3332,6 +3412,10 @@
       }
     },
     {
+      "name": "bulbe-mordeur source SHA-256",
+      "pass": true
+    },
+    {
       "name": "bulbe-mordeur eight unique sources",
       "pass": true
     },
@@ -3495,6 +3579,10 @@
         "purple": 193783,
         "ochre": 99942
       }
+    },
+    {
+      "name": "liane-agrippeuse source SHA-256",
+      "pass": true
     },
     {
       "name": "liane-agrippeuse eight unique sources",
@@ -3662,6 +3750,10 @@
       }
     },
     {
+      "name": "gueulefleur-venimeuse source SHA-256",
+      "pass": true
+    },
+    {
       "name": "gueulefleur-venimeuse eight unique sources",
       "pass": true
     },
@@ -3825,6 +3917,10 @@
         "leaf": 171117,
         "ochre": 22206
       }
+    },
+    {
+      "name": "fleur-nourriciere source SHA-256",
+      "pass": true
     },
     {
       "name": "fleur-nourriciere eight unique sources",
@@ -3992,6 +4088,10 @@
       }
     },
     {
+      "name": "mache-racine source SHA-256",
+      "pass": true
+    },
+    {
       "name": "mache-racine eight unique sources",
       "pass": true
     },
@@ -4155,6 +4255,10 @@
         "red": 159848,
         "leaf": 95256
       }
+    },
+    {
+      "name": "filombre-tisseuse source SHA-256",
+      "pass": true
     },
     {
       "name": "filombre-tisseuse eight unique sources",
@@ -4322,6 +4426,10 @@
       }
     },
     {
+      "name": "filombre-venimeuse source SHA-256",
+      "pass": true
+    },
+    {
       "name": "filombre-venimeuse eight unique sources",
       "pass": true
     },
@@ -4485,6 +4593,10 @@
         "leaf": 63479,
         "ochre": 21988
       }
+    },
+    {
+      "name": "souche-eveillee source SHA-256",
+      "pass": true
     },
     {
       "name": "souche-eveillee eight unique sources",
@@ -4652,6 +4764,10 @@
       }
     },
     {
+      "name": "sylvaronce-gardien source SHA-256",
+      "pass": true
+    },
+    {
       "name": "sylvaronce-gardien eight unique sources",
       "pass": true
     },
@@ -4815,6 +4931,10 @@
         "leaf": 165338,
         "red": 30437
       }
+    },
+    {
+      "name": "le-vieux-noueux source SHA-256",
+      "pass": true
     },
     {
       "name": "le-vieux-noueux eight unique sources",
@@ -4982,6 +5102,10 @@
       }
     },
     {
+      "name": "bourlaine-jeune source SHA-256",
+      "pass": true
+    },
+    {
       "name": "bourlaine-jeune eight unique sources",
       "pass": true
     },
@@ -5145,6 +5269,10 @@
         "red": 44361,
         "leaf": 41002
       }
+    },
+    {
+      "name": "bourlaine-cornue source SHA-256",
+      "pass": true
     },
     {
       "name": "bourlaine-cornue eight unique sources",
@@ -5312,6 +5440,10 @@
       }
     },
     {
+      "name": "bourlaine-epaisse source SHA-256",
+      "pass": true
+    },
+    {
       "name": "bourlaine-epaisse eight unique sources",
       "pass": true
     },
@@ -5475,6 +5607,10 @@
         "red": 23261,
         "ochre": 7158
       }
+    },
+    {
+      "name": "berger-des-hardes source SHA-256",
+      "pass": true
     },
     {
       "name": "berger-des-hardes eight unique sources",
@@ -5642,6 +5778,10 @@
       }
     },
     {
+      "name": "belier-couronne source SHA-256",
+      "pass": true
+    },
+    {
       "name": "belier-couronne eight unique sources",
       "pass": true
     },
@@ -5807,6 +5947,10 @@
       }
     },
     {
+      "name": "sporignon source SHA-256",
+      "pass": true
+    },
+    {
       "name": "sporignon eight unique sources",
       "pass": true
     },
@@ -5968,6 +6112,10 @@
       "detail": {
         "ochre": 420523
       }
+    },
+    {
+      "name": "chardon-frondeur source SHA-256",
+      "pass": true
     },
     {
       "name": "chardon-frondeur eight unique sources",
@@ -6135,6 +6283,10 @@
       }
     },
     {
+      "name": "solepi source SHA-256",
+      "pass": true
+    },
+    {
       "name": "solepi eight unique sources",
       "pass": true
     },
@@ -6298,6 +6450,10 @@
         "leaf": 83494,
         "teal": 1573
       }
+    },
+    {
+      "name": "paillotin source SHA-256",
+      "pass": true
     },
     {
       "name": "paillotin eight unique sources",
@@ -6465,6 +6621,10 @@
       }
     },
     {
+      "name": "le-moissonneur-creux source SHA-256",
+      "pass": true
+    },
+    {
       "name": "le-moissonneur-creux eight unique sources",
       "pass": true
     },
@@ -6628,6 +6788,10 @@
         "red": 128884,
         "purple": 8870
       }
+    },
+    {
+      "name": "ecuyer-spectral source SHA-256",
+      "pass": true
     },
     {
       "name": "ecuyer-spectral eight unique sources",
@@ -6795,6 +6959,14 @@
       }
     },
     {
+      "name": "porte-etendard source SHA-256",
+      "pass": true
+    },
+    {
+      "name": "porte-etendard component extraction preserves every visible source RGBA pixel",
+      "pass": true
+    },
+    {
       "name": "porte-etendard eight unique sources",
       "pass": true
     },
@@ -6958,6 +7130,10 @@
         "red": 142769,
         "leaf": 2357
       }
+    },
+    {
+      "name": "luminou source SHA-256",
+      "pass": true
     },
     {
       "name": "luminou eight unique sources",
@@ -7125,6 +7301,10 @@
       }
     },
     {
+      "name": "gardien-des-lucioles source SHA-256",
+      "pass": true
+    },
+    {
       "name": "gardien-des-lucioles eight unique sources",
       "pass": true
     },
@@ -7288,6 +7468,10 @@
         "ochre": 92296,
         "red": 16566
       }
+    },
+    {
+      "name": "faucon-guetteur source SHA-256",
+      "pass": true
     },
     {
       "name": "faucon-guetteur eight unique sources",
@@ -7455,6 +7639,10 @@
       }
     },
     {
+      "name": "traqueur-de-ronces source SHA-256",
+      "pass": true
+    },
+    {
       "name": "traqueur-de-ronces eight unique sources",
       "pass": true
     },
@@ -7618,6 +7806,10 @@
         "leaf": 125340,
         "red": 31205
       }
+    },
+    {
+      "name": "leurre source SHA-256",
+      "pass": true
     },
     {
       "name": "leurre eight unique sources",
@@ -7785,6 +7977,10 @@
       }
     },
     {
+      "name": "araignee-d-ombre source SHA-256",
+      "pass": true
+    },
+    {
       "name": "araignee-d-ombre eight unique sources",
       "pass": true
     },
@@ -7948,6 +8144,10 @@
         "ochre": 11448,
         "blue": 2406
       }
+    },
+    {
+      "name": "lame-sanguine source SHA-256",
+      "pass": true
     },
     {
       "name": "lame-sanguine eight unique sources",
@@ -8115,6 +8315,10 @@
       }
     },
     {
+      "name": "sentinelle-de-sang source SHA-256",
+      "pass": true
+    },
+    {
       "name": "sentinelle-de-sang eight unique sources",
       "pass": true
     },
@@ -8278,6 +8482,10 @@
         "ochre": 111891,
         "red": 75660
       }
+    },
+    {
+      "name": "brute source SHA-256",
+      "pass": true
     },
     {
       "name": "brute eight unique sources",
@@ -8445,6 +8653,10 @@
       }
     },
     {
+      "name": "archer source SHA-256",
+      "pass": true
+    },
+    {
       "name": "archer eight unique sources",
       "pass": true
     },
@@ -8608,6 +8820,10 @@
         "red": 167782,
         "leaf": 2348
       }
+    },
+    {
+      "name": "boss-gardien source SHA-256",
+      "pass": true
     },
     {
       "name": "boss-gardien eight unique sources",

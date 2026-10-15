@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-15",
+  "environment": "Navigateur intégré Codex, serveur HTTP local du dépôt",
+  "catalogue": {
+    "forms": 53,
+    "views": 424,
+    "pass": 222,
+    "fail": 0,
+    "checks": [
+      {
+        "group": "Sélection, palette entre directions, PNG réel décodé et mode huit vues, pour chacune des 53 formes",
+        "count": 212
+      },
+      {
+        "group": "Planche exportée pendant un changement de sélection : personnage et palette de départ conservés",
+        "count": 1
+      },
+      {
+        "group": "Sélections concurrentes : la dernière gagne",
+        "count": 1
+      },
+      {
+        "group": "Filtres des quatre catégories",
+        "count": 4
+      },
+      {
+        "group": "Recherche par nom et famille",
+        "count": 1
+      },
+      {
+        "group": "Absence de débordement à 400, 640 et 900 px",
+        "count": 3
+      }
+    ]
+  },
+  "individual_png": "Comparaison RGBA exacte entre le PNG exporté puis décodé et le canvas de recoloration pour chacune des 53 formes.",
+  "scaled_atlas": {
+    "dimensions": [
+      3072,
+      2560
+    ],
+    "alpha": "identique",
+    "rgb_max_difference": 1,
+    "different_bytes": 3101,
+    "note": "Tolérance maximale d’une unité RGB aux contours interpolés lors du passage canvas/PNG. Aucun changement de palette ni de forme autorisé."
+  },
+  "ryuu_regression": {
+    "pass": 140,
+    "fail": 0,
+    "page": "tests.html"
+  },
+  "source_bundle": {
+    "files": 10,
+    "exact_sizes_and_sha256": true
+  },
+  "reproduce": {
+    "catalogue": "catalog-tests.html",
+    "atlas_only": "catalog-tests.html?atlasOnly=1",
+    "assets": "node tools/character-studio/isometric/verify-catalog.mjs"
+  },
+  "limits": "Les tests techniques ne valident ni les reconstructions artistiques ni la séparation sémantique des nouveaux masques de héros."
+}
