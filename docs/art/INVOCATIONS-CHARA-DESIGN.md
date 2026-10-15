@@ -1,10 +1,12 @@
 # Invocations — brief chara design et reprise
 
-Date : 2026-10-15 · Version 0.5 · Statut : **directions visuelles proposées, aucune illustration validée dans ce dossier**.
+Date : 2026-10-15 · Version 0.6 · Statut : **directions visuelles proposées, aucune illustration validée dans ce dossier**.
+
+Les valeurs offensives actuelles relèvent de la [calibration v0.6](../design/EQUILIBRAGE-DEGATS-v0.6.md). La silhouette, le nombre de sorts, les rôles et les animations ne changent pas avec cette hausse numérique.
 
 ## Point de départ
 
-Lire [les règles et les dix fiches](../design/INVOCATIONS-v0.5.md) et [les données par rang](../../content/summons/catalog-v0.5.json). L’[atelier interactif](https://tactics-grimoire-atelier.a6108606.chatgpt.site?view=invocations) permet d’inspecter chaque fiche et sa portée vue du dessus.
+Lire [les règles et les dix fiches](../design/INVOCATIONS-v0.5.md) et [les données par rang](../../content/summons/catalog-v0.6.json). L’[atelier interactif](https://tactics-grimoire-atelier.a6108606.chatgpt.site?view=invocations) permet d’inspecter chaque fiche et sa portée vue du dessus.
 
 Le joueur développe cinq classes : Leo (mêlée / percée), Lina (soin / protection), Sela (distance / contrôle des approches), Kael (tromperie / pièges), Ryuu (résistance / placement / riposte). Chaque classe possède deux invocations. Leurs noms restent provisoires.
 
@@ -54,7 +56,7 @@ Les vues demandées sont des références de conception, pas une exigence de spr
 
 ## Prompt à copier dans la prochaine discussion
 
-> Nous poursuivons Project Tactics. Lis dans le dépôt `a6108606/project-tactics`, sur `main`, les fichiers `docs/art/INVOCATIONS-CHARA-DESIGN.md`, `docs/design/INVOCATIONS-v0.5.md` et `content/summons/catalog-v0.5.json`.
+> Nous poursuivons Project Tactics. Lis dans le dépôt `a6108606/project-tactics`, sur `main`, les fichiers `docs/art/INVOCATIONS-CHARA-DESIGN.md`, `docs/design/INVOCATIONS-v0.5.md` et `content/summons/catalog-v0.6.json`.
 >
 > Je veux concevoir les dix invocations des cinq classes, une classe à la fois. Il y a cinq rangs par invocation, coûtant 1/1/2/3/4 points d’invocation ; les rangs IV et V sont obtenus aux niveaux 500–900 selon le profil. Chaque créature dispose de 2 sorts au rang I puis +1 par rang, soit 6 au rang V, et elle est contrôlée par le joueur. Conserve les rôles tactiques, les actions du catalogue et l’occupation d’une seule case.
 >
