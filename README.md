@@ -22,6 +22,10 @@ Continuous 2D isometric world with chunk streaming, encounters on the existing t
 
 - [Repères DOFUS et profils des héros](content/combat/calibration-v0.6.json) : comparaison à caractéristiques et résistances explicites.
 
+## Zones et bestiaire 1–30 (2026-10-15)
+- [Zones, monstres, drops et panoplies v0.1](docs/design/ZONES-BESTIAIRE-1-30-v0.1.md) : deux grandes zones, six sous-zones, 24 monstres ordinaires et six chefs. Mécaniques, stratégies et sorts à définir ensuite.
+- [Passation chara design du bestiaire](docs/art/BESTIAIRE-CHARA-DESIGN.md) : familles, pistes visuelles et prompt de reprise pour une discussion artistique séparée.
+
 ## Stack
 Godot 4 .NET / C#, separate engine-agnostic combat logic, ENet private sessions.
 
