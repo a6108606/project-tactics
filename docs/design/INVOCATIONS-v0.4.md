@@ -1,5 +1,7 @@
 # Invocations — règles et catalogue v0.4
 
+> Archive : les actions et la croissance sont remplacées par [Invocations v0.5](INVOCATIONS-v0.5.md). Les règles de capacité et paliers restent applicables.
+
 Date : 2026-10-15. Document de conception ; pas une implémentation du moteur de combat.
 
 - [Atelier interactif](https://tactics-grimoire-atelier.a6108606.chatgpt.site?view=invocations)
