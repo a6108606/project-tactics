@@ -1,0 +1,6536 @@
+{
+  "version": "0.6",
+  "sources": [
+    {
+      "name": "Pression",
+      "pa": 3,
+      "base": [
+        26,
+        30
+      ],
+      "url": "https://openddb.dev/spells/13106-pression"
+    },
+    {
+      "name": "Épée de Iop",
+      "pa": 4,
+      "base": [
+        37,
+        41
+      ],
+      "url": "https://openddb.dev/spells/13125-epee-de-iop"
+    }
+  ],
+  "presets": {
+    "nu": {
+      "name": "1 000 caractéristique · sans équipement",
+      "stat": 1000,
+      "power": 0,
+      "flat": 0,
+      "finalBonus": 0
+    },
+    "equipe": {
+      "name": "Repère équipé · 1 200 + 300 Puissance",
+      "stat": 1200,
+      "power": 300,
+      "flat": 100,
+      "finalBonus": 15
+    }
+  },
+  "results": [
+    {
+      "name": "DOFUS · Pression",
+      "pa": 3,
+      "type": "hero",
+      "results": [
+        [
+          286,
+          330
+        ],
+        [
+          593,
+          667
+        ],
+        [
+          415,
+          466
+        ]
+      ]
+    },
+    {
+      "name": "DOFUS · Épée de Iop",
+      "pa": 4,
+      "type": "hero",
+      "results": [
+        [
+          407,
+          451
+        ],
+        [
+          795,
+          869
+        ],
+        [
+          556,
+          608
+        ]
+      ]
+    },
+    {
+      "name": "Leo · Frappe rocheuse V",
+      "pa": 3,
+      "type": "hero",
+      "results": [
+        [
+          330,
+          374
+        ],
+        [
+          667,
+          740
+        ],
+        [
+          466,
+          517
+        ]
+      ]
+    },
+    {
+      "name": "Écuyer spectral V · Estoc spectral",
+      "pa": 3,
+      "type": "summon",
+      "results": [
+        [
+          395,
+          395
+        ],
+        [
+          610,
+          610
+        ],
+        [
+          427,
+          427
+        ]
+      ]
+    },
+    {
+      "name": "Lame sanguine V · Morsure d’acier",
+      "pa": 3,
+      "type": "summon",
+      "results": [
+        [
+          431,
+          431
+        ],
+        [
+          661,
+          661
+        ],
+        [
+          462,
+          462
+        ]
+      ]
+    }
+  ],
+  "heroes": [
+    {
+      "id": "leo",
+      "name": "Leo",
+      "spells": [
+        {
+          "id": "leo-0",
+          "name": "Frappe rocheuse",
+          "element": "Terre",
+          "description": "Frappe de mêlée directe et fiable.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                16,
+                18
+              ],
+              [
+                20,
+                22
+              ],
+              [
+                24,
+                27
+              ],
+              [
+                27,
+                30
+              ],
+              [
+                30,
+                34
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [],
+            "conditions": "Contact orthogonal uniquement. Deux lancers possibles sur la même cible. Aucun effet secondaire.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-1",
+          "name": "Entaille ardente",
+          "element": "Feu",
+          "description": "Frappe de mêlée qui applique une brûlure courte.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                10,
+                12
+              ],
+              [
+                14,
+                16
+              ],
+              [
+                17,
+                19
+              ],
+              [
+                22,
+                24
+              ],
+              [
+                25,
+                28
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Brûlure Feu",
+                "values": [
+                  2,
+                  3,
+                  5,
+                  5,
+                  7
+                ],
+                "unit": "de base / déclenchement",
+                "turns": 2,
+                "kind": "poison"
+              }
+            ],
+            "conditions": "Brûlure proposée : un déclenchement au début de chacun des deux prochains tours de la cible. Une seule brûlure d’Entaille ardente par cible, même avec plusieurs Leo ; à rang différent, la plus forte base est conservée. Relancer renouvelle les deux déclenchements restants sans dégâts de brûlure immédiats. L’effet est dissipable et disparaît si Braise profonde le consomme. Chaque déclenchement recalcule les dégâts avec les statistiques du lanceur de la brûlure conservée et les résistances présentes à cet instant. Le critique augmente uniquement la frappe directe, pas la brûlure.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-2",
+          "name": "Lame vive",
+          "element": "Air",
+          "description": "Attaque légère permettant un déplacement latéral d’une case libre.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                11,
+                13
+              ],
+              [
+                15,
+                18
+              ],
+              [
+                19,
+                22
+              ],
+              [
+                23,
+                26
+              ],
+              [
+                28,
+                31
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Pas latéral de Leo",
+                "values": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "unit": "case",
+                "turns": 0,
+                "kind": "move"
+              }
+            ],
+            "conditions": "Après la frappe, Leo peut choisir une case adjacente libre à sa gauche ou à sa droite, perpendiculairement à la direction de l’attaque. Pas de déplacement vers l’avant, vers l’arrière ni en diagonale. Ce déplacement de sort ne coûte aucun PM et ignore le tacle. Il reste facultatif, même si la cible est éliminée. Un obstacle, un combattant ou un état interdisant le déplacement bloque la destination ; si les deux cases sont bloquées, la frappe a lieu et Leo reste sur place. Deux lancers possibles par tour, donc au maximum deux pas, chacun nécessitant une cible ennemie au contact au moment de la frappe. Le critique augmente les dégâts, pas la distance.",
+            "timing": "Immédiat",
+            "lateralStep": true
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-3",
+          "name": "Choc des marées",
+          "element": "Eau",
+          "description": "Frappe de mêlée qui accorde un petit bouclier personnel.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                10,
+                12
+              ],
+              [
+                14,
+                16
+              ],
+              [
+                17,
+                19
+              ],
+              [
+                22,
+                24
+              ],
+              [
+                25,
+                28
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Bouclier personnel",
+                "values": [
+                  15,
+                  26,
+                  38,
+                  49,
+                  60
+                ],
+                "unit": "PV",
+                "turns": 1,
+                "kind": "shield"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-4",
+          "name": "Bond offensif",
+          "element": "Utilitaire",
+          "description": "Saute vers une case libre à courte portée.",
+          "level": 3,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": false,
+            "modifiable": false,
+            "target": "Case libre",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 2,
+            "effects": [
+              {
+                "name": "Puissance après le bond",
+                "values": [
+                  10,
+                  18,
+                  25,
+                  33,
+                  40
+                ],
+                "unit": "points",
+                "turns": 1,
+                "kind": "power"
+              }
+            ],
+            "conditions": "Destination libre. Le bonus s’applique aux attaques suivantes.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-5",
+          "name": "Défi",
+          "element": "Utilitaire",
+          "description": "Désigne une cible : bonus contre elle, mais vulnérabilité accrue aux autres ennemis.",
+          "level": 6,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 1,
+            "rangeMax": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Dégâts finaux contre la cible",
+                "values": [
+                  5,
+                  8,
+                  10,
+                  13,
+                  15
+                ],
+                "unit": "%",
+                "turns": 2,
+                "kind": "other"
+              },
+              {
+                "name": "Dégâts subis des autres ennemis",
+                "values": [
+                  10,
+                  10,
+                  10,
+                  10,
+                  10
+                ],
+                "unit": "%",
+                "turns": 2,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Un seul défi actif. La vulnérabilité s’applique uniquement aux attaques des autres ennemis.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-6",
+          "name": "Fendeur",
+          "element": "Terre",
+          "description": "Frappe deux cases alignées devant lui.",
+          "level": 9,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                16,
+                18
+              ],
+              [
+                21,
+                24
+              ],
+              [
+                27,
+                29
+              ],
+              [
+                33,
+                35
+              ],
+              [
+                39,
+                41
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": true,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "line",
+            "radius": 0,
+            "length": 2,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Réduction des chances de critique",
+                "values": [
+                  5,
+                  6,
+                  8,
+                  9,
+                  10
+                ],
+                "unit": "points de %",
+                "turns": 1,
+                "kind": "critdown"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-7",
+          "name": "Braise profonde",
+          "element": "Feu",
+          "description": "Consomme une brûlure pour infliger des dégâts immédiats supplémentaires.",
+          "level": 13,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "damage": [
+              [
+                12,
+                14
+              ],
+              [
+                16,
+                19
+              ],
+              [
+                21,
+                23
+              ],
+              [
+                26,
+                28
+              ],
+              [
+                31,
+                33
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Consomme une brûlure de Leo",
+                "values": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "unit": "effet",
+                "turns": 0,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat",
+            "conditionalDamage": [
+              [
+                5,
+                5
+              ],
+              [
+                7,
+                7
+              ],
+              [
+                9,
+                9
+              ],
+              [
+                12,
+                12
+              ],
+              [
+                14,
+                14
+              ]
+            ],
+            "conditionName": "Cible brûlée : consommer la brûlure"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-8",
+          "name": "Pas tranchant",
+          "element": "Air",
+          "description": "Avance en ligne jusqu’à un ennemi et le frappe ; nécessite un trajet libre.",
+          "level": 17,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 2,
+            "rangeMax": [
+              3,
+              4,
+              4,
+              5,
+              5
+            ],
+            "damage": [
+              [
+                14,
+                17
+              ],
+              [
+                20,
+                23
+              ],
+              [
+                25,
+                27
+              ],
+              [
+                31,
+                34
+              ],
+              [
+                36,
+                39
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": true,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 2,
+            "effects": [
+              {
+                "name": "Fuite personnelle",
+                "values": [
+                  5,
+                  9,
+                  13,
+                  16,
+                  20
+                ],
+                "unit": "points",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Trajet rectiligne libre ; Leo termine au contact de la cible.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-9",
+          "name": "Brise-vague",
+          "element": "Eau",
+          "description": "Frappe et repousse ; bouclier personnel amélioré si la cible reste au contact d’un obstacle.",
+          "level": 21,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                12,
+                14
+              ],
+              [
+                16,
+                19
+              ],
+              [
+                21,
+                23
+              ],
+              [
+                26,
+                28
+              ],
+              [
+                31,
+                33
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Poussée",
+                "values": [
+                  1,
+                  1,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "cases",
+                "turns": 0,
+                "kind": "push"
+              },
+              {
+                "name": "Bouclier si la cible termine contre un obstacle",
+                "values": [
+                  20,
+                  33,
+                  45,
+                  58,
+                  70
+                ],
+                "unit": "PV",
+                "turns": 1,
+                "kind": "shield"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-10",
+          "name": "Garde haute",
+          "element": "Utilitaire",
+          "description": "Réduit les prochains dégâts reçus en échange d’une baisse temporaire des dégâts infligés.",
+          "level": 26,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 0,
+            "rangeMax": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Soi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Réduction des dégâts subis",
+                "values": [
+                  10,
+                  14,
+                  18,
+                  21,
+                  25
+                ],
+                "unit": "%",
+                "turns": 1,
+                "kind": "other"
+              },
+              {
+                "name": "Réduction des dégâts infligés",
+                "values": [
+                  15,
+                  15,
+                  15,
+                  15,
+                  15
+                ],
+                "unit": "%",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-11",
+          "name": "Cri de percée",
+          "element": "Utilitaire",
+          "description": "Bonus bref de déplacement à Leo et aux alliés proches.",
+          "level": 31,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 0,
+            "rangeMax": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Soi et alliés",
+            "shape": "circle",
+            "radius": 2,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 4,
+            "effects": [
+              {
+                "name": "Bonus PM",
+                "values": [
+                  1,
+                  1,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "PM",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-12",
+          "name": "Fracture",
+          "element": "Terre",
+          "description": "Frappe lourde plus efficace contre les boucliers.",
+          "level": 36,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                20,
+                22
+              ],
+              [
+                26,
+                28
+              ],
+              [
+                31,
+                33
+              ],
+              [
+                37,
+                39
+              ],
+              [
+                42,
+                44
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Dégâts supplémentaires contre les boucliers uniquement",
+                "values": [
+                  20,
+                  25,
+                  30,
+                  35,
+                  40
+                ],
+                "unit": "%",
+                "turns": 0,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Le supplément affecte uniquement les points de bouclier, pas les PV. Le calculateur affiche les dégâts ordinaires.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-13",
+          "name": "Fournaise",
+          "element": "Feu",
+          "description": "Attaque les ennemis proches ; supplément plafonné contre les cibles brûlées.",
+          "level": 42,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 0,
+            "rangeMax": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "damage": [
+              [
+                18,
+                20
+              ],
+              [
+                23,
+                25
+              ],
+              [
+                29,
+                31
+              ],
+              [
+                34,
+                36
+              ],
+              [
+                39,
+                41
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemis proches",
+            "shape": "ring",
+            "radius": 1,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 2,
+            "effects": [
+              {
+                "name": "Réduction des chances de critique",
+                "values": [
+                  5,
+                  6,
+                  8,
+                  9,
+                  10
+                ],
+                "unit": "points de %",
+                "turns": 1,
+                "kind": "critdown"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat",
+            "conditionalDamage": [
+              [
+                3,
+                3
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                7,
+                7
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                9,
+                9
+              ]
+            ],
+            "conditionName": "Cible brûlée : bonus de base"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-14",
+          "name": "Danse des lames",
+          "element": "Air",
+          "description": "Enchaîne des frappes sur plusieurs ennemis distincts à proximité.",
+          "level": 48,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 0,
+            "rangeMax": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "damage": [
+              [
+                15,
+                18
+              ],
+              [
+                21,
+                24
+              ],
+              [
+                27,
+                30
+              ],
+              [
+                32,
+                35
+              ],
+              [
+                39,
+                41
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemis proches",
+            "shape": "ring",
+            "radius": 1,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Bonus Fuite personnel",
+                "values": [
+                  10,
+                  15,
+                  20,
+                  25,
+                  30
+                ],
+                "unit": "points",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Chaque ennemi dans la zone reçoit une seule frappe.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-15",
+          "name": "Rempart des marées",
+          "element": "Eau",
+          "description": "Frappe en cône ; bouclier personnel selon le nombre de cibles, avec un plafond.",
+          "level": 54,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                16,
+                18
+              ],
+              [
+                21,
+                24
+              ],
+              [
+                27,
+                29
+              ],
+              [
+                33,
+                35
+              ],
+              [
+                39,
+                41
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": true,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "cone",
+            "radius": 0,
+            "length": 3,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 2,
+            "effects": [
+              {
+                "name": "Bouclier personnel par ennemi touché",
+                "values": [
+                  10,
+                  16,
+                  23,
+                  29,
+                  35
+                ],
+                "unit": "PV",
+                "turns": 1,
+                "kind": "shield"
+              }
+            ],
+            "conditions": "Bouclier limité à trois ennemis. Le cône part de Leo ; il ne touche pas les alliés.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-16",
+          "name": "Second souffle",
+          "element": "Utilitaire",
+          "description": "Retire un malus de mobilité et rend quelques PM.",
+          "level": 60,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 0,
+            "rangeMax": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Soi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 4,
+            "effects": [
+              {
+                "name": "Malus de mobilité dissipé",
+                "values": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "unit": "effet",
+                "turns": 0,
+                "kind": "other"
+              },
+              {
+                "name": "PM récupérés",
+                "values": [
+                  1,
+                  1,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "PM",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-17",
+          "name": "Brèche",
+          "element": "Utilitaire",
+          "description": "La prochaine attaque de mêlée alliée contre la cible ignore une partie de sa protection.",
+          "level": 70,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Résistance % ignorée par la prochaine attaque de mêlée alliée",
+                "values": [
+                  5,
+                  8,
+                  10,
+                  13,
+                  15
+                ],
+                "unit": "points de %",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Consommé par une attaque. Ne fait pas passer une résistance positive sous zéro.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-18",
+          "name": "Assaut coordonné",
+          "element": "Utilitaire",
+          "description": "Se rapproche d’un allié et prépare un bonus pour leurs prochaines attaques de mêlée.",
+          "level": 85,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 1,
+            "rangeMax": [
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Allié",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Puissance pour Leo et l’allié",
+                "values": [
+                  20,
+                  35,
+                  50,
+                  65,
+                  80
+                ],
+                "unit": "points",
+                "turns": 1,
+                "kind": "power"
+              }
+            ],
+            "conditions": "Leo rejoint une case libre au contact de l’allié par un trajet libre. Bonus consommé à la prochaine attaque de mêlée de chacun.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "leo-19",
+          "name": "Engagement total",
+          "element": "Utilitaire",
+          "description": "Prépare un tour offensif puissant, suivi d’un tour de vulnérabilité.",
+          "level": 100,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 0,
+            "rangeMax": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Soi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 5,
+            "effects": [
+              {
+                "name": "Puissance au prochain tour",
+                "values": [
+                  100,
+                  138,
+                  175,
+                  213,
+                  250
+                ],
+                "unit": "points",
+                "turns": 1,
+                "kind": "power"
+              },
+              {
+                "name": "Dégâts subis au tour suivant le bonus",
+                "values": [
+                  15,
+                  18,
+                  20,
+                  23,
+                  25
+                ],
+                "unit": "%",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Bonus au tour N+1, vulnérabilité au tour N+2. Aucun bonus immédiat.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        }
+      ]
+    },
+    {
+      "id": "lina",
+      "name": "Lina",
+      "spells": [
+        {
+          "id": "lina-0",
+          "name": "Étincelle vitale",
+          "element": "Feu",
+          "description": "Inflige des dégâts à un ennemi ou soigne un allié.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              4,
+              4,
+              5,
+              5
+            ],
+            "damage": [
+              [
+                10,
+                12
+              ],
+              [
+                14,
+                16
+              ],
+              [
+                17,
+                19
+              ],
+              [
+                22,
+                24
+              ],
+              [
+                25,
+                28
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": true,
+            "target": "Ennemi ou allié",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat",
+            "heal": [
+              [
+                10,
+                12
+              ],
+              [
+                14,
+                16
+              ],
+              [
+                17,
+                19
+              ],
+              [
+                21,
+                23
+              ],
+              [
+                24,
+                26
+              ]
+            ]
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-1",
+          "name": "Goutte réparatrice",
+          "element": "Eau",
+          "description": "Blesse un ennemi et restitue une partie des dégâts à Lina.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "damage": [
+              [
+                8,
+                11
+              ],
+              [
+                13,
+                15
+              ],
+              [
+                16,
+                18
+              ],
+              [
+                20,
+                23
+              ],
+              [
+                24,
+                27
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": true,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat",
+            "lifesteal": 50
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-2",
+          "name": "Souffle bienveillant",
+          "element": "Air",
+          "description": "Blesse un ennemi ou soigne légèrement un allié à bonne portée.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              4,
+              5,
+              5,
+              6,
+              6
+            ],
+            "damage": [
+              [
+                7,
+                10
+              ],
+              [
+                10,
+                13
+              ],
+              [
+                14,
+                17
+              ],
+              [
+                18,
+                20
+              ],
+              [
+                21,
+                24
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": true,
+            "target": "Ennemi ou allié",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Bonus Fuite de l’allié soigné",
+                "values": [
+                  5,
+                  8,
+                  10,
+                  13,
+                  15
+                ],
+                "unit": "points",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat",
+            "heal": [
+              [
+                7,
+                9
+              ],
+              [
+                10,
+                12
+              ],
+              [
+                13,
+                15
+              ],
+              [
+                15,
+                17
+              ],
+              [
+                18,
+                20
+              ]
+            ]
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-3",
+          "name": "Éclat de sève",
+          "element": "Terre",
+          "description": "Inflige des dégâts et prépare une petite protection pour Lina.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "damage": [
+              [
+                10,
+                12
+              ],
+              [
+                14,
+                16
+              ],
+              [
+                18,
+                21
+              ],
+              [
+                22,
+                24
+              ],
+              [
+                27,
+                29
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Bouclier personnel",
+                "values": [
+                  10,
+                  18,
+                  25,
+                  33,
+                  40
+                ],
+                "unit": "PV",
+                "turns": 1,
+                "kind": "shield"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-4",
+          "name": "Baume",
+          "element": "Utilitaire",
+          "description": "Applique un soin progressif à une cible.",
+          "level": 3,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 0,
+            "rangeMax": [
+              3,
+              4,
+              4,
+              5,
+              5
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Allié ou soi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 1,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Régénération",
+                "values": [
+                  3,
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "unit": "déclenchements",
+                "turns": 3,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Soin au début du tour du bénéficiaire",
+            "heal": [
+              [
+                4,
+                4
+              ],
+              [
+                6,
+                6
+              ],
+              [
+                7,
+                7
+              ],
+              [
+                9,
+                9
+              ],
+              [
+                10,
+                10
+              ]
+            ],
+            "healTicks": 3
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-5",
+          "name": "Voile protecteur",
+          "element": "Utilitaire",
+          "description": "Accorde un bouclier temporaire à un allié.",
+          "level": 6,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 0,
+            "rangeMax": [
+              3,
+              4,
+              4,
+              5,
+              5
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Allié ou soi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 2,
+            "effects": [
+              {
+                "name": "Bouclier",
+                "values": [
+                  35,
+                  61,
+                  88,
+                  114,
+                  140
+                ],
+                "unit": "PV",
+                "turns": 2,
+                "kind": "shield"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-6",
+          "name": "Flamme jumelle",
+          "element": "Feu",
+          "description": "Blesse un ennemi et soigne un allié adjacent à celui-ci.",
+          "level": 9,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 1,
+            "rangeMax": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "damage": [
+              [
+                14,
+                17
+              ],
+              [
+                20,
+                23
+              ],
+              [
+                25,
+                27
+              ],
+              [
+                31,
+                34
+              ],
+              [
+                36,
+                39
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi central et alliés adjacents",
+            "shape": "cross",
+            "radius": 1,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [],
+            "conditions": "Dégâts sur la cible centrale uniquement ; soin sur ses voisins alliés uniquement.",
+            "timing": "Immédiat",
+            "heal": [
+              [
+                8,
+                10
+              ],
+              [
+                11,
+                13
+              ],
+              [
+                14,
+                16
+              ],
+              [
+                17,
+                19
+              ],
+              [
+                20,
+                22
+              ]
+            ]
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-7",
+          "name": "Transfusion",
+          "element": "Eau",
+          "description": "Draine un ennemi et transmet le soin à un allié choisi proche de Lina.",
+          "level": 13,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 1,
+            "rangeMax": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "damage": [
+              [
+                14,
+                17
+              ],
+              [
+                20,
+                23
+              ],
+              [
+                25,
+                27
+              ],
+              [
+                31,
+                34
+              ],
+              [
+                36,
+                39
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Portée de sélection du bénéficiaire autour de Lina",
+                "values": [
+                  2,
+                  3,
+                  3,
+                  4,
+                  4
+                ],
+                "unit": "cases",
+                "turns": 0,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Le vol de vie bénéficie à l’allié choisi dans la portée secondaire. La carte montre la cible offensive.",
+            "timing": "Immédiat",
+            "lifesteal": 50
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-8",
+          "name": "Brise de secours",
+          "element": "Air",
+          "description": "Soigne un allié et permet de le décaler d’une case libre.",
+          "level": 17,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              4,
+              4,
+              5,
+              5
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Allié",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Décalage de l’allié",
+                "values": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "unit": "case libre",
+                "turns": 0,
+                "kind": "move"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat",
+            "heal": [
+              [
+                10,
+                12
+              ],
+              [
+                14,
+                16
+              ],
+              [
+                17,
+                19
+              ],
+              [
+                21,
+                23
+              ],
+              [
+                24,
+                26
+              ]
+            ]
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-9",
+          "name": "Graine gardienne",
+          "element": "Terre",
+          "description": "Pose une graine destructible qui protège un allié proche à son prochain déclenchement.",
+          "level": 21,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Case libre",
+            "shape": "circle",
+            "radius": 1,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "PV de la graine",
+                "values": [
+                  20,
+                  35,
+                  50,
+                  65,
+                  80
+                ],
+                "unit": "PV",
+                "turns": 2,
+                "kind": "other"
+              },
+              {
+                "name": "Bouclier par allié",
+                "values": [
+                  25,
+                  44,
+                  63,
+                  81,
+                  100
+                ],
+                "unit": "PV",
+                "turns": 1,
+                "kind": "shield"
+              }
+            ],
+            "conditions": "Déclenchement au début du prochain tour de Lina, puis disparition. Graine destructible.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-10",
+          "name": "Purification",
+          "element": "Utilitaire",
+          "description": "Retire un effet négatif dissipable.",
+          "level": 26,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 0,
+            "rangeMax": [
+              2,
+              3,
+              4,
+              4,
+              5
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Allié ou soi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Effet négatif dissipable retiré",
+                "values": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "unit": "effet",
+                "turns": 0,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-11",
+          "name": "Impulsion",
+          "element": "Utilitaire",
+          "description": "Accorde temporairement un PA à un allié, sans cumul sur la même cible.",
+          "level": 31,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              2,
+              3,
+              4,
+              4,
+              5
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Allié",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 4,
+            "effects": [
+              {
+                "name": "Bonus PA",
+                "values": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "unit": "PA",
+                "turns": 2,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-12",
+          "name": "Foyer réparateur",
+          "element": "Feu",
+          "description": "Crée une petite zone de soin qui exige de rester groupé.",
+          "level": 36,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 0,
+            "rangeMax": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Case",
+            "shape": "circle",
+            "radius": 1,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Durée du foyer",
+                "values": [
+                  2,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "tours",
+                "turns": 2,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Soin au début du tour des alliés dans la zone",
+            "heal": [
+              [
+                8,
+                10
+              ],
+              [
+                11,
+                13
+              ],
+              [
+                13,
+                15
+              ],
+              [
+                16,
+                18
+              ],
+              [
+                18,
+                20
+              ]
+            ],
+            "healTicks": 2
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-13",
+          "name": "Vague de transfert",
+          "element": "Eau",
+          "description": "Draine une petite zone et répartit un soin plafonné entre les alliés proches.",
+          "level": 42,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 1,
+            "rangeMax": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "damage": [
+              [
+                14,
+                17
+              ],
+              [
+                20,
+                23
+              ],
+              [
+                25,
+                27
+              ],
+              [
+                31,
+                34
+              ],
+              [
+                36,
+                39
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "cross",
+            "radius": 1,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 2,
+            "effects": [],
+            "conditions": "Récupération répartie entre les alliés à deux cases de Lina ; au maximum trois ennemis contribuent au soin. Le calculateur montre une cible.",
+            "timing": "Immédiat",
+            "lifesteal": 50
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-14",
+          "name": "Souffle du renouveau",
+          "element": "Air",
+          "description": "Soigne plusieurs alliés en ligne et leur accorde brièvement de la mobilité.",
+          "level": 48,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": true,
+            "los": true,
+            "modifiable": false,
+            "target": "Alliés",
+            "shape": "line",
+            "radius": 0,
+            "length": 3,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Bonus PM",
+                "values": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "unit": "PM",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat",
+            "heal": [
+              [
+                12,
+                14
+              ],
+              [
+                16,
+                18
+              ],
+              [
+                20,
+                22
+              ],
+              [
+                24,
+                26
+              ],
+              [
+                28,
+                30
+              ]
+            ]
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-15",
+          "name": "Jardin protecteur",
+          "element": "Terre",
+          "description": "Pose une zone qui protège les alliés qui y terminent leur tour.",
+          "level": 54,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 0,
+            "rangeMax": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Case",
+            "shape": "circle",
+            "radius": 2,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 4,
+            "effects": [
+              {
+                "name": "Bouclier en fin de tour",
+                "values": [
+                  20,
+                  31,
+                  43,
+                  54,
+                  65
+                ],
+                "unit": "PV",
+                "turns": 1,
+                "kind": "shield"
+              },
+              {
+                "name": "Durée de la zone",
+                "values": [
+                  2,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "tours",
+                "turns": 2,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Un seul déclenchement par allié et par tour. Les boucliers successifs remplacent le précédent.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-16",
+          "name": "Réserve vitale",
+          "element": "Utilitaire",
+          "description": "Réserve de soin déclenchée sous un seuil de vie.",
+          "level": 60,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 0,
+            "rangeMax": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Allié ou soi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 4,
+            "effects": [
+              {
+                "name": "Durée de la réserve",
+                "values": [
+                  2,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "tours",
+                "turns": 2,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Une fois, si le bénéficiaire passe sous 30 % de ses PV",
+            "heal": [
+              [
+                12,
+                14
+              ],
+              [
+                18,
+                20
+              ],
+              [
+                24,
+                26
+              ],
+              [
+                29,
+                31
+              ],
+              [
+                35,
+                37
+              ]
+            ]
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-17",
+          "name": "Lien de secours",
+          "element": "Utilitaire",
+          "description": "Renforce le prochain soin ou bouclier reçu par un allié désigné.",
+          "level": 70,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 1,
+            "rangeMax": [
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Allié",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Prochain soin ou bouclier reçu",
+                "values": [
+                  10,
+                  15,
+                  20,
+                  25,
+                  30
+                ],
+                "unit": "%",
+                "turns": 2,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-18",
+          "name": "Sanctuaire",
+          "element": "Utilitaire",
+          "description": "Réduit brièvement les dégâts reçus dans une petite zone.",
+          "level": 85,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 0,
+            "rangeMax": [
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Case / alliés",
+            "shape": "circle",
+            "radius": 1,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 5,
+            "effects": [
+              {
+                "name": "Réduction des dégâts subis",
+                "values": [
+                  10,
+                  14,
+                  18,
+                  21,
+                  25
+                ],
+                "unit": "%",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "lina-19",
+          "name": "Dernière lueur",
+          "element": "Utilitaire",
+          "description": "Empêche une fois la mort d’un allié pendant une fenêtre courte ; il conserve très peu de vie.",
+          "level": 100,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 1,
+            "rangeMax": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Allié",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 7,
+            "effects": [
+              {
+                "name": "PV restants après le sauvetage",
+                "values": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "unit": "% des PV max",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Empêche une seule mort pendant le prochain tour de la cible. Une même cible ne peut en bénéficier qu’une fois par combat.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        }
+      ]
+    },
+    {
+      "id": "sela",
+      "name": "Sela",
+      "spells": [
+        {
+          "id": "sela-0",
+          "name": "Flèche lourde",
+          "element": "Terre",
+          "description": "Tir direct puissant, avec une portée minimale.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 3,
+            "rangeMax": [
+              5,
+              6,
+              7,
+              7,
+              8
+            ],
+            "damage": [
+              [
+                13,
+                15
+              ],
+              [
+                18,
+                20
+              ],
+              [
+                22,
+                24
+              ],
+              [
+                27,
+                29
+              ],
+              [
+                31,
+                33
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": true,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-1",
+          "name": "Flèche incandescente",
+          "element": "Feu",
+          "description": "Dégâts et brûlure courte.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 2,
+            "rangeMax": [
+              5,
+              6,
+              6,
+              7,
+              7
+            ],
+            "damage": [
+              [
+                8,
+                11
+              ],
+              [
+                13,
+                15
+              ],
+              [
+                17,
+                19
+              ],
+              [
+                20,
+                23
+              ],
+              [
+                25,
+                28
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": true,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Brûlure Feu",
+                "values": [
+                  2,
+                  3,
+                  5,
+                  5,
+                  7
+                ],
+                "unit": "de base / déclenchement",
+                "turns": 2,
+                "kind": "poison"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-2",
+          "name": "Flèche vive",
+          "element": "Air",
+          "description": "Tir léger avec peu de contraintes de lancement.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              4,
+              5,
+              6,
+              6,
+              7
+            ],
+            "damage": [
+              [
+                11,
+                13
+              ],
+              [
+                15,
+                18
+              ],
+              [
+                19,
+                22
+              ],
+              [
+                24,
+                27
+              ],
+              [
+                29,
+                32
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": true,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Bonus Fuite personnel",
+                "values": [
+                  5,
+                  8,
+                  10,
+                  13,
+                  15
+                ],
+                "unit": "points",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-3",
+          "name": "Flèche glaciale",
+          "element": "Eau",
+          "description": "Inflige des dégâts et tente de retirer un PM.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 2,
+            "rangeMax": [
+              4,
+              5,
+              5,
+              6,
+              6
+            ],
+            "damage": [
+              [
+                8,
+                11
+              ],
+              [
+                13,
+                15
+              ],
+              [
+                17,
+                19
+              ],
+              [
+                20,
+                23
+              ],
+              [
+                25,
+                28
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": true,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Retrait PM esquivable",
+                "values": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "unit": "PM",
+                "turns": 1,
+                "kind": "pm"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-4",
+          "name": "Repli",
+          "element": "Utilitaire",
+          "description": "Recule en ligne si les cases sont libres.",
+          "level": 3,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 1,
+            "rangeMax": [
+              2,
+              2,
+              3,
+              3,
+              3
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": true,
+            "los": true,
+            "modifiable": false,
+            "target": "Case libre",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 2,
+            "effects": [
+              {
+                "name": "Bonus Fuite après le repli",
+                "values": [
+                  5,
+                  9,
+                  13,
+                  16,
+                  20
+                ],
+                "unit": "points",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Trajet rectiligne libre. Le déplacement ne traverse pas les obstacles.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-5",
+          "name": "Œil du guetteur",
+          "element": "Utilitaire",
+          "description": "Augmente temporairement la portée.",
+          "level": 6,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 0,
+            "rangeMax": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Soi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 4,
+            "effects": [
+              {
+                "name": "Bonus de portée modifiable",
+                "values": [
+                  1,
+                  2,
+                  2,
+                  3,
+                  3
+                ],
+                "unit": "PO",
+                "turns": 2,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-6",
+          "name": "Trait perforant",
+          "element": "Terre",
+          "description": "Traverse des cibles alignées, avec des dégâts décroissants.",
+          "level": 9,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 3,
+            "rangeMax": [
+              5,
+              6,
+              7,
+              7,
+              8
+            ],
+            "damage": [
+              [
+                17,
+                19
+              ],
+              [
+                23,
+                25
+              ],
+              [
+                28,
+                30
+              ],
+              [
+                34,
+                36
+              ],
+              [
+                39,
+                41
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": true,
+            "los": true,
+            "modifiable": true,
+            "target": "Ennemi",
+            "shape": "line",
+            "radius": 0,
+            "length": 3,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [],
+            "conditions": "Dégâts décroissants : 100 %, 90 %, 80 % sur les trois cases en partant de la case visée. Les obstacles arrêtent la ligne.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-7",
+          "name": "Salve explosive",
+          "element": "Feu",
+          "description": "Petite zone de dégâts autour de l’impact.",
+          "level": 13,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 2,
+            "rangeMax": [
+              4,
+              5,
+              6,
+              6,
+              7
+            ],
+            "damage": [
+              [
+                16,
+                18
+              ],
+              [
+                21,
+                24
+              ],
+              [
+                27,
+                29
+              ],
+              [
+                33,
+                35
+              ],
+              [
+                39,
+                41
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": true,
+            "target": "Ennemi",
+            "shape": "cross",
+            "radius": 1,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Réduction des chances de critique",
+                "values": [
+                  5,
+                  7,
+                  9,
+                  10,
+                  12
+                ],
+                "unit": "points de %",
+                "turns": 1,
+                "kind": "critdown"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-8",
+          "name": "Flèche ricochet",
+          "element": "Air",
+          "description": "Rebondit sur une seconde cible proche avec des dégâts réduits.",
+          "level": 17,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 2,
+            "rangeMax": [
+              4,
+              5,
+              5,
+              6,
+              6
+            ],
+            "damage": [
+              [
+                12,
+                14
+              ],
+              [
+                16,
+                19
+              ],
+              [
+                21,
+                23
+              ],
+              [
+                26,
+                28
+              ],
+              [
+                31,
+                33
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": true,
+            "target": "Ennemi",
+            "shape": "bounce",
+            "radius": 2,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Dégâts du second rebond",
+                "values": [
+                  65,
+                  69,
+                  73,
+                  76,
+                  80
+                ],
+                "unit": "% du premier",
+                "turns": 0,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Un seul rebond sur un autre ennemi, au plus à deux cases. La zone affiche les positions possibles du second ennemi, pas des dégâts de zone.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-9",
+          "name": "Trait de givre",
+          "element": "Eau",
+          "description": "Blesse et ralentit brièvement ; effet non cumulable.",
+          "level": 21,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 2,
+            "rangeMax": [
+              4,
+              5,
+              6,
+              6,
+              7
+            ],
+            "damage": [
+              [
+                11,
+                13
+              ],
+              [
+                15,
+                17
+              ],
+              [
+                21,
+                23
+              ],
+              [
+                26,
+                28
+              ],
+              [
+                31,
+                33
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": true,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Retrait PM esquivable",
+                "values": [
+                  1,
+                  1,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "PM",
+                "turns": 1,
+                "kind": "pm"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-10",
+          "name": "Balise de repérage",
+          "element": "Utilitaire",
+          "description": "Balise destructible qui révèle les présences dissimulées proches.",
+          "level": 26,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              4,
+              5,
+              5,
+              6
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Case libre",
+            "shape": "circle",
+            "radius": 2,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "PV de la balise",
+                "values": [
+                  20,
+                  35,
+                  50,
+                  65,
+                  80
+                ],
+                "unit": "PV",
+                "turns": 3,
+                "kind": "other"
+              },
+              {
+                "name": "Durée de révélation",
+                "values": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "unit": "tour",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Révèle les ennemis dissimulés à deux cases de la balise. Deux balises maximum ; la troisième remplace la plus ancienne.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-11",
+          "name": "Tir de recul",
+          "element": "Utilitaire",
+          "description": "Repousse un ennemi à courte portée.",
+          "level": 31,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": true,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Poussée",
+                "values": [
+                  2,
+                  3,
+                  3,
+                  4,
+                  4
+                ],
+                "unit": "cases",
+                "turns": 0,
+                "kind": "push"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-12",
+          "name": "Tir ancré",
+          "element": "Terre",
+          "description": "Tir puissant après un tour terminé sans déplacement volontaire.",
+          "level": 36,
+          "detailed": true,
+          "profile": {
+            "pa": 5,
+            "rangeMin": 4,
+            "rangeMax": [
+              6,
+              7,
+              8,
+              8,
+              9
+            ],
+            "damage": [
+              [
+                28,
+                30
+              ],
+              [
+                35,
+                38
+              ],
+              [
+                43,
+                46
+              ],
+              [
+                50,
+                53
+              ],
+              [
+                59,
+                61
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": true,
+            "los": true,
+            "modifiable": true,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 2,
+            "effects": [],
+            "conditions": "Nécessite d’avoir terminé le tour précédent sans déplacement volontaire. Aucune attaque si la condition manque.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-13",
+          "name": "Pluie de braises",
+          "element": "Feu",
+          "description": "Signale une zone bombardée au prochain tour de Sela.",
+          "level": 42,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 3,
+            "rangeMax": [
+              5,
+              6,
+              6,
+              7,
+              7
+            ],
+            "damage": [
+              [
+                20,
+                22
+              ],
+              [
+                25,
+                27
+              ],
+              [
+                30,
+                32
+              ],
+              [
+                35,
+                37
+              ],
+              [
+                40,
+                42
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "circle",
+            "radius": 2,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Réduction des chances de critique",
+                "values": [
+                  5,
+                  8,
+                  10,
+                  13,
+                  15
+                ],
+                "unit": "points de %",
+                "turns": 1,
+                "kind": "critdown"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Début du prochain tour de Sela"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-14",
+          "name": "Trait courbe",
+          "element": "Air",
+          "description": "Tir à portée limitée qui peut contourner la ligne de vue.",
+          "level": 48,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 2,
+            "rangeMax": [
+              3,
+              4,
+              4,
+              5,
+              5
+            ],
+            "damage": [
+              [
+                13,
+                15
+              ],
+              [
+                18,
+                20
+              ],
+              [
+                22,
+                24
+              ],
+              [
+                27,
+                29
+              ],
+              [
+                31,
+                33
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": false,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-15",
+          "name": "Barrage de givre",
+          "element": "Eau",
+          "description": "Zone temporaire qui gêne le déplacement des ennemis.",
+          "level": 54,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 2,
+            "rangeMax": [
+              4,
+              5,
+              5,
+              6,
+              6
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Case",
+            "shape": "circle",
+            "radius": 2,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Retrait PM esquivable à l’entrée",
+                "values": [
+                  1,
+                  1,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "PM",
+                "turns": 1,
+                "kind": "pm"
+              },
+              {
+                "name": "Durée de la zone",
+                "values": [
+                  2,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "tours",
+                "turns": 2,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Une tentative de retrait par ennemi et par tour, même en cas de sorties et retours dans la zone.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-16",
+          "name": "Point faible",
+          "element": "Utilitaire",
+          "description": "Marque une cible pour renforcer le prochain tir contre elle.",
+          "level": 60,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 2,
+            "rangeMax": [
+              5,
+              6,
+              7,
+              7,
+              8
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": true,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Bonus critique du prochain tir contre la cible",
+                "values": [
+                  5,
+                  9,
+                  13,
+                  16,
+                  20
+                ],
+                "unit": "points de %",
+                "turns": 2,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-17",
+          "name": "Changement de poste",
+          "element": "Utilitaire",
+          "description": "Se déplace près d’une de ses balises à portée, puis la consomme.",
+          "level": 70,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              4,
+              5,
+              6,
+              6,
+              7
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": false,
+            "modifiable": false,
+            "target": "Case libre près d’une balise",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Balise consommée",
+                "values": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "unit": "balise",
+                "turns": 0,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Destination adjacente à une balise de Sela ; la carte affiche la portée maximale, condition de balise à vérifier en jeu.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-18",
+          "name": "Tir de couverture",
+          "element": "Utilitaire",
+          "description": "Réaction limitée contre le premier ennemi traversant une ligne surveillée.",
+          "level": 85,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 2,
+            "rangeMax": [
+              4,
+              5,
+              6,
+              6,
+              7
+            ],
+            "damage": [
+              [
+                14,
+                16
+              ],
+              [
+                18,
+                20
+              ],
+              [
+                23,
+                25
+              ],
+              [
+                27,
+                29
+              ],
+              [
+                31,
+                33
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": true,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "line",
+            "radius": 0,
+            "length": 3,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Réactions maximales",
+                "values": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "unit": "tir",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Le premier ennemi entrant dans la ligne déclenche une frappe ; les autres ne sont pas touchés.",
+            "timing": "Première traversée ennemie de la ligne, avant le prochain tour"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "sela-19",
+          "name": "Horizon ouvert",
+          "element": "Utilitaire",
+          "description": "Améliore brièvement portée et souplesse de tir sans supprimer toutes les contraintes.",
+          "level": 100,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 0,
+            "rangeMax": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Soi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 5,
+            "effects": [
+              {
+                "name": "Bonus de portée modifiable",
+                "values": [
+                  1,
+                  2,
+                  2,
+                  3,
+                  3
+                ],
+                "unit": "PO",
+                "turns": 2,
+                "kind": "other"
+              },
+              {
+                "name": "Bonus de chances de critique",
+                "values": [
+                  5,
+                  8,
+                  10,
+                  13,
+                  15
+                ],
+                "unit": "points de %",
+                "turns": 2,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Ne supprime ni portée minimale ni contrainte de ligne ni ligne de vue.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        }
+      ]
+    },
+    {
+      "id": "kael",
+      "name": "Kael",
+      "spells": [
+        {
+          "id": "kael-0",
+          "name": "Lame sournoise",
+          "element": "Terre",
+          "description": "Attaque de mêlée renforcée contre une cible isolée.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                11,
+                14
+              ],
+              [
+                16,
+                19
+              ],
+              [
+                21,
+                23
+              ],
+              [
+                26,
+                29
+              ],
+              [
+                31,
+                33
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat",
+            "conditionalDamage": [
+              [
+                3,
+                3
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                6,
+                6
+              ],
+              [
+                7,
+                7
+              ],
+              [
+                9,
+                9
+              ]
+            ],
+            "conditionName": "Cible isolée : aucun allié à son contact"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-1",
+          "name": "Sceau incandescent",
+          "element": "Feu",
+          "description": "Blesse et applique une marque consommable par certains sorts.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "damage": [
+              [
+                10,
+                12
+              ],
+              [
+                14,
+                16
+              ],
+              [
+                17,
+                19
+              ],
+              [
+                22,
+                24
+              ],
+              [
+                25,
+                28
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Durée de la marque",
+                "values": [
+                  2,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "tours",
+                "turns": 2,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-2",
+          "name": "Piqûre venimeuse",
+          "element": "Air",
+          "description": "Faibles dégâts immédiats et poison court.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "damage": [
+              [
+                6,
+                8
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                12,
+                14
+              ],
+              [
+                13,
+                16
+              ],
+              [
+                17,
+                20
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Poison Air",
+                "values": [
+                  3,
+                  5,
+                  6,
+                  8,
+                  9
+                ],
+                "unit": "de base / déclenchement",
+                "turns": 2,
+                "kind": "poison"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-3",
+          "name": "Entaille siphonnante",
+          "element": "Eau",
+          "description": "Attaque de mêlée avec vol de vie.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                10,
+                12
+              ],
+              [
+                14,
+                16
+              ],
+              [
+                18,
+                21
+              ],
+              [
+                23,
+                26
+              ],
+              [
+                28,
+                31
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat",
+            "lifesteal": 50
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-4",
+          "name": "Dissimulation",
+          "element": "Utilitaire",
+          "description": "Invisibilité brève ; une attaque directe révèle Kael.",
+          "level": 3,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 0,
+            "rangeMax": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Soi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 5,
+            "effects": [
+              {
+                "name": "Durée de l’invisibilité",
+                "values": [
+                  1,
+                  1,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "tours",
+                "turns": 0,
+                "kind": "duration"
+              },
+              {
+                "name": "Bonus PM",
+                "values": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "unit": "PM",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Toute attaque directe révèle Kael. Poser un piège ne le révèle pas. La détection annule la dissimulation.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-6",
+          "name": "Piège à pointes",
+          "element": "Terre",
+          "description": "Piège de dégâts sur une case.",
+          "level": 9,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              4,
+              4,
+              5,
+              5
+            ],
+            "damage": [
+              [
+                13,
+                15
+              ],
+              [
+                18,
+                20
+              ],
+              [
+                22,
+                24
+              ],
+              [
+                26,
+                29
+              ],
+              [
+                31,
+                33
+              ]
+            ],
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": true,
+            "target": "Case libre",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Durée avant expiration",
+                "values": [
+                  3,
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "unit": "tours",
+                "turns": 3,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Un ennemi entre sur le piège"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-7",
+          "name": "Piège de braise",
+          "element": "Feu",
+          "description": "Piège de dégâts dans une petite zone.",
+          "level": 13,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              4,
+              4,
+              5,
+              5
+            ],
+            "damage": [
+              [
+                15,
+                18
+              ],
+              [
+                21,
+                24
+              ],
+              [
+                27,
+                30
+              ],
+              [
+                32,
+                35
+              ],
+              [
+                39,
+                41
+              ]
+            ],
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": true,
+            "target": "Case libre",
+            "shape": "cross",
+            "radius": 1,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Brûlure Feu",
+                "values": [
+                  2,
+                  3,
+                  4,
+                  5,
+                  5
+                ],
+                "unit": "de base / déclenchement",
+                "turns": 2,
+                "kind": "poison"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Un ennemi entre sur la case centrale"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-8",
+          "name": "Fil toxique",
+          "element": "Air",
+          "description": "Passage piégé qui empoisonne le premier ennemi le traversant.",
+          "level": 17,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              4,
+              4,
+              5,
+              5
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": true,
+            "los": true,
+            "modifiable": false,
+            "target": "Case libre",
+            "shape": "line",
+            "radius": 0,
+            "length": 3,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Poison Air",
+                "values": [
+                  4,
+                  7,
+                  8,
+                  11,
+                  13
+                ],
+                "unit": "de base / déclenchement",
+                "turns": 3,
+                "kind": "poison"
+              }
+            ],
+            "conditions": "Un seul ennemi déclenche le fil, qui disparaît. Les pièges expirent après trois tours.",
+            "timing": "Premier ennemi traversant le fil"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-9",
+          "name": "Piège de saignée",
+          "element": "Eau",
+          "description": "Piège dont une partie des dégâts soigne Kael.",
+          "level": 21,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              4,
+              4,
+              5,
+              5
+            ],
+            "damage": [
+              [
+                11,
+                14
+              ],
+              [
+                16,
+                19
+              ],
+              [
+                21,
+                23
+              ],
+              [
+                26,
+                29
+              ],
+              [
+                31,
+                33
+              ]
+            ],
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": true,
+            "target": "Case libre",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Un ennemi entre sur le piège",
+            "lifesteal": 50
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-10",
+          "name": "Permutation",
+          "element": "Utilitaire",
+          "description": "Échange sa place avec son leurre à portée limitée.",
+          "level": 26,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              4,
+              5,
+              5,
+              6
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": false,
+            "modifiable": false,
+            "target": "Leurre",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Bonus Fuite après échange",
+                "values": [
+                  10,
+                  14,
+                  18,
+                  21,
+                  25
+                ],
+                "unit": "points",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-11",
+          "name": "Poussée furtive",
+          "element": "Utilitaire",
+          "description": "Déplace un ennemi d’une case pour préparer un déclenchement.",
+          "level": 31,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Poussée",
+                "values": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "unit": "case",
+                "turns": 0,
+                "kind": "push"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-12",
+          "name": "Piège d’écrasement",
+          "element": "Terre",
+          "description": "Piège puissant nécessitant un temps d’armement.",
+          "level": 36,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              4,
+              4,
+              5,
+              5
+            ],
+            "damage": [
+              [
+                24,
+                26
+              ],
+              [
+                30,
+                32
+              ],
+              [
+                35,
+                37
+              ],
+              [
+                41,
+                43
+              ],
+              [
+                46,
+                48
+              ]
+            ],
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Case libre",
+            "shape": "cross",
+            "radius": 1,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 2,
+            "effects": [
+              {
+                "name": "Retrait PM esquivable",
+                "values": [
+                  1,
+                  1,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "PM",
+                "turns": 1,
+                "kind": "pm"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Entrée ennemie après un tour d’armement"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-13",
+          "name": "Détonation liée",
+          "element": "Feu",
+          "description": "Consomme une marque pour une explosion limitée autour de la cible.",
+          "level": 42,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              4,
+              4,
+              5,
+              5
+            ],
+            "damage": [
+              [
+                20,
+                22
+              ],
+              [
+                25,
+                27
+              ],
+              [
+                30,
+                32
+              ],
+              [
+                35,
+                37
+              ],
+              [
+                40,
+                42
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "cross",
+            "radius": 1,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [],
+            "conditions": "Nécessite une marque de Sceau incandescent sur la cible centrale ; la consomme. Aucun lancement possible sans marque.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-14",
+          "name": "Venin traqueur",
+          "element": "Air",
+          "description": "Poison renforcé par les déplacements volontaires de la cible, plafonné par tour.",
+          "level": 48,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              4,
+              4,
+              5,
+              5
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Poison Air par case volontaire parcourue",
+                "values": [
+                  2,
+                  3,
+                  5,
+                  5,
+                  7
+                ],
+                "unit": "de base",
+                "turns": 2,
+                "kind": "movementPoison"
+              }
+            ],
+            "conditions": "Au maximum trois déclenchements par tour, durant deux tours. Les déplacements forcés ne déclenchent pas ce poison.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-15",
+          "name": "Prélèvement",
+          "element": "Eau",
+          "description": "Vol de vie renforcé si la cible a récemment déclenché un piège de Kael.",
+          "level": 54,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                17,
+                19
+              ],
+              [
+                23,
+                25
+              ],
+              [
+                28,
+                30
+              ],
+              [
+                34,
+                36
+              ],
+              [
+                39,
+                41
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat",
+            "lifesteal": 50,
+            "conditionalDamage": [
+              [
+                5,
+                5
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                10,
+                10
+              ],
+              [
+                11,
+                11
+              ],
+              [
+                14,
+                14
+              ]
+            ],
+            "conditionName": "Cible ayant déclenché un piège de Kael ce tour"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-16",
+          "name": "Fausse piste",
+          "element": "Utilitaire",
+          "description": "Déplace un piège non déclenché vers une case proche valide.",
+          "level": 60,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              4,
+              5,
+              5,
+              6
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Piège allié",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 2,
+            "effects": [
+              {
+                "name": "Distance de déplacement du piège",
+                "values": [
+                  1,
+                  1,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "cases",
+                "turns": 0,
+                "kind": "move"
+              }
+            ],
+            "conditions": "Déplace un piège non déclenché sur une case libre. N’efface pas son temps d’armement.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-17",
+          "name": "Contrat",
+          "element": "Utilitaire",
+          "description": "Désigne une proie et renforce l’attaque directe suivante sous condition d’isolement.",
+          "level": 70,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              4,
+              5,
+              5,
+              6
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Dégâts finaux de la prochaine attaque directe",
+                "values": [
+                  10,
+                  14,
+                  18,
+                  21,
+                  25
+                ],
+                "unit": "%",
+                "turns": 2,
+                "kind": "other"
+              }
+            ],
+            "conditions": "La cible doit être isolée au moment de l’attaque. Un contrat actif ; consommé par une attaque.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-18",
+          "name": "Déclencheur",
+          "element": "Utilitaire",
+          "description": "Déclenche volontairement un piège avec une efficacité réduite.",
+          "level": 85,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              4,
+              5,
+              5,
+              6
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Piège allié",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 2,
+            "effects": [
+              {
+                "name": "Efficacité des dégâts du piège déclenché",
+                "values": [
+                  60,
+                  65,
+                  70,
+                  75,
+                  80
+                ],
+                "unit": "%",
+                "turns": 0,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Déclenche un piège armé, puis le consomme. La zone dépend du piège choisi, à consulter sur sa fiche.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "kael-19",
+          "name": "Plan de fuite",
+          "element": "Utilitaire",
+          "description": "Prépare un retour vers son leurre au tour suivant, si celui-ci survit.",
+          "level": 100,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": false,
+            "modifiable": false,
+            "target": "Leurre",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 5,
+            "effects": [
+              {
+                "name": "Bonus PM après le retour",
+                "values": [
+                  1,
+                  1,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "PM",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Échange avec le leurre au début du prochain tour de Kael si celui-ci existe toujours. Le bonus est accordé après le retour.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        }
+      ]
+    },
+    {
+      "id": "ryuu",
+      "name": "Ryuu",
+      "spells": [
+        {
+          "id": "ryuu-0",
+          "name": "Poing de pierre",
+          "element": "Terre",
+          "description": "Frappe de mêlée et prépare une petite réduction des dégâts reçus.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                11,
+                13
+              ],
+              [
+                15,
+                18
+              ],
+              [
+                19,
+                22
+              ],
+              [
+                24,
+                27
+              ],
+              [
+                29,
+                32
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Réduction du prochain coup reçu",
+                "values": [
+                  5,
+                  7,
+                  9,
+                  10,
+                  12
+                ],
+                "unit": "%",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-1",
+          "name": "Sang ardent",
+          "element": "Feu",
+          "description": "Frappe puissante qui consomme aussi une petite quantité de ses PV.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                14,
+                16
+              ],
+              [
+                18,
+                20
+              ],
+              [
+                23,
+                25
+              ],
+              [
+                26,
+                28
+              ],
+              [
+                31,
+                33
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Coût personnel en PV",
+                "values": [
+                  2,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "% des PV max",
+                "turns": 0,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Coût de vie non létal ; lancement impossible si les PV sont insuffisants. Ce coût ne charge pas la douleur.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-2",
+          "name": "Entaille du vent",
+          "element": "Air",
+          "description": "Frappe de mêlée et facilite le désengagement pendant le tour.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                11,
+                13
+              ],
+              [
+                15,
+                18
+              ],
+              [
+                19,
+                22
+              ],
+              [
+                23,
+                26
+              ],
+              [
+                28,
+                31
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Bonus Fuite personnel",
+                "values": [
+                  5,
+                  9,
+                  13,
+                  16,
+                  20
+                ],
+                "unit": "points",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-3",
+          "name": "Prise vitale",
+          "element": "Eau",
+          "description": "Frappe de mêlée avec vol de vie.",
+          "level": 1,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                10,
+                12
+              ],
+              [
+                14,
+                16
+              ],
+              [
+                18,
+                21
+              ],
+              [
+                22,
+                24
+              ],
+              [
+                27,
+                29
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat",
+            "lifesteal": 50
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-4",
+          "name": "Attraction",
+          "element": "Utilitaire",
+          "description": "Attire une cible en ligne jusqu’à une distance minimale.",
+          "level": 3,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 2,
+            "rangeMax": [
+              3,
+              4,
+              5,
+              5,
+              6
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": true,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Attraction",
+                "values": [
+                  2,
+                  3,
+                  4,
+                  4,
+                  5
+                ],
+                "unit": "cases",
+                "turns": 0,
+                "kind": "pull"
+              }
+            ],
+            "conditions": "Arrêt avant un obstacle ou au contact de Ryuu ; aucun passage à travers un combattant.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-5",
+          "name": "Interposition",
+          "element": "Utilitaire",
+          "description": "Prend une partie des dégâts d’un allié proche, avec un plafond.",
+          "level": 6,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 1,
+            "rangeMax": [
+              2,
+              2,
+              3,
+              3,
+              3
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Allié",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Part des dégâts transférée à Ryuu",
+                "values": [
+                  20,
+                  25,
+                  30,
+                  35,
+                  40
+                ],
+                "unit": "%",
+                "turns": 1,
+                "kind": "other"
+              },
+              {
+                "name": "Plafond transféré par tour",
+                "values": [
+                  8,
+                  10,
+                  12,
+                  13,
+                  15
+                ],
+                "unit": "% des PV max de Ryuu",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les dégâts transférés ne peuvent pas être transférés de nouveau.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-6",
+          "name": "Ancrage brutal",
+          "element": "Terre",
+          "description": "Frappe et augmente temporairement sa capacité à retenir les ennemis au contact.",
+          "level": 9,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                13,
+                15
+              ],
+              [
+                16,
+                19
+              ],
+              [
+                22,
+                24
+              ],
+              [
+                26,
+                29
+              ],
+              [
+                31,
+                33
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 2,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Bonus Tacle personnel",
+                "values": [
+                  10,
+                  15,
+                  20,
+                  25,
+                  30
+                ],
+                "unit": "points",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-7",
+          "name": "Dette de douleur",
+          "element": "Feu",
+          "description": "Frappe renforcée par les dégâts ennemis récemment subis, plafonnée.",
+          "level": 13,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 1,
+            "rangeMax": [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "damage": [
+              [
+                17,
+                19
+              ],
+              [
+                23,
+                25
+              ],
+              [
+                28,
+                30
+              ],
+              [
+                34,
+                36
+              ],
+              [
+                39,
+                41
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Seuil de dégâts ennemis reçus pour le bonus maximal",
+                "values": [
+                  15,
+                  15,
+                  15,
+                  15,
+                  15
+                ],
+                "unit": "% des PV max",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Réserve comptée depuis le début du tour précédent ; bonus proportionnel sous le seuil. Le calculateur compare sans bonus et réserve pleine.",
+            "timing": "Immédiat",
+            "conditionalDamage": [
+              [
+                3,
+                3
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                9,
+                9
+              ],
+              [
+                11,
+                11
+              ]
+            ],
+            "conditionName": "Réserve de douleur pleine : bonus de base"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-8",
+          "name": "Crochet tournoyant",
+          "element": "Air",
+          "description": "Blesse et déplace la cible autour de Ryuu vers une case libre.",
+          "level": 17,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                12,
+                14
+              ],
+              [
+                16,
+                18
+              ],
+              [
+                21,
+                24
+              ],
+              [
+                26,
+                28
+              ],
+              [
+                31,
+                33
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [
+              {
+                "name": "Rotation de la cible autour de Ryuu",
+                "values": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "unit": "case",
+                "turns": 0,
+                "kind": "move"
+              }
+            ],
+            "conditions": "Destination adjacente libre. La rotation ne traverse pas les obstacles.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-9",
+          "name": "Siphon vital",
+          "element": "Eau",
+          "description": "Draine les ennemis dans une petite zone au contact.",
+          "level": 21,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 0,
+            "rangeMax": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "damage": [
+              [
+                13,
+                16
+              ],
+              [
+                19,
+                21
+              ],
+              [
+                23,
+                26
+              ],
+              [
+                30,
+                32
+              ],
+              [
+                35,
+                38
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemis proches",
+            "shape": "ring",
+            "radius": 1,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [],
+            "conditions": "Chaque ennemi est touché une fois. Au maximum trois ennemis contribuent à la récupération.",
+            "timing": "Immédiat",
+            "lifesteal": 50
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-10",
+          "name": "Transposition",
+          "element": "Utilitaire",
+          "description": "Échange sa position avec un allié à portée limitée.",
+          "level": 26,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 1,
+            "rangeMax": [
+              3,
+              4,
+              5,
+              5,
+              6
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": false,
+            "modifiable": false,
+            "target": "Allié",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Bonus Tacle personnel",
+                "values": [
+                  5,
+                  9,
+                  13,
+                  16,
+                  20
+                ],
+                "unit": "points",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-11",
+          "name": "Endurcissement",
+          "element": "Utilitaire",
+          "description": "Réduit les dégâts reçus au prix d’une baisse temporaire de mobilité.",
+          "level": 31,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 0,
+            "rangeMax": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Soi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Réduction des dégâts subis",
+                "values": [
+                  10,
+                  14,
+                  18,
+                  21,
+                  25
+                ],
+                "unit": "%",
+                "turns": 1,
+                "kind": "other"
+              },
+              {
+                "name": "PM perdus volontairement",
+                "values": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "unit": "PM",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-12",
+          "name": "Onde de rupture",
+          "element": "Terre",
+          "description": "Frappe autour de lui ; bonus s’il a tenu sa position depuis le tour précédent.",
+          "level": 36,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 0,
+            "rangeMax": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "damage": [
+              [
+                17,
+                19
+              ],
+              [
+                23,
+                25
+              ],
+              [
+                28,
+                30
+              ],
+              [
+                34,
+                36
+              ],
+              [
+                39,
+                41
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemis proches",
+            "shape": "ring",
+            "radius": 2,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 0,
+            "effects": [],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat",
+            "conditionalDamage": [
+              [
+                4,
+                4
+              ],
+              [
+                7,
+                7
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                10,
+                10
+              ],
+              [
+                11,
+                11
+              ]
+            ],
+            "conditionName": "Ryuu a tenu sa position depuis le tour précédent"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-13",
+          "name": "Cœur de braise",
+          "element": "Feu",
+          "description": "Consomme une réserve de douleur pour attaquer en zone.",
+          "level": 42,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 0,
+            "rangeMax": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "damage": [
+              [
+                18,
+                20
+              ],
+              [
+                23,
+                25
+              ],
+              [
+                29,
+                31
+              ],
+              [
+                34,
+                36
+              ],
+              [
+                39,
+                41
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemis proches",
+            "shape": "ring",
+            "radius": 1,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 2,
+            "effects": [],
+            "conditions": "Consomme la réserve. Seuls les dégâts ennemis directs peuvent l’alimenter ; ni alliés, ni auto-dégâts.",
+            "timing": "Immédiat",
+            "conditionalDamage": [
+              [
+                4,
+                4
+              ],
+              [
+                6,
+                6
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                10,
+                10
+              ],
+              [
+                12,
+                12
+              ]
+            ],
+            "conditionName": "Consommer une réserve de douleur pleine"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-14",
+          "name": "Ruée du cyclone",
+          "element": "Air",
+          "description": "Se rapproche d’un ennemi par un trajet libre, puis le frappe.",
+          "level": 48,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 2,
+            "rangeMax": [
+              3,
+              4,
+              4,
+              5,
+              5
+            ],
+            "damage": [
+              [
+                16,
+                18
+              ],
+              [
+                21,
+                24
+              ],
+              [
+                27,
+                29
+              ],
+              [
+                33,
+                35
+              ],
+              [
+                39,
+                41
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": true,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 2,
+            "effects": [
+              {
+                "name": "Réduction des chances de critique de la cible",
+                "values": [
+                  5,
+                  6,
+                  8,
+                  9,
+                  10
+                ],
+                "unit": "points de %",
+                "turns": 1,
+                "kind": "critdown"
+              }
+            ],
+            "conditions": "Trajet libre ; Ryuu termine au contact de l’ennemi.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-15",
+          "name": "Marée vitale",
+          "element": "Eau",
+          "description": "Vol de vie puissant ; excédent de soin converti en petit bouclier personnel plafonné.",
+          "level": 54,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 1,
+            "rangeMax": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "damage": [
+              [
+                18,
+                20
+              ],
+              [
+                23,
+                25
+              ],
+              [
+                29,
+                31
+              ],
+              [
+                34,
+                36
+              ],
+              [
+                39,
+                41
+              ]
+            ],
+            "crit": 10,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Ennemi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 2,
+            "effects": [
+              {
+                "name": "Plafond de conversion du soin excédentaire en bouclier",
+                "values": [
+                  3,
+                  4,
+                  6,
+                  7,
+                  8
+                ],
+                "unit": "% des PV max",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat",
+            "lifesteal": 50
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-16",
+          "name": "Partage du fardeau",
+          "element": "Utilitaire",
+          "description": "Transfère une partie des dégâts des alliés proches vers Ryuu, avec une limite collective.",
+          "level": 60,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 0,
+            "rangeMax": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Soi et alliés",
+            "shape": "circle",
+            "radius": 2,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 4,
+            "effects": [
+              {
+                "name": "Part des dégâts alliés transférée à Ryuu",
+                "values": [
+                  15,
+                  19,
+                  23,
+                  26,
+                  30
+                ],
+                "unit": "%",
+                "turns": 1,
+                "kind": "other"
+              },
+              {
+                "name": "Plafond collectif transféré",
+                "values": [
+                  10,
+                  13,
+                  15,
+                  18,
+                  20
+                ],
+                "unit": "% des PV max de Ryuu",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Ne se cumule pas avec Interposition : seul le taux le plus élevé s’applique. Aucun transfert en chaîne.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-17",
+          "name": "Riposte préparée",
+          "element": "Utilitaire",
+          "description": "Prépare une seule contre-attaque contre la prochaine attaque de mêlée ennemie.",
+          "level": 70,
+          "detailed": true,
+          "profile": {
+            "pa": 2,
+            "rangeMin": 0,
+            "rangeMax": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Soi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 3,
+            "effects": [
+              {
+                "name": "Renvoi de base",
+                "values": [
+                  5,
+                  8,
+                  10,
+                  13,
+                  15
+                ],
+                "unit": "PV",
+                "turns": 1,
+                "kind": "reflect"
+              }
+            ],
+            "conditions": "Une seule réaction à la prochaine attaque ennemie de mêlée. Renvoi proposé = base × (1 + Sagesse/100), plafonné aux dégâts reçus. Ne déclenche pas un autre renvoi.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-18",
+          "name": "Refus de céder",
+          "element": "Utilitaire",
+          "description": "Bouclier plus efficace lorsque Ryuu est blessé, sans invulnérabilité.",
+          "level": 85,
+          "detailed": true,
+          "profile": {
+            "pa": 3,
+            "rangeMin": 0,
+            "rangeMax": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Soi",
+            "shape": "point",
+            "radius": 0,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 4,
+            "effects": [
+              {
+                "name": "Bouclier personnel",
+                "values": [
+                  60,
+                  95,
+                  130,
+                  165,
+                  200
+                ],
+                "unit": "PV",
+                "turns": 1,
+                "kind": "shield"
+              },
+              {
+                "name": "Bonus au bouclier si moins de 30 % PV",
+                "values": [
+                  25,
+                  31,
+                  38,
+                  44,
+                  50
+                ],
+                "unit": "%",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Les bonus et malus du même sort ne se cumulent pas sur une même cible ; une réapplication renouvelle la durée.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        },
+        {
+          "id": "ryuu-19",
+          "name": "Dernier rempart",
+          "element": "Utilitaire",
+          "description": "Renforce brièvement sa protection des alliés, puis impose un tour de récupération.",
+          "level": 100,
+          "detailed": true,
+          "profile": {
+            "pa": 4,
+            "rangeMin": 0,
+            "rangeMax": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "damage": null,
+            "crit": 0,
+            "critBonus": 4,
+            "linear": false,
+            "los": true,
+            "modifiable": false,
+            "target": "Soi et alliés",
+            "shape": "circle",
+            "radius": 2,
+            "length": 1,
+            "casts": 1,
+            "perTarget": 2,
+            "cooldown": 6,
+            "effects": [
+              {
+                "name": "Réduction des dégâts subis des alliés",
+                "values": [
+                  15,
+                  19,
+                  23,
+                  26,
+                  30
+                ],
+                "unit": "%",
+                "turns": 1,
+                "kind": "other"
+              },
+              {
+                "name": "PM perdus par Ryuu au tour suivant",
+                "values": [
+                  1,
+                  1,
+                  2,
+                  2,
+                  2
+                ],
+                "unit": "PM",
+                "turns": 1,
+                "kind": "other"
+              }
+            ],
+            "conditions": "Ne se cumule pas avec une autre réduction de ce sort. La réduction n’est pas une invulnérabilité.",
+            "timing": "Immédiat"
+          },
+          "revision": "Proposition V0.6"
+        }
+      ]
+    }
+  ]
+}
