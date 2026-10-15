@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-15",
+  "method": "tests.html in the in-app Chromium browser via CUA, actual app and export button",
+  "pass": 23,
+  "fail": 0,
+  "sprite_bounds_alpha_above_10": [294, 13, 951, 1245],
+  "changed_pixels_via_color_inputs": {"skin": 40044, "hair": 83417, "clothing1": 27378, "clothing2": 19334, "clothing3": 29605},
+  "equipment_sample_palettes": ["#000000", "#FFFFFF", "#00FFFF"],
+  "png": {"width": 1254, "height": 1254, "alpha_corner": 0, "decoded_equal_to_recolored_canvas": true, "mask_overlay_excluded": true},
+  "responsive_widths_without_horizontal_overflow": [400, 640, 900],
+  "original_bundle": "PASS: 10 approved files, exact sizes and SHA-256",
+  "artistic_validation": "pending user review; technical checks do not approve the artwork"
+}

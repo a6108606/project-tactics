@@ -1,8 +1,8 @@
 # Atelier V3 — reprise de l’issue #27
 
-État au 15 octobre 2026 : **sources V2 complètes et vérifiées ; pilote 2D conservé ; nouveau pilote de vraie 3D stylisée sur les deux Ryuu, à valider artistiquement**. Aucun élargissement aux autres héros sans validation.
+État au 15 octobre 2026 : **sources V2 complètes et vérifiées ; direction active : 2D isométrique, Ryuu masculin sud-est, à valider artistiquement**. Le [nouvel atelier](../../tools/character-studio/isometric/index.html) dispose de cinq couleurs, comparaison, grille et export PNG transparent. [Méthode, provenance et limites](../../tools/character-studio/isometric/README.md).
 
-L’utilisateur a choisi « Vraie 3D stylisée, avec validation du nouveau rendu ». Le [suivi 3D](RYUU_3D_REVIEW.md) et ses comparaisons décrivent ce nouveau lot. Les résultats ci-dessous concernent le pilote 2D antérieur et ne constituent pas la validation du nouveau rendu.
+L’utilisateur demande désormais une version dans l’esprit de Dofus 2 en isométrique après les essais de vraie 3D. Le [suivi 3D](RYUU_3D_REVIEW.md) est conservé comme historique. Les résultats du pilote 2D antérieur ci-dessous ne constituent pas la validation du nouveau sprite. ART-03, ART-04, ART-07 et ART-08 restent ouverts ; ni les dix bases ni les variantes de forme ne sont achevées.
 
 ## Base et isolation
 
