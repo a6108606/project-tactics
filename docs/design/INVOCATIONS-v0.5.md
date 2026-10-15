@@ -1,5 +1,7 @@
 # Invocations — sorts propres et croissance v0.5
 
+> Historique : les bases et l’héritage offensifs, ainsi que les exemples numériques de dégâts, sont remplacés par la [calibration v0.6](EQUILIBRAGE-DEGATS-v0.6.md). Les règles de contrôle, déblocages, PV, soins et boucliers restent applicables.
+
 Date : 2026-10-15. Cette version remplace les profils à une seule action de [v0.4](INVOCATIONS-v0.4.md). Statut : conception et simulateur ; aucun moteur de combat Godot ajouté par cette modification.
 
 - [Atelier interactif](https://tactics-grimoire-atelier.a6108606.chatgpt.site?view=invocations)
