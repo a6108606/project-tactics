@@ -1,5 +1,7 @@
 # Atelier V3 — pilote Ryuu
 
+**Suite choisie par l’utilisateur : [vraie 3D stylisée, pilote séparé](../3d/README.md).** Les limites décrites ci-dessous concernent ce pilote 2D conservé.
+
 Preuve intermédiaire de recolorisation des **deux grandes illustrations originales** de Ryuu. L’interface organise les choix visuels à gauche et l’aperçu à droite, avec la palette parchemin, bleu nuit et doré. Les cinq héros, références et vues d’étude restent accessibles. L’archive HTML V2 est conservée à l’identique.
 
 Ce pilote n’achève pas l’issue #27 : aucun visage/coiffure modulaire, aucun équipement démontable et aucune personnalisation des huit autres bases. Ces contrôles sont désactivés avec explication. Ne pas confondre neuf études consultables et neuf variantes disponibles.

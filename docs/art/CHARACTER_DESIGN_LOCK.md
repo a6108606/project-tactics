@@ -41,3 +41,7 @@ Les huit vues et les poses sont des études statiques, pas des directions ou ani
 Ne pas modifier les sorts, voies élémentaires, caractéristiques, statistiques, équilibrage ou histoire : ces sujets sont traités en parallèle. Ne pas modifier la CI, les runners, les permissions ou la visibilité du dépôt pour cette tâche.
 
 Prochaine étape : [atelier réellement interactif](INTERACTIVE_ATELIER_HANDOFF.md), sans nouvelle direction artistique.
+
+## Décision ultérieure — pilote 3D autorisé
+
+Le 15 octobre 2026, l’utilisateur choisit explicitement « Vraie 3D stylisée, avec validation du nouveau rendu ». Une traduction en volume sur Ryuu masculin/féminin est donc autorisée comme proposition distincte, avec reconstructions et écarts signalés. La validation du nouveau rendu reste requise avant généralisation. Les sources approuvées restent immuables ; aucun autre héros ni gameplay ne change. Voir [la revue du pilote 3D](RYUU_3D_REVIEW.md).

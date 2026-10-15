@@ -1,6 +1,8 @@
 # Atelier V3 — reprise de l’issue #27
 
-État au 15 octobre 2026 : **sources V2 complètes et vérifiées ; pilote de recolorisation Ryuu disponible ; atelier modulaire complet non terminé**. Aucun élargissement aux autres héros sans validation du pilote.
+État au 15 octobre 2026 : **sources V2 complètes et vérifiées ; pilote 2D conservé ; nouveau pilote de vraie 3D stylisée sur les deux Ryuu, à valider artistiquement**. Aucun élargissement aux autres héros sans validation.
+
+L’utilisateur a choisi « Vraie 3D stylisée, avec validation du nouveau rendu ». Le [suivi 3D](RYUU_3D_REVIEW.md) et ses comparaisons décrivent ce nouveau lot. Les résultats ci-dessous concernent le pilote 2D antérieur et ne constituent pas la validation du nouveau rendu.
 
 ## Base et isolation
 
@@ -21,7 +23,7 @@ Les dix fichiers sont versionnés sous `content/art/characters/reference-v2/` : 
 
 Commande de contrôle : `python3 tools/art/import_reference_bundle.py --verify-only` → **PASS: 10 approved files, exact sizes and SHA-256**.
 
-## Pilote utilisable
+## Pilote 2D conservé
 
 Ouvrir `tools/character-studio/interactive/` via le serveur local indiqué dans son [README](../../tools/character-studio/interactive/README.md).
 
@@ -66,11 +68,11 @@ Cette refonte d’interface n’ajoute pas de variante de forme ni de nouvelle a
 
 Sur Kael, Sela, Leo et Lina, l’onglet Couleurs affiche désormais « Référence uniquement », une palette non interactive et un accès explicite au pilote Ryuu. Les champs et palettes d’essai indisponibles sont masqués ; le texte ne promet plus une modification du dessin. Le parcours Sela → Ryuu est vérifié dans le navigateur. Les liens du script et de la feuille de style sont versionnés pour éviter le mélange avec une ancienne interface en cache.
 
-Le souhait d’une reconstruction 3D a été exprimé. Aucun modèle 3D n’est actuellement présent dans le dépôt et aucune reconstruction 3D n’a été livrée. Le [moteur publié du site de référence](https://github.com/PyDofus/d3-ts-renderer) décrit un assemblage de sprites Dofus. Une base artistique modulaire reste nécessaire, en 2D comme en 3D ; le choix de la suite doit distinguer maintien du dessin et passage à de vrais volumes.
+Le choix d’une vraie 3D stylisée a ensuite été confirmé par l’utilisateur. Deux modèles Ryuu sont maintenant disponibles dans l’atelier séparé `tools/character-studio/3d/`, avec validation du rendu encore en attente. Voir [la revue 3D](RYUU_3D_REVIEW.md).
 
 ## Reconstructions et décision artistique
 
-Aucune reconstruction n’est intégrée au rendu livré. Deux essais ont été rejetés pendant la préparation :
+Aucune reconstruction n’est intégrée au rendu **2D** livré. Le pilote 3D séparé reconstruit l’ensemble du modèle et le signale explicitement. Deux essais ont été rejetés pendant la préparation :
 
 1. Une retouche générative limitée à la tête masculine a déplacé des détails du visage et du bandeau. Elle n’est pas devenue un asset de l’atelier.
 2. Une adaptation de pixels entre les deux grandes têtes de Ryuu a conservé des contours parasites et rendu incohérent le raccord de l’attache. Elle n’est pas devenue une variante sélectionnable.
@@ -90,7 +92,7 @@ La question d’un redessin en SVG a été soulevée par l’utilisateur. Un SVG
 
 Les sentinelles d’équipement sont des points choisis dans le bandeau, écharpe, cuir, ceinture, pan rouge et protection de jambe. Les tests vérifient également **tous** les pixels hors masque et l’alpha. Ils ne prouvent pas l’exhaustivité sémantique d’une matte d’équipement, qui n’existe pas encore. La revue visuelle reste nécessaire, notamment aux petites bordures.
 
-## État ART-01 à ART-12
+## État ART-01 à ART-12 du pilote 2D
 
 | Critère | État et preuve |
 | --- | --- |
@@ -109,4 +111,4 @@ Les sentinelles d’équipement sont des points choisis dans le bandeau, écharp
 
 ## Suite
 
-Le lot actuel est une preuve intermédiaire à examiner, pas une livraison finale de l’issue #27. La suite doit résoudre les variantes de forme et les occlusions sur Ryuu masculin/féminin, puis obtenir la validation esthétique avant les huit autres bases. Le choix éventuel d’une reconstruction SVG doit être éprouvé visuellement sur Ryuu, sans substituer silencieusement un autre style aux fiches approuvées. La PR reste en brouillon et l’issue ouverte.
+Le pilote 3D Ryuu masculin/féminin doit maintenant être examiné artistiquement. Les formes et le rendu proposés ne sont pas encore validés. Après retours et corrections sur Ryuu, appliquer la méthode aux autres bases uniquement avec validation de la direction. La PR reste en brouillon et l’issue ouverte.
