@@ -14,11 +14,13 @@ Continuous 2D isometric world with chunk streaming, encounters on the existing t
 - [ADR 0002 — CI decision](docs/adr/0002-github-hosted-ci.md)
 
 ## Invocations — atelier et chara design (2026-10-15)
-- [Règles et catalogue v0.5](docs/design/INVOCATIONS-v0.5.md) : 1–4 points par créature, cinq rangs, progression envisagée jusqu’à 1 000.
+- [Échelle de dégâts et catalogue v0.6](docs/design/EQUILIBRAGE-DEGATS-v0.6.md) : 1–4 points par créature, cinq rangs, progression envisagée jusqu’à 1 000.
 - [Brief chara design / prompt de reprise](docs/art/INVOCATIONS-CHARA-DESIGN.md) : dix créatures, rôles, silhouettes proposées et évolutions de rang.
-- [Données structurées](content/summons/catalog-v0.5.json) : 10 créatures, 60 sorts, valeurs et coefficients proposés.
-- [Modèle de croissance](content/summons/model-v0.5.cjs) et [tests](tests/summons-model-v0.5.test.cjs) : niveau, caractéristiques, Vitalité, résistances.
+- [Données structurées](content/summons/catalog-v0.6.json) : 10 créatures, 60 sorts, valeurs et coefficients proposés.
+- [Modèle de croissance](content/summons/model-v0.6.cjs) et [tests](tests/summons-model-v0.6.test.cjs) : niveau, caractéristiques, Vitalité, résistances.
 - [Atelier interactif](https://tactics-grimoire-atelier.a6108606.chatgpt.site?view=invocations).
+
+- [Repères DOFUS et profils des héros](content/combat/calibration-v0.6.json) : comparaison à caractéristiques et résistances explicites.
 
 ## Stack
 Godot 4 .NET / C#, separate engine-agnostic combat logic, ENet private sessions.
