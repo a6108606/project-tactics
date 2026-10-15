@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "character": "ryuu-masculine",
+  "tool": "built-in image_gen.imagegen",
+  "source": "ryuu-male-se.png",
+  "prompt_set": "direction-prompts.json",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/directions/ryuu-n-keyed.png",
+      "recipe": "assets/directions/recipe-n.json",
+      "sha256": "fe5ef2648ca851e7bc4aa5a427ea8e3055e2b082a4366fc71a7fe1f2067c76c4",
+      "size": [
+        1254,
+        1254
+      ],
+      "displayHeight": 1189,
+      "bounds_estimate": [
+        342,
+        16,
+        974,
+        1205
+      ],
+      "status": "review",
+      "reconstruction": true
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/directions/ryuu-ne-keyed.png",
+      "recipe": "assets/directions/recipe-ne.json",
+      "sha256": "6c1ed37150eb75d762e5f7e88585d095fee01a309f90afdf1d5fa99f8afe61a3",
+      "size": [
+        1254,
+        1254
+      ],
+      "displayHeight": 1197,
+      "bounds_estimate": [
+        305,
+        13,
+        885,
+        1210
+      ],
+      "status": "review",
+      "reconstruction": true
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/directions/ryuu-e-keyed.png",
+      "recipe": "assets/directions/recipe-e.json",
+      "sha256": "43ecee7d27d3a7d3b791bae11855a55b6d46f6ba0c20b142ccc04c064e2f9046",
+      "size": [
+        1254,
+        1254
+      ],
+      "displayHeight": 1217,
+      "bounds_estimate": [
+        329,
+        18,
+        881,
+        1235
+      ],
+      "status": "review",
+      "reconstruction": false
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/ryuu-male-se-keyed.png",
+      "recipe": "assets/recipe.json",
+      "sha256": "e71566f393170aadb8c1a1f6221f17c730c2a69be21d50fd9301fc44d067f369",
+      "size": [
+        1254,
+        1254
+      ],
+      "displayHeight": 1230,
+      "bounds_estimate": [
+        295,
+        14,
+        951,
+        1244
+      ],
+      "status": "review",
+      "reconstruction": false
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/directions/ryuu-s-keyed.png",
+      "recipe": "assets/directions/recipe-s.json",
+      "sha256": "5d02237772adfd64f626b83dc5efb293c0f3b9e463463bd16cc9b7e58e661e09",
+      "size": [
+        1254,
+        1254
+      ],
+      "displayHeight": 1211,
+      "bounds_estimate": [
+        262,
+        14,
+        906,
+        1225
+      ],
+      "status": "review",
+      "reconstruction": false
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/directions/ryuu-sw-keyed.png",
+      "recipe": "assets/directions/recipe-sw.json",
+      "sha256": "d9bb624f48d077909ce83fb897916412543a8a85b9e16b6b42011648c36761f3",
+      "size": [
+        1254,
+        1254
+      ],
+      "displayHeight": 1216,
+      "bounds_estimate": [
+        338,
+        16,
+        986,
+        1232
+      ],
+      "status": "review",
+      "reconstruction": false
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/directions/ryuu-w-keyed.png",
+      "recipe": "assets/directions/recipe-w.json",
+      "sha256": "7ecb472b4d66ea303a455df729bf5984dc4b143b255dd19951e6a4571c5344e2",
+      "size": [
+        1254,
+        1254
+      ],
+      "displayHeight": 1223,
+      "bounds_estimate": [
+        410,
+        12,
+        920,
+        1235
+      ],
+      "status": "review",
+      "reconstruction": false
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/directions/ryuu-nw-keyed.png",
+      "recipe": "assets/directions/recipe-nw.json",
+      "sha256": "a9cfc83073e965039269a17516ba5000b58d9158b5aee9cc5190583a3623811e",
+      "size": [
+        1254,
+        1254
+      ],
+      "displayHeight": 1194,
+      "bounds_estimate": [
+        374,
+        11,
+        962,
+        1205
+      ],
+      "status": "review",
+      "reconstruction": true
+    }
+  ],
+  "exported_atlas": {
+    "file": "ryuu-8-directions.png",
+    "sha256": "dd9f3274be5718daa7fc7192a464f491f9696b16c579372383c7b691000aa217",
+    "size": [
+      3072,
+      2560
+    ],
+    "cell": [
+      768,
+      1280
+    ],
+    "method": "Actual browser export button, default palette, transparent PNG"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-15",
+  "method": "tests.html in in-app Chromium through CUA, real controls and PNG buttons",
+  "pass": 140,
+  "fail": 0,
+  "directions": ["n", "ne", "e", "se", "s", "sw", "w", "nw"],
+  "unique_source_hashes": 8,
+  "channels_per_direction": 5,
+  "fixed_equipment_palettes": ["#000000", "#FFFFFF", "#00FFFF"],
+  "per_direction_png": {"size": [1254, 1254], "alpha_corner": 0, "decoded_equal_to_personalized_canvas": true},
+  "atlas_png": {"size": [3072, 2560], "transparent": true, "occupied_cells": 8},
+  "palette_preserved_on_direction_change": true,
+  "last_direction_request_wins": true,
+  "keyboard_navigation": true,
+  "save_palette_and_direction": true,
+  "responsive_widths": [400, 640, 900],
+  "original_bundle": "PASS: 10 approved files, exact sizes and SHA-256",
+  "visual_review": "Eight-view contact sheet examined with canonical and Nuit et jade palettes. Rear surfaces and minor costume inconsistencies remain art-review candidates; no animation or 3D continuity claimed."
+}
