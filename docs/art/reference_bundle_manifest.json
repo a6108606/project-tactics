@@ -1,0 +1,86 @@
+{
+  "schema": "project-tactics/approved-art-reference-bundle",
+  "version": 1,
+  "approved_on": "2026-10-15",
+  "scope": "aesthetics-only",
+  "source_authority": "Five character sheets reattached and approved by the user, plus the approved reference-only HTML V2. No redesign.",
+  "archive": {
+    "filename": "project_tactics_atelier_v2_references.zip",
+    "bytes": 25457621,
+    "sha256": "952e92e34747c01dba3de26e2ff68f378338e77489f21a8b1d33137ebe66aeb3"
+  },
+  "repository_prefix": "content/art/characters/reference-v2/",
+  "delivery_note": "This manifest identifies expected files. It does not assert their presence in GitHub. Run the import verifier against the checked-out commit.",
+  "files": [
+    {
+      "source_member": "Project_Tactics_Atelier_V2/README_FR.md",
+      "repository_path": "content/art/characters/reference-v2/README_FR.md",
+      "bytes": 5091,
+      "sha256": "7015ffe1d1e7504eeb538b74a0a0fbc835762be901b9d488c65300ea1919775e"
+    },
+    {
+      "source_member": "Project_Tactics_Atelier_V2/appearance_reference_v2.schema.json",
+      "repository_path": "content/art/characters/reference-v2/appearance_reference_v2.schema.json",
+      "bytes": 4017,
+      "sha256": "0a0c760d0f3a910cf065e09ead7b90041d88afbf1e41b34e415ebd87b2916b9c"
+    },
+    {
+      "source_member": "Project_Tactics_Atelier_V2/atelier.html",
+      "repository_path": "content/art/characters/reference-v2/atelier.html",
+      "bytes": 12358240,
+      "sha256": "4ed90cf29a365f1dbc5a7a7ced9e0c8282c3009315acaef0157ce7729e00da12"
+    },
+    {
+      "source_member": "Project_Tactics_Atelier_V2/design_lock_v2.json",
+      "repository_path": "content/art/characters/reference-v2/design_lock_v2.json",
+      "bytes": 23808,
+      "sha256": "c49221538fc1252e07ed32cb337033266171a01538c56079e8d31937e00d5bd2"
+    },
+    {
+      "source_member": "Project_Tactics_Atelier_V2/references/kael.png",
+      "repository_path": "content/art/characters/reference-v2/references/kael.png",
+      "bytes": 3170445,
+      "sha256": "6e922784ee9d86a10cfc2e6ba117a2dc966edbd8c3bf2ba51461a62a1cb2b0c1",
+      "dimensions": [1122, 1402],
+      "hero": "kael"
+    },
+    {
+      "source_member": "Project_Tactics_Atelier_V2/references/leo.png",
+      "repository_path": "content/art/characters/reference-v2/references/leo.png",
+      "bytes": 3265443,
+      "sha256": "0db3e6ecf23e6717961254f5117f14a2858cd673b7ef2f17a615f2bcce01bc71",
+      "dimensions": [1122, 1402],
+      "hero": "leo"
+    },
+    {
+      "source_member": "Project_Tactics_Atelier_V2/references/lina.png",
+      "repository_path": "content/art/characters/reference-v2/references/lina.png",
+      "bytes": 3226784,
+      "sha256": "46f46393362d85d6a5735f5cd58bea7df628fcd9d36d837f24820a692a76bc0a",
+      "dimensions": [1122, 1402],
+      "hero": "lina"
+    },
+    {
+      "source_member": "Project_Tactics_Atelier_V2/references/ryuu.png",
+      "repository_path": "content/art/characters/reference-v2/references/ryuu.png",
+      "bytes": 3233335,
+      "sha256": "8d7e17983eee6b29abea9e7f4a52b87eb32a8c74771442591ad846913a475c20",
+      "dimensions": [1086, 1448],
+      "hero": "ryuu"
+    },
+    {
+      "source_member": "Project_Tactics_Atelier_V2/references/sela.png",
+      "repository_path": "content/art/characters/reference-v2/references/sela.png",
+      "bytes": 3234933,
+      "sha256": "6e99506974ef8eee9d26bb77e658aab7723f7e79b41000e36f36171e6eb3ebed",
+      "dimensions": [1122, 1402],
+      "hero": "sela"
+    },
+    {
+      "source_member": "Project_Tactics_Atelier_V2/validation_tests.json",
+      "repository_path": "content/art/characters/reference-v2/validation_tests.json",
+      "bytes": 8922,
+      "sha256": "31998b53484743716b93ba60e750bf72ec848e854463155f0104bc1375ae68f9"
+    }
+  ]
+}
