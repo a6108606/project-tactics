@@ -1,0 +1,15 @@
+{
+  "status": "forms-study-awaiting-review",
+  "units": "meters",
+  "height_target": 1.85,
+  "rigged": false,
+  "textures": false,
+  "source": "ref/original-sheet.png",
+  "target": "ref/target.png",
+  "files": {
+    "ryuu-forms.glb": "abd0073a6fd2957436c357a08020280e60dce6c84726d74988796d5f971b61a3",
+    "CH_Ryuu_master.blend": "f980d1a825d015c109e478abe4837e0185e3df3d59726b38f055f708331f2e75"
+  },
+  "mesh_objects": 152,
+  "triangles_base": 93294
+}

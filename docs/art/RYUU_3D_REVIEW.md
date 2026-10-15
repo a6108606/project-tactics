@@ -2,6 +2,8 @@
 
 **Retour utilisateur du 15 octobre 2026 : « Horrible mdr ».** Le pilote ci-dessous reste une preuve technique ; sa direction artistique est rejetée. Une [nouvelle cible visuelle](evidence/ryuu-design-target/index.html), produite avec Imagegen, a reçu le retour « c'est déjà vachement mieux ! ». Cette appréciation porte sur une image de recherche : le véritable modèle correspondant reste à construire et à valider. Les résultats techniques historiques ci-dessous ne valent pas approbation du rendu.
 
+Une [nouvelle étude de formes manipulable](../../tools/character-studio/3d/forms/index.html) est maintenant disponible, avec [source, méthode et mesures](../../tools/character-studio/3d/forms/README.md). Le contrôle de silhouette reste insuffisant (IoU approximative 0,677 contre un seuil de 0,85). Les 24 contrôles navigateur passent, mais la qualité artistique de la cible n’est pas atteinte. Cette reconstruction reste séparée, sans nouvelles variantes ni généralisation ; elle ne constitue pas une livraison finale de l’issue #27.
+
 Le 15 octobre 2026, l’utilisateur a choisi explicitement **« Vraie 3D stylisée, avec validation du nouveau rendu »**. Cela autorise une nouvelle proposition de rendu en volume sur Ryuu, avant généralisation. Cette décision complète le verrou esthétique initial ; elle ne remplace pas les cinq fiches sources et n’autorise pas à déclarer une reconstruction identique aux dessins.
 
 ## Livré pour examen

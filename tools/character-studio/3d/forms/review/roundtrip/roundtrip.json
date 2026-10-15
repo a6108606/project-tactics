@@ -1,0 +1,1762 @@
+{
+  "file": "/home/zlintrieu/.codex/.chatgpt-projects/g-p-6ad09d65189c81918e03a2fa8bef4b72/project-tactics/tools/character-studio/3d/forms/exports/ryuu-forms.glb",
+  "errors": [],
+  "meshes": [
+    {
+      "name": "CH_Ryuu_Ankle_links",
+      "tris": 476,
+      "verts": 240,
+      "uv": false,
+      "materials": [
+        "base_clothing3"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Ankle_links_02",
+      "tris": 476,
+      "verts": 240,
+      "uv": false,
+      "materials": [
+        "base_clothing3"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Arm",
+      "tris": 996,
+      "verts": 500,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Arm_02",
+      "tris": 996,
+      "verts": 500,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Clavicle",
+      "tris": 268,
+      "verts": 169,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Clavicle_02",
+      "tris": 268,
+      "verts": 169,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Finger",
+      "tris": 236,
+      "verts": 120,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Finger_02",
+      "tris": 236,
+      "verts": 120,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Finger_03",
+      "tris": 236,
+      "verts": 120,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Finger_04",
+      "tris": 236,
+      "verts": 120,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Finger_05",
+      "tris": 236,
+      "verts": 120,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Finger_06",
+      "tris": 236,
+      "verts": 120,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Finger_07",
+      "tris": 236,
+      "verts": 120,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Finger_08",
+      "tris": 236,
+      "verts": 120,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Foot",
+      "tris": 1216,
+      "verts": 691,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Foot_02",
+      "tris": 1216,
+      "verts": 691,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Glove",
+      "tris": 1216,
+      "verts": 691,
+      "uv": true,
+      "materials": [
+        "base_clothing3"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Glove_02",
+      "tris": 1216,
+      "verts": 691,
+      "uv": true,
+      "materials": [
+        "base_clothing3"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Leg",
+      "tris": 756,
+      "verts": 380,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Leg_02",
+      "tris": 756,
+      "verts": 380,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Neck",
+      "tris": 516,
+      "verts": 260,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Palm",
+      "tris": 1216,
+      "verts": 691,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Palm_02",
+      "tris": 1216,
+      "verts": 691,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Pelvis",
+      "tris": 1216,
+      "verts": 691,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Raised_collar",
+      "tris": 188,
+      "verts": 96,
+      "uv": false,
+      "materials": [
+        "base_clothing3"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Raised_collar_02",
+      "tris": 188,
+      "verts": 96,
+      "uv": false,
+      "materials": [
+        "base_clothing3"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Sandal_sole",
+      "tris": 1216,
+      "verts": 691,
+      "uv": true,
+      "materials": [
+        "fixed_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Sandal_sole_02",
+      "tris": 1216,
+      "verts": 691,
+      "uv": true,
+      "materials": [
+        "fixed_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Sandal_strap",
+      "tris": 396,
+      "verts": 241,
+      "uv": true,
+      "materials": [
+        "base_clothing3"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Sandal_strap_02",
+      "tris": 396,
+      "verts": 241,
+      "uv": true,
+      "materials": [
+        "base_clothing3"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Sandal_strap_03",
+      "tris": 396,
+      "verts": 241,
+      "uv": true,
+      "materials": [
+        "base_clothing3"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Sandal_strap_04",
+      "tris": 396,
+      "verts": 241,
+      "uv": true,
+      "materials": [
+        "base_clothing3"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Shoulder",
+      "tris": 1216,
+      "verts": 691,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Shoulder_02",
+      "tris": 1216,
+      "verts": 691,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Thumb",
+      "tris": 284,
+      "verts": 144,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Thumb_02",
+      "tris": 284,
+      "verts": 144,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Toe",
+      "tris": 608,
+      "verts": 355,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Toe_02",
+      "tris": 608,
+      "verts": 355,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Toe_03",
+      "tris": 608,
+      "verts": 355,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Toe_04",
+      "tris": 608,
+      "verts": 355,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Toe_05",
+      "tris": 608,
+      "verts": 355,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Toe_06",
+      "tris": 608,
+      "verts": 355,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Toe_07",
+      "tris": 608,
+      "verts": 355,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Toe_08",
+      "tris": 608,
+      "verts": 355,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Toe_09",
+      "tris": 608,
+      "verts": 355,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Toe_10",
+      "tris": 608,
+      "verts": 355,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Torso",
+      "tris": 2076,
+      "verts": 1040,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Trouser",
+      "tris": 2076,
+      "verts": 1040,
+      "uv": false,
+      "materials": [
+        "base_clothing1"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Trouser_02",
+      "tris": 2076,
+      "verts": 1040,
+      "uv": false,
+      "materials": [
+        "base_clothing1"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Upper_arm_band",
+      "tris": 188,
+      "verts": 96,
+      "uv": false,
+      "materials": [
+        "base_clothing3"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Upper_arm_band_02",
+      "tris": 188,
+      "verts": 96,
+      "uv": false,
+      "materials": [
+        "base_clothing3"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Vest_back",
+      "tris": 188,
+      "verts": 96,
+      "uv": false,
+      "materials": [
+        "base_clothing3"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Vest_front",
+      "tris": 252,
+      "verts": 128,
+      "uv": false,
+      "materials": [
+        "base_clothing3"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Vest_front_02",
+      "tris": 252,
+      "verts": 128,
+      "uv": false,
+      "materials": [
+        "base_clothing3"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Vest_seam",
+      "tris": 396,
+      "verts": 241,
+      "uv": true,
+      "materials": [
+        "fixed_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Vest_seam_02",
+      "tris": 396,
+      "verts": 241,
+      "uv": true,
+      "materials": [
+        "fixed_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Vest_side",
+      "tris": 188,
+      "verts": 96,
+      "uv": false,
+      "materials": [
+        "base_clothing3"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Vest_side_02",
+      "tris": 188,
+      "verts": 96,
+      "uv": false,
+      "materials": [
+        "base_clothing3"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Waist_textile",
+      "tris": 476,
+      "verts": 240,
+      "uv": false,
+      "materials": [
+        "base_clothing2"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Belt_cross",
+      "tris": 512,
+      "verts": 256,
+      "uv": false,
+      "materials": [
+        "fixed_leather"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Belt_edge",
+      "tris": 2060,
+      "verts": 1177,
+      "uv": true,
+      "materials": [
+        "fixed_stitch"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Belt_edge_02",
+      "tris": 2060,
+      "verts": 1177,
+      "uv": true,
+      "materials": [
+        "fixed_stitch"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Belt_edge_03",
+      "tris": 2060,
+      "verts": 1177,
+      "uv": true,
+      "materials": [
+        "fixed_stitch"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Belt_edge_04",
+      "tris": 2060,
+      "verts": 1177,
+      "uv": true,
+      "materials": [
+        "fixed_stitch"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Belt_rivet",
+      "tris": 456,
+      "verts": 271,
+      "uv": true,
+      "materials": [
+        "fixed_gold"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Belt_rivet_02",
+      "tris": 456,
+      "verts": 271,
+      "uv": true,
+      "materials": [
+        "fixed_gold"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Belt_rivet_03",
+      "tris": 456,
+      "verts": 271,
+      "uv": true,
+      "materials": [
+        "fixed_gold"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Belt_rivet_04",
+      "tris": 456,
+      "verts": 271,
+      "uv": true,
+      "materials": [
+        "fixed_gold"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Belt_upper",
+      "tris": 512,
+      "verts": 256,
+      "uv": false,
+      "materials": [
+        "fixed_leather"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Bracer",
+      "tris": 252,
+      "verts": 128,
+      "uv": false,
+      "materials": [
+        "fixed_leather"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Bracer_02",
+      "tris": 252,
+      "verts": 128,
+      "uv": false,
+      "materials": [
+        "fixed_leather"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Bracer_edge",
+      "tris": 140,
+      "verts": 72,
+      "uv": false,
+      "materials": [
+        "fixed_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Bracer_edge_02",
+      "tris": 140,
+      "verts": 72,
+      "uv": false,
+      "materials": [
+        "fixed_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Bracer_edge_03",
+      "tris": 140,
+      "verts": 72,
+      "uv": false,
+      "materials": [
+        "fixed_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Bracer_edge_04",
+      "tris": 140,
+      "verts": 72,
+      "uv": false,
+      "materials": [
+        "fixed_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Bracer_metal",
+      "tris": 76,
+      "verts": 61,
+      "uv": true,
+      "materials": [
+        "fixed_gold"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Bracer_metal_02",
+      "tris": 76,
+      "verts": 61,
+      "uv": true,
+      "materials": [
+        "fixed_gold"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Buckle",
+      "tris": 76,
+      "verts": 61,
+      "uv": true,
+      "materials": [
+        "fixed_gold"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Buckle_inset",
+      "tris": 188,
+      "verts": 96,
+      "uv": false,
+      "materials": [
+        "fixed_pattern"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Cuff_binding",
+      "tris": 1036,
+      "verts": 601,
+      "uv": true,
+      "materials": [
+        "fixed_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Cuff_binding_02",
+      "tris": 1036,
+      "verts": 601,
+      "uv": true,
+      "materials": [
+        "fixed_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Cuff_binding_03",
+      "tris": 1036,
+      "verts": 601,
+      "uv": true,
+      "materials": [
+        "fixed_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Cuff_binding_04",
+      "tris": 1036,
+      "verts": 601,
+      "uv": true,
+      "materials": [
+        "fixed_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Knee_cuff",
+      "tris": 444,
+      "verts": 224,
+      "uv": false,
+      "materials": [
+        "fixed_leather"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Knee_cuff_02",
+      "tris": 444,
+      "verts": 224,
+      "uv": false,
+      "materials": [
+        "fixed_leather"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Pauldron",
+      "tris": 1280,
+      "verts": 640,
+      "uv": false,
+      "materials": [
+        "fixed_leather"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Pauldron_02",
+      "tris": 1280,
+      "verts": 640,
+      "uv": false,
+      "materials": [
+        "fixed_leather"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Pauldron_edge",
+      "tris": 1036,
+      "verts": 601,
+      "uv": true,
+      "materials": [
+        "fixed_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Pauldron_edge_02",
+      "tris": 1036,
+      "verts": 601,
+      "uv": true,
+      "materials": [
+        "fixed_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Pauldron_seam",
+      "tris": 268,
+      "verts": 169,
+      "uv": true,
+      "materials": [
+        "fixed_stitch"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Pauldron_seam_02",
+      "tris": 268,
+      "verts": 169,
+      "uv": true,
+      "materials": [
+        "fixed_stitch"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Pendant",
+      "tris": 76,
+      "verts": 61,
+      "uv": true,
+      "materials": [
+        "fixed_gold"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Pendant_chain",
+      "tris": 268,
+      "verts": 169,
+      "uv": true,
+      "materials": [
+        "fixed_gold"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Trouser_insignia",
+      "tris": 572,
+      "verts": 288,
+      "uv": false,
+      "materials": [
+        "fixed_gold"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Trouser_insignia_02",
+      "tris": 572,
+      "verts": 288,
+      "uv": false,
+      "materials": [
+        "fixed_gold"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hip_inner",
+      "tris": 376,
+      "verts": 190,
+      "uv": false,
+      "materials": [
+        "fixed_pattern"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hip_sash",
+      "tris": 496,
+      "verts": 250,
+      "uv": false,
+      "materials": [
+        "fixed_pattern"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Catchlight",
+      "tris": 40,
+      "verts": 41,
+      "uv": false,
+      "materials": [
+        "fixed_glint"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Catchlight_02",
+      "tris": 40,
+      "verts": 41,
+      "uv": false,
+      "materials": [
+        "fixed_glint"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Catchlight_small",
+      "tris": 40,
+      "verts": 41,
+      "uv": false,
+      "materials": [
+        "fixed_glint"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Catchlight_small_02",
+      "tris": 40,
+      "verts": 41,
+      "uv": false,
+      "materials": [
+        "fixed_glint"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Ear",
+      "tris": 1216,
+      "verts": 691,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Ear_02",
+      "tris": 1216,
+      "verts": 691,
+      "uv": true,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Ear_concha",
+      "tris": 912,
+      "verts": 523,
+      "uv": true,
+      "materials": [
+        "fixed_ear"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Ear_concha_02",
+      "tris": 912,
+      "verts": 523,
+      "uv": true,
+      "materials": [
+        "fixed_ear"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Eye_white",
+      "tris": 48,
+      "verts": 49,
+      "uv": false,
+      "materials": [
+        "fixed_white"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Eye_white_02",
+      "tris": 48,
+      "verts": 49,
+      "uv": false,
+      "materials": [
+        "fixed_white"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Eyebrow",
+      "tris": 268,
+      "verts": 169,
+      "uv": true,
+      "materials": [
+        "fixed_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Eyebrow_02",
+      "tris": 268,
+      "verts": 169,
+      "uv": true,
+      "materials": [
+        "fixed_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Face",
+      "tris": 7164,
+      "verts": 3584,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Iris",
+      "tris": 40,
+      "verts": 41,
+      "uv": false,
+      "materials": [
+        "fixed_iris"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Iris_02",
+      "tris": 40,
+      "verts": 41,
+      "uv": false,
+      "materials": [
+        "fixed_iris"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Iris_rim",
+      "tris": 40,
+      "verts": 41,
+      "uv": false,
+      "materials": [
+        "fixed_iris_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Iris_rim_02",
+      "tris": 40,
+      "verts": 41,
+      "uv": false,
+      "materials": [
+        "fixed_iris_edge"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Lower_eyelid",
+      "tris": 780,
+      "verts": 457,
+      "uv": true,
+      "materials": [
+        "fixed_mouth"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Lower_eyelid_02",
+      "tris": 780,
+      "verts": 457,
+      "uv": true,
+      "materials": [
+        "fixed_mouth"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Lower_lip",
+      "tris": 268,
+      "verts": 169,
+      "uv": true,
+      "materials": [
+        "fixed_ear"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Nose",
+      "tris": 284,
+      "verts": 144,
+      "uv": false,
+      "materials": [
+        "base_skin"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Pupil",
+      "tris": 40,
+      "verts": 41,
+      "uv": false,
+      "materials": [
+        "fixed_pupil"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Pupil_02",
+      "tris": 40,
+      "verts": 41,
+      "uv": false,
+      "materials": [
+        "fixed_pupil"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Smile_open",
+      "tris": 7,
+      "verts": 8,
+      "uv": false,
+      "materials": [
+        "fixed_mouth"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Smile_teeth",
+      "tris": 7,
+      "verts": 8,
+      "uv": false,
+      "materials": [
+        "fixed_white"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Upper_eyelid",
+      "tris": 1036,
+      "verts": 601,
+      "uv": true,
+      "materials": [
+        "fixed_pupil"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Upper_eyelid_02",
+      "tris": 1036,
+      "verts": 601,
+      "uv": true,
+      "materials": [
+        "fixed_pupil"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Band_knot",
+      "tris": 1216,
+      "verts": 691,
+      "uv": true,
+      "materials": [
+        "fixed_bandana"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Band_motif",
+      "tris": 44,
+      "verts": 43,
+      "uv": true,
+      "materials": [
+        "fixed_pattern"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Band_motif_02",
+      "tris": 44,
+      "verts": 43,
+      "uv": true,
+      "materials": [
+        "fixed_pattern"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Band_tail_long",
+      "tris": 496,
+      "verts": 250,
+      "uv": false,
+      "materials": [
+        "fixed_bandana"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Band_tail_short",
+      "tris": 376,
+      "verts": 190,
+      "uv": false,
+      "materials": [
+        "fixed_bandana"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Headband",
+      "tris": 1148,
+      "verts": 576,
+      "uv": false,
+      "materials": [
+        "fixed_bandana"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hair_cap",
+      "tris": 1216,
+      "verts": 691,
+      "uv": true,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock",
+      "tris": 796,
+      "verts": 400,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_02",
+      "tris": 796,
+      "verts": 400,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_03",
+      "tris": 796,
+      "verts": 400,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_04",
+      "tris": 796,
+      "verts": 400,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_05",
+      "tris": 796,
+      "verts": 400,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_06",
+      "tris": 796,
+      "verts": 400,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_07",
+      "tris": 796,
+      "verts": 400,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_08",
+      "tris": 796,
+      "verts": 400,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_09",
+      "tris": 796,
+      "verts": 400,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_10",
+      "tris": 796,
+      "verts": 400,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_11",
+      "tris": 796,
+      "verts": 400,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_12",
+      "tris": 796,
+      "verts": 400,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_13",
+      "tris": 796,
+      "verts": 400,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_14",
+      "tris": 796,
+      "verts": 400,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Hair_nape",
+      "tris": 1216,
+      "verts": 691,
+      "uv": true,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Nape_lock",
+      "tris": 380,
+      "verts": 192,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Nape_lock_02",
+      "tris": 380,
+      "verts": 192,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Nape_lock_03",
+      "tris": 380,
+      "verts": 192,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Nape_lock_04",
+      "tris": 380,
+      "verts": 192,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Nape_lock_05",
+      "tris": 380,
+      "verts": 192,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    },
+    {
+      "name": "CH_Ryuu_Nape_lock_06",
+      "tris": 380,
+      "verts": 192,
+      "uv": false,
+      "materials": [
+        "base_hair"
+      ],
+      "skinned": false,
+      "shape_keys": 0
+    }
+  ],
+  "armatures": [],
+  "clips": [],
+  "materials": [
+    "base_clothing1",
+    "base_clothing2",
+    "base_clothing3",
+    "base_hair",
+    "base_skin",
+    "fixed_bandana",
+    "fixed_ear",
+    "fixed_edge",
+    "fixed_glint",
+    "fixed_gold",
+    "fixed_iris",
+    "fixed_iris_edge",
+    "fixed_leather",
+    "fixed_mouth",
+    "fixed_pattern",
+    "fixed_pupil",
+    "fixed_stitch",
+    "fixed_white"
+  ],
+  "images": [],
+  "empties": [
+    {
+      "name": "Ryuu_forms",
+      "parent": null,
+      "parent_bone": null
+    },
+    {
+      "name": "body",
+      "parent": "Ryuu_forms",
+      "parent_bone": null
+    },
+    {
+      "name": "equipment",
+      "parent": "Ryuu_forms",
+      "parent_bone": null
+    },
+    {
+      "name": "equip_leather",
+      "parent": "equipment",
+      "parent_bone": null
+    },
+    {
+      "name": "equip_sash",
+      "parent": "equipment",
+      "parent_bone": null
+    },
+    {
+      "name": "head",
+      "parent": "Ryuu_forms",
+      "parent_bone": null
+    },
+    {
+      "name": "equip_bandana",
+      "parent": "head",
+      "parent_bone": null
+    },
+    {
+      "name": "hair_spikes",
+      "parent": "head",
+      "parent_bone": null
+    }
+  ],
+  "bounds_m": {
+    "min": [
+      -0.3847,
+      -0.187,
+      0.0052
+    ],
+    "max": [
+      0.4396,
+      0.1671,
+      1.8411
+    ],
+    "size": [
+      0.8243,
+      0.3541,
+      1.8359
+    ]
+  },
+  "height_m": 1.8359,
+  "render": "tools/character-studio/3d/forms/review/roundtrip/roundtrip_clay_threequarter.png"
+}
