@@ -1,0 +1,17 @@
+[
+  {
+    "path": "BESTIAIRE-CHARA-DESIGN.md",
+    "sha256": "4383cc1465abad0831b3b735f117fb89a1876c74db9f70851516465ffdc3c68f",
+    "url": "https://github.com/a6108606/project-tactics/blob/e13b1456ab75899fb55082a30f6efd64f12d06be/docs/art/BESTIAIRE-CHARA-DESIGN.md"
+  },
+  {
+    "path": "INVOCATIONS-CHARA-DESIGN.md",
+    "sha256": "34552197d472399ebb81564a462ea90faffc75a59fd47332384ffd2df5f42cd8",
+    "url": "https://github.com/a6108606/project-tactics/blob/e13b1456ab75899fb55082a30f6efd64f12d06be/docs/art/INVOCATIONS-CHARA-DESIGN.md"
+  },
+  {
+    "path": "ZONES-BESTIAIRE-1-30-v0.1.md",
+    "sha256": "bdf332f19b392ed0c7a5130c81d61927e8def007f262a1279f1ae90537a71730",
+    "url": "https://github.com/a6108606/project-tactics/blob/e13b1456ab75899fb55082a30f6efd64f12d06be/docs/design/ZONES-BESTIAIRE-1-30-v0.1.md"
+  }
+]
