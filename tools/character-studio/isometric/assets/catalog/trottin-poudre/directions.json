@@ -1,0 +1,85 @@
+{
+  "id": "trottin-poudre",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/trottin-poudre/n.png",
+      "recipe": "assets/catalog/trottin-poudre/n.json",
+      "sha256": "1fcd47f04c5fd5051b740908f7f46bc1dc57073f7f678d025e46706b5d80853a",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 534
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/trottin-poudre/ne.png",
+      "recipe": "assets/catalog/trottin-poudre/ne.json",
+      "sha256": "a85abf5108060845f646aaafcaf9b6ee23647f2cb12c0998a796a322ad477c17",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 534
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/trottin-poudre/e.png",
+      "recipe": "assets/catalog/trottin-poudre/e.json",
+      "sha256": "ec6402bb16d30e703cbf35a82053dfd8c7b376a9ed20f9bdf93c8f295104dbb3",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 534
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/trottin-poudre/se.png",
+      "recipe": "assets/catalog/trottin-poudre/se.json",
+      "sha256": "1dd568470c1d13edf08ffcefafe2144f893e066089ed034936691ea19b3e7574",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 534
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/trottin-poudre/s.png",
+      "recipe": "assets/catalog/trottin-poudre/s.json",
+      "sha256": "d9bc7a75bd7aa19919c94a6b73962bb5ccacb6dd716993f2ce6c42b6b77924ec",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 534
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/trottin-poudre/sw.png",
+      "recipe": "assets/catalog/trottin-poudre/sw.json",
+      "sha256": "cb5f9d49e76183743d9435b42fcbcbed304d987deb73fadf45089f91d22b058d",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 534
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/trottin-poudre/w.png",
+      "recipe": "assets/catalog/trottin-poudre/w.json",
+      "sha256": "ccc74635f495e090c8d4682ae129b1990dbf5df5a3a3e99f2f30fd5875f25729",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 534
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/trottin-poudre/nw.png",
+      "recipe": "assets/catalog/trottin-poudre/nw.json",
+      "sha256": "36f3cfcec7dcd7257c9ea7a72a1ba07a43227c49e7f6cd44822414f645fdc4aa",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 534
+    }
+  ]
+}

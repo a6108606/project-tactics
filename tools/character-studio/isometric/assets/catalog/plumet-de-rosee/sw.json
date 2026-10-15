@@ -1,0 +1,69 @@
+{
+  "schema": "project-tactics/catalog-materials",
+  "version": 1,
+  "id": "plumet-de-rosee-sw",
+  "crop": [
+    0,
+    0,
+    384,
+    640
+  ],
+  "anchor": [
+    192,
+    615
+  ],
+  "channels": [
+    {
+      "id": "leaf",
+      "label": "Feuillages",
+      "color": "#989A45",
+      "hue": [
+        47,
+        100
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    },
+    {
+      "id": "teal",
+      "label": "Turquoises",
+      "color": "#6FAE9C",
+      "hue": [
+        100,
+        190
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    },
+    {
+      "id": "ochre",
+      "label": "Ocres",
+      "color": "#AB723E",
+      "hue": [
+        20,
+        47
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    }
+  ],
+  "chroma": false
+}

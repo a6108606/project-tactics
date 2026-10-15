@@ -47,10 +47,14 @@
         "#493145",
         "#51384F"
       ],
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "content/art/characters/reference-v2/references/ryuu.png",
-      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée."
+      "reconstruction": "Adaptation isométrique ; dos reconstruits depuis la fiche approuvée.",
+      "manifest": "assets/catalog/ryuu-feminine/directions.json",
+      "thumbnail": "assets/catalog/ryuu-feminine/se.png",
+      "atlas": "assets/catalog/ryuu-feminine/atlas.png",
+      "palette_status": "preliminary-semantic-zones"
     },
     {
       "id": "kael-masculine",
@@ -210,10 +214,14 @@
       "category": "bestiary",
       "family": "Plumets",
       "brief": "Tiny round forest bird, moss-green leaf feathers, warm cream belly, three-leaf crest, short leaf fan tail, ochre beak/feet, mischievous amber eyes.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/plumet-des-mousses/directions.json",
+      "thumbnail": "assets/catalog/plumet-des-mousses/se.png",
+      "atlas": "assets/catalog/plumet-des-mousses/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "plumet-braise",
@@ -221,10 +229,14 @@
       "category": "bestiary",
       "family": "Plumets",
       "brief": "Round fire bird, warm terracotta-orange down, dark burgundy wing tips, charcoal feet, short ember-shaped leaf crest, apricot belly, bold eyebrows. No floating fire effects.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/plumet-braise/directions.json",
+      "thumbnail": "assets/catalog/plumet-braise/se.png",
+      "atlas": "assets/catalog/plumet-braise/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "plumet-de-rosee",
@@ -232,10 +244,14 @@
       "category": "bestiary",
       "family": "Plumets",
       "brief": "Round small dew bird, desaturated turquoise feathers, pale mint belly, drooping leaf crest holding one large blue dew pearl, stubby cream beak, layered leaf tail.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/plumet-de-rosee/directions.json",
+      "thumbnail": "assets/catalog/plumet-de-rosee/se.png",
+      "atlas": "assets/catalog/plumet-de-rosee/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "plumet-voltigeur",
@@ -243,10 +259,14 @@
       "category": "bestiary",
       "family": "Plumets",
       "brief": "Small lean round bird with swept-back leaf crest, long pointed cream/sage wing feathers, teal back, pale belly, fine ochre feet and long split tail; wings partly folded.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/plumet-voltigeur/directions.json",
+      "thumbnail": "assets/catalog/plumet-voltigeur/se.png",
+      "atlas": "assets/catalog/plumet-voltigeur/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "grand-plumet",
@@ -254,10 +274,14 @@
       "category": "bestiary",
       "family": "Plumets",
       "brief": "Large proud round forest bird chief, broad moss-green shoulders, extravagant three-tier ivory and golden-leaf aigrette, thick layered olive tail, dark feet, stern amber eyes. No clothing.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/grand-plumet/directions.json",
+      "thumbnail": "assets/catalog/grand-plumet/se.png",
+      "atlas": "assets/catalog/grand-plumet/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "trottin-des-haies",
@@ -265,10 +289,14 @@
       "category": "bestiary",
       "family": "Trottins",
       "brief": "Lean running bird with very long ochre legs, pear-shaped olive body, small folded wings, long trailing willow-leaf tail, short chestnut crest, narrow ivory beak.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/trottin-des-haies/directions.json",
+      "thumbnail": "assets/catalog/trottin-des-haies/se.png",
+      "atlas": "assets/catalog/trottin-des-haies/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "trottin-piqueur",
@@ -287,10 +315,14 @@
       "category": "bestiary",
       "family": "Trottins",
       "brief": "Long-legged runner bird with fluffy cream/ochre chest, pale dusty lavender wing tufts, feathery seed-pod tail, small broad beak, drooping crest. No particles outside silhouette.",
-      "status": "pending",
-      "directions": 0,
+      "status": "correction",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/trottin-poudre/directions.json",
+      "thumbnail": "assets/catalog/trottin-poudre/se.png",
+      "atlas": "assets/catalog/trottin-poudre/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "trottin-meneur",
@@ -298,10 +330,14 @@
       "category": "bestiary",
       "family": "Trottins",
       "brief": "Tall confident running bird, emerald and cream plumage, fan-shaped copper crest, striped long legs, long decorative emerald tail with gold tips, short wings.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/trottin-meneur/directions.json",
+      "thumbnail": "assets/catalog/trottin-meneur/se.png",
+      "atlas": "assets/catalog/trottin-meneur/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "grand-trottin",
@@ -309,10 +345,14 @@
       "category": "bestiary",
       "family": "Trottins",
       "brief": "Imposing tall runner bird chief, heavy burnt-orange chest, massive layered olive tail, black crest swept backwards, powerful long legs with distinct curved spurs, ivory long beak.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/grand-trottin/directions.json",
+      "thumbnail": "assets/catalog/grand-trottin/se.png",
+      "atlas": "assets/catalog/grand-trottin/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "bulbe-mordeur",
@@ -320,10 +360,14 @@
       "category": "bestiary",
       "family": "Gueulefleurs",
       "brief": "Squat walking onion bulb predator, lilac bulb body with pale teeth around a central round mouth, two expressive amber eyes above mouth, four root feet, green leaf tuft.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/bulbe-mordeur/directions.json",
+      "thumbnail": "assets/catalog/bulbe-mordeur/se.png",
+      "atlas": "assets/catalog/bulbe-mordeur/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "liane-agrippeuse",
@@ -331,10 +375,14 @@
       "category": "bestiary",
       "family": "Gueulefleurs",
       "brief": "Low carnivorous vine creature, coiled teal vine body with pale open flower face and orange eyes, two long curled vine arms, four short gripping root feet, broad leaf fins.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/liane-agrippeuse/directions.json",
+      "thumbnail": "assets/catalog/liane-agrippeuse/se.png",
+      "atlas": "assets/catalog/liane-agrippeuse/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "gueulefleur-venimeuse",
@@ -342,10 +390,14 @@
       "category": "bestiary",
       "family": "Gueulefleurs",
       "brief": "Predatory purple orchid creature, broad asymmetric magenta petals around a toothy mouth, acid-yellow throat, paired dark violet venom sacs, olive stem legs and leaf arms.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/gueulefleur-venimeuse/directions.json",
+      "thumbnail": "assets/catalog/gueulefleur-venimeuse/se.png",
+      "atlas": "assets/catalog/gueulefleur-venimeuse/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "fleur-nourriciere",
@@ -353,10 +405,14 @@
       "category": "bestiary",
       "family": "Gueulefleurs",
       "brief": "Gentle stout nectar flower creature, cream and coral bowl petals around a small expressive face, large amber nectar bulb belly, broad soft sage leaves, four root feet.",
-      "status": "pending",
-      "directions": 0,
+      "status": "ready",
+      "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement."
+      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "manifest": "assets/catalog/fleur-nourriciere/directions.json",
+      "thumbnail": "assets/catalog/fleur-nourriciere/se.png",
+      "atlas": "assets/catalog/fleur-nourriciere/atlas.png",
+      "palette_status": "material-hues"
     },
     {
       "id": "mache-racine",

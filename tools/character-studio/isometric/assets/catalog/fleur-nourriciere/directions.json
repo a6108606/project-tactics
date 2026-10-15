@@ -1,0 +1,85 @@
+{
+  "id": "fleur-nourriciere",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/fleur-nourriciere/n.png",
+      "recipe": "assets/catalog/fleur-nourriciere/n.json",
+      "sha256": "8b4e8f0ff5f0ca6743da066a6cc4859a3cfee9278c2f44a5090d1f904cb1c12c",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 478
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/fleur-nourriciere/ne.png",
+      "recipe": "assets/catalog/fleur-nourriciere/ne.json",
+      "sha256": "d1ed3a6aa12162dbfa93d7855c8a029ad33cf819f865bc4d950a7fb0a29d7774",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 478
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/fleur-nourriciere/e.png",
+      "recipe": "assets/catalog/fleur-nourriciere/e.json",
+      "sha256": "415f0e3a714ace43d0e0eb94b5264f8987b09bf1fb99c00fb1701e1f9d7d22f7",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 478
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/fleur-nourriciere/se.png",
+      "recipe": "assets/catalog/fleur-nourriciere/se.json",
+      "sha256": "90a103609d3c017b612410243a0074c69a1ed9bfed25fa7cea05636fe75f31fb",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 478
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/fleur-nourriciere/s.png",
+      "recipe": "assets/catalog/fleur-nourriciere/s.json",
+      "sha256": "93de19bc3096e8e1d2fd0e7c3f33f731c8616f46e7a3b8348672efaded6494bd",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 478
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/fleur-nourriciere/sw.png",
+      "recipe": "assets/catalog/fleur-nourriciere/sw.json",
+      "sha256": "0cdddc469db52c76aebc0300654857301ccf509af0155cc05a26d9e21e88ccbb",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 478
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/fleur-nourriciere/w.png",
+      "recipe": "assets/catalog/fleur-nourriciere/w.json",
+      "sha256": "f144f2a7714006cce6326ee5491c7536a5e4c8eeddc57fef46787a743f87ff8a",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 478
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/fleur-nourriciere/nw.png",
+      "recipe": "assets/catalog/fleur-nourriciere/nw.json",
+      "sha256": "5e5ab77a03edcc74d29a46071e7ddd7ec17caf00bf7dec3a6da66f2ed7d96341",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 478
+    }
+  ]
+}

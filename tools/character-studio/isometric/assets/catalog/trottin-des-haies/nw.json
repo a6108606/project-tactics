@@ -1,0 +1,69 @@
+{
+  "schema": "project-tactics/catalog-materials",
+  "version": 1,
+  "id": "trottin-des-haies-nw",
+  "crop": [
+    0,
+    0,
+    384,
+    640
+  ],
+  "anchor": [
+    192,
+    615
+  ],
+  "channels": [
+    {
+      "id": "leaf",
+      "label": "Feuillages",
+      "color": "#918543",
+      "hue": [
+        47,
+        100
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    },
+    {
+      "id": "ochre",
+      "label": "Ocres",
+      "color": "#E3AC4E",
+      "hue": [
+        20,
+        47
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    },
+    {
+      "id": "red",
+      "label": "Rouges",
+      "color": "#A2543C",
+      "hue": [
+        345,
+        20
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    }
+  ],
+  "chroma": false
+}

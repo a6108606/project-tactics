@@ -1,0 +1,10 @@
+[
+  {
+    "id": "trottin-piqueur",
+    "error": "trottin-piqueur/ne: grid unsafe 310x496, edge=58"
+  },
+  {
+    "id": "mache-racine",
+    "error": "mache-racine/e: grid unsafe 304x442, edge=103"
+  }
+]

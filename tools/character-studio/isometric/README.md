@@ -1,3 +1,15 @@
+# Catalogue isométrique — production en cours
+
+L’atelier accueille désormais un catalogue consultable et filtrable : héros, bestiaire, invocations de base et anciens archétypes. Le compteur et `assets/catalog/catalog.json` indiquent les formes réellement disponibles. Les autres entrées sont explicitement à produire.
+
+Les nouvelles planches sont des dessins générés par imagegen depuis les fiches originales ou les descriptions du dépôt. Sources, prompts, empreintes, découpes et contrôles sont versionnés. Les nouvelles zones de couleurs des héros sont provisoires ; celles des créatures regroupent des teintes du dessin, sans prétendre être des calques anatomiques. L’étude Ryuu masculine conserve ses masques détaillés.
+
+Pipeline : `node tools/character-studio/isometric/build-catalog.mjs chemin-vers-sources.json`, puis `node tools/character-studio/isometric/verify-catalog.mjs`. Le fichier d’entrée associe chaque identifiant au chemin de sa planche source. Les sources sélectionnées sont copiées dans `assets/catalog/<id>/source.png`. Le script rejette les dessins coupés ou se chevauchant ; il ne dessine ni ne complète de membre manquant.
+
+Voir [périmètre, influences et méthode](../../../docs/art/ISOMETRIC_CATALOG_PRODUCTION.md).
+
+---
+
 # Ryuu — pilote 2D isométrique
 
 Décision utilisateur du 15 octobre 2026 : « dans ce cas là fait la version dofus 2 en isométrique ». Cette étude remplace la direction 3D pour la suite du chantier. Aucun asset de Dofus n’est utilisé.

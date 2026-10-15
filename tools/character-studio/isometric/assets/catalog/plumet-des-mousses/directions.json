@@ -1,0 +1,85 @@
+{
+  "id": "plumet-des-mousses",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/plumet-des-mousses/n.png",
+      "recipe": "assets/catalog/plumet-des-mousses/n.json",
+      "sha256": "09949adb037f065fa51a1668e77b568c758ed3b49b5eb79b61283112466d3dcd",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 437
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/plumet-des-mousses/ne.png",
+      "recipe": "assets/catalog/plumet-des-mousses/ne.json",
+      "sha256": "003226271755cbbaf5736dfda32b506ec14acda5186a4f52b6cc9b2bbbd97e6f",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 437
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/plumet-des-mousses/e.png",
+      "recipe": "assets/catalog/plumet-des-mousses/e.json",
+      "sha256": "280dd7212a0146ffe395c0f4b2f26d65eb4dc85f5013823c3e270a4559080771",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 437
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/plumet-des-mousses/se.png",
+      "recipe": "assets/catalog/plumet-des-mousses/se.json",
+      "sha256": "ccbe3565995ebaa6adc046d83d6585e07618ae5557271252727eaba0685a59e3",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 437
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/plumet-des-mousses/s.png",
+      "recipe": "assets/catalog/plumet-des-mousses/s.json",
+      "sha256": "32d87720e82e7ede80010bc83dc04f31c93e92520533d096e0db7ab68b6c6293",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 437
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/plumet-des-mousses/sw.png",
+      "recipe": "assets/catalog/plumet-des-mousses/sw.json",
+      "sha256": "5a9f395b1cdee0ccabb447d7702d88504c5a0d18bd47fc59e933c3d3272e2327",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 437
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/plumet-des-mousses/w.png",
+      "recipe": "assets/catalog/plumet-des-mousses/w.json",
+      "sha256": "67a85846430fe483659e7aca71d43474e626d991014c8aaa0c8f6e0fca672da9",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 437
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/plumet-des-mousses/nw.png",
+      "recipe": "assets/catalog/plumet-des-mousses/nw.json",
+      "sha256": "1d142afb643fc20656d36dd12798dc01448a63ea4ba9b790838d2cecf83a4142",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 437
+    }
+  ]
+}

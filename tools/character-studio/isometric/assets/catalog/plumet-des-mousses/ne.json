@@ -1,0 +1,52 @@
+{
+  "schema": "project-tactics/catalog-materials",
+  "version": 1,
+  "id": "plumet-des-mousses-ne",
+  "crop": [
+    0,
+    0,
+    384,
+    640
+  ],
+  "anchor": [
+    192,
+    615
+  ],
+  "channels": [
+    {
+      "id": "leaf",
+      "label": "Feuillages",
+      "color": "#8E963C",
+      "hue": [
+        47,
+        100
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    },
+    {
+      "id": "ochre",
+      "label": "Ocres",
+      "color": "#F5DCA8",
+      "hue": [
+        20,
+        47
+      ],
+      "saturation": [
+        0.16,
+        1
+      ],
+      "value": [
+        0.3,
+        1
+      ]
+    }
+  ],
+  "chroma": false
+}

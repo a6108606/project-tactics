@@ -1,0 +1,85 @@
+{
+  "id": "plumet-braise",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/plumet-braise/n.png",
+      "recipe": "assets/catalog/plumet-braise/n.json",
+      "sha256": "e7b951e8f9c22c6868a9a672c8e9c52da8956922af142f3d5cf1d07ad5832709",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 467
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/plumet-braise/ne.png",
+      "recipe": "assets/catalog/plumet-braise/ne.json",
+      "sha256": "c2a55cd14374319a57e3967616ce0ccededc29bff439cf64d46ff405ae04f995",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 467
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/plumet-braise/e.png",
+      "recipe": "assets/catalog/plumet-braise/e.json",
+      "sha256": "8a97bce59be63464b967c5692eee36d5de6dd90b9bcd772c1a43c25a770c7fb1",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 467
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/plumet-braise/se.png",
+      "recipe": "assets/catalog/plumet-braise/se.json",
+      "sha256": "b77c5ee6ef716b7944e727554485b81e87bca189e217c38bc33aa60826c4606f",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 467
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/plumet-braise/s.png",
+      "recipe": "assets/catalog/plumet-braise/s.json",
+      "sha256": "896439899f31d600133495301f4553dcc94ef3c3012c1019d4d377e68ab977ec",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 467
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/plumet-braise/sw.png",
+      "recipe": "assets/catalog/plumet-braise/sw.json",
+      "sha256": "91b0b9c60bdacb5eef2d56937de7d47be09b1f84e14e898422b1d7fbb824e8bb",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 467
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/plumet-braise/w.png",
+      "recipe": "assets/catalog/plumet-braise/w.json",
+      "sha256": "ddf5225f132b98104c3b65c0550717aae3d8a0e182e438e8bd42fe94a43dfaff",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 467
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/plumet-braise/nw.png",
+      "recipe": "assets/catalog/plumet-braise/nw.json",
+      "sha256": "1d983688c4e18d4e5cd98be921b3db76883d76e6955a86833d7a8b76de0c35dd",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 467
+    }
+  ]
+}

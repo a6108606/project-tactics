@@ -1,0 +1,85 @@
+{
+  "id": "ryuu-feminine",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/ryuu-feminine/n.png",
+      "recipe": "assets/catalog/ryuu-feminine/n.json",
+      "sha256": "be83f1173a8b8637aca09c6bfb6299ac0d3b8da1b6c3701391f61242e6241b96",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 576
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/ryuu-feminine/ne.png",
+      "recipe": "assets/catalog/ryuu-feminine/ne.json",
+      "sha256": "56680b4fdb2e3496b5075d5c4e0e97068517f596743b390385172cd618bb9633",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 576
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/ryuu-feminine/e.png",
+      "recipe": "assets/catalog/ryuu-feminine/e.json",
+      "sha256": "f0f33cd036879b551bcabf4beaeb3689d144aea9b1c5114d0541fcd614c92143",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 576
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/ryuu-feminine/se.png",
+      "recipe": "assets/catalog/ryuu-feminine/se.json",
+      "sha256": "9ee0d5dbb16637fc0e9698c384d8463081774d83f3567a7f0da104f188db8da5",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 576
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/ryuu-feminine/s.png",
+      "recipe": "assets/catalog/ryuu-feminine/s.json",
+      "sha256": "8118d20692593f93837bc2b4cc19b82429ccf117016f9a42fba41fd43763a763",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 576
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/ryuu-feminine/sw.png",
+      "recipe": "assets/catalog/ryuu-feminine/sw.json",
+      "sha256": "dd359d9f06bf0ef2dd4599eacb9138f19131a2db9c4f4774575ccdd9750b5392",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 576
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/ryuu-feminine/w.png",
+      "recipe": "assets/catalog/ryuu-feminine/w.json",
+      "sha256": "bf9ea220bae401257a37f10772c944d8f80fd7615b453d0fd5585d0c0044af61",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 576
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/ryuu-feminine/nw.png",
+      "recipe": "assets/catalog/ryuu-feminine/nw.json",
+      "sha256": "589dc93fd0f5f9fe2fcb3d25e5cb63bd4ba360a40be9d9aef089df97616b61c6",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 576
+    }
+  ]
+}

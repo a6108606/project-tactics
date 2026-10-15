@@ -1,0 +1,85 @@
+{
+  "id": "bulbe-mordeur",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/bulbe-mordeur/n.png",
+      "recipe": "assets/catalog/bulbe-mordeur/n.json",
+      "sha256": "c06cdb144f926792de123109323d149961762c56aa65b4d9489798f225086a2b",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 494
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/bulbe-mordeur/ne.png",
+      "recipe": "assets/catalog/bulbe-mordeur/ne.json",
+      "sha256": "28eb163558875da7714071e19a3203797ce6b574c87b1be8522fef8b4e860b3a",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 494
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/bulbe-mordeur/e.png",
+      "recipe": "assets/catalog/bulbe-mordeur/e.json",
+      "sha256": "b025d285fd1558c4e69594b240ad58fdb6adf3686fa7301c45b8555bf24de6c8",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 494
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/bulbe-mordeur/se.png",
+      "recipe": "assets/catalog/bulbe-mordeur/se.json",
+      "sha256": "d4ade9b6b04e43c255e8e32b11bad8faf5562f5fd36a7f1e666bb1c43b9d6a1c",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 494
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/bulbe-mordeur/s.png",
+      "recipe": "assets/catalog/bulbe-mordeur/s.json",
+      "sha256": "5a8f3bb43937e4ee32897325bf5ac30f4cabae88da5c8ef5396d5f108bb1ced4",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 494
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/bulbe-mordeur/sw.png",
+      "recipe": "assets/catalog/bulbe-mordeur/sw.json",
+      "sha256": "ad9702541e4b1ee78780125e79ef5ae826cafe43817d8e36f737712635edcd0c",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 494
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/bulbe-mordeur/w.png",
+      "recipe": "assets/catalog/bulbe-mordeur/w.json",
+      "sha256": "a84d3b6b5914cfe22cc94030d81d6dea6967480566e648c7a1ed01240b788446",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 494
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/bulbe-mordeur/nw.png",
+      "recipe": "assets/catalog/bulbe-mordeur/nw.json",
+      "sha256": "397d88d041e2e864dfd04b5b1c4abe9276b32f7af767fb2cd0e5526309269848",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 494
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "grand-trottin",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/grand-trottin/n.png",
+      "recipe": "assets/catalog/grand-trottin/n.json",
+      "sha256": "413920d996ddd59c7527bed635150e25c379eda9de0380b79cd7aed9eae45e77",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 574
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/grand-trottin/ne.png",
+      "recipe": "assets/catalog/grand-trottin/ne.json",
+      "sha256": "7c7fcafcd35a4ff3418c78377064c40cba7c443c5d20b1a988ea9df67336eb4b",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 574
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/grand-trottin/e.png",
+      "recipe": "assets/catalog/grand-trottin/e.json",
+      "sha256": "dd599a2eb9d36f70c1077f1e4171f7dcb69e992fae18f7d0dd1e3ffcb6c693ca",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 574
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/grand-trottin/se.png",
+      "recipe": "assets/catalog/grand-trottin/se.json",
+      "sha256": "6f37c42fffc8e1cf9a6a946a9ee69d3ea63c442c9736a933d9b74f529df98f69",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 574
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/grand-trottin/s.png",
+      "recipe": "assets/catalog/grand-trottin/s.json",
+      "sha256": "503bbb81a016269e242c6824754b4fc48722cd16e2674bc26326e3ae256afa51",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 574
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/grand-trottin/sw.png",
+      "recipe": "assets/catalog/grand-trottin/sw.json",
+      "sha256": "d6d6c67b54b5f5ce53d19513724f846e172b5b54839577c210b0cec1ea8ea6ca",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 574
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/grand-trottin/w.png",
+      "recipe": "assets/catalog/grand-trottin/w.json",
+      "sha256": "b33519c4b889089ab8860fe6b29709e6654136e61c25df4815cbc2edd654de42",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 574
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/grand-trottin/nw.png",
+      "recipe": "assets/catalog/grand-trottin/nw.json",
+      "sha256": "3875f030367517a15cf95c90167283be8ebf794bff542514382891c506f7dbac",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 574
+    }
+  ]
+}
