@@ -10,6 +10,7 @@ Continuous 2D isometric world with chunk streaming, encounters on the existing t
 - [Architecture](docs/ARCHITECTURE.md)
 - [Roadmap](docs/ROADMAP.md)
 - [Backlog](docs/backlog/ISSUES.md)
+- [Approved character design and interactive studio handoff](docs/art/README.md)
 - [CI on GitHub-hosted runners](docs/RUNNERS.md)
 - [ADR 0002 — CI decision](docs/adr/0002-github-hosted-ci.md)
 
