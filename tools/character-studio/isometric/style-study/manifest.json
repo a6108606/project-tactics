@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-16",
+  "status": "proposed-style-target",
+  "tool": "image_gen.imagegen built-in",
+  "reference_pages": [
+    "https://www.tofus.fr/donjons/tofu",
+    "https://www.tofus.fr/donjons/bouftou"
+  ],
+  "jobs": [
+    {
+      "id": "plumet-des-mousses",
+      "prompt": "Use case: stylized-concept / controlled redesign. Create ONE full-body idle game sprite, elevated orthographic isometric three-quarter facing screen-right, for Project Tactics. Art direction requested explicitly: the same crisp 2D cartoon artistic style as classic DOFUS 2 Tofu and Bouftou monsters: very simple inflated shapes, expressive offbeat silly creature personality, strong clear silhouette, smoothly curved dark warm outlines, clean flat color fills and ONE broad hard-edged shadow per material. Only 5-7 flat tones. White sclera and small simple black pupils, minimally colored iris. Restrained graphic detail. NO glossy anime eyes, NO realistic painting, NO gradients, NO fur strand texture, NO faceted shading, NO 3D. Readable at 96 and 160 pixels. The attached image is the CURRENT Project Tactics species identity reference: retain the named identity cues and base colors but deliberately simplify the anatomy and rendering radically toward the requested Dofus monster cartoon language. Native transparent background with genuine alpha, no checkerboard, no floor, no ground shadow, no text, no frame, no duplicated characters. Entire character including feet inside image, 12 percent margin, square canvas.\nSUBJECT: Plumet des mousses. Make this forest bird a single squat near-spherical moss-green fluffy body, head merges into belly with almost no neck. Small rounded wing with just two simple leaf-feather tips, cream pear-shaped belly patch, tiny ochre blunt beak, two oversized ochre three-toed feet close under body, and a loose THREE-leaf crest drooping slightly sideways. Small three-leaf fan tail. Large simple white oval eyes with tiny dark pupils and a mischievous slightly vacant comic expression, asymmetric eyebrows. Keep green/cream/ochre identity. No sharp ornamental leaf armor, no spiky hairstyle. Really rounded plump body, visual simplicity of a classic Tofu sprite, unmistakably a green moss bird of Project Tactics.",
+      "reference": "../assets/catalog/plumet-des-mousses/se.png",
+      "initial_source": "plumet-des-mousses-initial.png",
+      "background_edit_prompt": "Use case: background-extraction. Edit this exact sprite. Replace ONLY the entire grey-and-white checkerboard background with a perfectly uniform vivid chroma green #00FF00 background, including every gap between legs and leaves. Preserve the character's design, pose, silhouette, size, exact colors, linework, face and all details. No checkerboard anywhere. No gradients, no shadow, no additional objects or text. Do not redraw or reinterpret the subject. Same square framing. This is a background cleanup for the supplied illustration.",
+      "selected_source": "plumet-des-mousses-source.png",
+      "preview": "plumet-des-mousses-after.png",
+      "sha256": {
+        "reference": "ccbe3565995ebaa6adc046d83d6585e07618ae5557271252727eaba0685a59e3",
+        "initial_source": "8b16a43b30ec16719059698e8e6cce101b92cb4052ec67d4d26ee0ff2c303456",
+        "selected_source": "2f59bd639c9a312745b3749b2faaa47b666eaf3d64350a29f73811d17c734a9a",
+        "preview": "6d41d5765457100ee25e08e6571cc5358ce5bf72d2114463bb3964a2126bf327"
+      }
+    },
+    {
+      "id": "bourlaine-jeune",
+      "prompt": "Use case: stylized-concept / controlled redesign. Create ONE full-body idle game sprite, elevated orthographic isometric three-quarter facing screen-right, for Project Tactics. Art direction requested explicitly: the same crisp 2D cartoon artistic style as classic DOFUS 2 Tofu and Bouftou monsters: very simple inflated shapes, expressive offbeat silly creature personality, strong clear silhouette, smoothly curved dark warm outlines, clean flat color fills and ONE broad hard-edged shadow per material. Only 5-7 flat tones. White sclera and small simple black pupils, minimally colored iris. Restrained graphic detail. NO glossy anime eyes, NO realistic painting, NO gradients, NO fur strand texture, NO faceted shading, NO 3D. Readable at 96 and 160 pixels. The attached image is the CURRENT Project Tactics species identity reference: retain the named identity cues and base colors but deliberately simplify the anatomy and rendering radically toward the requested Dofus monster cartoon language. Native transparent background with genuine alpha, no checkerboard, no floor, no ground shadow, no text, no frame, no duplicated characters. Entire character including feet inside image, 12 percent margin, square canvas.\nSUBJECT: Bourlaine jeune. Make this woolly quadruped one very broad low cream fleece ball, scalloped silhouette with six or seven large rounded wool lobes only. Fleece dwarfs the tiny slate-grey face peeking low at the front. Four very stubby dark legs with simple hooves barely project below belly. Short blunt honey-colored horn buds and two broad olive leaf-shaped ears. Comically stubborn sleepy expression, half-lidded simple off-white eyes with tiny dark/turquoise pupils, protruding rounded slate muzzle and single crooked smile. Heavy compact silhouette like a classic Bouftou sprite, original Project Tactics identity preserved through leaf ears and honey horn buds. No long cute lamb legs, no big shiny anime teal eyes, no intricate wool curls.",
+      "reference": "../assets/catalog/bourlaine-jeune/se.png",
+      "initial_source": "bourlaine-jeune-initial.png",
+      "background_edit_prompt": "Use case: background-extraction. Edit this exact sprite. Replace ONLY the entire grey-and-white checkerboard background with a perfectly uniform vivid chroma green #00FF00 background, including every gap between legs and leaves. Preserve the character's design, pose, silhouette, size, exact colors, linework, face and all details. No checkerboard anywhere. No gradients, no shadow, no additional objects or text. Do not redraw or reinterpret the subject. Same square framing. This is a background cleanup for the supplied illustration.",
+      "selected_source": "bourlaine-jeune-source.png",
+      "preview": "bourlaine-jeune-after.png",
+      "sha256": {
+        "reference": "aff7d956775ab5192b5adc34c6d6e7aafbc420398d0b1f371f3f951b9d8f6622",
+        "initial_source": "550edc4b4c41d6bdc59ee9a2924604d7517411626580983411f56a5b64cc35ec",
+        "selected_source": "1a70c95e14f3502ecd14877ae37dfcdca308e04eb084ab7d006848cd25acfedc",
+        "preview": "0c091d7c0bb39c6963fb7ecaeddab92f673a9e206c2b3425812d9c50830ca943"
+      }
+    }
+  ],
+  "scope": "Two SE idle poses for style review; not an eight-direction replacement or customization-ready asset."
+}
