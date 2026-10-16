@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-15",
+  "type": "raster_art_direction_target",
+  "generator": "built-in image_gen.imagegen",
+  "status": "positive_user_feedback_direction_only",
+  "user_feedback": "c'est déjà vachement mieux !",
+  "source": "content/art/characters/reference-v2/references/ryuu.png",
+  "source_sha256": "8d7e17983eee6b29abea9e7f4a52b87eb32a8c74771442591ad846913a475c20",
+  "output": "ryuu-masculine-target.png",
+  "output_sha256": "ab84008d6ed5f0969756722db2a6239c69dd8d0ca779891bb17318e69188d331",
+  "prompt": "prompt.txt",
+  "prompt_sha256": "ede13f6c9e9febe3589d0f0bc46b75aaa0acf0b16a7efa7e921ab18ec843b858",
+  "is_3d_model": false
+}

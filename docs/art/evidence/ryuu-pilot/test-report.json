@@ -1,0 +1,344 @@
+{
+  "schema": "project-tactics/ryuu-pilot-test-report",
+  "passed": 83,
+  "failed": 0,
+  "limitations": [
+    "No modular face/hair/equipment layers",
+    "Equipment samples and unmasked pixels checked; no complete semantic equipment matte",
+    "No aesthetic approval implied"
+  ],
+  "results": [
+    {
+      "label": "masculine : canon RGBA exactement identique",
+      "pass": true
+    },
+    {
+      "label": "masculine : cinq masques non vides et disjoints",
+      "pass": true
+    },
+    {
+      "label": "masculine : skin #00FFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : skin #FF00FF isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : skin #FFFFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : skin #000000 isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : hair #00FFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : hair #FF00FF isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : hair #FFFFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : hair #000000 isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : clothing1 #00FFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : clothing1 #FF00FF isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : clothing1 #FFFFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : clothing1 #000000 isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : clothing2 #00FFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : clothing2 #FF00FF isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : clothing2 #FFFFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : clothing2 #000000 isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : clothing3 #00FFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : clothing3 #FF00FF isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : clothing3 #FFFFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : clothing3 #000000 isolé",
+      "pass": true
+    },
+    {
+      "label": "masculine : sentinelles d’équipement RGBA intactes",
+      "pass": true
+    },
+    {
+      "label": "masculine : toutes les surfaces non masquées intactes",
+      "pass": true
+    },
+    {
+      "label": "masculine : source en mémoire jamais mutée",
+      "pass": true
+    },
+    {
+      "label": "feminine : canon RGBA exactement identique",
+      "pass": true
+    },
+    {
+      "label": "feminine : cinq masques non vides et disjoints",
+      "pass": true
+    },
+    {
+      "label": "feminine : skin #00FFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : skin #FF00FF isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : skin #FFFFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : skin #000000 isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : hair #00FFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : hair #FF00FF isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : hair #FFFFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : hair #000000 isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : clothing1 #00FFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : clothing1 #FF00FF isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : clothing1 #FFFFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : clothing1 #000000 isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : clothing2 #00FFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : clothing2 #FF00FF isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : clothing2 #FFFFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : clothing2 #000000 isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : clothing3 #00FFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : clothing3 #FF00FF isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : clothing3 #FFFFFF isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : clothing3 #000000 isolé",
+      "pass": true
+    },
+    {
+      "label": "feminine : sentinelles d’équipement RGBA intactes",
+      "pass": true
+    },
+    {
+      "label": "feminine : toutes les surfaces non masquées intactes",
+      "pass": true
+    },
+    {
+      "label": "feminine : source en mémoire jamais mutée",
+      "pass": true
+    },
+    {
+      "label": "Dix états canoniques valides et indépendants",
+      "pass": true
+    },
+    {
+      "label": "Apparence JSON et sauvegarde reproduisent les pixels",
+      "pass": true
+    },
+    {
+      "label": "Import invalide refusé 1",
+      "pass": true
+    },
+    {
+      "label": "Import invalide refusé 2",
+      "pass": true
+    },
+    {
+      "label": "Import invalide refusé 3",
+      "pass": true
+    },
+    {
+      "label": "Import invalide refusé 4",
+      "pass": true
+    },
+    {
+      "label": "Import invalide refusé 5",
+      "pass": true
+    },
+    {
+      "label": "Import invalide refusé 6",
+      "pass": true
+    },
+    {
+      "label": "Import invalide refusé 7",
+      "pass": true
+    },
+    {
+      "label": "Import invalide refusé 8",
+      "pass": true
+    },
+    {
+      "label": "Import invalide refusé 9",
+      "pass": true
+    },
+    {
+      "label": "Import invalide refusé 10",
+      "pass": true
+    },
+    {
+      "label": "Import invalide refusé 11",
+      "pass": true
+    },
+    {
+      "label": "Import invalide refusé 12",
+      "pass": true
+    },
+    {
+      "label": "Import invalide refusé 13",
+      "pass": true
+    },
+    {
+      "label": "Import invalide refusé 14",
+      "pass": true
+    },
+    {
+      "label": "Import invalide refusé 15",
+      "pass": true
+    },
+    {
+      "label": "Import invalide refusé 16",
+      "pass": true
+    },
+    {
+      "label": "Sauvegarde qui mélange les bases refusée",
+      "pass": true
+    },
+    {
+      "label": "Couleur d’un héros non pris en charge refusée",
+      "pass": true
+    },
+    {
+      "label": "Migration V2 explicite sans transformer une étude en variante",
+      "pass": true
+    },
+    {
+      "label": "Échec de stockage signalé : accès interdit et quota",
+      "pass": true
+    },
+    {
+      "label": "Ryuu : SHA-256 original",
+      "pass": true
+    },
+    {
+      "label": "Kael : SHA-256 original",
+      "pass": true
+    },
+    {
+      "label": "Sela : SHA-256 original",
+      "pass": true
+    },
+    {
+      "label": "Leo : SHA-256 original",
+      "pass": true
+    },
+    {
+      "label": "Lina : SHA-256 original",
+      "pass": true
+    },
+    {
+      "label": "masculine : PNG canonical RGBA round-trip",
+      "pass": true
+    },
+    {
+      "label": "masculine : PNG custom RGBA round-trip",
+      "pass": true
+    },
+    {
+      "label": "masculine : PNG zones RGBA round-trip",
+      "pass": true
+    },
+    {
+      "label": "feminine : PNG canonical RGBA round-trip",
+      "pass": true
+    },
+    {
+      "label": "feminine : PNG custom RGBA round-trip",
+      "pass": true
+    },
+    {
+      "label": "feminine : PNG zones RGBA round-trip",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,739 @@
+{
+  "schema": "project-tactics/asset-recipe",
+  "version": 1,
+  "id": "ryuu-feminine",
+  "entity_id": "ryuu",
+  "kind": "character",
+  "name": "Ryuu · Féminine",
+  "base_id": "feminine",
+  "view_id": "main",
+  "revision": "ryuu-visible-1",
+  "status": "pilot",
+  "review": {
+    "note": "Pilote jugé encourageant par l’utilisateur ; validation finale des masques et variantes à poursuivre.",
+    "approved_by": null,
+    "approved_at": null
+  },
+  "source": {
+    "path": "content/art/characters/reference-v2/references/ryuu.png",
+    "sha256": "8d7e17983eee6b29abea9e7f4a52b87eb32a8c74771442591ad846913a475c20",
+    "size": [
+      1086,
+      1448
+    ]
+  },
+  "crop": [
+    258,
+    187,
+    202,
+    533
+  ],
+  "anchor": [
+    351,
+    707
+  ],
+  "channels": [
+    {
+      "id": "skin",
+      "label": "Peau",
+      "region_label": "Peau visible",
+      "color": "#F1BC85",
+      "selection": {
+        "mode": "seeded",
+        "bounds": [
+          266,
+          318,
+          446,
+          711
+        ],
+        "seeds": [
+          [
+            375,
+            322
+          ],
+          [
+            382,
+            421
+          ],
+          [
+            319,
+            400
+          ],
+          [
+            307,
+            605
+          ],
+          [
+            381,
+            566
+          ],
+          [
+            375,
+            610
+          ],
+          [
+            356,
+            385
+          ],
+          [
+            405,
+            415
+          ],
+          [
+            331,
+            325
+          ],
+          [
+            433,
+            375
+          ],
+          [
+            337,
+            451
+          ],
+          [
+            329,
+            474
+          ],
+          [
+            286,
+            693
+          ],
+          [
+            369,
+            659
+          ],
+          [
+            288,
+            663
+          ],
+          [
+            420,
+            680
+          ],
+          [
+            401,
+            670
+          ],
+          [
+            374,
+            660
+          ]
+        ],
+        "include": [],
+        "exclude": [],
+        "filter": {
+          "ranges": {
+            "r": [
+              136,
+              255
+            ],
+            "g": [
+              76,
+              255
+            ]
+          },
+          "differences": {
+            "r-g": [
+              25,
+              255
+            ],
+            "g-b": [
+              13,
+              255
+            ]
+          },
+          "ratios": [
+            {
+              "numerator": "b",
+              "denominator": "r",
+              "min_exclusive": 0.27
+            }
+          ]
+        }
+      },
+      "material": {
+        "ranges": {
+          "r": [
+            0,
+            255
+          ],
+          "g": [
+            0,
+            255
+          ],
+          "b": [
+            0,
+            255
+          ]
+        },
+        "differences": {
+          "r-g": [
+            14,
+            255
+          ],
+          "g-b": [
+            12,
+            255
+          ]
+        },
+        "saturation": [
+          0.18,
+          1
+        ],
+        "fade": [
+          0.12,
+          0.4
+        ]
+      }
+    },
+    {
+      "id": "hair",
+      "label": "Cheveux",
+      "region_label": "Cheveux visibles",
+      "color": "#C7D5B4",
+      "selection": {
+        "mode": "polygon",
+        "include": [
+          [
+            [
+              259,
+              190
+            ],
+            [
+              454,
+              190
+            ],
+            [
+              454,
+              405
+            ],
+            [
+              259,
+              405
+            ]
+          ]
+        ],
+        "exclude": [
+          [
+            [
+              286,
+              592
+            ],
+            [
+              317,
+              580
+            ],
+            [
+              336,
+              595
+            ],
+            [
+              344,
+              612
+            ],
+            [
+              326,
+              628
+            ],
+            [
+              301,
+              631
+            ],
+            [
+              281,
+              614
+            ]
+          ],
+          [
+            [
+              373,
+              545
+            ],
+            [
+              423,
+              545
+            ],
+            [
+              429,
+              567
+            ],
+            [
+              397,
+              581
+            ],
+            [
+              375,
+              574
+            ]
+          ]
+        ]
+      },
+      "material": {
+        "differences": {
+          "g-r": [
+            0,
+            255
+          ],
+          "g-b": [
+            3,
+            255
+          ]
+        },
+        "saturation": [
+          0.06,
+          1
+        ],
+        "fade": [
+          0.1,
+          0.34
+        ]
+      }
+    },
+    {
+      "id": "clothing1",
+      "label": "Vêtement 1",
+      "region_label": "Pantalon : jambe à gauche de l’image",
+      "color": "#4E4055",
+      "selection": {
+        "mode": "polygon",
+        "include": [
+          [
+            [
+              297,
+              514
+            ],
+            [
+              310,
+              503
+            ],
+            [
+              337,
+              516
+            ],
+            [
+              356,
+              500
+            ],
+            [
+              371,
+              485
+            ],
+            [
+              365,
+              522
+            ],
+            [
+              363,
+              551
+            ],
+            [
+              358,
+              580
+            ],
+            [
+              333,
+              606
+            ],
+            [
+              302,
+              603
+            ],
+            [
+              276,
+              584
+            ],
+            [
+              268,
+              558
+            ],
+            [
+              282,
+              535
+            ]
+          ]
+        ],
+        "exclude": [
+          [
+            [
+              286,
+              592
+            ],
+            [
+              317,
+              580
+            ],
+            [
+              336,
+              595
+            ],
+            [
+              344,
+              612
+            ],
+            [
+              326,
+              628
+            ],
+            [
+              301,
+              631
+            ],
+            [
+              281,
+              614
+            ]
+          ],
+          [
+            [
+              373,
+              545
+            ],
+            [
+              423,
+              545
+            ],
+            [
+              429,
+              567
+            ],
+            [
+              397,
+              581
+            ],
+            [
+              375,
+              574
+            ]
+          ]
+        ]
+      },
+      "material": {
+        "ranges": {
+          "r": [
+            0,
+            170
+          ],
+          "g": [
+            0,
+            155
+          ],
+          "b": [
+            0,
+            180
+          ]
+        },
+        "differences": {
+          "b-g": [
+            0,
+            255
+          ],
+          "r-b": [
+            -255,
+            12
+          ]
+        },
+        "fade": [
+          0.07,
+          0.19
+        ]
+      }
+    },
+    {
+      "id": "clothing2",
+      "label": "Vêtement 2",
+      "region_label": "Pantalon : jambe à droite de l’image",
+      "color": "#493A4F",
+      "selection": {
+        "mode": "polygon",
+        "include": [
+          [
+            [
+              391,
+              480
+            ],
+            [
+              409,
+              496
+            ],
+            [
+              420,
+              521
+            ],
+            [
+              431,
+              552
+            ],
+            [
+              422,
+              570
+            ],
+            [
+              393,
+              570
+            ],
+            [
+              372,
+              559
+            ],
+            [
+              369,
+              540
+            ],
+            [
+              380,
+              508
+            ]
+          ]
+        ],
+        "exclude": [
+          [
+            [
+              286,
+              592
+            ],
+            [
+              317,
+              580
+            ],
+            [
+              336,
+              595
+            ],
+            [
+              344,
+              612
+            ],
+            [
+              326,
+              628
+            ],
+            [
+              301,
+              631
+            ],
+            [
+              281,
+              614
+            ]
+          ],
+          [
+            [
+              373,
+              545
+            ],
+            [
+              423,
+              545
+            ],
+            [
+              429,
+              567
+            ],
+            [
+              397,
+              581
+            ],
+            [
+              375,
+              574
+            ]
+          ]
+        ]
+      },
+      "material": {
+        "ranges": {
+          "r": [
+            0,
+            170
+          ],
+          "g": [
+            0,
+            155
+          ],
+          "b": [
+            0,
+            180
+          ]
+        },
+        "differences": {
+          "b-g": [
+            0,
+            255
+          ],
+          "r-b": [
+            -255,
+            12
+          ]
+        },
+        "fade": [
+          0.07,
+          0.19
+        ]
+      }
+    },
+    {
+      "id": "clothing3",
+      "label": "Vêtement 3",
+      "region_label": "Pantalon : panneau central sous la ceinture",
+      "color": "#44364B",
+      "selection": {
+        "mode": "polygon",
+        "include": [
+          [
+            [
+              371,
+              482
+            ],
+            [
+              387,
+              479
+            ],
+            [
+              394,
+              490
+            ],
+            [
+              384,
+              515
+            ],
+            [
+              369,
+              558
+            ],
+            [
+              365,
+              539
+            ],
+            [
+              365,
+              523
+            ]
+          ]
+        ],
+        "exclude": [
+          [
+            [
+              286,
+              592
+            ],
+            [
+              317,
+              580
+            ],
+            [
+              336,
+              595
+            ],
+            [
+              344,
+              612
+            ],
+            [
+              326,
+              628
+            ],
+            [
+              301,
+              631
+            ],
+            [
+              281,
+              614
+            ]
+          ],
+          [
+            [
+              373,
+              545
+            ],
+            [
+              423,
+              545
+            ],
+            [
+              429,
+              567
+            ],
+            [
+              397,
+              581
+            ],
+            [
+              375,
+              574
+            ]
+          ]
+        ]
+      },
+      "material": {
+        "ranges": {
+          "r": [
+            0,
+            170
+          ],
+          "g": [
+            0,
+            155
+          ],
+          "b": [
+            0,
+            180
+          ]
+        },
+        "differences": {
+          "b-g": [
+            0,
+            255
+          ],
+          "r-b": [
+            -255,
+            12
+          ]
+        },
+        "fade": [
+          0.07,
+          0.19
+        ]
+      }
+    }
+  ],
+  "priority": [
+    "skin",
+    "hair",
+    "clothing3",
+    "clothing1",
+    "clothing2"
+  ],
+  "protected": [],
+  "equipment_samples": [
+    [
+      380,
+      311
+    ],
+    [
+      284,
+      399
+    ],
+    [
+      339,
+      408
+    ],
+    [
+      386,
+      474
+    ],
+    [
+      428,
+      508
+    ],
+    [
+      394,
+      604
+    ]
+  ],
+  "reconstruction": {
+    "applied": false,
+    "notes": "Source aplatie ; aucun remplacement de visage, coiffure ni retrait d’équipement."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "brute",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/brute/n.png",
+      "recipe": "assets/catalog/brute/n.json",
+      "sha256": "2ab64e75866170ad0043310688ea4ce5b9baee3530d08a2f7c17db531e84a1b3",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 453
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/brute/ne.png",
+      "recipe": "assets/catalog/brute/ne.json",
+      "sha256": "b87b1dc9d3fe13d32a1f694d83c6e16516875d8095c7be84970bf7e9c1eeb1e8",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 453
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/brute/e.png",
+      "recipe": "assets/catalog/brute/e.json",
+      "sha256": "da86d14dcc7a62b1605c84def8bda84b775ac1cbedcb2783b57c505d40d7620f",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 453
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/brute/se.png",
+      "recipe": "assets/catalog/brute/se.json",
+      "sha256": "4151b33412e92bd630de1051db7f5faacf759b142db32f7e0a2244878fa40b1a",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 453
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/brute/s.png",
+      "recipe": "assets/catalog/brute/s.json",
+      "sha256": "c247e59d3f9486b3c4cab48f7df1418e56b2a3f0623622ed6a3a43abdc76bbaa",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 453
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/brute/sw.png",
+      "recipe": "assets/catalog/brute/sw.json",
+      "sha256": "ba3833963012e20115835b08802600462f2107ba4d252b0fb2d4afdac572076d",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 453
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/brute/w.png",
+      "recipe": "assets/catalog/brute/w.json",
+      "sha256": "76a945e47e68ac14950a2cbb4c7beeb5a3c60e1575af3665455c3665d840f3f6",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 453
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/brute/nw.png",
+      "recipe": "assets/catalog/brute/nw.json",
+      "sha256": "df4a0cbb8317abc950d82a25f9154a00ce82c53d7f03a4cd3185f162ae59546e",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 453
+    }
+  ]
+}

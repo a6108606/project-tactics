@@ -1,0 +1,85 @@
+{
+  "id": "gardien-des-lucioles",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/gardien-des-lucioles/n.png",
+      "recipe": "assets/catalog/gardien-des-lucioles/n.json",
+      "sha256": "66822a7bd781942496a2dddb0aa833032038496d77472cf6171b645587c6f1be",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 406
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/gardien-des-lucioles/ne.png",
+      "recipe": "assets/catalog/gardien-des-lucioles/ne.json",
+      "sha256": "c552c23a54d638978e166159cf1464c957f6d5bd700da5c2ff7bab7d7020f801",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 406
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/gardien-des-lucioles/e.png",
+      "recipe": "assets/catalog/gardien-des-lucioles/e.json",
+      "sha256": "79f703865c660fd3165627c723a7ce798e2eb3e17d5bd21220e24a57bf2e0dac",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 406
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/gardien-des-lucioles/se.png",
+      "recipe": "assets/catalog/gardien-des-lucioles/se.json",
+      "sha256": "ce72281d1dc3ab68cbc16e94739754854e433ab6ba418976270ceee01db8e99c",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 406
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/gardien-des-lucioles/s.png",
+      "recipe": "assets/catalog/gardien-des-lucioles/s.json",
+      "sha256": "f4754edd669d7296fa2fac44d05c82077f82e774adf5900ed9eac09a6b16748a",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 406
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/gardien-des-lucioles/sw.png",
+      "recipe": "assets/catalog/gardien-des-lucioles/sw.json",
+      "sha256": "24ce6a25cc6ce26c6a76ee34352fb4a4e52d08d91af655f8a4c761e30facbb3e",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 406
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/gardien-des-lucioles/w.png",
+      "recipe": "assets/catalog/gardien-des-lucioles/w.json",
+      "sha256": "44b131a815004838be2e50d52651c71819a37649c9cfd6bfef14c41a41bcff56",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 406
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/gardien-des-lucioles/nw.png",
+      "recipe": "assets/catalog/gardien-des-lucioles/nw.json",
+      "sha256": "717365050a5a450bc7d3de929b6463a42fa6507f2b1772614dc50506489c0f46",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 406
+    }
+  ]
+}

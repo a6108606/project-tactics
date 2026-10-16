@@ -1,0 +1,3877 @@
+{
+  "blend": "/home/zlintrieu/.codex/.chatgpt-projects/g-p-6ad09d65189c81918e03a2fa8bef4b72/project-tactics/tools/character-studio/3d/forms/CH_Ryuu_master.blend",
+  "summary": {
+    "tris_by_lod": {
+      "0": 99278
+    },
+    "fail": [],
+    "warn": [
+      "CH_Ryuu_Torso: numeric suffix in object or mesh name",
+      "CH_Ryuu_Torso: 2 ngons",
+      "CH_Ryuu_Torso: no UV layer",
+      "CH_Ryuu_Neck: numeric suffix in object or mesh name",
+      "CH_Ryuu_Neck: 2 ngons",
+      "CH_Ryuu_Neck: no UV layer",
+      "CH_Ryuu_Clavicle: numeric suffix in object or mesh name",
+      "CH_Ryuu_Clavicle: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Clavicle_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Clavicle_02: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Arm: numeric suffix in object or mesh name",
+      "CH_Ryuu_Arm: 2 ngons",
+      "CH_Ryuu_Arm: no UV layer",
+      "CH_Ryuu_Shoulder: numeric suffix in object or mesh name",
+      "CH_Ryuu_Palm: numeric suffix in object or mesh name",
+      "CH_Ryuu_Glove: numeric suffix in object or mesh name",
+      "CH_Ryuu_Finger: numeric suffix in object or mesh name",
+      "CH_Ryuu_Finger: 2 ngons",
+      "CH_Ryuu_Finger: no UV layer",
+      "CH_Ryuu_Finger_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Finger_02: 2 ngons",
+      "CH_Ryuu_Finger_02: no UV layer",
+      "CH_Ryuu_Finger_03: numeric suffix in object or mesh name",
+      "CH_Ryuu_Finger_03: 2 ngons",
+      "CH_Ryuu_Finger_03: no UV layer",
+      "CH_Ryuu_Finger_04: numeric suffix in object or mesh name",
+      "CH_Ryuu_Finger_04: 2 ngons",
+      "CH_Ryuu_Finger_04: no UV layer",
+      "CH_Ryuu_Thumb: numeric suffix in object or mesh name",
+      "CH_Ryuu_Thumb: 2 ngons",
+      "CH_Ryuu_Thumb: no UV layer",
+      "CH_Ryuu_Arm_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Arm_02: 2 ngons",
+      "CH_Ryuu_Arm_02: no UV layer",
+      "CH_Ryuu_Shoulder_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Palm_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Glove_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Finger_05: numeric suffix in object or mesh name",
+      "CH_Ryuu_Finger_05: 2 ngons",
+      "CH_Ryuu_Finger_05: no UV layer",
+      "CH_Ryuu_Finger_06: numeric suffix in object or mesh name",
+      "CH_Ryuu_Finger_06: 2 ngons",
+      "CH_Ryuu_Finger_06: no UV layer",
+      "CH_Ryuu_Finger_07: numeric suffix in object or mesh name",
+      "CH_Ryuu_Finger_07: 2 ngons",
+      "CH_Ryuu_Finger_07: no UV layer",
+      "CH_Ryuu_Finger_08: numeric suffix in object or mesh name",
+      "CH_Ryuu_Finger_08: 2 ngons",
+      "CH_Ryuu_Finger_08: no UV layer",
+      "CH_Ryuu_Thumb_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Thumb_02: 2 ngons",
+      "CH_Ryuu_Thumb_02: no UV layer",
+      "CH_Ryuu_Pelvis: numeric suffix in object or mesh name",
+      "CH_Ryuu_Leg: numeric suffix in object or mesh name",
+      "CH_Ryuu_Leg: 2 ngons",
+      "CH_Ryuu_Leg: no UV layer",
+      "CH_Ryuu_Trouser: numeric suffix in object or mesh name",
+      "CH_Ryuu_Trouser: 2 ngons",
+      "CH_Ryuu_Trouser: no UV layer",
+      "CH_Ryuu_Ankle_links: numeric suffix in object or mesh name",
+      "CH_Ryuu_Ankle_links: 2 ngons",
+      "CH_Ryuu_Ankle_links: no UV layer",
+      "CH_Ryuu_Foot: numeric suffix in object or mesh name",
+      "CH_Ryuu_Sandal_sole: numeric suffix in object or mesh name",
+      "CH_Ryuu_Toe: numeric suffix in object or mesh name",
+      "CH_Ryuu_Toe_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Toe_03: numeric suffix in object or mesh name",
+      "CH_Ryuu_Toe_04: numeric suffix in object or mesh name",
+      "CH_Ryuu_Toe_05: numeric suffix in object or mesh name",
+      "CH_Ryuu_Sandal_strap: numeric suffix in object or mesh name",
+      "CH_Ryuu_Sandal_strap: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Sandal_strap_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Sandal_strap_02: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Knee_cuff: numeric suffix in object or mesh name",
+      "CH_Ryuu_Knee_cuff: 2 ngons",
+      "CH_Ryuu_Knee_cuff: no UV layer",
+      "CH_Ryuu_Cuff_binding: numeric suffix in object or mesh name",
+      "CH_Ryuu_Cuff_binding: 18 doubled vertices within 0.0001",
+      "CH_Ryuu_Cuff_binding_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Cuff_binding_02: 18 doubled vertices within 0.0001",
+      "CH_Ryuu_Trouser_insignia: numeric suffix in object or mesh name",
+      "CH_Ryuu_Trouser_insignia: 1 ngons",
+      "CH_Ryuu_Trouser_insignia: no UV layer",
+      "CH_Ryuu_Leg_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Leg_02: 2 ngons",
+      "CH_Ryuu_Leg_02: no UV layer",
+      "CH_Ryuu_Trouser_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Trouser_02: 2 ngons",
+      "CH_Ryuu_Trouser_02: no UV layer",
+      "CH_Ryuu_Ankle_links_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Ankle_links_02: 2 ngons",
+      "CH_Ryuu_Ankle_links_02: no UV layer",
+      "CH_Ryuu_Foot_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Sandal_sole_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Toe_06: numeric suffix in object or mesh name",
+      "CH_Ryuu_Toe_07: numeric suffix in object or mesh name",
+      "CH_Ryuu_Toe_08: numeric suffix in object or mesh name",
+      "CH_Ryuu_Toe_09: numeric suffix in object or mesh name",
+      "CH_Ryuu_Toe_10: numeric suffix in object or mesh name",
+      "CH_Ryuu_Sandal_strap_03: numeric suffix in object or mesh name",
+      "CH_Ryuu_Sandal_strap_03: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Sandal_strap_04: numeric suffix in object or mesh name",
+      "CH_Ryuu_Sandal_strap_04: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Knee_cuff_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Knee_cuff_02: 2 ngons",
+      "CH_Ryuu_Knee_cuff_02: no UV layer",
+      "CH_Ryuu_Cuff_binding_03: numeric suffix in object or mesh name",
+      "CH_Ryuu_Cuff_binding_03: 18 doubled vertices within 0.0001",
+      "CH_Ryuu_Cuff_binding_04: numeric suffix in object or mesh name",
+      "CH_Ryuu_Cuff_binding_04: 18 doubled vertices within 0.0001",
+      "CH_Ryuu_Trouser_insignia_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Trouser_insignia_02: 1 ngons",
+      "CH_Ryuu_Trouser_insignia_02: no UV layer",
+      "CH_Ryuu_Vest_front: numeric suffix in object or mesh name",
+      "CH_Ryuu_Vest_front: 1 ngons",
+      "CH_Ryuu_Vest_front: no UV layer",
+      "CH_Ryuu_Vest_side: numeric suffix in object or mesh name",
+      "CH_Ryuu_Vest_side: no UV layer",
+      "CH_Ryuu_Vest_seam: numeric suffix in object or mesh name",
+      "CH_Ryuu_Vest_seam: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Vest_front_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Vest_front_02: 1 ngons",
+      "CH_Ryuu_Vest_front_02: no UV layer",
+      "CH_Ryuu_Vest_side_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Vest_side_02: no UV layer",
+      "CH_Ryuu_Vest_seam_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Vest_seam_02: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Raised_collar: no UV layer",
+      "CH_Ryuu_Raised_collar_02: no UV layer",
+      "CH_Ryuu_Vest_back: numeric suffix in object or mesh name",
+      "CH_Ryuu_Vest_back: no UV layer",
+      "CH_Ryuu_Waist_textile: numeric suffix in object or mesh name",
+      "CH_Ryuu_Waist_textile: 2 ngons",
+      "CH_Ryuu_Waist_textile: no UV layer",
+      "CH_Ryuu_Belt_upper: numeric suffix in object or mesh name",
+      "CH_Ryuu_Belt_upper: no UV layer",
+      "CH_Ryuu_Belt_edge: numeric suffix in object or mesh name",
+      "CH_Ryuu_Belt_edge: 18 doubled vertices within 0.0001",
+      "CH_Ryuu_Belt_edge_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Belt_edge_02: 18 doubled vertices within 0.0001",
+      "CH_Ryuu_Belt_cross: numeric suffix in object or mesh name",
+      "CH_Ryuu_Belt_cross: no UV layer",
+      "CH_Ryuu_Belt_edge_03: numeric suffix in object or mesh name",
+      "CH_Ryuu_Belt_edge_03: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Belt_edge_04: numeric suffix in object or mesh name",
+      "CH_Ryuu_Belt_edge_04: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Buckle: numeric suffix in object or mesh name",
+      "CH_Ryuu_Buckle: 18 doubled vertices within 0.0001",
+      "CH_Ryuu_Buckle_inset: numeric suffix in object or mesh name",
+      "CH_Ryuu_Buckle_inset: no UV layer",
+      "CH_Ryuu_Belt_rivet: numeric suffix in object or mesh name",
+      "CH_Ryuu_Belt_rivet_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Belt_rivet_03: numeric suffix in object or mesh name",
+      "CH_Ryuu_Belt_rivet_04: numeric suffix in object or mesh name",
+      "CH_Ryuu_Pendant_chain: numeric suffix in object or mesh name",
+      "CH_Ryuu_Pendant_chain: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Pendant: numeric suffix in object or mesh name",
+      "CH_Ryuu_Pendant: 18 doubled vertices within 0.0001",
+      "CH_Ryuu_Pauldron: numeric suffix in object or mesh name",
+      "CH_Ryuu_Pauldron: no UV layer",
+      "CH_Ryuu_Pauldron_edge: numeric suffix in object or mesh name",
+      "CH_Ryuu_Pauldron_edge: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Pauldron_seam: numeric suffix in object or mesh name",
+      "CH_Ryuu_Pauldron_seam: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Bracer: numeric suffix in object or mesh name",
+      "CH_Ryuu_Bracer: 2 ngons",
+      "CH_Ryuu_Bracer: no UV layer",
+      "CH_Ryuu_Bracer_edge: numeric suffix in object or mesh name",
+      "CH_Ryuu_Bracer_edge: 2 ngons",
+      "CH_Ryuu_Bracer_edge: no UV layer",
+      "CH_Ryuu_Bracer_edge_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Bracer_edge_02: 2 ngons",
+      "CH_Ryuu_Bracer_edge_02: no UV layer",
+      "CH_Ryuu_Bracer_metal: numeric suffix in object or mesh name",
+      "CH_Ryuu_Bracer_metal: 18 doubled vertices within 0.0001",
+      "CH_Ryuu_Upper_arm_band: numeric suffix in object or mesh name",
+      "CH_Ryuu_Upper_arm_band: 2 ngons",
+      "CH_Ryuu_Upper_arm_band: no UV layer",
+      "CH_Ryuu_Pauldron_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Pauldron_02: no UV layer",
+      "CH_Ryuu_Pauldron_edge_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Pauldron_edge_02: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Pauldron_seam_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Pauldron_seam_02: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Bracer_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Bracer_02: 2 ngons",
+      "CH_Ryuu_Bracer_02: no UV layer",
+      "CH_Ryuu_Bracer_edge_03: numeric suffix in object or mesh name",
+      "CH_Ryuu_Bracer_edge_03: 2 ngons",
+      "CH_Ryuu_Bracer_edge_03: no UV layer",
+      "CH_Ryuu_Bracer_edge_04: numeric suffix in object or mesh name",
+      "CH_Ryuu_Bracer_edge_04: 2 ngons",
+      "CH_Ryuu_Bracer_edge_04: no UV layer",
+      "CH_Ryuu_Bracer_metal_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Bracer_metal_02: 18 doubled vertices within 0.0001",
+      "CH_Ryuu_Upper_arm_band_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Upper_arm_band_02: 2 ngons",
+      "CH_Ryuu_Upper_arm_band_02: no UV layer",
+      "CH_Ryuu_Hip_sash: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hip_sash: no UV layer",
+      "CH_Ryuu_Hip_inner: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hip_inner: no UV layer",
+      "CH_Ryuu_Face: numeric suffix in object or mesh name",
+      "CH_Ryuu_Face: 2 ngons",
+      "CH_Ryuu_Face: no UV layer",
+      "CH_Ryuu_Ear: numeric suffix in object or mesh name",
+      "CH_Ryuu_Ear_concha: numeric suffix in object or mesh name",
+      "CH_Ryuu_Ear_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Ear_concha_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Eye_white: numeric suffix in object or mesh name",
+      "CH_Ryuu_Eye_white: no UV layer",
+      "CH_Ryuu_Iris_rim: numeric suffix in object or mesh name",
+      "CH_Ryuu_Iris_rim: no UV layer",
+      "CH_Ryuu_Iris: numeric suffix in object or mesh name",
+      "CH_Ryuu_Iris: no UV layer",
+      "CH_Ryuu_Pupil: numeric suffix in object or mesh name",
+      "CH_Ryuu_Pupil: no UV layer",
+      "CH_Ryuu_Catchlight: numeric suffix in object or mesh name",
+      "CH_Ryuu_Catchlight: no UV layer",
+      "CH_Ryuu_Catchlight_small: numeric suffix in object or mesh name",
+      "CH_Ryuu_Catchlight_small: no UV layer",
+      "CH_Ryuu_Upper_eyelid: numeric suffix in object or mesh name",
+      "CH_Ryuu_Upper_eyelid: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Lower_eyelid: numeric suffix in object or mesh name",
+      "CH_Ryuu_Lower_eyelid: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Eyebrow: numeric suffix in object or mesh name",
+      "CH_Ryuu_Eyebrow: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Eye_white_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Eye_white_02: no UV layer",
+      "CH_Ryuu_Iris_rim_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Iris_rim_02: no UV layer",
+      "CH_Ryuu_Iris_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Iris_02: no UV layer",
+      "CH_Ryuu_Pupil_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Pupil_02: no UV layer",
+      "CH_Ryuu_Catchlight_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Catchlight_02: no UV layer",
+      "CH_Ryuu_Catchlight_small_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Catchlight_small_02: no UV layer",
+      "CH_Ryuu_Upper_eyelid_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Upper_eyelid_02: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Lower_eyelid_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Lower_eyelid_02: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Eyebrow_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Eyebrow_02: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Nose: numeric suffix in object or mesh name",
+      "CH_Ryuu_Nose: 2 ngons",
+      "CH_Ryuu_Nose: no UV layer",
+      "CH_Ryuu_Smile_open: numeric suffix in object or mesh name",
+      "CH_Ryuu_Smile_open: no UV layer",
+      "CH_Ryuu_Smile_teeth: numeric suffix in object or mesh name",
+      "CH_Ryuu_Smile_teeth: no UV layer",
+      "CH_Ryuu_Lower_lip: numeric suffix in object or mesh name",
+      "CH_Ryuu_Lower_lip: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Hair_cap: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hair_nape: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hair_lock: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hair_lock: 2 ngons",
+      "CH_Ryuu_Hair_lock: 4 doubled vertices within 0.0001",
+      "CH_Ryuu_Hair_lock: no UV layer",
+      "CH_Ryuu_Hair_lock_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hair_lock_02: 2 ngons",
+      "CH_Ryuu_Hair_lock_02: 4 doubled vertices within 0.0001",
+      "CH_Ryuu_Hair_lock_02: no UV layer",
+      "CH_Ryuu_Hair_lock_03: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hair_lock_03: 2 ngons",
+      "CH_Ryuu_Hair_lock_03: 4 doubled vertices within 0.0001",
+      "CH_Ryuu_Hair_lock_03: no UV layer",
+      "CH_Ryuu_Hair_lock_04: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hair_lock_04: 2 ngons",
+      "CH_Ryuu_Hair_lock_04: 5 doubled vertices within 0.0001",
+      "CH_Ryuu_Hair_lock_04: no UV layer",
+      "CH_Ryuu_Hair_lock_05: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hair_lock_05: 2 ngons",
+      "CH_Ryuu_Hair_lock_05: 4 doubled vertices within 0.0001",
+      "CH_Ryuu_Hair_lock_05: no UV layer",
+      "CH_Ryuu_Hair_lock_06: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hair_lock_06: 2 ngons",
+      "CH_Ryuu_Hair_lock_06: 5 doubled vertices within 0.0001",
+      "CH_Ryuu_Hair_lock_06: no UV layer",
+      "CH_Ryuu_Hair_lock_07: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hair_lock_07: 2 ngons",
+      "CH_Ryuu_Hair_lock_07: 5 doubled vertices within 0.0001",
+      "CH_Ryuu_Hair_lock_07: no UV layer",
+      "CH_Ryuu_Hair_lock_08: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hair_lock_08: 2 ngons",
+      "CH_Ryuu_Hair_lock_08: 4 doubled vertices within 0.0001",
+      "CH_Ryuu_Hair_lock_08: no UV layer",
+      "CH_Ryuu_Hair_lock_09: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hair_lock_09: 2 ngons",
+      "CH_Ryuu_Hair_lock_09: 4 doubled vertices within 0.0001",
+      "CH_Ryuu_Hair_lock_09: no UV layer",
+      "CH_Ryuu_Hair_lock_10: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hair_lock_10: 2 ngons",
+      "CH_Ryuu_Hair_lock_10: 4 doubled vertices within 0.0001",
+      "CH_Ryuu_Hair_lock_10: no UV layer",
+      "CH_Ryuu_Hair_lock_11: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hair_lock_11: 2 ngons",
+      "CH_Ryuu_Hair_lock_11: 4 doubled vertices within 0.0001",
+      "CH_Ryuu_Hair_lock_11: no UV layer",
+      "CH_Ryuu_Hair_lock_12: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hair_lock_12: 2 ngons",
+      "CH_Ryuu_Hair_lock_12: 5 doubled vertices within 0.0001",
+      "CH_Ryuu_Hair_lock_12: no UV layer",
+      "CH_Ryuu_Hair_lock_13: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hair_lock_13: 2 ngons",
+      "CH_Ryuu_Hair_lock_13: 4 doubled vertices within 0.0001",
+      "CH_Ryuu_Hair_lock_13: no UV layer",
+      "CH_Ryuu_Hair_lock_14: numeric suffix in object or mesh name",
+      "CH_Ryuu_Hair_lock_14: 2 ngons",
+      "CH_Ryuu_Hair_lock_14: 4 doubled vertices within 0.0001",
+      "CH_Ryuu_Hair_lock_14: no UV layer",
+      "CH_Ryuu_Nape_lock: numeric suffix in object or mesh name",
+      "CH_Ryuu_Nape_lock: 2 ngons",
+      "CH_Ryuu_Nape_lock: no UV layer",
+      "CH_Ryuu_Nape_lock_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Nape_lock_02: 2 ngons",
+      "CH_Ryuu_Nape_lock_02: no UV layer",
+      "CH_Ryuu_Nape_lock_03: numeric suffix in object or mesh name",
+      "CH_Ryuu_Nape_lock_03: 2 ngons",
+      "CH_Ryuu_Nape_lock_03: no UV layer",
+      "CH_Ryuu_Nape_lock_04: numeric suffix in object or mesh name",
+      "CH_Ryuu_Nape_lock_04: 2 ngons",
+      "CH_Ryuu_Nape_lock_04: no UV layer",
+      "CH_Ryuu_Nape_lock_05: numeric suffix in object or mesh name",
+      "CH_Ryuu_Nape_lock_05: 2 ngons",
+      "CH_Ryuu_Nape_lock_05: no UV layer",
+      "CH_Ryuu_Nape_lock_06: numeric suffix in object or mesh name",
+      "CH_Ryuu_Nape_lock_06: 2 ngons",
+      "CH_Ryuu_Nape_lock_06: no UV layer",
+      "CH_Ryuu_Headband: numeric suffix in object or mesh name",
+      "CH_Ryuu_Headband: 2 ngons",
+      "CH_Ryuu_Headband: no UV layer",
+      "CH_Ryuu_Band_motif: numeric suffix in object or mesh name",
+      "CH_Ryuu_Band_motif: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Band_motif_02: numeric suffix in object or mesh name",
+      "CH_Ryuu_Band_motif_02: 16 doubled vertices within 0.0001",
+      "CH_Ryuu_Band_knot: numeric suffix in object or mesh name",
+      "CH_Ryuu_Band_tail_long: numeric suffix in object or mesh name",
+      "CH_Ryuu_Band_tail_long: no UV layer",
+      "CH_Ryuu_Band_tail_short: numeric suffix in object or mesh name",
+      "CH_Ryuu_Band_tail_short: no UV layer"
+    ]
+  },
+  "objects": [
+    {
+      "name": "CH_Ryuu_Torso",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 2076,
+        "verts_evaluated": 1040,
+        "verts": 1040,
+        "faces": 1002,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Neck",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 516,
+        "verts_evaluated": 260,
+        "verts": 260,
+        "faces": 242,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Clavicle",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 268,
+        "verts_evaluated": 152,
+        "verts": 152,
+        "faces": 140,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 6,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Clavicle_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 268,
+        "verts_evaluated": 152,
+        "verts": 152,
+        "faces": 140,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 6,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Arm",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 996,
+        "verts_evaluated": 500,
+        "verts": 500,
+        "faces": 482,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Shoulder",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1216,
+        "verts_evaluated": 610,
+        "verts": 610,
+        "faces": 640,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Palm",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1216,
+        "verts_evaluated": 610,
+        "verts": 610,
+        "faces": 640,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Glove",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1216,
+        "verts_evaluated": 610,
+        "verts": 610,
+        "faces": 640,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_clothing3"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Finger",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 236,
+        "verts_evaluated": 120,
+        "verts": 120,
+        "faces": 110,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Finger_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 236,
+        "verts_evaluated": 120,
+        "verts": 120,
+        "faces": 110,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Finger_03",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 236,
+        "verts_evaluated": 120,
+        "verts": 120,
+        "faces": 110,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Finger_04",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 236,
+        "verts_evaluated": 120,
+        "verts": 120,
+        "faces": 110,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Thumb",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 284,
+        "verts_evaluated": 144,
+        "verts": 144,
+        "faces": 130,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Arm_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 996,
+        "verts_evaluated": 500,
+        "verts": 500,
+        "faces": 482,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Shoulder_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1216,
+        "verts_evaluated": 610,
+        "verts": 610,
+        "faces": 640,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Palm_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1216,
+        "verts_evaluated": 610,
+        "verts": 610,
+        "faces": 640,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Glove_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1216,
+        "verts_evaluated": 610,
+        "verts": 610,
+        "faces": 640,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_clothing3"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Finger_05",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 236,
+        "verts_evaluated": 120,
+        "verts": 120,
+        "faces": 110,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Finger_06",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 236,
+        "verts_evaluated": 120,
+        "verts": 120,
+        "faces": 110,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Finger_07",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 236,
+        "verts_evaluated": 120,
+        "verts": 120,
+        "faces": 110,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Finger_08",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 236,
+        "verts_evaluated": 120,
+        "verts": 120,
+        "faces": 110,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Thumb_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 284,
+        "verts_evaluated": 144,
+        "verts": 144,
+        "faces": 130,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Pelvis",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1216,
+        "verts_evaluated": 610,
+        "verts": 610,
+        "faces": 640,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Leg",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 756,
+        "verts_evaluated": 380,
+        "verts": 380,
+        "faces": 362,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Trouser",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 2076,
+        "verts_evaluated": 1040,
+        "verts": 1040,
+        "faces": 1002,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_clothing1"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Ankle_links",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 476,
+        "verts_evaluated": 240,
+        "verts": 240,
+        "faces": 218,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_clothing3"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Foot",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1216,
+        "verts_evaluated": 610,
+        "verts": 610,
+        "faces": 640,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Sandal_sole",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1216,
+        "verts_evaluated": 610,
+        "verts": 610,
+        "faces": 640,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Toe",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 608,
+        "verts_evaluated": 306,
+        "verts": 306,
+        "faces": 320,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Toe_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 608,
+        "verts_evaluated": 306,
+        "verts": 306,
+        "faces": 320,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Toe_03",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 608,
+        "verts_evaluated": 306,
+        "verts": 306,
+        "faces": 320,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Toe_04",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 608,
+        "verts_evaluated": 306,
+        "verts": 306,
+        "faces": 320,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Toe_05",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 608,
+        "verts_evaluated": 306,
+        "verts": 306,
+        "faces": 320,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Sandal_strap",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 396,
+        "verts_evaluated": 216,
+        "verts": 216,
+        "faces": 204,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 6,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_clothing3"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Sandal_strap_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 396,
+        "verts_evaluated": 216,
+        "verts": 216,
+        "faces": 204,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 6,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_clothing3"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Knee_cuff",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 444,
+        "verts_evaluated": 224,
+        "verts": 224,
+        "faces": 194,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_leather"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Cuff_binding",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "18 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1036,
+        "verts_evaluated": 536,
+        "verts": 536,
+        "faces": 524,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 12,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Cuff_binding_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "18 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1036,
+        "verts_evaluated": 536,
+        "verts": 536,
+        "faces": 524,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 12,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Trouser_insignia",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "1 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 572,
+        "verts_evaluated": 288,
+        "verts": 12,
+        "faces": 1,
+        "boundary_edges": 12,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_gold"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Woven thickness",
+          "BEVEL:Soft bound edge"
+        ]
+      }
+    },
+    {
+      "name": "CH_Ryuu_Leg_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 756,
+        "verts_evaluated": 380,
+        "verts": 380,
+        "faces": 362,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Trouser_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 2076,
+        "verts_evaluated": 1040,
+        "verts": 1040,
+        "faces": 1002,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_clothing1"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Ankle_links_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 476,
+        "verts_evaluated": 240,
+        "verts": 240,
+        "faces": 218,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_clothing3"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Foot_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1216,
+        "verts_evaluated": 610,
+        "verts": 610,
+        "faces": 640,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Sandal_sole_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1216,
+        "verts_evaluated": 610,
+        "verts": 610,
+        "faces": 640,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Toe_06",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 608,
+        "verts_evaluated": 306,
+        "verts": 306,
+        "faces": 320,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Toe_07",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 608,
+        "verts_evaluated": 306,
+        "verts": 306,
+        "faces": 320,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Toe_08",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 608,
+        "verts_evaluated": 306,
+        "verts": 306,
+        "faces": 320,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Toe_09",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 608,
+        "verts_evaluated": 306,
+        "verts": 306,
+        "faces": 320,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Toe_10",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 608,
+        "verts_evaluated": 306,
+        "verts": 306,
+        "faces": 320,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Sandal_strap_03",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 396,
+        "verts_evaluated": 216,
+        "verts": 216,
+        "faces": 204,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 6,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_clothing3"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Sandal_strap_04",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 396,
+        "verts_evaluated": 216,
+        "verts": 216,
+        "faces": 204,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 6,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_clothing3"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Knee_cuff_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 444,
+        "verts_evaluated": 224,
+        "verts": 224,
+        "faces": 194,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_leather"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Cuff_binding_03",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "18 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1036,
+        "verts_evaluated": 536,
+        "verts": 536,
+        "faces": 524,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Cuff_binding_04",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "18 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1036,
+        "verts_evaluated": 536,
+        "verts": 536,
+        "faces": 524,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Trouser_insignia_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "1 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 572,
+        "verts_evaluated": 288,
+        "verts": 12,
+        "faces": 1,
+        "boundary_edges": 12,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_gold"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Woven thickness",
+          "BEVEL:Soft bound edge"
+        ]
+      }
+    },
+    {
+      "name": "CH_Ryuu_Vest_front",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "1 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 252,
+        "verts_evaluated": 128,
+        "verts": 6,
+        "faces": 1,
+        "boundary_edges": 6,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_clothing3"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Woven thickness",
+          "BEVEL:Soft bound edge"
+        ]
+      }
+    },
+    {
+      "name": "CH_Ryuu_Vest_side",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 188,
+        "verts_evaluated": 96,
+        "verts": 4,
+        "faces": 1,
+        "boundary_edges": 4,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_clothing3"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Woven thickness",
+          "BEVEL:Soft bound edge"
+        ]
+      }
+    },
+    {
+      "name": "CH_Ryuu_Vest_seam",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 396,
+        "verts_evaluated": 216,
+        "verts": 216,
+        "faces": 204,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 6,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Vest_front_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "1 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 252,
+        "verts_evaluated": 128,
+        "verts": 6,
+        "faces": 1,
+        "boundary_edges": 6,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_clothing3"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Woven thickness",
+          "BEVEL:Soft bound edge"
+        ]
+      }
+    },
+    {
+      "name": "CH_Ryuu_Vest_side_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 188,
+        "verts_evaluated": 96,
+        "verts": 4,
+        "faces": 1,
+        "boundary_edges": 4,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_clothing3"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Woven thickness",
+          "BEVEL:Soft bound edge"
+        ]
+      }
+    },
+    {
+      "name": "CH_Ryuu_Vest_seam_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 396,
+        "verts_evaluated": 216,
+        "verts": 216,
+        "faces": 204,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 6,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Raised_collar",
+      "type": "MESH",
+      "warn": [
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 188,
+        "verts_evaluated": 96,
+        "verts": 4,
+        "faces": 1,
+        "boundary_edges": 4,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_clothing3"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Woven thickness",
+          "BEVEL:Soft bound edge"
+        ]
+      }
+    },
+    {
+      "name": "CH_Ryuu_Raised_collar_02",
+      "type": "MESH",
+      "warn": [
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 188,
+        "verts_evaluated": 96,
+        "verts": 4,
+        "faces": 1,
+        "boundary_edges": 4,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_clothing3"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Woven thickness",
+          "BEVEL:Soft bound edge"
+        ]
+      }
+    },
+    {
+      "name": "CH_Ryuu_Vest_back",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 188,
+        "verts_evaluated": 96,
+        "verts": 4,
+        "faces": 1,
+        "boundary_edges": 4,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_clothing3"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Woven thickness",
+          "BEVEL:Soft bound edge"
+        ]
+      }
+    },
+    {
+      "name": "CH_Ryuu_Waist_textile",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 476,
+        "verts_evaluated": 240,
+        "verts": 240,
+        "faces": 202,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_clothing2"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Belt_upper",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 512,
+        "verts_evaluated": 256,
+        "verts": 128,
+        "faces": 64,
+        "boundary_edges": 128,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_leather"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Belt leather thickness"
+        ]
+      }
+    },
+    {
+      "name": "CH_Ryuu_Belt_edge",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "18 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 2060,
+        "verts_evaluated": 1048,
+        "verts": 1048,
+        "faces": 1036,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_stitch"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Belt_edge_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "18 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 2060,
+        "verts_evaluated": 1048,
+        "verts": 1048,
+        "faces": 1036,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 1024,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_stitch"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Belt_cross",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 512,
+        "verts_evaluated": 256,
+        "verts": 128,
+        "faces": 64,
+        "boundary_edges": 128,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_leather"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Belt leather thickness"
+        ]
+      }
+    },
+    {
+      "name": "CH_Ryuu_Belt_edge_03",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 2060,
+        "verts_evaluated": 1048,
+        "verts": 1048,
+        "faces": 1036,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_stitch"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Belt_edge_04",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 2060,
+        "verts_evaluated": 1048,
+        "verts": 1048,
+        "faces": 1036,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_stitch"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Buckle",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "18 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 76,
+        "verts_evaluated": 56,
+        "verts": 56,
+        "faces": 44,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 38,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_gold"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Buckle_inset",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 188,
+        "verts_evaluated": 96,
+        "verts": 4,
+        "faces": 1,
+        "boundary_edges": 4,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_pattern"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Woven thickness",
+          "BEVEL:Soft bound edge"
+        ]
+      }
+    },
+    {
+      "name": "CH_Ryuu_Belt_rivet",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 456,
+        "verts_evaluated": 230,
+        "verts": 230,
+        "faces": 240,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_gold"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Belt_rivet_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 456,
+        "verts_evaluated": 230,
+        "verts": 230,
+        "faces": 240,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_gold"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Belt_rivet_03",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 456,
+        "verts_evaluated": 230,
+        "verts": 230,
+        "faces": 240,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_gold"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Belt_rivet_04",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 456,
+        "verts_evaluated": 230,
+        "verts": 230,
+        "faces": 240,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_gold"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Pendant_chain",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 268,
+        "verts_evaluated": 152,
+        "verts": 152,
+        "faces": 140,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 6,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_gold"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Pendant",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "18 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 76,
+        "verts_evaluated": 56,
+        "verts": 56,
+        "faces": 44,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 6,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_gold"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Pauldron",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1280,
+        "verts_evaluated": 640,
+        "verts": 320,
+        "faces": 288,
+        "boundary_edges": 64,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_leather"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Leather plate"
+        ]
+      }
+    },
+    {
+      "name": "CH_Ryuu_Pauldron_edge",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1036,
+        "verts_evaluated": 536,
+        "verts": 536,
+        "faces": 524,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Pauldron_seam",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 268,
+        "verts_evaluated": 152,
+        "verts": 152,
+        "faces": 140,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 12,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_stitch"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Bracer",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 252,
+        "verts_evaluated": 128,
+        "verts": 128,
+        "faces": 98,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_leather"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Bracer_edge",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 140,
+        "verts_evaluated": 72,
+        "verts": 72,
+        "faces": 50,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Bracer_edge_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 140,
+        "verts_evaluated": 72,
+        "verts": 72,
+        "faces": 50,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Bracer_metal",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "18 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 76,
+        "verts_evaluated": 56,
+        "verts": 56,
+        "faces": 44,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 38,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_gold"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Upper_arm_band",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 188,
+        "verts_evaluated": 96,
+        "verts": 96,
+        "faces": 74,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_clothing3"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Pauldron_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1280,
+        "verts_evaluated": 640,
+        "verts": 320,
+        "faces": 288,
+        "boundary_edges": 64,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_leather"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Leather plate"
+        ]
+      }
+    },
+    {
+      "name": "CH_Ryuu_Pauldron_edge_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1036,
+        "verts_evaluated": 536,
+        "verts": 536,
+        "faces": 524,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Pauldron_seam_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 268,
+        "verts_evaluated": 152,
+        "verts": 152,
+        "faces": 140,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 12,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_stitch"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Bracer_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 252,
+        "verts_evaluated": 128,
+        "verts": 128,
+        "faces": 98,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_leather"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Bracer_edge_03",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 140,
+        "verts_evaluated": 72,
+        "verts": 72,
+        "faces": 50,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Bracer_edge_04",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 140,
+        "verts_evaluated": 72,
+        "verts": 72,
+        "faces": 50,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Bracer_metal_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "18 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 76,
+        "verts_evaluated": 56,
+        "verts": 56,
+        "faces": 44,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 6,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_gold"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Upper_arm_band_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 188,
+        "verts_evaluated": 96,
+        "verts": 96,
+        "faces": 74,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_clothing3"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hip_sash",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 496,
+        "verts_evaluated": 250,
+        "verts": 125,
+        "faces": 96,
+        "boundary_edges": 56,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_pattern"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Cloth thickness"
+        ]
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hip_inner",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 376,
+        "verts_evaluated": 190,
+        "verts": 95,
+        "faces": 72,
+        "boundary_edges": 44,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_pattern"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Cloth thickness"
+        ]
+      }
+    },
+    {
+      "name": "CH_Ryuu_Face",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 7164,
+        "verts_evaluated": 3584,
+        "verts": 3584,
+        "faces": 3522,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Ear",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1216,
+        "verts_evaluated": 610,
+        "verts": 610,
+        "faces": 640,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Ear_concha",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 912,
+        "verts_evaluated": 458,
+        "verts": 458,
+        "faces": 480,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_ear"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Ear_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1216,
+        "verts_evaluated": 610,
+        "verts": 610,
+        "faces": 640,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Ear_concha_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 912,
+        "verts_evaluated": 458,
+        "verts": 458,
+        "faces": 480,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_ear"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Eye_white",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 48,
+        "verts_evaluated": 49,
+        "verts": 49,
+        "faces": 48,
+        "boundary_edges": 48,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_white"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Iris_rim",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 40,
+        "verts_evaluated": 41,
+        "verts": 41,
+        "faces": 40,
+        "boundary_edges": 40,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "flipped_vs_recalc": 40,
+        "materials": [
+          "fixed_iris_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Iris",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 40,
+        "verts_evaluated": 41,
+        "verts": 41,
+        "faces": 40,
+        "boundary_edges": 40,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "flipped_vs_recalc": 40,
+        "materials": [
+          "fixed_iris"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Pupil",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 40,
+        "verts_evaluated": 41,
+        "verts": 41,
+        "faces": 40,
+        "boundary_edges": 40,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "flipped_vs_recalc": 40,
+        "materials": [
+          "fixed_pupil"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Catchlight",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 40,
+        "verts_evaluated": 41,
+        "verts": 41,
+        "faces": 40,
+        "boundary_edges": 40,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "flipped_vs_recalc": 40,
+        "materials": [
+          "fixed_glint"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Catchlight_small",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 40,
+        "verts_evaluated": 41,
+        "verts": 41,
+        "faces": 40,
+        "boundary_edges": 40,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_glint"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Upper_eyelid",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1036,
+        "verts_evaluated": 536,
+        "verts": 536,
+        "faces": 524,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 12,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_pupil"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Lower_eyelid",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 780,
+        "verts_evaluated": 408,
+        "verts": 408,
+        "faces": 396,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_mouth"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Eyebrow",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 268,
+        "verts_evaluated": 152,
+        "verts": 152,
+        "faces": 140,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 12,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Eye_white_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 48,
+        "verts_evaluated": 49,
+        "verts": 49,
+        "faces": 48,
+        "boundary_edges": 48,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_white"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Iris_rim_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 40,
+        "verts_evaluated": 41,
+        "verts": 41,
+        "faces": 40,
+        "boundary_edges": 40,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_iris_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Iris_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 40,
+        "verts_evaluated": 41,
+        "verts": 41,
+        "faces": 40,
+        "boundary_edges": 40,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_iris"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Pupil_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 40,
+        "verts_evaluated": 41,
+        "verts": 41,
+        "faces": 40,
+        "boundary_edges": 40,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_pupil"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Catchlight_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 40,
+        "verts_evaluated": 41,
+        "verts": 41,
+        "faces": 40,
+        "boundary_edges": 40,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_glint"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Catchlight_small_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 40,
+        "verts_evaluated": 41,
+        "verts": 41,
+        "faces": 40,
+        "boundary_edges": 40,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_glint"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Upper_eyelid_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1036,
+        "verts_evaluated": 536,
+        "verts": 536,
+        "faces": 524,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 12,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_pupil"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Lower_eyelid_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 780,
+        "verts_evaluated": 408,
+        "verts": 408,
+        "faces": 396,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_mouth"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Eyebrow_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 268,
+        "verts_evaluated": 152,
+        "verts": 152,
+        "faces": 140,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 6,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_edge"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Nose",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 284,
+        "verts_evaluated": 144,
+        "verts": 144,
+        "faces": 130,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_skin"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Smile_open",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 7,
+        "verts_evaluated": 8,
+        "verts": 8,
+        "faces": 7,
+        "boundary_edges": 7,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_mouth"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Smile_teeth",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 7,
+        "verts_evaluated": 8,
+        "verts": 8,
+        "faces": 7,
+        "boundary_edges": 7,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_white"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Lower_lip",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 268,
+        "verts_evaluated": 152,
+        "verts": 152,
+        "faces": 140,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_ear"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hair_cap",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1216,
+        "verts_evaluated": 610,
+        "verts": 610,
+        "faces": 640,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hair_nape",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1216,
+        "verts_evaluated": 610,
+        "verts": 610,
+        "faces": 640,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "4 doubled vertices within 0.0001",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 796,
+        "verts_evaluated": 400,
+        "verts": 400,
+        "faces": 386,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "4 doubled vertices within 0.0001",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 796,
+        "verts_evaluated": 400,
+        "verts": 400,
+        "faces": 386,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_03",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "4 doubled vertices within 0.0001",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 796,
+        "verts_evaluated": 400,
+        "verts": 400,
+        "faces": 386,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_04",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "5 doubled vertices within 0.0001",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 796,
+        "verts_evaluated": 400,
+        "verts": 400,
+        "faces": 386,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_05",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "4 doubled vertices within 0.0001",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 796,
+        "verts_evaluated": 400,
+        "verts": 400,
+        "faces": 386,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_06",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "5 doubled vertices within 0.0001",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 796,
+        "verts_evaluated": 400,
+        "verts": 400,
+        "faces": 386,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_07",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "5 doubled vertices within 0.0001",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 796,
+        "verts_evaluated": 400,
+        "verts": 400,
+        "faces": 386,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_08",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "4 doubled vertices within 0.0001",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 796,
+        "verts_evaluated": 400,
+        "verts": 400,
+        "faces": 386,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_09",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "4 doubled vertices within 0.0001",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 796,
+        "verts_evaluated": 400,
+        "verts": 400,
+        "faces": 386,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_10",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "4 doubled vertices within 0.0001",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 796,
+        "verts_evaluated": 400,
+        "verts": 400,
+        "faces": 386,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_11",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "4 doubled vertices within 0.0001",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 796,
+        "verts_evaluated": 400,
+        "verts": 400,
+        "faces": 386,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_12",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "5 doubled vertices within 0.0001",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 796,
+        "verts_evaluated": 400,
+        "verts": 400,
+        "faces": 386,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_13",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "4 doubled vertices within 0.0001",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 796,
+        "verts_evaluated": 400,
+        "verts": 400,
+        "faces": 386,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Hair_lock_14",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "4 doubled vertices within 0.0001",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 796,
+        "verts_evaluated": 400,
+        "verts": 400,
+        "faces": 386,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Nape_lock",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 380,
+        "verts_evaluated": 192,
+        "verts": 192,
+        "faces": 182,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Nape_lock_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 380,
+        "verts_evaluated": 192,
+        "verts": 192,
+        "faces": 182,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Nape_lock_03",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 380,
+        "verts_evaluated": 192,
+        "verts": 192,
+        "faces": 182,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Nape_lock_04",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 380,
+        "verts_evaluated": 192,
+        "verts": 192,
+        "faces": 182,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Nape_lock_05",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 380,
+        "verts_evaluated": 192,
+        "verts": 192,
+        "faces": 182,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Nape_lock_06",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 380,
+        "verts_evaluated": 192,
+        "verts": 192,
+        "faces": 182,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "base_hair"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Headband",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "2 ngons",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1148,
+        "verts_evaluated": 576,
+        "verts": 576,
+        "faces": 514,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_bandana"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Band_motif",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 44,
+        "verts_evaluated": 40,
+        "verts": 40,
+        "faces": 28,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 12,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_pattern"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Band_motif_02",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "16 doubled vertices within 0.0001"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 44,
+        "verts_evaluated": 40,
+        "verts": 40,
+        "faces": 28,
+        "boundary_edges": 32,
+        "nonmanifold_edges": 0,
+        "islands": 3,
+        "flipped_vs_recalc": 12,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_pattern"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Band_knot",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 1216,
+        "verts_evaluated": 610,
+        "verts": 610,
+        "faces": 640,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "uv_loops_outside_0_1": 0,
+        "materials": [
+          "fixed_bandana"
+        ],
+        "modifiers": []
+      }
+    },
+    {
+      "name": "CH_Ryuu_Band_tail_long",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 496,
+        "verts_evaluated": 250,
+        "verts": 125,
+        "faces": 96,
+        "boundary_edges": 56,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_bandana"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Cloth thickness"
+        ]
+      }
+    },
+    {
+      "name": "CH_Ryuu_Band_tail_short",
+      "type": "MESH",
+      "warn": [
+        "numeric suffix in object or mesh name",
+        "no UV layer"
+      ],
+      "fail": [],
+      "info": {
+        "tris_evaluated": 376,
+        "verts_evaluated": 190,
+        "verts": 95,
+        "faces": 72,
+        "boundary_edges": 44,
+        "nonmanifold_edges": 0,
+        "islands": 1,
+        "materials": [
+          "fixed_bandana"
+        ],
+        "modifiers": [
+          "SOLIDIFY:Cloth thickness"
+        ]
+      }
+    }
+  ]
+}

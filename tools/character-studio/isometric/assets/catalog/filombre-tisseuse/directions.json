@@ -1,0 +1,85 @@
+{
+  "id": "filombre-tisseuse",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/filombre-tisseuse/n.png",
+      "recipe": "assets/catalog/filombre-tisseuse/n.json",
+      "sha256": "f9c2a732902d8c493862044f2b4a329f78cc19e75d5f2c0331972351644728b9",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 314
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/filombre-tisseuse/ne.png",
+      "recipe": "assets/catalog/filombre-tisseuse/ne.json",
+      "sha256": "4c90d883cce89da9de9aa0558a31c0c2a80871e2dbe2420ce82cb2abff1b8c6c",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 314
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/filombre-tisseuse/e.png",
+      "recipe": "assets/catalog/filombre-tisseuse/e.json",
+      "sha256": "d1ab08f67e69799a903ca5a05870f3e1bfc23949ef6d26ffb1d72ae496ca6fb1",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 314
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/filombre-tisseuse/se.png",
+      "recipe": "assets/catalog/filombre-tisseuse/se.json",
+      "sha256": "615e2c235353ad496b9ca4e0acd6b921ac5f312773913301e1b694c9b023cbd3",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 314
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/filombre-tisseuse/s.png",
+      "recipe": "assets/catalog/filombre-tisseuse/s.json",
+      "sha256": "6378bcfa2d3d24585d2cb07cf552952d41c1944c6fa3fbdaa0ffb551ab02aef3",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 314
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/filombre-tisseuse/sw.png",
+      "recipe": "assets/catalog/filombre-tisseuse/sw.json",
+      "sha256": "641e7bcb799e70aa83ee7ac58e43a9bbd306056eec0e906996e605ac23fb159f",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 314
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/filombre-tisseuse/w.png",
+      "recipe": "assets/catalog/filombre-tisseuse/w.json",
+      "sha256": "98fd4519f16baf571dd53bc8f4cbad41bbf58694bf3ac2cea1e084c6f488aa6e",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 314
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/filombre-tisseuse/nw.png",
+      "recipe": "assets/catalog/filombre-tisseuse/nw.json",
+      "sha256": "eb926346c530e84099f3924ad8e485cec3359b76d2d9c218da0c24af88ac237a",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 314
+    }
+  ]
+}

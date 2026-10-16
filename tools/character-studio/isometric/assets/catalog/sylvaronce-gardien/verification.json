@@ -1,0 +1,179 @@
+{
+  "source_sha256": "f988bdc439cbc87d539320bd04e7e958237ec964bb61f2c4643a809fe673632b",
+  "source_dimensions": [
+    1254,
+    1254
+  ],
+  "frames": [
+    {
+      "direction": "n",
+      "sourceCrop": [
+        0,
+        0,
+        326,
+        627
+      ],
+      "bounds": [
+        17,
+        101,
+        324,
+        548
+      ],
+      "edgePixels": 0,
+      "channelPixels": {
+        "ochre": 24791,
+        "leaf": 25866,
+        "red": 4059
+      }
+    },
+    {
+      "direction": "ne",
+      "sourceCrop": [
+        326,
+        0,
+        309,
+        627
+      ],
+      "bounds": [
+        33,
+        92,
+        307,
+        569
+      ],
+      "edgePixels": 0,
+      "channelPixels": {
+        "ochre": 24062,
+        "leaf": 22670,
+        "red": 3782
+      }
+    },
+    {
+      "direction": "e",
+      "sourceCrop": [
+        635,
+        0,
+        301,
+        627
+      ],
+      "bounds": [
+        38,
+        89,
+        233,
+        570
+      ],
+      "edgePixels": 0,
+      "channelPixels": {
+        "ochre": 20130,
+        "leaf": 15900,
+        "red": 4138
+      }
+    },
+    {
+      "direction": "se",
+      "sourceCrop": [
+        936,
+        0,
+        318,
+        627
+      ],
+      "bounds": [
+        3,
+        92,
+        298,
+        580
+      ],
+      "edgePixels": 0,
+      "channelPixels": {
+        "ochre": 34600,
+        "leaf": 20631,
+        "red": 4861
+      }
+    },
+    {
+      "direction": "s",
+      "sourceCrop": [
+        0,
+        627,
+        331,
+        627
+      ],
+      "bounds": [
+        12,
+        38,
+        329,
+        491
+      ],
+      "edgePixels": 0,
+      "channelPixels": {
+        "ochre": 36121,
+        "leaf": 21892,
+        "red": 4122
+      }
+    },
+    {
+      "direction": "sw",
+      "sourceCrop": [
+        331,
+        627,
+        317,
+        627
+      ],
+      "bounds": [
+        23,
+        38,
+        315,
+        522
+      ],
+      "edgePixels": 0,
+      "channelPixels": {
+        "ochre": 34969,
+        "leaf": 19906,
+        "red": 2856
+      }
+    },
+    {
+      "direction": "w",
+      "sourceCrop": [
+        648,
+        627,
+        285,
+        627
+      ],
+      "bounds": [
+        56,
+        42,
+        245,
+        525
+      ],
+      "edgePixels": 0,
+      "channelPixels": {
+        "ochre": 22440,
+        "leaf": 14304,
+        "red": 2334
+      }
+    },
+    {
+      "direction": "nw",
+      "sourceCrop": [
+        933,
+        627,
+        321,
+        627
+      ],
+      "bounds": [
+        3,
+        45,
+        300,
+        515
+      ],
+      "edgePixels": 0,
+      "channelPixels": {
+        "ochre": 24404,
+        "leaf": 24169,
+        "red": 4285
+      }
+    }
+  ],
+  "normalization": "Lossless cell cropping; chroma removal shared with Ryuu; padding and ground anchors; no artistic repainting.",
+  "art_review": "Eight idle drawings inspected; local details can differ between views. Hero material masks are conservative preliminary selections."
+}

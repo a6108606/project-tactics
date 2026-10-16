@@ -1,0 +1,85 @@
+{
+  "id": "gueulefleur-venimeuse",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/gueulefleur-venimeuse/n.png",
+      "recipe": "assets/catalog/gueulefleur-venimeuse/n.json",
+      "sha256": "4ec0c9538300cc1ed827ab01269ef4f4e0323c1d05b8e876cfb24712cf9533d1",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 557
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/gueulefleur-venimeuse/ne.png",
+      "recipe": "assets/catalog/gueulefleur-venimeuse/ne.json",
+      "sha256": "5b30f541705d12f9746944527fd5af74c4bac6cc6cad694d52681f41fbec0a8b",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 557
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/gueulefleur-venimeuse/e.png",
+      "recipe": "assets/catalog/gueulefleur-venimeuse/e.json",
+      "sha256": "f1db8197b339b51ddcd2f50a22dcdb0dc4330f16c969dba2105b715786298a26",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 557
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/gueulefleur-venimeuse/se.png",
+      "recipe": "assets/catalog/gueulefleur-venimeuse/se.json",
+      "sha256": "788b37aa739ccd06e0149acc92c56e5c5f42f72414e35ce63aebb2731fafee1a",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 557
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/gueulefleur-venimeuse/s.png",
+      "recipe": "assets/catalog/gueulefleur-venimeuse/s.json",
+      "sha256": "2d92f3cd1e43a94e587e7c8425efc1580406ae69c2897de71c4343bfdfe5ebb2",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 557
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/gueulefleur-venimeuse/sw.png",
+      "recipe": "assets/catalog/gueulefleur-venimeuse/sw.json",
+      "sha256": "462e4123e7f7da4d3683a6cba0a48a4e0779dae3f17b8e572d8dd28e3aea65f7",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 557
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/gueulefleur-venimeuse/w.png",
+      "recipe": "assets/catalog/gueulefleur-venimeuse/w.json",
+      "sha256": "3e455c1391a58e443254da326a367edbe32f32c6d4d0d04ecac3309f208836c7",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 557
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/gueulefleur-venimeuse/nw.png",
+      "recipe": "assets/catalog/gueulefleur-venimeuse/nw.json",
+      "sha256": "b448d442fe26fb08e34345e201c0e8a6a10f6aa06ffe4e687603d003ce0fc003",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 557
+    }
+  ]
+}

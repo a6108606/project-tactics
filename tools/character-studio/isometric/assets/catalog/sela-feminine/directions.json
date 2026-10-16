@@ -1,0 +1,85 @@
+{
+  "id": "sela-feminine",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/sela-feminine/n.png",
+      "recipe": "assets/catalog/sela-feminine/n.json",
+      "sha256": "0d33377339b60fa671de2148a6616a40babdfb0275f82c6754f94b4c0cb1fff3",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 552
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/sela-feminine/ne.png",
+      "recipe": "assets/catalog/sela-feminine/ne.json",
+      "sha256": "942f03313798882f912e789c2193d713b6ca8a966e2da9f864a019b9cbb25081",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 552
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/sela-feminine/e.png",
+      "recipe": "assets/catalog/sela-feminine/e.json",
+      "sha256": "0b43859a522483c45828956abf12b39879c59de7a0d866f6306a857c204e0b80",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 552
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/sela-feminine/se.png",
+      "recipe": "assets/catalog/sela-feminine/se.json",
+      "sha256": "225329836892ab7fea26b49505ef39c33d4be8321cf2e2f907a813f1876feb5c",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 552
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/sela-feminine/s.png",
+      "recipe": "assets/catalog/sela-feminine/s.json",
+      "sha256": "3043708cb43ccd640c20bc59f52767981a2473cb98b99e0a6c82237d88a8f888",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 552
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/sela-feminine/sw.png",
+      "recipe": "assets/catalog/sela-feminine/sw.json",
+      "sha256": "248c40f83cabb474e596ccceb979629a5fc38597ad7a68992d3c5ffd095cd0d9",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 552
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/sela-feminine/w.png",
+      "recipe": "assets/catalog/sela-feminine/w.json",
+      "sha256": "5c7982dee9d596476d72240ceddfd3be01c97e2c4f8712775f109cefc1d2ac56",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 552
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/sela-feminine/nw.png",
+      "recipe": "assets/catalog/sela-feminine/nw.json",
+      "sha256": "aa53bbdcba78a5ec31df4c45bbd1fa8812d16a2829ac7da0ed323559ae3981f7",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 552
+    }
+  ]
+}

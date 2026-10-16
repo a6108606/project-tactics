@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-15",
+  "tool": "built-in image_gen.imagegen",
+  "sprite_sha256": "e71566f393170aadb8c1a1f6221f17c730c2a69be21d50fd9301fc44d067f369",
+  "initial_sha256": "b035b0499b113583f95f212c4539b7dd5a3496bb98bbc8832a383d70c120a617",
+  "size": [
+    1254,
+    1254
+  ],
+  "source": "content/art/characters/reference-v2/references/ryuu.png",
+  "source_sha256": "8d7e17983eee6b29abea9e7f4a52b87eb32a8c74771442591ad846913a475c20",
+  "prompts": [
+    "prompt.txt",
+    "background-prompt.txt"
+  ],
+  "status": "isometric-pilot-awaiting-art-review",
+  "view": "southeast",
+  "base": "masculine",
+  "normalization": "Runtime chroma key removal. Initial transparency request produced an opaque checkerboard; imagegen replaced it with green for deterministic keying.",
+  "reconstruction": "New 2D interpretation. Same design intent; details and projected volumes not identical to the original.",
+  "transparent_export": {
+    "file": "ryuu-male-se.png",
+    "sha256": "a2498764e61e110e08b220defdbb2a93962e4417727a7d82b8e1983a0d34a883",
+    "method": "Actual browser Exporter PNG button, default palette, no grid or mask overlay."
+  }
+}

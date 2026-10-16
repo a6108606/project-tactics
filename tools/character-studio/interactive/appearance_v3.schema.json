@@ -1,0 +1,266 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "project-tactics/appearance-v3",
+  "title": "Appearance V3 — Ryuu visible-mask pilot",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": "project-tactics/appearance"
+    },
+    "schema_version": {
+      "const": 3
+    },
+    "asset_manifest_version": {
+      "const": "ryuu-visible-1"
+    },
+    "character_id": {
+      "enum": [
+        "ryuu",
+        "kael",
+        "sela",
+        "leo",
+        "lina"
+      ]
+    },
+    "body_variant_id": {
+      "enum": [
+        "masculine",
+        "feminine"
+      ]
+    },
+    "view_id": {
+      "const": "main"
+    },
+    "source_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "face_variant_id": {
+      "const": "canonical"
+    },
+    "hair_variant_id": {
+      "const": "canonical"
+    },
+    "colors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "skin",
+        "hair",
+        "clothing1",
+        "clothing2",
+        "clothing3"
+      ],
+      "properties": {
+        "skin": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        },
+        "hair": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        },
+        "clothing1": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        },
+        "clothing2": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        },
+        "clothing3": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        }
+      }
+    },
+    "equipment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "visible"
+      ],
+      "properties": {
+        "mode": {
+          "const": "source-locked"
+        },
+        "visible": {
+          "const": true
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "character_id": {
+            "const": "ryuu"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "source_sha256": {
+            "const": "8d7e17983eee6b29abea9e7f4a52b87eb32a8c74771442591ad846913a475c20"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "character_id": {
+            "const": "kael"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "source_sha256": {
+            "const": "6e922784ee9d86a10cfc2e6ba117a2dc966edbd8c3bf2ba51461a62a1cb2b0c1"
+          },
+          "colors": {
+            "properties": {
+              "skin": {
+                "pattern": "^#[fF]2[bB][eE]87$"
+              },
+              "hair": {
+                "pattern": "^#[fF]4[dD]377$"
+              },
+              "clothing1": {
+                "pattern": "^#704293$"
+              },
+              "clothing2": {
+                "pattern": "^#382[aA]42$"
+              },
+              "clothing3": {
+                "pattern": "^#[aA]46[cC][cC]1$"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "character_id": {
+            "const": "sela"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "source_sha256": {
+            "const": "6e99506974ef8eee9d26bb77e658aab7723f7e79b41000e36f36171e6eb3ebed"
+          },
+          "colors": {
+            "properties": {
+              "skin": {
+                "pattern": "^#[fF]2[bB][dD]8[dD]$"
+              },
+              "hair": {
+                "pattern": "^#[cC]9[cC][fF][aA][eE]$"
+              },
+              "clothing1": {
+                "pattern": "^#[eE][dD][eE]3[cC][fF]$"
+              },
+              "clothing2": {
+                "pattern": "^#696444$"
+              },
+              "clothing3": {
+                "pattern": "^#[bB][dD]633[eE]$"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "character_id": {
+            "const": "leo"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "source_sha256": {
+            "const": "0db3e6ecf23e6717961254f5117f14a2858cd673b7ef2f17a615f2bcce01bc71"
+          },
+          "colors": {
+            "properties": {
+              "skin": {
+                "pattern": "^#[fF]2[bB][cC]85$"
+              },
+              "hair": {
+                "pattern": "^#8[dD]6952$"
+              },
+              "clothing1": {
+                "pattern": "^#[eE][eE][eE]1[cC][aA]$"
+              },
+              "clothing2": {
+                "pattern": "^#483[cC]34$"
+              },
+              "clothing3": {
+                "pattern": "^#[bB]74733$"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "character_id": {
+            "const": "lina"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "source_sha256": {
+            "const": "46f46393362d85d6a5735f5cd58bea7df628fcd9d36d837f24820a692a76bc0a"
+          },
+          "colors": {
+            "properties": {
+              "skin": {
+                "pattern": "^#[fF]3[cC]38[fF]$"
+              },
+              "hair": {
+                "pattern": "^#[eE]8[eE]0[dD]2$"
+              },
+              "clothing1": {
+                "pattern": "^#[fF]0[dD]575$"
+              },
+              "clothing2": {
+                "pattern": "^#[fF]7[eE]9[cC][bB]$"
+              },
+              "clothing3": {
+                "pattern": "^#[dD]6[aA]244$"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "required": [
+    "schema",
+    "schema_version",
+    "asset_manifest_version",
+    "character_id",
+    "body_variant_id",
+    "view_id",
+    "source_sha256",
+    "face_variant_id",
+    "hair_variant_id",
+    "colors",
+    "equipment"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "sela-masculine",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/sela-masculine/n.png",
+      "recipe": "assets/catalog/sela-masculine/n.json",
+      "sha256": "24853a1b7945136ede1a97b6d6a542f921936f023c1397af02c3364ad13be236",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 540
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/sela-masculine/ne.png",
+      "recipe": "assets/catalog/sela-masculine/ne.json",
+      "sha256": "6f07fa77aaefc68c1b642e4cb3fd377e2d3c9c43f16bbf044daafde66dc7ff5b",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 540
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/sela-masculine/e.png",
+      "recipe": "assets/catalog/sela-masculine/e.json",
+      "sha256": "7bfc55d4013d072ca8cd4d519de65aaebecd79485b34541d7eb94fa26b7d1349",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 540
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/sela-masculine/se.png",
+      "recipe": "assets/catalog/sela-masculine/se.json",
+      "sha256": "47e620e4225eaf64c2efc723a3db74fdcb6443d40f5fca13aaf82ec0fd329275",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 540
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/sela-masculine/s.png",
+      "recipe": "assets/catalog/sela-masculine/s.json",
+      "sha256": "762f0139814c1015bce39fb12babb4460f34be2a6693410c6111d51497056831",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 540
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/sela-masculine/sw.png",
+      "recipe": "assets/catalog/sela-masculine/sw.json",
+      "sha256": "466f940ec0bf77ba78491c3b3096f806913fd701e6585737da771c1e3494e888",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 540
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/sela-masculine/w.png",
+      "recipe": "assets/catalog/sela-masculine/w.json",
+      "sha256": "5050bc6a29b068c0163eddfd54c0b71bb7392f0431b3b68cb7a2d57400fb51ed",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 540
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/sela-masculine/nw.png",
+      "recipe": "assets/catalog/sela-masculine/nw.json",
+      "sha256": "a77e5593a64030acff9c4258d252aa9057133d6e2f3febfbfed2738022fa91bd",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 540
+    }
+  ]
+}

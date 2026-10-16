@@ -1,0 +1,85 @@
+{
+  "id": "solepi",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/solepi/n.png",
+      "recipe": "assets/catalog/solepi/n.json",
+      "sha256": "3e7667f5a1a026f39bde8d4ee3445091bb929369a0671a47a116872cf8daf311",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 504
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/solepi/ne.png",
+      "recipe": "assets/catalog/solepi/ne.json",
+      "sha256": "4b7fc4888df6e3ddecf380b34b0c6cea2de48968564afe5bbb5ac7d595fbb2c9",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 504
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/solepi/e.png",
+      "recipe": "assets/catalog/solepi/e.json",
+      "sha256": "f400e6867812332d6c11aad13ce418daf2d9a6e6ad501b2a3885231d87f6ca2c",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 504
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/solepi/se.png",
+      "recipe": "assets/catalog/solepi/se.json",
+      "sha256": "86aa384c044e490b8ea71c9c1e8639992348a843a0b9725623fd87c50156955c",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 504
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/solepi/s.png",
+      "recipe": "assets/catalog/solepi/s.json",
+      "sha256": "c8559c07a993fd38a2d6fab77a3c9bfdda72693714739f9dbb26185ff298b9ae",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 504
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/solepi/sw.png",
+      "recipe": "assets/catalog/solepi/sw.json",
+      "sha256": "ed5ceb1ab500be8b8700f647e9c0d0a65b9014f3cbc1acbfcc5014cc42f3922b",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 504
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/solepi/w.png",
+      "recipe": "assets/catalog/solepi/w.json",
+      "sha256": "beb9b9d920b896968f1954a6a2c3b7edd9d74974088b0aa88c5eed977e873bf4",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 504
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/solepi/nw.png",
+      "recipe": "assets/catalog/solepi/nw.json",
+      "sha256": "553e754b7fd5507acf4e2440a787f57875150f401df881242a2d73dbdeda50f6",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 504
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "porte-etendard",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/porte-etendard/n.png",
+      "recipe": "assets/catalog/porte-etendard/n.json",
+      "sha256": "f8cf75d20e53e4b93f325ba6f2f1b84b1f0da9f6bf8c6b734a502f1a8d12c7ec",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 485
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/porte-etendard/ne.png",
+      "recipe": "assets/catalog/porte-etendard/ne.json",
+      "sha256": "aea8f9519a04e2303ac9d96a4341740d7c108d6d68aaa845054238d0282eb7d0",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 485
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/porte-etendard/e.png",
+      "recipe": "assets/catalog/porte-etendard/e.json",
+      "sha256": "f7f52c67a3e0e22c2c9931cb484f2ae3abb4c22bd5c8edb4760a9e5bf159bb54",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 485
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/porte-etendard/se.png",
+      "recipe": "assets/catalog/porte-etendard/se.json",
+      "sha256": "4a241fa6045db2520d0afee7188e47d8ac66ae89dc02cbe36cb8e03dfb0f9944",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 485
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/porte-etendard/s.png",
+      "recipe": "assets/catalog/porte-etendard/s.json",
+      "sha256": "dff446f3aeb32c20206a1c9ea4b3ebd0370522b99c3e9031e59af0bce7d59498",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 485
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/porte-etendard/sw.png",
+      "recipe": "assets/catalog/porte-etendard/sw.json",
+      "sha256": "76bab5af926fbeaa9f412d5a05be7b6400ee6807c58fb5fbcac2e7374f7befbf",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 485
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/porte-etendard/w.png",
+      "recipe": "assets/catalog/porte-etendard/w.json",
+      "sha256": "98769a426bee9c383cc3a014776d6b3e2f8e9a9bd08874f96a360c2d85e449b7",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 485
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/porte-etendard/nw.png",
+      "recipe": "assets/catalog/porte-etendard/nw.json",
+      "sha256": "9bd2ab92eafe5641231397cde34681f8ec50990ae50bbfe02790c650ba733d2a",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 485
+    }
+  ]
+}

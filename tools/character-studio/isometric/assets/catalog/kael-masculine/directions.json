@@ -1,0 +1,85 @@
+{
+  "id": "kael-masculine",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/kael-masculine/n.png",
+      "recipe": "assets/catalog/kael-masculine/n.json",
+      "sha256": "575735fefecbdc5e70e4661671ef2c1901819fa12b41b7d72be9f6752e339999",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 552
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/kael-masculine/ne.png",
+      "recipe": "assets/catalog/kael-masculine/ne.json",
+      "sha256": "955577b09e68fbef6fb9f8c683a1660b66840f2c420c970e586d21978b2843f2",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 552
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/kael-masculine/e.png",
+      "recipe": "assets/catalog/kael-masculine/e.json",
+      "sha256": "478135156f6a9c45f7c958ee21f761d8fd3e740856cd254a3e577a4916472b5b",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 552
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/kael-masculine/se.png",
+      "recipe": "assets/catalog/kael-masculine/se.json",
+      "sha256": "7424927091a2cab94ca4526db7be7e009f6d2c6f7bd0a42369ad0f539e60bc25",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 552
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/kael-masculine/s.png",
+      "recipe": "assets/catalog/kael-masculine/s.json",
+      "sha256": "0be60c3b590ca1c74133a46f51b54fb34f080c77811d181509aeaa65abe39aa0",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 552
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/kael-masculine/sw.png",
+      "recipe": "assets/catalog/kael-masculine/sw.json",
+      "sha256": "aaf3b9432b90efd45a5aeea35f464be1db86c60acce3e7a4c8b6becee329b0c9",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 552
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/kael-masculine/w.png",
+      "recipe": "assets/catalog/kael-masculine/w.json",
+      "sha256": "a18770ddbedd0ae32574626e61715a0b1cf5d673436091dc92e49b9742d2c849",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 552
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/kael-masculine/nw.png",
+      "recipe": "assets/catalog/kael-masculine/nw.json",
+      "sha256": "2209fac136469fd84ff88c26b5e84b32235d2f55458c5b6bb0046ecec74cb26b",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 552
+    }
+  ]
+}

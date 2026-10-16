@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-16",
+  "images": [
+    {
+      "id": "plumet-des-mousses",
+      "version": "before",
+      "source_sha256": "ccbe3565995ebaa6adc046d83d6585e07618ae5557271252727eaba0685a59e3",
+      "output_sha256": "27a2fb523c6b062e23a06435ef5831f5f683607a6195e183c2a197076931cb79",
+      "crop": [
+        49,
+        174,
+        286,
+        445
+      ],
+      "dimensions": [
+        286,
+        445
+      ],
+      "fully_transparent_pixels": 53534,
+      "method": "Alpha crop without resizing or repainting"
+    },
+    {
+      "id": "plumet-des-mousses",
+      "version": "after",
+      "source_sha256": "2f59bd639c9a312745b3749b2faaa47b666eaf3d64350a29f73811d17c734a9a",
+      "output_sha256": "6d41d5765457100ee25e08e6571cc5358ce5bf72d2114463bb3964a2126bf327",
+      "crop": [
+        223,
+        148,
+        809,
+        1028
+      ],
+      "dimensions": [
+        809,
+        1028
+      ],
+      "fully_transparent_pixels": 354339,
+      "method": "Shared Ryuu chroma removal, alpha crop without resizing or repainting"
+    },
+    {
+      "id": "bourlaine-jeune",
+      "version": "before",
+      "source_sha256": "aff7d956775ab5192b5adc34c6d6e7aafbc420398d0b1f371f3f951b9d8f6622",
+      "output_sha256": "a023c89c641a1c080fe613b28d7507ecc00a4c43b309e797a41b6ac2aece63c7",
+      "crop": [
+        57,
+        279,
+        270,
+        340
+      ],
+      "dimensions": [
+        270,
+        340
+      ],
+      "fully_transparent_pixels": 39315,
+      "method": "Alpha crop without resizing or repainting"
+    },
+    {
+      "id": "bourlaine-jeune",
+      "version": "after",
+      "source_sha256": "1a70c95e14f3502ecd14877ae37dfcdca308e04eb084ab7d006848cd25acfedc",
+      "output_sha256": "0c091d7c0bb39c6963fb7ecaeddab92f673a9e206c2b3425812d9c50830ca943",
+      "crop": [
+        197,
+        262,
+        924,
+        846
+      ],
+      "dimensions": [
+        924,
+        846
+      ],
+      "fully_transparent_pixels": 255191,
+      "method": "Shared Ryuu chroma removal, alpha crop without resizing or repainting"
+    }
+  ]
+}

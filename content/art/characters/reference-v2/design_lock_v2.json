@@ -1,0 +1,1465 @@
+{
+  "project": "Project Tactics",
+  "document": "Atelier esthétique V2 — références validées",
+  "version": "2.0.0",
+  "scope": "Art direction only. No gameplay, spell, stat or elemental-path changes.",
+  "design_lock": {
+    "authority": "The five character sheets reattached and confirmed by the user.",
+    "no_redesign": true,
+    "preserve": [
+      "silhouettes",
+      "proportions",
+      "faces",
+      "canonical_hairstyles",
+      "costumes",
+      "accessories",
+      "canonical_palettes",
+      "rendering_style"
+    ],
+    "style": "Fantasy chibi 2D isométrique; contours nets; cel-shading; parchemin, bleu nuit et doré.",
+    "bodies": [
+      "masculine",
+      "feminine"
+    ],
+    "variant_selectors": [
+      "face",
+      "hairstyle"
+    ],
+    "number_of_production_variants": "Not fixed. The nine studies per selector are extracted visual references, not nine validated modular assets.",
+    "base_color_channels": [
+      "skin",
+      "hair",
+      "clothing1",
+      "clothing2",
+      "clothing3"
+    ],
+    "equipment_color_inheritance": false,
+    "equipment_compositing": "Separate front/back layers as required by view and pose; may occlude the base; never inherit base recoloring.",
+    "rendering_status": "Reference-only. User palette and selected studies are saved but not composited into the canonical preview.",
+    "directions_and_poses_status": "Extracted concepts, not verified sprites or playable animation frames.",
+    "no_equipment_removal_from_flat_reference": true,
+    "palette_status": "Indicative working color values drawn from the canonical visual identity; the original illustrations remain authoritative. No clothing-region masks have been authored yet."
+  },
+  "reference_coordinate_system": {
+    "width": 1100,
+    "height": 1400,
+    "boxes": "[x1,y1,x2,y2] normalized; actual pixels obtained by scaling to the source dimensions"
+  },
+  "sources": [
+    {
+      "id": "ryuu",
+      "name": "Ryuu",
+      "accent": "#777A65",
+      "subtitle": "Menthe, violet & cuir",
+      "quote": "La même flamme, différents chemins.",
+      "description": "Cheveux menthe en pointes, bandeau violet, volumes amples et cuir brun. Le même dessin expressif, dans les deux bases approuvées.",
+      "palette": [
+        "#F1BC85",
+        "#C7D5B4",
+        "#51315D",
+        "#B0434E",
+        "#46394B"
+      ],
+      "duo": [
+        12,
+        177,
+        466,
+        696
+      ],
+      "masculine": [
+        12,
+        177,
+        252,
+        696
+      ],
+      "feminine": [
+        261,
+        181,
+        466,
+        696
+      ],
+      "avatar": [
+        91,
+        259,
+        206,
+        344
+      ],
+      "faces": [
+        [
+          21,
+          807,
+          89,
+          870
+        ],
+        [
+          98,
+          807,
+          166,
+          870
+        ],
+        [
+          176,
+          807,
+          243,
+          870
+        ],
+        [
+          21,
+          879,
+          89,
+          939
+        ],
+        [
+          98,
+          879,
+          166,
+          939
+        ],
+        [
+          176,
+          879,
+          243,
+          939
+        ],
+        [
+          21,
+          949,
+          89,
+          1009
+        ],
+        [
+          98,
+          949,
+          166,
+          1009
+        ],
+        [
+          176,
+          949,
+          243,
+          1009
+        ]
+      ],
+      "hairs": [
+        [
+          265,
+          801,
+          337,
+          874
+        ],
+        [
+          348,
+          801,
+          423,
+          874
+        ],
+        [
+          441,
+          801,
+          505,
+          874
+        ],
+        [
+          265,
+          886,
+          337,
+          952
+        ],
+        [
+          348,
+          886,
+          423,
+          952
+        ],
+        [
+          441,
+          886,
+          505,
+          952
+        ],
+        [
+          265,
+          961,
+          337,
+          1027
+        ],
+        [
+          348,
+          961,
+          423,
+          1027
+        ],
+        [
+          441,
+          961,
+          505,
+          1027
+        ]
+      ],
+      "directions": {
+        "masculine": [
+          [
+            507,
+            232,
+            565,
+            331
+          ],
+          [
+            576,
+            232,
+            634,
+            331
+          ],
+          [
+            645,
+            232,
+            703,
+            331
+          ],
+          [
+            714,
+            232,
+            772,
+            331
+          ],
+          [
+            784,
+            232,
+            842,
+            331
+          ],
+          [
+            854,
+            232,
+            912,
+            331
+          ],
+          [
+            924,
+            232,
+            982,
+            331
+          ],
+          [
+            994,
+            232,
+            1052,
+            331
+          ]
+        ],
+        "feminine": [
+          [
+            507,
+            371,
+            565,
+            467
+          ],
+          [
+            576,
+            371,
+            634,
+            467
+          ],
+          [
+            645,
+            371,
+            703,
+            467
+          ],
+          [
+            714,
+            371,
+            772,
+            467
+          ],
+          [
+            784,
+            371,
+            842,
+            467
+          ],
+          [
+            854,
+            371,
+            912,
+            467
+          ],
+          [
+            924,
+            371,
+            982,
+            467
+          ],
+          [
+            994,
+            371,
+            1052,
+            467
+          ]
+        ]
+      },
+      "poses": {
+        "masculine": [
+          481,
+          527,
+          1061,
+          627
+        ],
+        "feminine": [
+          481,
+          634,
+          1061,
+          735
+        ]
+      },
+      "equipment": [
+        22,
+        1090,
+        433,
+        1260
+      ],
+      "layer": [
+        648,
+        1080,
+        1081,
+        1302
+      ],
+      "width": 1086,
+      "height": 1448,
+      "sha256": "8d7e17983eee6b29abea9e7f4a52b87eb32a8c74771442591ad846913a475c20",
+      "original_png_file": "references/ryuu.png"
+    },
+    {
+      "id": "kael",
+      "name": "Kael",
+      "accent": "#8F72A5",
+      "subtitle": "Violet profond & or",
+      "quote": "Chaque choix est une possibilité.",
+      "description": "Cheveux blonds, tenue violette et dorée, col structuré et pans graphiques. Cette silhouette est conservée telle qu’elle a été approuvée.",
+      "palette": [
+        "#F2BE87",
+        "#F4D377",
+        "#704293",
+        "#382A42",
+        "#A46CC1"
+      ],
+      "duo": [
+        19,
+        178,
+        498,
+        724
+      ],
+      "masculine": [
+        19,
+        178,
+        267,
+        724
+      ],
+      "feminine": [
+        251,
+        190,
+        498,
+        724
+      ],
+      "avatar": [
+        110,
+        223,
+        187,
+        284
+      ],
+      "faces": [
+        [
+          24,
+          816,
+          94,
+          882
+        ],
+        [
+          101,
+          816,
+          170,
+          882
+        ],
+        [
+          176,
+          816,
+          241,
+          882
+        ],
+        [
+          24,
+          893,
+          94,
+          957
+        ],
+        [
+          101,
+          893,
+          170,
+          957
+        ],
+        [
+          176,
+          893,
+          241,
+          957
+        ],
+        [
+          24,
+          966,
+          94,
+          1027
+        ],
+        [
+          101,
+          966,
+          170,
+          1027
+        ],
+        [
+          176,
+          966,
+          241,
+          1027
+        ]
+      ],
+      "hairs": [
+        [
+          274,
+          811,
+          343,
+          884
+        ],
+        [
+          356,
+          811,
+          430,
+          884
+        ],
+        [
+          448,
+          811,
+          521,
+          884
+        ],
+        [
+          274,
+          891,
+          343,
+          958
+        ],
+        [
+          356,
+          891,
+          430,
+          958
+        ],
+        [
+          448,
+          891,
+          521,
+          958
+        ],
+        [
+          274,
+          966,
+          343,
+          1030
+        ],
+        [
+          356,
+          966,
+          430,
+          1030
+        ],
+        [
+          448,
+          966,
+          521,
+          1030
+        ]
+      ],
+      "directions": {
+        "masculine": [
+          [
+            544,
+            232,
+            600,
+            312
+          ],
+          [
+            609,
+            232,
+            665,
+            312
+          ],
+          [
+            674,
+            232,
+            730,
+            312
+          ],
+          [
+            740,
+            232,
+            796,
+            312
+          ],
+          [
+            807,
+            232,
+            863,
+            312
+          ],
+          [
+            874,
+            232,
+            930,
+            312
+          ],
+          [
+            941,
+            232,
+            997,
+            312
+          ],
+          [
+            1009,
+            232,
+            1065,
+            312
+          ]
+        ],
+        "feminine": [
+          [
+            544,
+            358,
+            600,
+            438
+          ],
+          [
+            609,
+            358,
+            665,
+            438
+          ],
+          [
+            674,
+            358,
+            730,
+            438
+          ],
+          [
+            740,
+            358,
+            796,
+            438
+          ],
+          [
+            807,
+            358,
+            863,
+            438
+          ],
+          [
+            874,
+            358,
+            930,
+            438
+          ],
+          [
+            941,
+            358,
+            997,
+            438
+          ],
+          [
+            1009,
+            358,
+            1065,
+            438
+          ]
+        ]
+      },
+      "poses": {
+        "masculine": [
+          537,
+          507,
+          1070,
+          590
+        ],
+        "feminine": [
+          537,
+          610,
+          1070,
+          703
+        ]
+      },
+      "equipment": [
+        25,
+        1097,
+        439,
+        1264
+      ],
+      "layer": [
+        651,
+        1086,
+        1081,
+        1304
+      ],
+      "width": 1122,
+      "height": 1402,
+      "sha256": "6e922784ee9d86a10cfc2e6ba117a2dc966edbd8c3bf2ba51461a62a1cb2b0c1",
+      "original_png_file": "references/kael.png"
+    },
+    {
+      "id": "sela",
+      "name": "Sela",
+      "accent": "#84966E",
+      "subtitle": "Ivoire, olive & terre cuite",
+      "quote": "Observer. Préparer. Agir.",
+      "description": "Cheveux vert pâle, béret noir, textiles ivoire et motifs orangés. Les superpositions nomades restent celles de la fiche de référence.",
+      "palette": [
+        "#F2BD8D",
+        "#C9CFAE",
+        "#EDE3CF",
+        "#696444",
+        "#BD633E"
+      ],
+      "duo": [
+        15,
+        174,
+        465,
+        710
+      ],
+      "masculine": [
+        15,
+        174,
+        239,
+        710
+      ],
+      "feminine": [
+        239,
+        183,
+        465,
+        710
+      ],
+      "avatar": [
+        111,
+        240,
+        196,
+        304
+      ],
+      "faces": [
+        [
+          27,
+          806,
+          93,
+          870
+        ],
+        [
+          101,
+          806,
+          165,
+          870
+        ],
+        [
+          174,
+          806,
+          238,
+          870
+        ],
+        [
+          27,
+          879,
+          93,
+          942
+        ],
+        [
+          101,
+          879,
+          165,
+          942
+        ],
+        [
+          174,
+          879,
+          238,
+          942
+        ],
+        [
+          27,
+          951,
+          93,
+          1009
+        ],
+        [
+          101,
+          951,
+          165,
+          1009
+        ],
+        [
+          174,
+          951,
+          238,
+          1009
+        ]
+      ],
+      "hairs": [
+        [
+          264,
+          801,
+          337,
+          872
+        ],
+        [
+          350,
+          801,
+          422,
+          872
+        ],
+        [
+          438,
+          801,
+          507,
+          872
+        ],
+        [
+          264,
+          881,
+          337,
+          949
+        ],
+        [
+          350,
+          881,
+          422,
+          949
+        ],
+        [
+          438,
+          881,
+          507,
+          949
+        ],
+        [
+          264,
+          958,
+          337,
+          1021
+        ],
+        [
+          350,
+          958,
+          422,
+          1021
+        ],
+        [
+          438,
+          958,
+          507,
+          1021
+        ]
+      ],
+      "directions": {
+        "masculine": [
+          [
+            508,
+            225,
+            566,
+            304
+          ],
+          [
+            576,
+            225,
+            634,
+            304
+          ],
+          [
+            644,
+            225,
+            702,
+            304
+          ],
+          [
+            712,
+            225,
+            770,
+            304
+          ],
+          [
+            781,
+            225,
+            839,
+            304
+          ],
+          [
+            850,
+            225,
+            908,
+            304
+          ],
+          [
+            920,
+            225,
+            978,
+            304
+          ],
+          [
+            997,
+            225,
+            1055,
+            304
+          ]
+        ],
+        "feminine": [
+          [
+            508,
+            344,
+            566,
+            430
+          ],
+          [
+            576,
+            344,
+            634,
+            430
+          ],
+          [
+            644,
+            344,
+            702,
+            430
+          ],
+          [
+            712,
+            344,
+            770,
+            430
+          ],
+          [
+            781,
+            344,
+            839,
+            430
+          ],
+          [
+            850,
+            344,
+            908,
+            430
+          ],
+          [
+            920,
+            344,
+            978,
+            430
+          ],
+          [
+            997,
+            344,
+            1055,
+            430
+          ]
+        ]
+      },
+      "poses": {
+        "masculine": [
+          514,
+          493,
+          1068,
+          566
+        ],
+        "feminine": [
+          514,
+          588,
+          1068,
+          670
+        ]
+      },
+      "equipment": [
+        22,
+        1087,
+        433,
+        1265
+      ],
+      "layer": [
+        651,
+        1080,
+        1081,
+        1296
+      ],
+      "width": 1122,
+      "height": 1402,
+      "sha256": "6e99506974ef8eee9d26bb77e658aab7723f7e79b41000e36f36171e6eb3ebed",
+      "original_png_file": "references/sela.png"
+    },
+    {
+      "id": "leo",
+      "name": "Leo",
+      "accent": "#B5705D",
+      "subtitle": "Rouge, crème & brun",
+      "quote": "Une force au service des autres.",
+      "description": "Cheveux bruns, tenue crème, pans rouges et cuir foncé. Les volumes, les détails d’armure et les expressions restent inchangés.",
+      "palette": [
+        "#F2BC85",
+        "#8D6952",
+        "#EEE1CA",
+        "#483C34",
+        "#B74733"
+      ],
+      "duo": [
+        15,
+        185,
+        486,
+        725
+      ],
+      "masculine": [
+        15,
+        185,
+        285,
+        725
+      ],
+      "feminine": [
+        258,
+        207,
+        486,
+        725
+      ],
+      "avatar": [
+        92,
+        235,
+        189,
+        317
+      ],
+      "faces": [
+        [
+          27,
+          808,
+          96,
+          872
+        ],
+        [
+          106,
+          808,
+          179,
+          872
+        ],
+        [
+          187,
+          808,
+          253,
+          872
+        ],
+        [
+          27,
+          879,
+          96,
+          943
+        ],
+        [
+          106,
+          879,
+          179,
+          943
+        ],
+        [
+          187,
+          879,
+          253,
+          943
+        ],
+        [
+          27,
+          950,
+          96,
+          1015
+        ],
+        [
+          106,
+          950,
+          179,
+          1015
+        ],
+        [
+          187,
+          950,
+          253,
+          1015
+        ]
+      ],
+      "hairs": [
+        [
+          294,
+          807,
+          369,
+          875
+        ],
+        [
+          382,
+          807,
+          455,
+          875
+        ],
+        [
+          466,
+          807,
+          538,
+          875
+        ],
+        [
+          294,
+          880,
+          369,
+          946
+        ],
+        [
+          382,
+          880,
+          455,
+          946
+        ],
+        [
+          466,
+          880,
+          538,
+          946
+        ],
+        [
+          294,
+          951,
+          369,
+          1019
+        ],
+        [
+          382,
+          951,
+          455,
+          1019
+        ],
+        [
+          466,
+          951,
+          538,
+          1019
+        ]
+      ],
+      "directions": {
+        "masculine": [
+          [
+            535,
+            232,
+            593,
+            314
+          ],
+          [
+            600,
+            232,
+            658,
+            314
+          ],
+          [
+            666,
+            232,
+            724,
+            314
+          ],
+          [
+            733,
+            232,
+            791,
+            314
+          ],
+          [
+            799,
+            232,
+            857,
+            314
+          ],
+          [
+            866,
+            232,
+            924,
+            314
+          ],
+          [
+            934,
+            232,
+            992,
+            314
+          ],
+          [
+            1000,
+            232,
+            1058,
+            314
+          ]
+        ],
+        "feminine": [
+          [
+            535,
+            350,
+            593,
+            438
+          ],
+          [
+            600,
+            350,
+            658,
+            438
+          ],
+          [
+            666,
+            350,
+            724,
+            438
+          ],
+          [
+            733,
+            350,
+            791,
+            438
+          ],
+          [
+            799,
+            350,
+            857,
+            438
+          ],
+          [
+            866,
+            350,
+            924,
+            438
+          ],
+          [
+            934,
+            350,
+            992,
+            438
+          ],
+          [
+            1000,
+            350,
+            1058,
+            438
+          ]
+        ]
+      },
+      "poses": {
+        "masculine": [
+          545,
+          490,
+          1071,
+          596
+        ],
+        "feminine": [
+          545,
+          597,
+          1071,
+          714
+        ]
+      },
+      "equipment": [
+        20,
+        1093,
+        491,
+        1265
+      ],
+      "layer": [
+        661,
+        1076,
+        1081,
+        1297
+      ],
+      "width": 1122,
+      "height": 1402,
+      "sha256": "0db3e6ecf23e6717961254f5117f14a2858cd673b7ef2f17a615f2bcce01bc71",
+      "original_png_file": "references/leo.png"
+    },
+    {
+      "id": "lina",
+      "name": "Lina",
+      "accent": "#B39B57",
+      "subtitle": "Ivoire, jaune & or",
+      "quote": "Ensemble, plus loin.",
+      "description": "Cheveux ivoire, textiles lumineux, motifs bleus et ornements dorés. Les deux silhouettes reprennent exactement les références validées.",
+      "palette": [
+        "#F3C38F",
+        "#E8E0D2",
+        "#F0D575",
+        "#F7E9CB",
+        "#D6A244"
+      ],
+      "duo": [
+        15,
+        180,
+        485,
+        723
+      ],
+      "masculine": [
+        15,
+        180,
+        265,
+        723
+      ],
+      "feminine": [
+        248,
+        214,
+        485,
+        723
+      ],
+      "avatar": [
+        96,
+        239,
+        199,
+        317
+      ],
+      "faces": [
+        [
+          24,
+          827,
+          92,
+          891
+        ],
+        [
+          100,
+          827,
+          165,
+          891
+        ],
+        [
+          173,
+          827,
+          240,
+          891
+        ],
+        [
+          24,
+          899,
+          92,
+          961
+        ],
+        [
+          100,
+          899,
+          165,
+          961
+        ],
+        [
+          173,
+          899,
+          240,
+          961
+        ],
+        [
+          24,
+          970,
+          92,
+          1032
+        ],
+        [
+          100,
+          970,
+          165,
+          1032
+        ],
+        [
+          173,
+          970,
+          240,
+          1032
+        ]
+      ],
+      "hairs": [
+        [
+          268,
+          820,
+          341,
+          896
+        ],
+        [
+          352,
+          820,
+          429,
+          896
+        ],
+        [
+          444,
+          820,
+          514,
+          896
+        ],
+        [
+          268,
+          904,
+          341,
+          969
+        ],
+        [
+          352,
+          904,
+          429,
+          969
+        ],
+        [
+          444,
+          904,
+          514,
+          969
+        ],
+        [
+          268,
+          977,
+          341,
+          1035
+        ],
+        [
+          352,
+          977,
+          429,
+          1035
+        ],
+        [
+          444,
+          977,
+          514,
+          1035
+        ]
+      ],
+      "directions": {
+        "masculine": [
+          [
+            516,
+            229,
+            576,
+            325
+          ],
+          [
+            583,
+            229,
+            643,
+            325
+          ],
+          [
+            650,
+            229,
+            710,
+            325
+          ],
+          [
+            718,
+            229,
+            778,
+            325
+          ],
+          [
+            786,
+            229,
+            846,
+            325
+          ],
+          [
+            854,
+            229,
+            914,
+            325
+          ],
+          [
+            925,
+            229,
+            985,
+            325
+          ],
+          [
+            993,
+            229,
+            1053,
+            325
+          ]
+        ],
+        "feminine": [
+          [
+            516,
+            366,
+            576,
+            462
+          ],
+          [
+            583,
+            366,
+            643,
+            462
+          ],
+          [
+            650,
+            366,
+            710,
+            462
+          ],
+          [
+            718,
+            366,
+            778,
+            462
+          ],
+          [
+            786,
+            366,
+            846,
+            462
+          ],
+          [
+            854,
+            366,
+            914,
+            462
+          ],
+          [
+            925,
+            366,
+            985,
+            462
+          ],
+          [
+            993,
+            366,
+            1053,
+            462
+          ]
+        ]
+      },
+      "poses": {
+        "masculine": [
+          523,
+          528,
+          1072,
+          641
+        ],
+        "feminine": [
+          523,
+          639,
+          1072,
+          751
+        ]
+      },
+      "equipment": [
+        22,
+        1102,
+        437,
+        1276
+      ],
+      "layer": [
+        651,
+        1091,
+        1081,
+        1300
+      ],
+      "width": 1122,
+      "height": 1402,
+      "sha256": "46f46393362d85d6a5735f5cd58bea7df628fcd9d36d837f24820a692a76bc0a",
+      "original_png_file": "references/lina.png"
+    }
+  ]
+}

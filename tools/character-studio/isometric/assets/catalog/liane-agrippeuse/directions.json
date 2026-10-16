@@ -1,0 +1,85 @@
+{
+  "id": "liane-agrippeuse",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/liane-agrippeuse/n.png",
+      "recipe": "assets/catalog/liane-agrippeuse/n.json",
+      "sha256": "342e1647760d34c9437ee9b930f4e0042ab3dc02c685ebb57b7781767c0c0d55",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 446
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/liane-agrippeuse/ne.png",
+      "recipe": "assets/catalog/liane-agrippeuse/ne.json",
+      "sha256": "10692260a0616485ae2fb45c789ce4150170c2bc8b9ccd8959bba0f682732163",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 446
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/liane-agrippeuse/e.png",
+      "recipe": "assets/catalog/liane-agrippeuse/e.json",
+      "sha256": "d601b5a1ac4cf6241f975c3e554c8ef8746bc3a44ddf6cc600730aa72b6bcbb5",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 446
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/liane-agrippeuse/se.png",
+      "recipe": "assets/catalog/liane-agrippeuse/se.json",
+      "sha256": "178071649c179af4a7792368ab7c9af21a5cdbb5c5632488d25319c231e6ca45",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 446
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/liane-agrippeuse/s.png",
+      "recipe": "assets/catalog/liane-agrippeuse/s.json",
+      "sha256": "d97b482397b833bab8a9b09deea2bdb649bc7a988a96efc4b7322b3cb447fad8",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 446
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/liane-agrippeuse/sw.png",
+      "recipe": "assets/catalog/liane-agrippeuse/sw.json",
+      "sha256": "3b16f2e98bed7e875344abf0d938638e3645813bb3110bb6f42ffe72a19a00ea",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 446
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/liane-agrippeuse/w.png",
+      "recipe": "assets/catalog/liane-agrippeuse/w.json",
+      "sha256": "035f26ccc609544e591ed25335ac020000afb1d90422ca1f1ea1865013135bce",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 446
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/liane-agrippeuse/nw.png",
+      "recipe": "assets/catalog/liane-agrippeuse/nw.json",
+      "sha256": "466d8659ebb118e3ede46d3c438ebd41e8b77f21d5c5664af123115e53ad19a3",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 446
+    }
+  ]
+}

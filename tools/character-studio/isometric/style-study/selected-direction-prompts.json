@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-16",
+  "tool": "image_gen.imagegen built-in",
+  "jobs": [
+    {
+      "id": "bourlaine-jeune",
+      "ref": "content/art/creatures/reference-v1/bourlaine.png",
+      "prompt": "Use case: identity-preserve. The attached image is the EXACT USER-CHOSEN Bourlaine design. Translate this exact creature into eight views. Preserve huge round cream wool body, very small brown slate face low in front, half-lidded turquoise eyes with stubborn expression, stout BLUE SLATE curved horns and BLUE SLATE hooves, short legs, small cream ears. NO green leaves, NO gold horns, NO equipment. Keep the chunky rounded cartoon shapes and warm outlines from the image. Simplify internal wool markings to a handful of broad tufts, and the horns to one shadow and one highlight, without changing its silhouette or identity. Do not add texture, curls or accessories. Create an eight-direction idle sprite atlas, 4 columns by 2 rows, square image. Top row NORTH pure back / NORTHEAST back-right / EAST right profile / SOUTHEAST front-right. Bottom row SOUTH front / SOUTHWEST front-left / WEST left profile / NORTHWEST back-left. Same exact creature and stable proportions in every cell, no extra ornament. Slightly elevated orthographic isometric camera. All 8 full bodies completely separate, each drawing occupies at most 70% of its cell width and 75% of height, generous empty margins. The back-three-quarter views show the back of the body, not its chest. Flat pure #00FF00 chroma-green background everywhere outside creature, NO shadow, no ground, no checkerboard, no text, no labels. Crisp drawn 2D sprite suitable for 96/160px.",
+      "selected_source": "tools/character-studio/isometric/assets/catalog/bourlaine-jeune/source.png",
+      "reference_sha256": "3f95dd293ba2f00294a38573eff8b8b4d90c6a355382bb879a75b699eba375e5",
+      "source_sha256": "6452b63a029bdf28f93c248eef06dca65da3a0d7785020e62f633e562e3fa7db"
+    },
+    {
+      "id": "plumet-des-mousses",
+      "ref": "content/art/creatures/reference-v1/plumet.png",
+      "prompt": "Use case: identity-preserve. The attached image is the EXACT USER-CHOSEN Plumet design. Translate this exact yellow creature into eight views. Preserve plump single egg-round YELLOW body, THREE simple yellow crest lobes, small yellow wings and short simple yellow tail, pale yellow belly, two enormous white oval eyes with simple dark pupils, orange short beak and orange feet. NO green, NO eyebrows, NO accessories, NO detailed feather texture. Preserve thin ochre contour, clean broad cel shading and simple surfaces from the image. Do not add dark thick outlines, ornate leaf patterns or glossy anime irises. Keep exact friendly slightly vacant expression and proportions; simplify only minor shading. Create an eight-direction idle sprite atlas, 4 columns by 2 rows, square image. Top row NORTH pure back / NORTHEAST back-right / EAST right profile / SOUTHEAST front-right. Bottom row SOUTH front / SOUTHWEST front-left / WEST left profile / NORTHWEST back-left. Same exact creature and stable proportions in every cell, no extra ornament. Slightly elevated orthographic isometric camera. All 8 full bodies completely separate, each drawing occupies at most 70% of its cell width and 75% of height, generous empty margins. The back-three-quarter views show the back of the body, not its chest. Flat pure #00FF00 chroma-green background everywhere outside creature, NO shadow, no ground, no checkerboard, no text, no labels. Crisp drawn 2D sprite suitable for 96/160px.",
+      "selected_source": "tools/character-studio/isometric/assets/catalog/plumet-des-mousses/source.png",
+      "reference_sha256": "1ae3498704998c106fc84fcf210e16895e5c319d8819a41abd160c56d8c3e165",
+      "source_sha256": "5276d508dd4e19ac17f9a721b51bf70efd4ad1e25c5e7cfce030becc2a765402"
+    }
+  ]
+}

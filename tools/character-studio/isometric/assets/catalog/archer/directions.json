@@ -1,0 +1,85 @@
+{
+  "id": "archer",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/archer/n.png",
+      "recipe": "assets/catalog/archer/n.json",
+      "sha256": "34f5b9842da782c157bbc9b6002e3c2a204fd3db696539c2ee9b36aa050554fe",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 541
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/archer/ne.png",
+      "recipe": "assets/catalog/archer/ne.json",
+      "sha256": "dcc54373c0fb6cf9208b8f2fb7ee5a919540e77cc6728aaa73c73318ab1e5ba2",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 541
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/archer/e.png",
+      "recipe": "assets/catalog/archer/e.json",
+      "sha256": "58acd2a36315ffc42abc551de221b51a3a97c3de149f26e39c0dbe7abef1e08a",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 541
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/archer/se.png",
+      "recipe": "assets/catalog/archer/se.json",
+      "sha256": "c8139e3ad96212646d75011d5b7fb0636745a30a4700ae27251df5cc21addb1b",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 541
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/archer/s.png",
+      "recipe": "assets/catalog/archer/s.json",
+      "sha256": "81f26fa0396436eb8f6a7c8ed225f19f02dd58650b391ea8003c4bf55e1f9b8c",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 541
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/archer/sw.png",
+      "recipe": "assets/catalog/archer/sw.json",
+      "sha256": "84d92873b7690049e4838b99b851037996953b25e358af1c3d9aea4a1af37b92",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 541
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/archer/w.png",
+      "recipe": "assets/catalog/archer/w.json",
+      "sha256": "3f690010ffff897137ce755d3efdb8876dc8d9bd4c30f8b9c06d8586771ebe92",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 541
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/archer/nw.png",
+      "recipe": "assets/catalog/archer/nw.json",
+      "sha256": "f9e318d7f94a4930571113c3f538276f8070c92f126614ac563053e62a797186",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 541
+    }
+  ]
+}

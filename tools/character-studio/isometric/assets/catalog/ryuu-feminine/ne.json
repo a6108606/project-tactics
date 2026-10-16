@@ -1,0 +1,136 @@
+{
+  "schema": "project-tactics/catalog-materials",
+  "version": 1,
+  "id": "ryuu-feminine-ne",
+  "crop": [
+    0,
+    0,
+    384,
+    640
+  ],
+  "anchor": [
+    192,
+    615
+  ],
+  "channels": [
+    {
+      "id": "hair",
+      "label": "Cheveux",
+      "color": "#BFCFA6",
+      "hue": [
+        55,
+        160
+      ],
+      "saturation": [
+        0.08,
+        0.55
+      ],
+      "value": [
+        0.35,
+        1
+      ],
+      "zone": [
+        0,
+        39,
+        384,
+        275
+      ],
+      "exclude": []
+    },
+    {
+      "id": "skin",
+      "label": "Peau",
+      "color": "#F7B372",
+      "hue": [
+        15,
+        43
+      ],
+      "saturation": [
+        0.2,
+        0.65
+      ],
+      "value": [
+        0.67,
+        1
+      ],
+      "skin": true,
+      "exclude": [],
+      "zone": [
+        0,
+        154,
+        384,
+        640
+      ]
+    },
+    {
+      "id": "clothing1",
+      "label": "Étoffe 1",
+      "color": "#5B3850",
+      "hue": [
+        270,
+        345
+      ],
+      "saturation": [
+        0.12,
+        0.7
+      ],
+      "value": [
+        0.2,
+        1
+      ],
+      "zone": [
+        0,
+        362,
+        192,
+        640
+      ]
+    },
+    {
+      "id": "clothing2",
+      "label": "Étoffe 2",
+      "color": "#493145",
+      "hue": [
+        270,
+        345
+      ],
+      "saturation": [
+        0.12,
+        0.7
+      ],
+      "value": [
+        0.2,
+        1
+      ],
+      "zone": [
+        192,
+        362,
+        384,
+        640
+      ]
+    },
+    {
+      "id": "clothing3",
+      "label": "Étoffe 3",
+      "color": "#51384F",
+      "hue": [
+        270,
+        345
+      ],
+      "saturation": [
+        0.12,
+        0.7
+      ],
+      "value": [
+        0.2,
+        1
+      ],
+      "zone": [
+        0,
+        258,
+        384,
+        379
+      ]
+    }
+  ],
+  "chroma": false
+}

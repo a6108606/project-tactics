@@ -1,0 +1,136 @@
+{
+  "schema": "project-tactics/catalog-materials",
+  "version": 1,
+  "id": "leo-feminine-ne",
+  "crop": [
+    0,
+    0,
+    384,
+    640
+  ],
+  "anchor": [
+    192,
+    615
+  ],
+  "channels": [
+    {
+      "id": "hair",
+      "label": "Cheveux",
+      "color": "#8D6952",
+      "hue": [
+        10,
+        40
+      ],
+      "saturation": [
+        0.25,
+        0.75
+      ],
+      "value": [
+        0.25,
+        1
+      ],
+      "zone": [
+        0,
+        76,
+        384,
+        297
+      ],
+      "exclude": []
+    },
+    {
+      "id": "skin",
+      "label": "Peau",
+      "color": "#F2BC85",
+      "hue": [
+        15,
+        43
+      ],
+      "saturation": [
+        0.2,
+        0.65
+      ],
+      "value": [
+        0.67,
+        1
+      ],
+      "skin": true,
+      "exclude": [],
+      "zone": [
+        0,
+        184,
+        384,
+        640
+      ]
+    },
+    {
+      "id": "clothing1",
+      "label": "Étoffe 1",
+      "color": "#EEE1CA",
+      "hue": [
+        30,
+        65
+      ],
+      "saturation": [
+        0.03,
+        0.25
+      ],
+      "value": [
+        0.2,
+        1
+      ],
+      "zone": [
+        0,
+        378,
+        192,
+        640
+      ]
+    },
+    {
+      "id": "clothing2",
+      "label": "Étoffe 2",
+      "color": "#483C34",
+      "hue": [
+        15,
+        40
+      ],
+      "saturation": [
+        0.12,
+        0.8
+      ],
+      "value": [
+        0.2,
+        1
+      ],
+      "zone": [
+        192,
+        378,
+        384,
+        640
+      ]
+    },
+    {
+      "id": "clothing3",
+      "label": "Étoffe 3",
+      "color": "#B74733",
+      "hue": [
+        345,
+        20
+      ],
+      "saturation": [
+        0.12,
+        0.8
+      ],
+      "value": [
+        0.2,
+        1
+      ],
+      "zone": [
+        0,
+        281,
+        384,
+        394
+      ]
+    }
+  ],
+  "chroma": false
+}

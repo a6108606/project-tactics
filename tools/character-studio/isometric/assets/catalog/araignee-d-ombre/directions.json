@@ -1,0 +1,85 @@
+{
+  "id": "araignee-d-ombre",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/araignee-d-ombre/n.png",
+      "recipe": "assets/catalog/araignee-d-ombre/n.json",
+      "sha256": "6abfca368a7806eba3e1b44dd4b9464455d9d4936566cd12f7ba5caca5cf4dad",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 313
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/araignee-d-ombre/ne.png",
+      "recipe": "assets/catalog/araignee-d-ombre/ne.json",
+      "sha256": "ade0de0fd36b3e3ccde36244eb3db2c357fcf1765f73f506e7d633bd8041f678",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 313
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/araignee-d-ombre/e.png",
+      "recipe": "assets/catalog/araignee-d-ombre/e.json",
+      "sha256": "6ee496e73c26e1e48574241b76f0cd8a64d4fbdb68b507b6dbe12415df549d62",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 313
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/araignee-d-ombre/se.png",
+      "recipe": "assets/catalog/araignee-d-ombre/se.json",
+      "sha256": "6e0f57974714b198046af2ce81eaf09d73bec4c97a3971be40b3d0ded0e07a85",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 313
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/araignee-d-ombre/s.png",
+      "recipe": "assets/catalog/araignee-d-ombre/s.json",
+      "sha256": "90cce776384fa5312b94e08839d3a786ac4a079739a6a1477d61c8c67ce274a4",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 313
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/araignee-d-ombre/sw.png",
+      "recipe": "assets/catalog/araignee-d-ombre/sw.json",
+      "sha256": "ce335fd1b9204382c43261db411ef768b44b30ed43983bea5a4f5f6991e199c2",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 313
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/araignee-d-ombre/w.png",
+      "recipe": "assets/catalog/araignee-d-ombre/w.json",
+      "sha256": "22de60e5fc251f69ca336540190059e2a649ff37494bb467bb6614881d478e51",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 313
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/araignee-d-ombre/nw.png",
+      "recipe": "assets/catalog/araignee-d-ombre/nw.json",
+      "sha256": "ae0dd109376b6b6ddd4fb6e178f103111f3789fb78b0d5ff4aaf4183fca24b70",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 313
+    }
+  ]
+}

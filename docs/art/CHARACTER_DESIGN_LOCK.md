@@ -41,3 +41,15 @@ Les huit vues et les poses sont des études statiques, pas des directions ou ani
 Ne pas modifier les sorts, voies élémentaires, caractéristiques, statistiques, équilibrage ou histoire : ces sujets sont traités en parallèle. Ne pas modifier la CI, les runners, les permissions ou la visibilité du dépôt pour cette tâche.
 
 Prochaine étape : [atelier réellement interactif](INTERACTIVE_ATELIER_HANDOFF.md), sans nouvelle direction artistique.
+
+## Décision ultérieure — pilote 3D autorisé
+
+Le 15 octobre 2026, l’utilisateur choisit explicitement « Vraie 3D stylisée, avec validation du nouveau rendu ». Une traduction en volume sur Ryuu masculin/féminin est donc autorisée comme proposition distincte, avec reconstructions et écarts signalés. La validation du nouveau rendu reste requise avant généralisation. Les sources approuvées restent immuables ; aucun autre héros ni gameplay ne change. Voir [la revue du pilote 3D](RYUU_3D_REVIEW.md).
+
+## Décision ultérieure — retour à la 2D isométrique
+
+Le 15 octobre 2026, après les essais de volume, l’utilisateur demande « dans ce cas là fait la version dofus 2 en isométrique ». La suite active devient un sprite dessiné sur une grille isométrique. Le premier lot est Ryuu masculin, une pose sud-est, avec cinq couleurs et PNG transparent. Il s’agit d’une nouvelle interprétation signalée et comparée à la fiche, à valider avant les autres vues, Ryuu féminin et les autres personnages. Voir [le pilote isométrique et sa méthode](../../tools/character-studio/isometric/README.md). Les sources V2 restent immuables. Le choix d’une direction 2D ne vaut pas approbation automatique du dessin livré.
+
+### Extension autorisée aux orientations de Ryuu
+
+L’utilisateur demande ensuite « plusieurs orientations : face, dos, droite, gauche, etc ». Le pilote masculin comprend désormais huit dessins distincts : quatre directions et quatre diagonales, avec masques propres à chaque vue et palette commune. Cette demande autorise la réalisation du lot ; elle ne constitue pas une validation des reconstructions du dos, des asymétries ou des petits détails entre vues. Ces écarts sont signalés dans le README du pilote.

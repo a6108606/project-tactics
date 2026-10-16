@@ -1,0 +1,85 @@
+{
+  "id": "traqueur-de-ronces",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/traqueur-de-ronces/n.png",
+      "recipe": "assets/catalog/traqueur-de-ronces/n.json",
+      "sha256": "6f03764fa9aca25cdfb72b355ea514be8770743c1a307c938d3d6311362e2ca2",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 472
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/traqueur-de-ronces/ne.png",
+      "recipe": "assets/catalog/traqueur-de-ronces/ne.json",
+      "sha256": "7ecd689e44b37280741a69f898b90bf2d12fec34a5e7aa77b6518b7c0960c303",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 472
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/traqueur-de-ronces/e.png",
+      "recipe": "assets/catalog/traqueur-de-ronces/e.json",
+      "sha256": "7f023ae95ee8dd8e1cba3cdae95a397010ba979e9006587caf055fde05a4c71f",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 472
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/traqueur-de-ronces/se.png",
+      "recipe": "assets/catalog/traqueur-de-ronces/se.json",
+      "sha256": "85b66d1c31c6570350175b085c923321f31b6324503e62f6510b92aa25b8bc85",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 472
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/traqueur-de-ronces/s.png",
+      "recipe": "assets/catalog/traqueur-de-ronces/s.json",
+      "sha256": "9a85bcf8687f7b4acab9645bfac2f9488e6bad03488621d3a98b2bcb9f5bcb3d",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 472
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/traqueur-de-ronces/sw.png",
+      "recipe": "assets/catalog/traqueur-de-ronces/sw.json",
+      "sha256": "ef56796a6163716631a45da38c7ea8e5d87eaae13b8e7615867ab3c7cfcb84cd",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 472
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/traqueur-de-ronces/w.png",
+      "recipe": "assets/catalog/traqueur-de-ronces/w.json",
+      "sha256": "2959737ae2650e35666f0d8dadc30555e4bc2e01e267a64ed2e8bb8d18491d23",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 472
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/traqueur-de-ronces/nw.png",
+      "recipe": "assets/catalog/traqueur-de-ronces/nw.json",
+      "sha256": "cb939e797b3d2bff56b1d62d1e21e8fd9898cad5832fb572424d273924382d85",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 472
+    }
+  ]
+}

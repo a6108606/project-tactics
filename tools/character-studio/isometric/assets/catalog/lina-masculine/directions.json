@@ -1,0 +1,85 @@
+{
+  "id": "lina-masculine",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/lina-masculine/n.png",
+      "recipe": "assets/catalog/lina-masculine/n.json",
+      "sha256": "3a701bdba6b042ce21d5005b51f75b8029fd4973c58673017cc14ea94fb92f93",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 515
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/lina-masculine/ne.png",
+      "recipe": "assets/catalog/lina-masculine/ne.json",
+      "sha256": "d988ee44659541938cc2cdab0cff262d4d2156f9e1c5ed8e0aaedbd21d019ce0",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 515
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/lina-masculine/e.png",
+      "recipe": "assets/catalog/lina-masculine/e.json",
+      "sha256": "3e42a18d1029a66b90ead82ebcc852bf086720693eff67931c3c45e91b2aa828",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 515
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/lina-masculine/se.png",
+      "recipe": "assets/catalog/lina-masculine/se.json",
+      "sha256": "ef7188caf37d5e8d311701afafabb0a547a7b56bae9c78b7cbc226105d8cdf8c",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 515
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/lina-masculine/s.png",
+      "recipe": "assets/catalog/lina-masculine/s.json",
+      "sha256": "b4acb5d4699e68b6939358f2fe2038dd461d36e4684a7165ae792915ab1ae0e9",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 515
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/lina-masculine/sw.png",
+      "recipe": "assets/catalog/lina-masculine/sw.json",
+      "sha256": "18feb9147a72fd2656667e2377af4ca974c4d51c936e4eb0f71cc59eb9dd59ae",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 515
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/lina-masculine/w.png",
+      "recipe": "assets/catalog/lina-masculine/w.json",
+      "sha256": "36698801646c0781412bdb8f233404e12fd9d3dc0764741815cb63e9ec79ca84",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 515
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/lina-masculine/nw.png",
+      "recipe": "assets/catalog/lina-masculine/nw.json",
+      "sha256": "0f5f4124231c4b0f9499893c4a6c8d5919aef341c84cc526a0c8189c66055dce",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 515
+    }
+  ]
+}

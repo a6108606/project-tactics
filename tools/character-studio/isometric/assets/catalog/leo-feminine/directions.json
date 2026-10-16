@@ -1,0 +1,85 @@
+{
+  "id": "leo-feminine",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/leo-feminine/n.png",
+      "recipe": "assets/catalog/leo-feminine/n.json",
+      "sha256": "01d9f3b38c7f3cdae7cf4f2a0a7b82c34e3fb5251e09d3d7d230da156206827d",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 550
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/leo-feminine/ne.png",
+      "recipe": "assets/catalog/leo-feminine/ne.json",
+      "sha256": "1b65adfd405cb87258b21278b36f3dbbb1ab4ff49e8878a3e7ac722d735b26a2",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 550
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/leo-feminine/e.png",
+      "recipe": "assets/catalog/leo-feminine/e.json",
+      "sha256": "5ad27dd661c3f587fb2faf35532b4421a99e65642c6bc19b7a566b2f25420b27",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 550
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/leo-feminine/se.png",
+      "recipe": "assets/catalog/leo-feminine/se.json",
+      "sha256": "cdc940fbc46105b49d58de9c238fceb2755171ee85726caacae892dfd40c3171",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 550
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/leo-feminine/s.png",
+      "recipe": "assets/catalog/leo-feminine/s.json",
+      "sha256": "042e2a0d774572db1d5078172f37bb26062280c1ba992110c3aa54b98304de4c",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 550
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/leo-feminine/sw.png",
+      "recipe": "assets/catalog/leo-feminine/sw.json",
+      "sha256": "bc922c8d0d1d98fcbbc28bfcc84744ecc14b702995bf3b965e404016e9ccb2ab",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 550
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/leo-feminine/w.png",
+      "recipe": "assets/catalog/leo-feminine/w.json",
+      "sha256": "3624a8fd54a96431fc4ec268f7e0e347f82fcd8277178ff8ab8edb863b87fed6",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 550
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/leo-feminine/nw.png",
+      "recipe": "assets/catalog/leo-feminine/nw.json",
+      "sha256": "f795796c592e4b37c2bfe4d3c351f1c965a7660a39eadf68c1f4439969542686",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 550
+    }
+  ]
+}

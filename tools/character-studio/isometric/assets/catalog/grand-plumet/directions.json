@@ -1,0 +1,85 @@
+{
+  "id": "grand-plumet",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/grand-plumet/n.png",
+      "recipe": "assets/catalog/grand-plumet/n.json",
+      "sha256": "c67899629beb5fa312bb5b99cdb294380121829ca2b0093528f74190c9039bdb",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 502
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/grand-plumet/ne.png",
+      "recipe": "assets/catalog/grand-plumet/ne.json",
+      "sha256": "c887fdcb9741559ff00fc310d866d9877cf6c06446d87fcb971806fcc6ab0908",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 502
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/grand-plumet/e.png",
+      "recipe": "assets/catalog/grand-plumet/e.json",
+      "sha256": "7b74ab6cc60b312be5e51f9f290ec3a02d128017ec344f4622872fae4054e690",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 502
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/grand-plumet/se.png",
+      "recipe": "assets/catalog/grand-plumet/se.json",
+      "sha256": "3daeda1fa33665843847e3422e6781a3c5004b4b7d703fd88b68ef90321c3b73",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 502
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/grand-plumet/s.png",
+      "recipe": "assets/catalog/grand-plumet/s.json",
+      "sha256": "24dea09761116ac642ac8fafe06e8ba8689a298f0876e469412f30acc6a411b3",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 502
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/grand-plumet/sw.png",
+      "recipe": "assets/catalog/grand-plumet/sw.json",
+      "sha256": "61caa06c3d88c92a4927bd0108e82f710cffaf75aaa289b2e7068d9fc805db7d",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 502
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/grand-plumet/w.png",
+      "recipe": "assets/catalog/grand-plumet/w.json",
+      "sha256": "a11513c52bb6a436335b20e6b06ddb3b31252ee00343588a802684d4c0d0a91e",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 502
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/grand-plumet/nw.png",
+      "recipe": "assets/catalog/grand-plumet/nw.json",
+      "sha256": "07770dc45d317810f20ea53e02d9d3edb9a2a238066088e9c9a6bd11985a16ac",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 502
+    }
+  ]
+}

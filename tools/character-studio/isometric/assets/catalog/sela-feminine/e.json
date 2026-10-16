@@ -1,0 +1,150 @@
+{
+  "schema": "project-tactics/catalog-materials",
+  "version": 1,
+  "id": "sela-feminine-e",
+  "crop": [
+    0,
+    0,
+    384,
+    640
+  ],
+  "anchor": [
+    192,
+    615
+  ],
+  "channels": [
+    {
+      "id": "hair",
+      "label": "Cheveux",
+      "color": "#C9CFAE",
+      "hue": [
+        45,
+        160
+      ],
+      "saturation": [
+        0.04,
+        0.4
+      ],
+      "value": [
+        0.35,
+        1
+      ],
+      "zone": [
+        0,
+        77,
+        384,
+        298
+      ],
+      "exclude": [
+        [
+          148,
+          206,
+          249,
+          249
+        ]
+      ]
+    },
+    {
+      "id": "skin",
+      "label": "Peau",
+      "color": "#F2BD8D",
+      "hue": [
+        15,
+        43
+      ],
+      "saturation": [
+        0.2,
+        0.65
+      ],
+      "value": [
+        0.67,
+        1
+      ],
+      "skin": true,
+      "exclude": [
+        [
+          148,
+          206,
+          249,
+          249
+        ]
+      ],
+      "zone": [
+        0,
+        185,
+        384,
+        640
+      ]
+    },
+    {
+      "id": "clothing1",
+      "label": "Étoffe 1",
+      "color": "#EDE3CF",
+      "hue": [
+        30,
+        65
+      ],
+      "saturation": [
+        0.03,
+        0.25
+      ],
+      "value": [
+        0.2,
+        1
+      ],
+      "zone": [
+        0,
+        378,
+        192,
+        640
+      ]
+    },
+    {
+      "id": "clothing2",
+      "label": "Étoffe 2",
+      "color": "#696444",
+      "hue": [
+        40,
+        80
+      ],
+      "saturation": [
+        0.12,
+        0.8
+      ],
+      "value": [
+        0.2,
+        1
+      ],
+      "zone": [
+        192,
+        378,
+        384,
+        640
+      ]
+    },
+    {
+      "id": "clothing3",
+      "label": "Étoffe 3",
+      "color": "#BD633E",
+      "hue": [
+        5,
+        30
+      ],
+      "saturation": [
+        0.12,
+        0.8
+      ],
+      "value": [
+        0.2,
+        1
+      ],
+      "zone": [
+        0,
+        281,
+        384,
+        394
+      ]
+    }
+  ],
+  "chroma": false
+}

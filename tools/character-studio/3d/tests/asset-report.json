@@ -1,0 +1,211 @@
+{
+  "scope": "Asset integrity, genuine volume, material partition and appearance validation",
+  "passed": 51,
+  "failed": 0,
+  "results": [
+    {
+      "name": "SHA-256 ryuu-masculine.glb",
+      "status": "PASS"
+    },
+    {
+      "name": "SHA-256 ryuu-masculine-review.png",
+      "status": "PASS"
+    },
+    {
+      "name": "SHA-256 ryuu-feminine.glb",
+      "status": "PASS"
+    },
+    {
+      "name": "SHA-256 ryuu-feminine-review.png",
+      "status": "PASS"
+    },
+    {
+      "name": "SHA-256 ryuu-masculine.blend",
+      "status": "PASS"
+    },
+    {
+      "name": "SHA-256 ryuu-feminine.blend",
+      "status": "PASS"
+    },
+    {
+      "name": "masculine / face_soft",
+      "status": "PASS"
+    },
+    {
+      "name": "masculine / face_angular",
+      "status": "PASS"
+    },
+    {
+      "name": "masculine / hair_spikes",
+      "status": "PASS"
+    },
+    {
+      "name": "masculine / hair_swept",
+      "status": "PASS"
+    },
+    {
+      "name": "masculine / equipment leather",
+      "status": "PASS"
+    },
+    {
+      "name": "masculine / fixed materials leather",
+      "status": "PASS"
+    },
+    {
+      "name": "masculine / equipment bandana",
+      "status": "PASS"
+    },
+    {
+      "name": "masculine / fixed materials bandana",
+      "status": "PASS"
+    },
+    {
+      "name": "masculine / equipment sash",
+      "status": "PASS"
+    },
+    {
+      "name": "masculine / fixed materials sash",
+      "status": "PASS"
+    },
+    {
+      "name": "masculine / equipment dagger",
+      "status": "PASS"
+    },
+    {
+      "name": "masculine / fixed materials dagger",
+      "status": "PASS"
+    },
+    {
+      "name": "masculine / five semantic materials",
+      "status": "PASS"
+    },
+    {
+      "name": "masculine / finite 3D geometry",
+      "status": "PASS"
+    },
+    {
+      "name": "masculine / actual depth, not an image plane",
+      "status": "PASS"
+    },
+    {
+      "name": "masculine / different face geometry",
+      "status": "PASS"
+    },
+    {
+      "name": "masculine / round trip",
+      "status": "PASS"
+    },
+    {
+      "name": "feminine / face_soft",
+      "status": "PASS"
+    },
+    {
+      "name": "feminine / face_angular",
+      "status": "PASS"
+    },
+    {
+      "name": "feminine / hair_spikes",
+      "status": "PASS"
+    },
+    {
+      "name": "feminine / hair_swept",
+      "status": "PASS"
+    },
+    {
+      "name": "feminine / equipment leather",
+      "status": "PASS"
+    },
+    {
+      "name": "feminine / fixed materials leather",
+      "status": "PASS"
+    },
+    {
+      "name": "feminine / equipment bandana",
+      "status": "PASS"
+    },
+    {
+      "name": "feminine / fixed materials bandana",
+      "status": "PASS"
+    },
+    {
+      "name": "feminine / equipment sash",
+      "status": "PASS"
+    },
+    {
+      "name": "feminine / fixed materials sash",
+      "status": "PASS"
+    },
+    {
+      "name": "feminine / equipment dagger",
+      "status": "PASS"
+    },
+    {
+      "name": "feminine / fixed materials dagger",
+      "status": "PASS"
+    },
+    {
+      "name": "feminine / five semantic materials",
+      "status": "PASS"
+    },
+    {
+      "name": "feminine / finite 3D geometry",
+      "status": "PASS"
+    },
+    {
+      "name": "feminine / actual depth, not an image plane",
+      "status": "PASS"
+    },
+    {
+      "name": "feminine / different face geometry",
+      "status": "PASS"
+    },
+    {
+      "name": "feminine / round trip",
+      "status": "PASS"
+    },
+    {
+      "name": "reject invalid state 40",
+      "status": "PASS"
+    },
+    {
+      "name": "reject invalid state 41",
+      "status": "PASS"
+    },
+    {
+      "name": "reject invalid state 42",
+      "status": "PASS"
+    },
+    {
+      "name": "reject invalid state 43",
+      "status": "PASS"
+    },
+    {
+      "name": "reject invalid state 44",
+      "status": "PASS"
+    },
+    {
+      "name": "reject invalid state 45",
+      "status": "PASS"
+    },
+    {
+      "name": "reject invalid state 46",
+      "status": "PASS"
+    },
+    {
+      "name": "reject invalid state 47",
+      "status": "PASS"
+    },
+    {
+      "name": "reject invalid state 48",
+      "status": "PASS"
+    },
+    {
+      "name": "malicious extra fields discarded",
+      "status": "PASS"
+    },
+    {
+      "name": "independent base defaults",
+      "status": "PASS"
+    }
+  ]
+}

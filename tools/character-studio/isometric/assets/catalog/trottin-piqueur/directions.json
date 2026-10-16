@@ -1,0 +1,85 @@
+{
+  "id": "trottin-piqueur",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/trottin-piqueur/n.png",
+      "recipe": "assets/catalog/trottin-piqueur/n.json",
+      "sha256": "51c621074168e7971761bfc95d306b03ae4a88484481d58655684dacde615e97",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 471
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/trottin-piqueur/ne.png",
+      "recipe": "assets/catalog/trottin-piqueur/ne.json",
+      "sha256": "330da9de0a441503f6958292dbc8237598ea18dd70e8a94cd5a66582c2e0b8d9",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 471
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/trottin-piqueur/e.png",
+      "recipe": "assets/catalog/trottin-piqueur/e.json",
+      "sha256": "43ccf65faf9be25729835223019c9d82c4752c12a0c745f876866dc0974be951",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 471
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/trottin-piqueur/se.png",
+      "recipe": "assets/catalog/trottin-piqueur/se.json",
+      "sha256": "f93b9e5962950b72092e8410a519a376f162a06427bf14c11e60c9ec2e776c39",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 471
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/trottin-piqueur/s.png",
+      "recipe": "assets/catalog/trottin-piqueur/s.json",
+      "sha256": "f7a518252e3eecc32b4e240031e6bb28ecd4d863dcbc15334cc719712e6d41cc",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 471
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/trottin-piqueur/sw.png",
+      "recipe": "assets/catalog/trottin-piqueur/sw.json",
+      "sha256": "a1fc1b3c556e33a81848a65e5e7065bf420d40294fbce5c615bd557a9b41faaa",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 471
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/trottin-piqueur/w.png",
+      "recipe": "assets/catalog/trottin-piqueur/w.json",
+      "sha256": "3c37b8d8e044b0ee27a9cdb3a8916cab085657c86c3054af46670953127bcc9a",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 471
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/trottin-piqueur/nw.png",
+      "recipe": "assets/catalog/trottin-piqueur/nw.json",
+      "sha256": "ae4f6f33233d9caf5ba40209feca31b50befb7f39decb0153d2f70922bb981c6",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 471
+    }
+  ]
+}

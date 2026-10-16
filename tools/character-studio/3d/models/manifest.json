@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "status": "proposal-awaiting-art-approval",
+  "generator": "production/build_ryuu.py",
+  "blender": "4.5.14 LTS",
+  "source": "../../../content/art/characters/reference-v2/references/ryuu.png",
+  "source_sha256": "8d7e17983eee6b29abea9e7f4a52b87eb32a8c74771442591ad846913a475c20",
+  "bases": [
+    "masculine",
+    "feminine"
+  ],
+  "faces": [
+    "soft",
+    "angular"
+  ],
+  "hair": [
+    "spikes",
+    "swept"
+  ],
+  "colors": {
+    "skin": "#F1BC85",
+    "hair": "#C7D5B4",
+    "clothing1": "#51315D",
+    "clothing2": "#B0434E",
+    "clothing3": "#46394B"
+  },
+  "equipment": [
+    "leather",
+    "bandana",
+    "sash",
+    "dagger"
+  ],
+  "reconstruction": "All mesh surfaces are authored interpretations, including hidden regions. Not extracted original geometry. No rig or animation.",
+  "files": {
+    "ryuu-masculine.glb": "e2037aefb4eb086d9a2f737cad0d89b0775c0fb8fd6748a6edcd2c582b4c2f96",
+    "ryuu-masculine-review.png": "54efb2f758e5337f667997c5e8cbc0a8a313495d902e108c5ff455993e454c47",
+    "ryuu-feminine.glb": "32a550a968df4d2489ce18780a63aeacaaf46a54e147c5ff5de2ae68af8a28b8",
+    "ryuu-feminine-review.png": "cc187f355a6b8a1a96453547800061d7e4ec53e38cbd418b184a67fb0f7dcab1",
+    "ryuu-masculine.blend": "293961915ee04462222660f19c266df73467039a0dc5d5fb8e3150fade389643",
+    "ryuu-feminine.blend": "5efa34cf3b872e901e35e2c5c16bcd65ee410c69bd3d970c7ea37f4a0f7ff777"
+  }
+}

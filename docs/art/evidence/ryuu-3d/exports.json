@@ -1,0 +1,20 @@
+{
+  "masculine-canonical.png": {
+    "width": 638,
+    "height": 620,
+    "rgba_sha256": "c596e318d3a68e6937d57b4a9183b8d1d29a92ff00fd47e871146fd87bd22890",
+    "provenance": "Downloaded using the 3D atelier Exporter PNG button"
+  },
+  "feminine-canonical.png": {
+    "width": 638,
+    "height": 620,
+    "rgba_sha256": "f3d6fa8abd080302fcc3e360d265b863f6176d8b7d1a4833a25dd6da39de5dc8",
+    "provenance": "Downloaded using the 3D atelier Exporter PNG button"
+  },
+  "feminine-custom.png": {
+    "width": 638,
+    "height": 620,
+    "rgba_sha256": "48d36c019925cf478663cb299de7e5d67fc515c91e64a33f42e3cef65a95041e",
+    "provenance": "Downloaded using the 3D atelier Exporter PNG button"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "lame-sanguine",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/lame-sanguine/n.png",
+      "recipe": "assets/catalog/lame-sanguine/n.json",
+      "sha256": "fe09fa7312770640d96b775aba5847ea6e162b678f69bb4dd02e13a6e48acaf9",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 493
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/lame-sanguine/ne.png",
+      "recipe": "assets/catalog/lame-sanguine/ne.json",
+      "sha256": "030cadb82f5317f435c943aa78806eadf9de8916441656b4c62b970fb890e26d",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 493
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/lame-sanguine/e.png",
+      "recipe": "assets/catalog/lame-sanguine/e.json",
+      "sha256": "3b4ba2acf0b9d85d148ca9851f58983f9fa511c2beec7947c70c24c67feebf59",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 493
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/lame-sanguine/se.png",
+      "recipe": "assets/catalog/lame-sanguine/se.json",
+      "sha256": "56b8ef3177e64b857fb1d245f51a9a21144ee78e0c50ef0cc49da033178915bd",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 493
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/lame-sanguine/s.png",
+      "recipe": "assets/catalog/lame-sanguine/s.json",
+      "sha256": "ace95be8ef5c70c72231f184b589ed39545f8cf2798d9deefcc1549bfce2f5eb",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 493
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/lame-sanguine/sw.png",
+      "recipe": "assets/catalog/lame-sanguine/sw.json",
+      "sha256": "b84a25fd869e3e72c0bbfb88d13240adcc42a9620363d5de937daa2ad35d3931",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 493
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/lame-sanguine/w.png",
+      "recipe": "assets/catalog/lame-sanguine/w.json",
+      "sha256": "6e503a585a0df1dcef789dd4f034b473d721f0c7d3bb6a2fdff6b2b9775d6b27",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 493
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/lame-sanguine/nw.png",
+      "recipe": "assets/catalog/lame-sanguine/nw.json",
+      "sha256": "e7ca621ea6f8672dfa38788eacb6ab06c0d8e922d6193a83606c81387f4c6aa2",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 493
+    }
+  ]
+}

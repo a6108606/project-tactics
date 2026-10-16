@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-15",
+  "suite": "tools/character-studio/3d/tests/browser.html",
+  "passed": 89,
+  "failed": 0,
+  "scope": [
+    "Both bases: five colors with cyan, dark and white inputs",
+    "Fixed equipment material color invariance",
+    "Face and hair geometry changes visible in framebuffer",
+    "Equipment group visibility",
+    "Canonical reset, back view and decoded PNG RGBA equality",
+    "Real app: hex input, saved colors and variants, reload and identical framebuffer",
+    "Real app: toon canvas PNG RGBA equality, reset and invalid hex input",
+    "Real app: no horizontal page overflow and accessible zoom at CSS widths 640 and 400"
+  ],
+  "manual": [
+    "Canonical masculine and feminine PNGs downloaded using the app button",
+    "Custom feminine appearance exported after save and reload",
+    "Back view inspected; nape coverage corrected before final tests",
+    "No browser errors observed"
+  ],
+  "artistic_approval": "pending"
+}

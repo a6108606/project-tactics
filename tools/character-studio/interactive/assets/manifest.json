@@ -1,0 +1,416 @@
+{
+  "schema": "project-tactics/visible-mask-assets",
+  "version": "ryuu-visible-1",
+  "status": "technical-pilot-awaiting-art-review",
+  "source_sha256": "8d7e17983eee6b29abea9e7f4a52b87eb32a8c74771442591ad846913a475c20",
+  "assets": [
+    {
+      "id": "ryuu-masculine-canonical",
+      "character_id": "ryuu",
+      "body_variant_id": "masculine",
+      "view_id": "main",
+      "dimensions": [
+        237,
+        537
+      ],
+      "source_crop_xywh": [
+        12,
+        183,
+        237,
+        537
+      ],
+      "anchor_px": [
+        120,
+        525
+      ],
+      "layer": "canonical",
+      "origin": "approved-source-visible-pixels",
+      "path": "docs/art/evidence/ryuu-pilot/ryuu-masculine-canonical.png",
+      "sha256": "26ab2dc86e3bf699562dc3fc3f8e86e5831a9f691f69244d5629f6820c7f1476",
+      "status": "pixel-identical-crop"
+    },
+    {
+      "id": "ryuu-masculine-custom",
+      "character_id": "ryuu",
+      "body_variant_id": "masculine",
+      "view_id": "main",
+      "dimensions": [
+        237,
+        537
+      ],
+      "source_crop_xywh": [
+        12,
+        183,
+        237,
+        537
+      ],
+      "anchor_px": [
+        120,
+        525
+      ],
+      "layer": "custom",
+      "origin": "approved-source-visible-pixels",
+      "path": "docs/art/evidence/ryuu-pilot/ryuu-masculine-custom.png",
+      "sha256": "b2b5f6b89e7226fab208aa16dfdf020579a22fc692f889abb54c75274cca686d",
+      "status": "technical-pilot-awaiting-art-review"
+    },
+    {
+      "id": "ryuu-masculine-zones",
+      "character_id": "ryuu",
+      "body_variant_id": "masculine",
+      "view_id": "main",
+      "dimensions": [
+        237,
+        537
+      ],
+      "source_crop_xywh": [
+        12,
+        183,
+        237,
+        537
+      ],
+      "anchor_px": [
+        120,
+        525
+      ],
+      "layer": "zones",
+      "origin": "approved-source-visible-pixels",
+      "path": "docs/art/evidence/ryuu-pilot/ryuu-masculine-zones.png",
+      "sha256": "ef2a2a302309925868c272a82ec980ffbf82409c68ef025bc076975c74027e9e",
+      "status": "technical-pilot-awaiting-art-review"
+    },
+    {
+      "id": "ryuu-masculine-skin",
+      "character_id": "ryuu",
+      "body_variant_id": "masculine",
+      "view_id": "main",
+      "dimensions": [
+        237,
+        537
+      ],
+      "source_crop_xywh": [
+        12,
+        183,
+        237,
+        537
+      ],
+      "anchor_px": [
+        120,
+        525
+      ],
+      "layer": "skin",
+      "origin": "manual-semantic-regions-with-local-material-gates",
+      "path": "docs/art/evidence/ryuu-pilot/ryuu-masculine-mask-skin.png",
+      "sha256": "ea741363a223578a7831632b0b729fc15899ff44a2633f89bce06c09af4e6b0d",
+      "status": "technical-pilot-awaiting-art-review"
+    },
+    {
+      "id": "ryuu-masculine-hair",
+      "character_id": "ryuu",
+      "body_variant_id": "masculine",
+      "view_id": "main",
+      "dimensions": [
+        237,
+        537
+      ],
+      "source_crop_xywh": [
+        12,
+        183,
+        237,
+        537
+      ],
+      "anchor_px": [
+        120,
+        525
+      ],
+      "layer": "hair",
+      "origin": "manual-semantic-regions-with-local-material-gates",
+      "path": "docs/art/evidence/ryuu-pilot/ryuu-masculine-mask-hair.png",
+      "sha256": "d065be087d506d1dfd68fc3f6ff07005244bddb6b90d1662f8050d5075eeeb89",
+      "status": "technical-pilot-awaiting-art-review"
+    },
+    {
+      "id": "ryuu-masculine-clothing1",
+      "character_id": "ryuu",
+      "body_variant_id": "masculine",
+      "view_id": "main",
+      "dimensions": [
+        237,
+        537
+      ],
+      "source_crop_xywh": [
+        12,
+        183,
+        237,
+        537
+      ],
+      "anchor_px": [
+        120,
+        525
+      ],
+      "layer": "clothing1",
+      "origin": "manual-semantic-regions-with-local-material-gates",
+      "path": "docs/art/evidence/ryuu-pilot/ryuu-masculine-mask-clothing1.png",
+      "sha256": "01b193f26aee63dfedbffd08659ea26ef60811b881057e8c856ae94aa5e36606",
+      "status": "technical-pilot-awaiting-art-review"
+    },
+    {
+      "id": "ryuu-masculine-clothing2",
+      "character_id": "ryuu",
+      "body_variant_id": "masculine",
+      "view_id": "main",
+      "dimensions": [
+        237,
+        537
+      ],
+      "source_crop_xywh": [
+        12,
+        183,
+        237,
+        537
+      ],
+      "anchor_px": [
+        120,
+        525
+      ],
+      "layer": "clothing2",
+      "origin": "manual-semantic-regions-with-local-material-gates",
+      "path": "docs/art/evidence/ryuu-pilot/ryuu-masculine-mask-clothing2.png",
+      "sha256": "7e4f4808d7708ab355d77a4679e5536c5d4398c01c9888b0363d436592c7f296",
+      "status": "technical-pilot-awaiting-art-review"
+    },
+    {
+      "id": "ryuu-masculine-clothing3",
+      "character_id": "ryuu",
+      "body_variant_id": "masculine",
+      "view_id": "main",
+      "dimensions": [
+        237,
+        537
+      ],
+      "source_crop_xywh": [
+        12,
+        183,
+        237,
+        537
+      ],
+      "anchor_px": [
+        120,
+        525
+      ],
+      "layer": "clothing3",
+      "origin": "manual-semantic-regions-with-local-material-gates",
+      "path": "docs/art/evidence/ryuu-pilot/ryuu-masculine-mask-clothing3.png",
+      "sha256": "ddabad9c25e043921558c4bf3e6345d84cc10e9d5f9d8486287e21da16df1949",
+      "status": "technical-pilot-awaiting-art-review"
+    },
+    {
+      "id": "ryuu-feminine-canonical",
+      "character_id": "ryuu",
+      "body_variant_id": "feminine",
+      "view_id": "main",
+      "dimensions": [
+        202,
+        533
+      ],
+      "source_crop_xywh": [
+        258,
+        187,
+        202,
+        533
+      ],
+      "anchor_px": [
+        93,
+        520
+      ],
+      "layer": "canonical",
+      "origin": "approved-source-visible-pixels",
+      "path": "docs/art/evidence/ryuu-pilot/ryuu-feminine-canonical.png",
+      "sha256": "b78c217d489cdba8d18dea5bef7e6313194c0c975268fcd7165afaf8481d62a0",
+      "status": "pixel-identical-crop"
+    },
+    {
+      "id": "ryuu-feminine-custom",
+      "character_id": "ryuu",
+      "body_variant_id": "feminine",
+      "view_id": "main",
+      "dimensions": [
+        202,
+        533
+      ],
+      "source_crop_xywh": [
+        258,
+        187,
+        202,
+        533
+      ],
+      "anchor_px": [
+        93,
+        520
+      ],
+      "layer": "custom",
+      "origin": "approved-source-visible-pixels",
+      "path": "docs/art/evidence/ryuu-pilot/ryuu-feminine-custom.png",
+      "sha256": "889e40df200b9d1726c8e30db074413fb27c0f2d16a2a8f977aa7298e10a0c90",
+      "status": "technical-pilot-awaiting-art-review"
+    },
+    {
+      "id": "ryuu-feminine-zones",
+      "character_id": "ryuu",
+      "body_variant_id": "feminine",
+      "view_id": "main",
+      "dimensions": [
+        202,
+        533
+      ],
+      "source_crop_xywh": [
+        258,
+        187,
+        202,
+        533
+      ],
+      "anchor_px": [
+        93,
+        520
+      ],
+      "layer": "zones",
+      "origin": "approved-source-visible-pixels",
+      "path": "docs/art/evidence/ryuu-pilot/ryuu-feminine-zones.png",
+      "sha256": "5ea72900f6c3c05b229fc8265e89851e50f1202d52f60879c12e18b8a81df5ec",
+      "status": "technical-pilot-awaiting-art-review"
+    },
+    {
+      "id": "ryuu-feminine-skin",
+      "character_id": "ryuu",
+      "body_variant_id": "feminine",
+      "view_id": "main",
+      "dimensions": [
+        202,
+        533
+      ],
+      "source_crop_xywh": [
+        258,
+        187,
+        202,
+        533
+      ],
+      "anchor_px": [
+        93,
+        520
+      ],
+      "layer": "skin",
+      "origin": "manual-semantic-regions-with-local-material-gates",
+      "path": "docs/art/evidence/ryuu-pilot/ryuu-feminine-mask-skin.png",
+      "sha256": "e1a2045cd713a51036bb2a79517629685907fd6fd60f09b546b2232007c593eb",
+      "status": "technical-pilot-awaiting-art-review"
+    },
+    {
+      "id": "ryuu-feminine-hair",
+      "character_id": "ryuu",
+      "body_variant_id": "feminine",
+      "view_id": "main",
+      "dimensions": [
+        202,
+        533
+      ],
+      "source_crop_xywh": [
+        258,
+        187,
+        202,
+        533
+      ],
+      "anchor_px": [
+        93,
+        520
+      ],
+      "layer": "hair",
+      "origin": "manual-semantic-regions-with-local-material-gates",
+      "path": "docs/art/evidence/ryuu-pilot/ryuu-feminine-mask-hair.png",
+      "sha256": "e793315270ef12312bd047ada45c02adecf393823fed06ca064aeb43bc4e8c13",
+      "status": "technical-pilot-awaiting-art-review"
+    },
+    {
+      "id": "ryuu-feminine-clothing1",
+      "character_id": "ryuu",
+      "body_variant_id": "feminine",
+      "view_id": "main",
+      "dimensions": [
+        202,
+        533
+      ],
+      "source_crop_xywh": [
+        258,
+        187,
+        202,
+        533
+      ],
+      "anchor_px": [
+        93,
+        520
+      ],
+      "layer": "clothing1",
+      "origin": "manual-semantic-regions-with-local-material-gates",
+      "path": "docs/art/evidence/ryuu-pilot/ryuu-feminine-mask-clothing1.png",
+      "sha256": "5fa7615be74d0824b3f12ae9f20c1b7476ff88331f5e8bb04fdf796d4791afbb",
+      "status": "technical-pilot-awaiting-art-review"
+    },
+    {
+      "id": "ryuu-feminine-clothing2",
+      "character_id": "ryuu",
+      "body_variant_id": "feminine",
+      "view_id": "main",
+      "dimensions": [
+        202,
+        533
+      ],
+      "source_crop_xywh": [
+        258,
+        187,
+        202,
+        533
+      ],
+      "anchor_px": [
+        93,
+        520
+      ],
+      "layer": "clothing2",
+      "origin": "manual-semantic-regions-with-local-material-gates",
+      "path": "docs/art/evidence/ryuu-pilot/ryuu-feminine-mask-clothing2.png",
+      "sha256": "47d14107af4d2878edac5c0d651efe8c723c5d8deb6fa0747a170bc03b402cbd",
+      "status": "technical-pilot-awaiting-art-review"
+    },
+    {
+      "id": "ryuu-feminine-clothing3",
+      "character_id": "ryuu",
+      "body_variant_id": "feminine",
+      "view_id": "main",
+      "dimensions": [
+        202,
+        533
+      ],
+      "source_crop_xywh": [
+        258,
+        187,
+        202,
+        533
+      ],
+      "anchor_px": [
+        93,
+        520
+      ],
+      "layer": "clothing3",
+      "origin": "manual-semantic-regions-with-local-material-gates",
+      "path": "docs/art/evidence/ryuu-pilot/ryuu-feminine-mask-clothing3.png",
+      "sha256": "8de68b8701db2320efdc30cd66167e39ecba4a8a6b8c914ee4b6dcf1dae1ac4d",
+      "status": "technical-pilot-awaiting-art-review"
+    }
+  ],
+  "derivation_files": {
+    "masks.js": "611ba75f2d32b1945e425480f2d199bd95b6567ac1ff9aa5ca6889bbb7ff75fa",
+    "render.js": "6759f75d0fbb8d0c8a5cce2941277c32b64999e87f08d1792417c1a58b93b356",
+    "geometry.js": "e7325066e00e45a678f5580b8b01dc119e9defd62745a5e4cfef92fb6f2b5af6",
+    "catalog.js": "daae3a23dbedfd8a8af8542ed1def5426d54929362fa890178931bd71e625ec0",
+    "assets/recipes.js": "1f3518e84c09efe340961ad00cff33422e735604b4ac56e1a2e94109744d0a5e",
+    "../pipeline/mask-engine.js": "51b5b1bc527c50fd49dff4fadc0ce17e20f6a600ca7da4101085c63a6d4547bd"
+  }
+}

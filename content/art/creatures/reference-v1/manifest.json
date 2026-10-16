@@ -1,0 +1,22 @@
+{
+  "schema": "project-tactics/chosen-creature-references",
+  "version": 1,
+  "date": "2026-10-16",
+  "authority": "Images jointes par le commanditaire : « Bourlaine je veux lui et Plumet je veux lui — j’aimerais vraiment simplifier les designs »",
+  "status": "user-selected",
+  "files": [
+    {
+      "name": "bourlaine",
+      "file": "bourlaine.png",
+      "bytes": 1555964,
+      "sha256": "3f95dd293ba2f00294a38573eff8b8b4d90c6a355382bb879a75b699eba375e5"
+    },
+    {
+      "name": "plumet",
+      "file": "plumet.png",
+      "bytes": 1382246,
+      "sha256": "1ae3498704998c106fc84fcf210e16895e5c319d8819a41abd160c56d8c3e165"
+    }
+  ],
+  "preservation": "Original attachments copied byte-for-byte. Keep unchanged; derivatives live in the studio."
+}

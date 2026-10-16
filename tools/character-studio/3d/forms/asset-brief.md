@@ -1,0 +1,13 @@
+# Ryuu masculin — reconstruction de formes
+
+ASSET      CH_Ryuu, étude séparée du pilote rejeté.
+CATEGORY   character, humanoïde stylisé.
+VIEWS      ref/original-sheet.png : concept en trois-quarts, masculin dans [12,183,237,537]. ref/target.png : cible artistique en perspective, estimation azimut 18°, élévation 8°, focale 65 mm ; personnage sur environ 93 % de la hauteur, sol à 3,5 % du bas. Ces concepts ne sont pas des plans orthographiques ; leurs proportions projetées ne constituent pas des mesures anatomiques exactes.
+SCALE      1 unité = 1 m ; hauteur maximale visée 1,85 m, valeur de travail inférée, sans changement de gameplay. Z haut, -Y avant.
+PROPORTIONS  Repères visuels estimés sur la cible : cheveux + tête ≈ 30 % de hauteur ; menton ≈ 69 % depuis le sol ; épaules ≈ 65 % ; taille ≈ 51 % ; entrejambe ≈ 44 % ; bas du pantalon ≈ 23 % ; largeur tête hors cheveux ≈ 19 % de hauteur ; largeur épaules ≈ 27 % ; largeur pantalon ≈ 31 % ; écart des chevilles ≈ 17 %. Tolérance de revue : 5 % au stade volumes. Perspective et pose empêchent une validation métrique absolue.
+PARTS      corps complet sous vêtements ; tête et traits ; cheveux en mèches ; gilet ; pantalon ; liens ; ceinture, épaulières et bracelets de cuir ; métal ; bandeau et rubans ; pan de hanche. Pièces séparées par matériau ou équipement. Corps et tissus destinés à se déformer, cuirs et métal rigides ; pas de rig dans cette revue statique.
+SILHOUETTE tête expressive inclinée, cheveux menthe balayés, bandeau violet à longs rubans, pantalon ample, taille dégagée et sandales. Bras abaissés d’après l’original, pas le poing levé de l’essai Imagegen.
+MATERIALS  cinq canaux de base : peau satinée, cheveux mats, pantalon prune, tissu de taille rouge, gilet/liens prune sombre. Équipements : cuir brun rugosité 0,52, or localisé rugosité 0,3, bandeau violet rugosité 0,85, pan rouge. Couleurs et matériaux des équipements indépendants.
+ARTICULATION revue statique de formes ; animation et squelette différés jusqu’à l’acceptation des volumes. Ne pas présenter cet asset comme prêt pour le jeu.
+INFERRED   profondeur du crâne, profil, dos, implantation arrière des mèches, intérieur du gilet, arrière des ceintures, dessous des sandales, corps sous équipements ; construction locale par surfaces paramétriques. Ces volumes seront montrés en profil/dos.
+TARGET     navigateur Three.js de l’atelier, GLB et source Blender ; budget d’étude 100 000 triangles visibles, pas de textures externes, matériaux PBR simples. Revue plein écran et à 128 px. Validation utilisateur sur vrai modèle avant généralisation à la base féminine ou aux autres héros/monstres.

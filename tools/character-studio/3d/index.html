@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ryuu · Atelier 3D — Project Tactics</title>
+<link rel="stylesheet" href="studio.css?v=1.1"><script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+<script type="module" src="app.js?v=1.2"></script></head>
+<body>
+<header class="top"><a class="brand" href="../interactive/">✧ <span>PROJECT TACTICS<small>ATELIER DES APPARENCES</small></span></a><nav aria-label="Ateliers"><a href="../interactive/">Références 2D</a><span class="active">Étude 3D</span></nav><span class="review-badge"><i></i> Rendu à valider</span></header>
+<main>
+<div class="intro"><div><span class="eyebrow">ÉTUDE DE VOLUME / 001</span><h1>Ryuu, sous tous les angles.</h1><p>Une première traduction des fiches en véritables volumes.</p></div><a class="source-link" href="../../../content/art/characters/reference-v2/references/ryuu.png" target="_blank" rel="noopener">Ouvrir la fiche originale ↗</a></div>
+<div class="atelier">
+<aside class="settings" aria-label="Personnalisation de Ryuu">
+<div class="section-heading"><span class="eyebrow">VOTRE PERSONNAGE</span><span class="number">01</span></div>
+<h2>Ryuu <span>Étude 3D</span></h2>
+<fieldset><legend>Base</legend><div class="segmented"><label><input type="radio" name="base" value="masculine" checked><span>Masculine</span></label><label><input type="radio" name="base" value="feminine"><span>Féminine</span></label></div></fieldset>
+<div class="variants"><label for="face">Visage<select id="face"><option value="soft">Joues arrondies</option><option value="angular">Mâchoire affinée</option></select></label><label for="hair">Coiffure<select id="hair"><option value="spikes">Pointes libres</option><option value="swept">Mèches rabattues</option></select></label></div>
+<div class="section-heading space"><h3>Palette de la base</h3><button id="resetColors" class="text-button">Réinitialiser</button></div>
+<div id="colors"></div>
+<p class="hint">Les équipements gardent leurs propres couleurs.</p>
+<fieldset class="equipment"><legend>Équipements</legend><div id="equipment"></div></fieldset>
+<div class="save-actions"><button id="save" class="primary">Enregistrer</button><button id="reset">Tout réinitialiser</button></div>
+<details class="files"><summary>Fichiers d’apparence</summary><div><button id="exportJson">Exporter JSON</button><label class="file-button">Importer JSON<input type="file" id="importJson" accept=".json,application/json"></label></div></details>
+</aside>
+<section class="preview" aria-label="Aperçu 3D et comparaison">
+<div class="preview-top"><div><span class="eyebrow">VOLUME PERSONNALISABLE</span><h2>Le même esprit.<br><em>Une nouvelle dimension.</em></h2></div><button id="compare" aria-pressed="true">Référence visible</button></div>
+<div class="stages" id="stages"><figure id="reference"><figcaption>FICHE APPROUVÉE <span>2D originale</span></figcaption><canvas id="referenceCanvas" aria-label="Illustration originale de Ryuu"></canvas></figure><figure class="model"><figcaption>PROPOSITION 3D <span id="baseLabel">Base masculine</span></figcaption><div id="viewport"><div id="loading" role="status">Préparation du modèle…</div></div><p class="gesture">Glisser pour tourner · Molette pour zoomer</p></figure></div>
+<div class="view-controls"><div class="views" aria-label="Angles de vue"><button data-angle="0">Face</button><button data-angle="25">¾</button><button data-angle="90">Profil</button><button data-angle="180">Dos</button><button id="rotate" aria-pressed="false" aria-label="Rotation automatique">↻</button></div><label class="angle-label">Rotation<input id="angle" type="range" min="-180" max="180" value="25" aria-label="Rotation horizontale"></label><label class="zoom-label">Zoom<input id="zoom" type="range" min=".7" max="1.8" step=".05" value="1" aria-label="Zoom du modèle"></label></div>
+<div class="preview-footer"><p><span class="dot"></span> Maillages 3D · 5 matériaux de base</p><button id="exportPng" class="primary" disabled>↓ Exporter PNG</button></div>
+</section>
+</div>
+<div class="note"><strong>Ce que vous validez ici</strong><p>Silhouette, visage, coiffure et rendu en volume. Le modèle entier est une interprétation nouvelle ; le dos et les surfaces cachées sont reconstruits. Les proportions et les détails restent à affiner. Aucune animation ni généralisation aux autres héros avant votre validation.</p><a href="README.md">Méthode et limites ↗</a></div>
+<p id="status" role="status" aria-live="polite">Chargement de l’atelier…</p>
+</main><footer>PROJECT TACTICS <span>RYUU / ÉTUDE 3D À VALIDER</span></footer>
+</body></html>

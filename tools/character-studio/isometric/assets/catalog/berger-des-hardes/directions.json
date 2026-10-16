@@ -1,0 +1,85 @@
+{
+  "id": "berger-des-hardes",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/berger-des-hardes/n.png",
+      "recipe": "assets/catalog/berger-des-hardes/n.json",
+      "sha256": "cfeeb2743525124f51c07475dc274eda10efd3409888958d93427fe1b3f9fd67",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 455
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/berger-des-hardes/ne.png",
+      "recipe": "assets/catalog/berger-des-hardes/ne.json",
+      "sha256": "895d7982074e9e0847c31e580f7026de7089fdf61e4bc23815a5bc93d3b87daa",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 455
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/berger-des-hardes/e.png",
+      "recipe": "assets/catalog/berger-des-hardes/e.json",
+      "sha256": "ec7b3f3e66d6465ecf8385ac17c609fb6b2757b804d65f19930146d6675706bb",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 455
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/berger-des-hardes/se.png",
+      "recipe": "assets/catalog/berger-des-hardes/se.json",
+      "sha256": "7e09f78c8a92d4647a040cf4d14f1a1cbfb49b0e0262ad018247e22c60511177",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 455
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/berger-des-hardes/s.png",
+      "recipe": "assets/catalog/berger-des-hardes/s.json",
+      "sha256": "0fc33c1b7ddad614fd884851bb52db3d4d4792d25dda488cd55aab1383479ffe",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 455
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/berger-des-hardes/sw.png",
+      "recipe": "assets/catalog/berger-des-hardes/sw.json",
+      "sha256": "474f999895fe759b9a53ec0b6d408c3b491b8ebd9a0409b393e5914c955786de",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 455
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/berger-des-hardes/w.png",
+      "recipe": "assets/catalog/berger-des-hardes/w.json",
+      "sha256": "f8df1ef698b8c1582cf93444331582fd2cd4db41dbc1beacba0e69f205f58926",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 455
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/berger-des-hardes/nw.png",
+      "recipe": "assets/catalog/berger-des-hardes/nw.json",
+      "sha256": "207b087780876c52e4273579e9f51a13cb1a908830628b29477c986f374c685d",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 455
+    }
+  ]
+}

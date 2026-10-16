@@ -1,0 +1,85 @@
+{
+  "id": "sentinelle-de-sang",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/sentinelle-de-sang/n.png",
+      "recipe": "assets/catalog/sentinelle-de-sang/n.json",
+      "sha256": "0fc4a6d7b95c2e242a80551631cef425895b500cf8c352fb91a8276723ed233f",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 437
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/sentinelle-de-sang/ne.png",
+      "recipe": "assets/catalog/sentinelle-de-sang/ne.json",
+      "sha256": "2bd94a07b3fa0a866419cf4e86545dc5333f86bcd93177d5202747bbd93d4193",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 437
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/sentinelle-de-sang/e.png",
+      "recipe": "assets/catalog/sentinelle-de-sang/e.json",
+      "sha256": "77cb02a1742418c9b2d1c348f865c68ac5e89097bff04dc52168eac47f46522a",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 437
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/sentinelle-de-sang/se.png",
+      "recipe": "assets/catalog/sentinelle-de-sang/se.json",
+      "sha256": "2413f561c87e7c297c1205e2b256e2922be2e081473d15c25a21686c42569ebf",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 437
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/sentinelle-de-sang/s.png",
+      "recipe": "assets/catalog/sentinelle-de-sang/s.json",
+      "sha256": "b0c58a599b7c53a7a84f7eed9336704f573abbaf2a0a7a91a12296cae92b2c7d",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 437
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/sentinelle-de-sang/sw.png",
+      "recipe": "assets/catalog/sentinelle-de-sang/sw.json",
+      "sha256": "23ac8f3b380ecf8f20ff89cb4f96e3fccd284d425aeedd965236e1a8c6ab02af",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 437
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/sentinelle-de-sang/w.png",
+      "recipe": "assets/catalog/sentinelle-de-sang/w.json",
+      "sha256": "b3837f4f0d57cc3fdca6e0a1926e71b4478b778fd3fc1bf6cdf8c899e6e65088",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 437
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/sentinelle-de-sang/nw.png",
+      "recipe": "assets/catalog/sentinelle-de-sang/nw.json",
+      "sha256": "9554c7882f6a1bb0d1483dcb7231a7a1f9a31f8aef7f2413779f1635a3069cdd",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 437
+    }
+  ]
+}

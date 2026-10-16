@@ -1,0 +1,103 @@
+{
+  "pass": 24,
+  "fail": 0,
+  "rows": [
+    {
+      "name": "GLB chargé et empreinte vérifiée",
+      "pass": true
+    },
+    {
+      "name": "skin change les pixels",
+      "pass": true
+    },
+    {
+      "name": "skin ne recolore aucun matériau fixe",
+      "pass": true
+    },
+    {
+      "name": "hair change les pixels",
+      "pass": true
+    },
+    {
+      "name": "hair ne recolore aucun matériau fixe",
+      "pass": true
+    },
+    {
+      "name": "clothing1 change les pixels",
+      "pass": true
+    },
+    {
+      "name": "clothing1 ne recolore aucun matériau fixe",
+      "pass": true
+    },
+    {
+      "name": "clothing2 change les pixels",
+      "pass": true
+    },
+    {
+      "name": "clothing2 ne recolore aucun matériau fixe",
+      "pass": true
+    },
+    {
+      "name": "clothing3 change les pixels",
+      "pass": true
+    },
+    {
+      "name": "clothing3 ne recolore aucun matériau fixe",
+      "pass": true
+    },
+    {
+      "name": "leather retrait visible",
+      "pass": true
+    },
+    {
+      "name": "bandana retrait visible",
+      "pass": true
+    },
+    {
+      "name": "sash retrait visible",
+      "pass": true
+    },
+    {
+      "name": "Vue 0 change le rendu",
+      "pass": true
+    },
+    {
+      "name": "Vue 90 change le rendu",
+      "pass": true
+    },
+    {
+      "name": "Vue 180 change le rendu",
+      "pass": true
+    },
+    {
+      "name": "Vue -25 change le rendu",
+      "pass": true
+    },
+    {
+      "name": "Le bouton Exporter PNG produit un PNG",
+      "pass": true
+    },
+    {
+      "name": "PNG décodé identique aux pixels affichés",
+      "pass": true
+    },
+    {
+      "name": "Enregistrement des couleurs et équipements",
+      "pass": true
+    },
+    {
+      "name": "Cible Imagegen distincte de la géométrie",
+      "pass": true
+    },
+    {
+      "name": "Sans débordement à 400 px",
+      "pass": true
+    },
+    {
+      "name": "Sans débordement à 640 px",
+      "pass": true
+    }
+  ],
+  "method": "Observed output of tests.html in Codex in-app browser; technical checks only."
+}

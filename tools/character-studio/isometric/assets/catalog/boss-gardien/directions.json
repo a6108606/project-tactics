@@ -1,0 +1,85 @@
+{
+  "id": "boss-gardien",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/boss-gardien/n.png",
+      "recipe": "assets/catalog/boss-gardien/n.json",
+      "sha256": "4a5c48bad788d4597034f3206b6a8d7f04110fb175d477ee127d7a8538ad28dd",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 499
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/boss-gardien/ne.png",
+      "recipe": "assets/catalog/boss-gardien/ne.json",
+      "sha256": "1470f395df67486816c150ede10a2be29739eaf6fcd82478d678c2eca22cd8cf",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 499
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/boss-gardien/e.png",
+      "recipe": "assets/catalog/boss-gardien/e.json",
+      "sha256": "011884c4620bd54de23315f8831a4f9cd37b20ca13d6887e8210295f874702cd",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 499
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/boss-gardien/se.png",
+      "recipe": "assets/catalog/boss-gardien/se.json",
+      "sha256": "86cb7f9033f6c75ca5c6adba3d80d280bab7013c02dfd652e760a1a7ae1d2e0f",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 499
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/boss-gardien/s.png",
+      "recipe": "assets/catalog/boss-gardien/s.json",
+      "sha256": "0333cabdfb3a16bc04d2b843e02408d3a3f7ab7e83c05e4776ae43f424d10de6",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 499
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/boss-gardien/sw.png",
+      "recipe": "assets/catalog/boss-gardien/sw.json",
+      "sha256": "14ac0f55485a90822789c98d58b30d014a5b0ad76ea39e1515ae072dbf41bd6a",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 499
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/boss-gardien/w.png",
+      "recipe": "assets/catalog/boss-gardien/w.json",
+      "sha256": "e47049d058fd1892b73b28d87c1837213bdea00c0aca17ae2ceeb8c5e3edf226",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 499
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/boss-gardien/nw.png",
+      "recipe": "assets/catalog/boss-gardien/nw.json",
+      "sha256": "d61fd7109d273ad39f9a5635d56b2995d312bc97749b4368f8fa8a0056c87bca",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 499
+    }
+  ]
+}

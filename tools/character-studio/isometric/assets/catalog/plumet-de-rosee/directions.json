@@ -1,0 +1,85 @@
+{
+  "id": "plumet-de-rosee",
+  "views": [
+    {
+      "id": "n",
+      "label": "Dos",
+      "file": "assets/catalog/plumet-de-rosee/n.png",
+      "recipe": "assets/catalog/plumet-de-rosee/n.json",
+      "sha256": "921d85b48b7920b99e43d8ff3697898ae82328d739a1d82f2c2ea89e87c13ed7",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 393
+    },
+    {
+      "id": "ne",
+      "label": "Dos droite",
+      "file": "assets/catalog/plumet-de-rosee/ne.png",
+      "recipe": "assets/catalog/plumet-de-rosee/ne.json",
+      "sha256": "43422a0b57d587f0e3062f0430e45ea8975f24e58fc90c7177342bcbd2586f78",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 393
+    },
+    {
+      "id": "e",
+      "label": "Droite",
+      "file": "assets/catalog/plumet-de-rosee/e.png",
+      "recipe": "assets/catalog/plumet-de-rosee/e.json",
+      "sha256": "3f74a036664d3faf86895386b81862fa1030f36270e9ff8ac0457fff0d753c49",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 393
+    },
+    {
+      "id": "se",
+      "label": "Face droite",
+      "file": "assets/catalog/plumet-de-rosee/se.png",
+      "recipe": "assets/catalog/plumet-de-rosee/se.json",
+      "sha256": "96a15c7d5d9df475c77e6776cee99ab09599c5d54d0b019c1d394c5e22439dbc",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 393
+    },
+    {
+      "id": "s",
+      "label": "Face",
+      "file": "assets/catalog/plumet-de-rosee/s.png",
+      "recipe": "assets/catalog/plumet-de-rosee/s.json",
+      "sha256": "9576690b8cc60947852a409f4057365e7ff5be7a1633dc7bb08f77a52347c8fc",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 393
+    },
+    {
+      "id": "sw",
+      "label": "Face gauche",
+      "file": "assets/catalog/plumet-de-rosee/sw.png",
+      "recipe": "assets/catalog/plumet-de-rosee/sw.json",
+      "sha256": "c33a3dac9964bf51ebae64cd8366075cbdfda5b2553df4ad02329f5122241684",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 393
+    },
+    {
+      "id": "w",
+      "label": "Gauche",
+      "file": "assets/catalog/plumet-de-rosee/w.png",
+      "recipe": "assets/catalog/plumet-de-rosee/w.json",
+      "sha256": "9d6567bf89d95cc521abf149044cc84d9e4d76b77bc10200abbced43bec57656",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 393
+    },
+    {
+      "id": "nw",
+      "label": "Dos gauche",
+      "file": "assets/catalog/plumet-de-rosee/nw.png",
+      "recipe": "assets/catalog/plumet-de-rosee/nw.json",
+      "sha256": "3db02dca2f6eb9e2c6742623d1cac5a56fd5df3b0cbecedd84d0bd43a977c358",
+      "width": 384,
+      "height": 640,
+      "displayHeight": 393
+    }
+  ]
+}
