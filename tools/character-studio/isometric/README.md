@@ -85,3 +85,7 @@ Les faces cachées sont reconstruites, et non extraites de la fiche. En particul
 Les canaux de pantalon suivent les jambes anatomiques et non le côté de l’écran. Les zones masquées par une main, une écharpe ou une autre jambe ne sont pas inventées dans le masque. Les témoins techniques de couleur ne remplacent pas l’inspection visuelle des bordures.
 
 La planche de la palette initiale, exportée par le bouton réel, est conservée dans `assets/ryuu-8-directions.png` avec son empreinte dans le manifeste. Le script de contrôle parcourt maintenant les huit vues et leurs cinq canaux, les palettes extrêmes, les commandes réelles, chaque export PNG, la planche, les changements rapides de direction, le clavier et les largeurs mobiles. Les résultats du premier lot à une seule vue restent dans `verification.json` ; ceux de ce lot sont consignés séparément.
+
+## Références choisies — 16 octobre 2026
+
+Bourlaine jeune et Plumet utilisent désormais les deux images fournies par le commanditaire, conservées à l’identique dans `content/art/creatures/reference-v1/`. Leurs 16 vues ont été remplacées ; le catalogue reste à 53 formes et 424 vues. Voir `docs/art/MONSTER_STYLE_TARGET.md` pour la décision, les limites des reconstructions et les sources. Les 1 858 contrôles des assets et les 222 contrôles navigateur passent après cette révision.

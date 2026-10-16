@@ -6,80 +6,80 @@
       "label": "Dos",
       "file": "assets/catalog/bourlaine-jeune/n.png",
       "recipe": "assets/catalog/bourlaine-jeune/n.json",
-      "sha256": "76c0d0de9458e4977c195aed6e4a213a59a8dfa0dc8f73c07a7ad3c66b605fa6",
+      "sha256": "ce93da26ff67b8d0fdaba7ce5a8195e9a8853d60958382e993baf709e896c19a",
       "width": 384,
       "height": 640,
-      "displayHeight": 368
+      "displayHeight": 314
     },
     {
       "id": "ne",
       "label": "Dos droite",
       "file": "assets/catalog/bourlaine-jeune/ne.png",
       "recipe": "assets/catalog/bourlaine-jeune/ne.json",
-      "sha256": "683a6c9103ca413553299ac795e02ac029a16799f8d6676fe96553bcd135f191",
+      "sha256": "c27004a5797b552b9a9839bb6ed1debbcf38c42f6607671e5fdeddfb330415c4",
       "width": 384,
       "height": 640,
-      "displayHeight": 368
+      "displayHeight": 314
     },
     {
       "id": "e",
       "label": "Droite",
       "file": "assets/catalog/bourlaine-jeune/e.png",
       "recipe": "assets/catalog/bourlaine-jeune/e.json",
-      "sha256": "73bf1502f7b761adff7aa889994173fd5f5b3be48e2707918cc4f309eec16dda",
+      "sha256": "59903ac07e73538febdbd8c8d6592bcbdd83fef66176dc1fa2c00df2607730da",
       "width": 384,
       "height": 640,
-      "displayHeight": 368
+      "displayHeight": 314
     },
     {
       "id": "se",
       "label": "Face droite",
       "file": "assets/catalog/bourlaine-jeune/se.png",
       "recipe": "assets/catalog/bourlaine-jeune/se.json",
-      "sha256": "aff7d956775ab5192b5adc34c6d6e7aafbc420398d0b1f371f3f951b9d8f6622",
+      "sha256": "b9c8cf60911a4bf0b0c49a6095470afc8eca429622a29c2b4b1ba036aa8d1146",
       "width": 384,
       "height": 640,
-      "displayHeight": 368
+      "displayHeight": 314
     },
     {
       "id": "s",
       "label": "Face",
       "file": "assets/catalog/bourlaine-jeune/s.png",
       "recipe": "assets/catalog/bourlaine-jeune/s.json",
-      "sha256": "a66c19785f5cd7cc03cf1be6f59debfd5be52e836c641e92ba80fc766742c6c8",
+      "sha256": "09fcec3f3b656dd9f1fa874efd824972f5dbdbc87b1e8427ddc92a86338f4a4f",
       "width": 384,
       "height": 640,
-      "displayHeight": 368
+      "displayHeight": 314
     },
     {
       "id": "sw",
       "label": "Face gauche",
       "file": "assets/catalog/bourlaine-jeune/sw.png",
       "recipe": "assets/catalog/bourlaine-jeune/sw.json",
-      "sha256": "fe13b444db5de68a01328c591ebe27955e6b8d7c2cdece5b135726930bf18944",
+      "sha256": "821e57537199a5edad4a5530d08fb6b7906e6260575d2867bd4002e8b48aacca",
       "width": 384,
       "height": 640,
-      "displayHeight": 368
+      "displayHeight": 314
     },
     {
       "id": "w",
       "label": "Gauche",
       "file": "assets/catalog/bourlaine-jeune/w.png",
       "recipe": "assets/catalog/bourlaine-jeune/w.json",
-      "sha256": "042f15f03e6a6ef9d1fce99afc2ea5053ec6b58adc6bfa4123eee54a74354b0d",
+      "sha256": "d37fa2ea7f781c309864644c51e3993d149f23be7104143b27aaf25329d81987",
       "width": 384,
       "height": 640,
-      "displayHeight": 368
+      "displayHeight": 314
     },
     {
       "id": "nw",
       "label": "Dos gauche",
       "file": "assets/catalog/bourlaine-jeune/nw.png",
       "recipe": "assets/catalog/bourlaine-jeune/nw.json",
-      "sha256": "a4e75a1289f76d3541771ee7fae80281917f7732ab81b33390613a9edc457628",
+      "sha256": "39acefc4c8dda53539b795bba2541aaabed44d6202dda2bd53cddfae3e0d2d13",
       "width": 384,
       "height": 640,
-      "displayHeight": 368
+      "displayHeight": 314
     }
   ]
 }

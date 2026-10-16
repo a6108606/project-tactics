@@ -1,5 +1,5 @@
 {
-  "source_sha256": "446a6b945555c23a82f59bee9b2fdfd779f5a4332c350c7473e1f5ef636430aa",
+  "source_sha256": "6452b63a029bdf28f93c248eef06dca65da3a0d7785020e62f633e562e3fa7db",
   "source_dimensions": [
     1254,
     1254
@@ -13,17 +13,18 @@
         314,
         627
       ],
+      "segmentation": "grid",
       "bounds": [
-        31,
-        219,
-        305,
-        573
+        17,
+        251,
+        288,
+        549
       ],
       "edgePixels": 0,
       "channelPixels": {
-        "ochre": 39091,
-        "red": 2653,
-        "leaf": 7239
+        "ochre": 52128,
+        "blue": 4218,
+        "red": 1787
       }
     },
     {
@@ -31,41 +32,43 @@
       "sourceCrop": [
         314,
         0,
-        313,
+        306,
         627
       ],
+      "segmentation": "grid",
       "bounds": [
-        44,
-        203,
-        291,
-        571
+        12,
+        245,
+        277,
+        559
       ],
       "edgePixels": 0,
       "channelPixels": {
-        "ochre": 38871,
-        "red": 3853,
-        "leaf": 5659
+        "ochre": 47016,
+        "blue": 5388,
+        "red": 982
       }
     },
     {
       "direction": "e",
       "sourceCrop": [
-        627,
+        620,
         0,
-        314,
+        321,
         627
       ],
+      "segmentation": "grid",
       "bounds": [
-        28,
-        214,
-        273,
-        555
+        3,
+        259,
+        306,
+        550
       ],
       "edgePixels": 0,
       "channelPixels": {
-        "ochre": 33943,
-        "red": 5553,
-        "leaf": 3987
+        "ochre": 43891,
+        "blue": 5446,
+        "red": 3965
       }
     },
     {
@@ -76,17 +79,18 @@
         313,
         627
       ],
+      "segmentation": "grid",
       "bounds": [
-        26,
-        237,
-        288,
-        569
+        3,
+        257,
+        301,
+        555
       ],
       "edgePixels": 0,
       "channelPixels": {
-        "ochre": 30444,
-        "red": 7975,
-        "leaf": 4731
+        "ochre": 41863,
+        "blue": 7820,
+        "red": 4911
       }
     },
     {
@@ -97,17 +101,18 @@
         314,
         627
       ],
+      "segmentation": "grid",
       "bounds": [
-        28,
-        109,
-        308,
-        425
+        19,
+        85,
+        289,
+        372
       ],
       "edgePixels": 0,
       "channelPixels": {
-        "ochre": 27447,
-        "red": 8093,
-        "leaf": 5478
+        "ochre": 37534,
+        "blue": 7528,
+        "red": 5071
       }
     },
     {
@@ -118,17 +123,18 @@
         313,
         627
       ],
+      "segmentation": "grid",
       "bounds": [
-        25,
-        99,
-        278,
-        432
+        7,
+        86,
+        291,
+        376
       ],
       "edgePixels": 0,
       "channelPixels": {
-        "ochre": 28344,
-        "red": 7793,
-        "leaf": 4769
+        "ochre": 37640,
+        "blue": 7614,
+        "red": 4381
       }
     },
     {
@@ -139,17 +145,18 @@
         314,
         627
       ],
+      "segmentation": "grid",
       "bounds": [
-        33,
-        104,
-        285,
-        431
+        6,
+        85,
+        312,
+        376
       ],
       "edgePixels": 0,
       "channelPixels": {
-        "ochre": 33101,
-        "red": 4997,
-        "leaf": 3963
+        "ochre": 44492,
+        "blue": 5479,
+        "red": 3811
       }
     },
     {
@@ -160,17 +167,18 @@
         313,
         627
       ],
+      "segmentation": "grid",
       "bounds": [
-        45,
-        83,
-        277,
-        446
+        33,
+        80,
+        296,
+        386
       ],
       "edgePixels": 0,
       "channelPixels": {
-        "ochre": 35957,
-        "red": 3444,
-        "leaf": 5176
+        "ochre": 46400,
+        "blue": 5160,
+        "red": 971
       }
     }
   ],

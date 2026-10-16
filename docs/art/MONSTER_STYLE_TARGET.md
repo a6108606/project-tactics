@@ -1,4 +1,21 @@
-# Cible artistique du bestiaire — Bouftous et Tofus
+# Cible artistique du bestiaire — références choisies
+
+## Décision du 16 octobre 2026
+
+Le commanditaire a fourni deux images et demandé : « Bourlaine je veux lui et Plumet je veux lui — j’aimerais vraiment simplifier les designs ». Ces images remplacent les essais précédents comme références pour ces deux créatures. Elles sont conservées sans modification dans `content/art/creatures/reference-v1/`, avec tailles et SHA-256 dans `manifest.json`.
+
+- **Bourlaine jeune** : grande masse de laine crème, petit visage brun obstiné, cornes et sabots bleu ardoise, jambes courtes.
+- **Plumet** : volume jaune rond, trois grandes mèches de huppe, yeux blancs et pupilles simples, bec et pieds orange. Son identifiant et son nom de catalogue `plumet-des-mousses` restent inchangés ; la nouvelle référence jaune prévaut sur l’ancien brief vert.
+
+Les huit orientations de chacun sont intégrées au catalogue, soit 16 vues remplacées sur les 424. Les références sont exactes ; les sprites sont des déclinaisons générées, avec simplification des détails et reconstruction des faces cachées. Ils ne constituent pas une reproduction pixel à pixel. Le bouton Comparer affiche désormais l’image choisie pour ces deux créatures.
+
+Règle de simplification : une masse dominante, peu de zones de couleur, yeux et expression lisibles à 96 px, ombres larges, aucun nouvel ornement. Les autres créatures conservent leur version actuelle. Cette décision ne valide pas automatiquement une transformation de tout le bestiaire.
+
+Les prompts, références et empreintes des nouvelles planches figurent dans `tools/character-studio/isometric/style-study/selected-direction-prompts.json`. Les planches sources sont conservées dans chaque dossier du catalogue. Le détourage vert, la découpe et l’ancrage sont réalisés par le pipeline existant ; aucune retouche de dessin locale n’est appliquée. Les masques de recoloration restent des familles de teintes, pas une segmentation anatomique.
+
+La page `tools/character-studio/isometric/style-study/` compare les images choisies aux vues sud-est et présente les huit orientations. Les modes silhouette ne concernent que les sprites détourés ; les références sur fond papier restent intactes.
+
+## Historique — essais antérieurs remplacés pour ces deux créatures
 
 Le 16 octobre 2026, le commanditaire précise : « pour les monstres j’aimerai vraiment que tu t’inspires du design des bouftou, tofu, etc. avec le même style artistique ».
 

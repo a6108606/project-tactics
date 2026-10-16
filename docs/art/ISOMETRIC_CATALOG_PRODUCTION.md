@@ -42,3 +42,7 @@ La normalisation conserve les dessins sans les agrandir. Sources 1254 × 1254, c
 - Les huit directions sont huit dessins indépendants, pas une rotation géométriquement exacte. Pas d’animations, ni variantes de visage/coiffure, ni équipement amovible dans ce lot. L’issue #27 demeure ouverte pour ces critères et la validation artistique.
 
 Aucun sort, caractéristique, équilibrage ou fichier du prototype parallèle n’a été modifié.
+
+## Références choisies — 16 octobre 2026
+
+Bourlaine jeune et Plumet utilisent désormais les deux images fournies par le commanditaire, conservées à l’identique dans `content/art/creatures/reference-v1/`. Leurs 16 vues ont été remplacées ; le catalogue reste à 53 formes et 424 vues. Voir `docs/art/MONSTER_STYLE_TARGET.md` pour la décision, les limites des reconstructions et les sources. Les 1 858 contrôles des assets et les 222 contrôles navigateur passent après cette révision.

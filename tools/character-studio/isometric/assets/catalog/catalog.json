@@ -245,15 +245,27 @@
       "name": "Plumet des mousses",
       "category": "bestiary",
       "family": "Plumets",
-      "brief": "Tiny round forest bird, moss-green leaf feathers, warm cream belly, three-leaf crest, short leaf fan tail, ochre beak/feet, mischievous amber eyes.",
+      "brief": "User-chosen yellow egg-round bird, three simple yellow crest lobes, yellow wings and tail, pale-yellow belly, large white oval eyes with small dark pupils, orange beak and feet. No green plumage or detailed leaves.",
       "status": "ready",
       "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "reconstruction": "Design fondé sur l’image choisie le 16 octobre 2026. Les orientations arrière sont des reconstructions ; détails simplifiés.",
       "manifest": "assets/catalog/plumet-des-mousses/directions.json",
       "thumbnail": "assets/catalog/plumet-des-mousses/se.png",
       "atlas": "assets/catalog/plumet-des-mousses/atlas.png",
-      "palette_status": "material-hues"
+      "palette_status": "material-hues",
+      "reference_image": "content/art/creatures/reference-v1/plumet.png",
+      "reference_crop": [
+        145,
+        45,
+        1120,
+        1225
+      ],
+      "material_labels": {
+        "leaf": "Jaunes",
+        "ochre": "Orangés"
+      },
+      "reference_status": "user-selected-2026-10-16"
     },
     {
       "id": "plumet-braise",
@@ -546,15 +558,27 @@
       "name": "Bourlaine jeune",
       "category": "bestiary",
       "family": "Bourlaines",
-      "brief": "Young woolly quadruped creature, small cream cloud-shaped fleece, short slate face and four short dark legs, tiny budding honey horns, large turquoise eyes, leaf-shaped ears. Original sheep-like creature.",
+      "brief": "User-chosen round cream wool creature, small brown face, sleepy stubborn turquoise eyes, chunky slate-blue horns and hooves, short legs and cream ears. Simple cartoon masses; no green leaf ears or honey horns.",
       "status": "ready",
       "directions": 8,
       "source": "docs/art/production-sources/BESTIAIRE-CHARA-DESIGN.md",
-      "reconstruction": "Création depuis description textuelle ; proposition artistique non validée individuellement.",
+      "reconstruction": "Design fondé sur l’image choisie le 16 octobre 2026. Les orientations arrière sont des reconstructions ; détails simplifiés.",
       "manifest": "assets/catalog/bourlaine-jeune/directions.json",
       "thumbnail": "assets/catalog/bourlaine-jeune/se.png",
       "atlas": "assets/catalog/bourlaine-jeune/atlas.png",
-      "palette_status": "material-hues"
+      "palette_status": "material-hues",
+      "reference_image": "content/art/creatures/reference-v1/bourlaine.png",
+      "reference_crop": [
+        155,
+        250,
+        1120,
+        1060
+      ],
+      "material_labels": {
+        "ochre": "Tons crème et bruns",
+        "blue": "Bleus ardoise"
+      },
+      "reference_status": "user-selected-2026-10-16"
     },
     {
       "id": "bourlaine-cornue",

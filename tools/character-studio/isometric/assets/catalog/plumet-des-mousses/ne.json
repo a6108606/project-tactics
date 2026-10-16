@@ -15,8 +15,8 @@
   "channels": [
     {
       "id": "leaf",
-      "label": "Feuillages",
-      "color": "#8E963C",
+      "label": "Jaunes",
+      "color": "#FDF069",
       "hue": [
         47,
         100
@@ -32,8 +32,8 @@
     },
     {
       "id": "ochre",
-      "label": "Ocres",
-      "color": "#F5DCA8",
+      "label": "Orangés",
+      "color": "#F1C232",
       "hue": [
         20,
         47

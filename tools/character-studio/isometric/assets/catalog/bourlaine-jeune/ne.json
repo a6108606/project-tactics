@@ -15,8 +15,8 @@
   "channels": [
     {
       "id": "ochre",
-      "label": "Ocres",
-      "color": "#FCE7C3",
+      "label": "Tons crème et bruns",
+      "color": "#FDEAC4",
       "hue": [
         20,
         47
@@ -31,12 +31,12 @@
       ]
     },
     {
-      "id": "red",
-      "label": "Rouges",
-      "color": "#755A53",
+      "id": "blue",
+      "label": "Bleus ardoise",
+      "color": "#355269",
       "hue": [
-        345,
-        20
+        190,
+        250
       ],
       "saturation": [
         0.16,
@@ -48,12 +48,12 @@
       ]
     },
     {
-      "id": "leaf",
-      "label": "Feuillages",
-      "color": "#837A4B",
+      "id": "red",
+      "label": "Rouges",
+      "color": "#77564E",
       "hue": [
-        47,
-        100
+        345,
+        20
       ],
       "saturation": [
         0.16,

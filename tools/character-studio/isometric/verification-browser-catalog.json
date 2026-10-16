@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "environment": "Navigateur intégré Codex, serveur HTTP local du dépôt",
   "catalogue": {
     "forms": 53,
@@ -41,22 +41,25 @@
     ],
     "alpha": "identique",
     "rgb_max_difference": 1,
-    "different_bytes": 3101,
+    "different_bytes": 16052,
     "note": "Tolérance maximale d’une unité RGB aux contours interpolés lors du passage canvas/PNG. Aucun changement de palette ni de forme autorisé."
   },
   "ryuu_regression": {
     "pass": 140,
     "fail": 0,
-    "page": "tests.html"
+    "page": "tests.html",
+    "date": "2026-10-15"
   },
   "source_bundle": {
     "files": 10,
-    "exact_sizes_and_sha256": true
+    "exact_sizes_and_sha256": true,
+    "date": "2026-10-15"
   },
   "reproduce": {
     "catalogue": "catalog-tests.html",
     "atlas_only": "catalog-tests.html?atlasOnly=1",
     "assets": "node tools/character-studio/isometric/verify-catalog.mjs"
   },
-  "limits": "Les tests techniques ne valident ni les reconstructions artistiques ni la séparation sémantique des nouveaux masques de héros."
+  "limits": "Les tests techniques ne valident ni les reconstructions artistiques ni la séparation sémantique des nouveaux masques de héros.",
+  "revision_scope": "Bourlaine et Plumet : références utilisateur, 16 vues remplacées, comparaison à la référence choisie."
 }

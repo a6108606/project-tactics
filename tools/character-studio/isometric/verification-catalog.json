@@ -1742,7 +1742,7 @@
       "name": "plumet-des-mousses/n recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 58200
+        "changed": 63430
       }
     },
     {
@@ -1761,7 +1761,7 @@
       "name": "plumet-des-mousses/ne recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 59301
+        "changed": 60770
       }
     },
     {
@@ -1780,7 +1780,7 @@
       "name": "plumet-des-mousses/e recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 61680
+        "changed": 56721
       }
     },
     {
@@ -1799,7 +1799,7 @@
       "name": "plumet-des-mousses/se recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 63726
+        "changed": 58896
       }
     },
     {
@@ -1818,7 +1818,7 @@
       "name": "plumet-des-mousses/s recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 59798
+        "changed": 53361
       }
     },
     {
@@ -1837,7 +1837,7 @@
       "name": "plumet-des-mousses/sw recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 63716
+        "changed": 56978
       }
     },
     {
@@ -1856,7 +1856,7 @@
       "name": "plumet-des-mousses/w recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 58706
+        "changed": 56225
       }
     },
     {
@@ -1875,15 +1875,15 @@
       "name": "plumet-des-mousses/nw recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 57749
+        "changed": 61919
       }
     },
     {
       "name": "plumet-des-mousses all color channels active over eight views",
       "pass": true,
       "detail": {
-        "leaf": 365026,
-        "ochre": 117850
+        "leaf": 307185,
+        "ochre": 161115
       }
     },
     {
@@ -5125,7 +5125,7 @@
       "name": "bourlaine-jeune/n recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 48983
+        "changed": 58133
       }
     },
     {
@@ -5144,7 +5144,7 @@
       "name": "bourlaine-jeune/ne recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 48383
+        "changed": 53386
       }
     },
     {
@@ -5163,7 +5163,7 @@
       "name": "bourlaine-jeune/e recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 43483
+        "changed": 53302
       }
     },
     {
@@ -5182,7 +5182,7 @@
       "name": "bourlaine-jeune/se recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 43150
+        "changed": 54594
       }
     },
     {
@@ -5201,7 +5201,7 @@
       "name": "bourlaine-jeune/s recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 41018
+        "changed": 50133
       }
     },
     {
@@ -5220,7 +5220,7 @@
       "name": "bourlaine-jeune/sw recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 40906
+        "changed": 49635
       }
     },
     {
@@ -5239,7 +5239,7 @@
       "name": "bourlaine-jeune/w recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 42061
+        "changed": 53782
       }
     },
     {
@@ -5258,16 +5258,16 @@
       "name": "bourlaine-jeune/nw recolor changes only mask RGB, preserves alpha",
       "pass": true,
       "detail": {
-        "changed": 44577
+        "changed": 52531
       }
     },
     {
       "name": "bourlaine-jeune all color channels active over eight views",
       "pass": true,
       "detail": {
-        "ochre": 267198,
-        "red": 44361,
-        "leaf": 41002
+        "ochre": 350964,
+        "blue": 48653,
+        "red": 25879
       }
     },
     {

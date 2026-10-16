@@ -41,6 +41,7 @@ for(const [id,src]of Object.entries(paths)){try{
    {id:'skin',label:'Peau',color:p[0],hue:[15,43],saturation:[.2,.65],value:[.67,1],skin:true},
    ...['clothing1','clothing2','clothing3'].map((id,i)=>({id,label:['Étoffe 1','Étoffe 2','Étoffe 3'][i],color:p[i+2],hue:cloth[i],saturation:name==='ryuu'||name==='kael'?[.12,.7]:i===0&&name!=='lina'?[.03,.25]:[.12,.8],value:[.2,1]}))];
  }
+ for(const c of channels)if(e.material_labels?.[c.id])c.label=e.material_labels[c.id];
  if(!channels.length)throw Error('No color material '+id);
  const atlas=new Uint8ClampedArray(W*4*H*2*4),views=[];
  for(let k=0;k<8;k++){

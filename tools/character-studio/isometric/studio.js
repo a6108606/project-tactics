@@ -13,11 +13,11 @@ function draw(){
  if(mode==='all'&&allAssets){allAssets.forEach((a,i)=>{const cx=125+(i%4)*250,cy=340+Math.floor(i/4)*390;place(ctx,surface(a,debug),a,cx,cy,310);ctx.fillStyle=dark?'#d8decb':'#807357';ctx.font='16px system-ui';ctx.textAlign='center';ctx.fillText(a.view.label,cx,cy+45);});return;}
  const cx=mode==='compare'?720:500,cy=mode==='grid'?635:710;if(mode==='grid')ground(cx,cy,dark);
  ctx.save();ctx.translate(cx,cy+8);ctx.scale(1,.35);const shadow=ctx.createRadialGradient(0,0,0,0,0,height*.17);shadow.addColorStop(0,dark?'#00000060':'#65594045');shadow.addColorStop(1,'#65594000');ctx.fillStyle=shadow;ctx.beginPath();ctx.arc(0,0,height*.17,0,Math.PI*2);ctx.fill();ctx.restore();
- if(mode==='compare'&&original){const oh=570,ow=original.width/original.height*oh;ctx.drawImage(original,270-ow/2,cy-oh,ow,oh);ctx.fillStyle=dark?'#d8decb':'#807357';ctx.font='16px system-ui';ctx.textAlign='center';ctx.fillText(entity.category==='heroes'?'FICHE ORIGINALE':'PALETTE D’ORIGINE',270,760);ctx.fillText(asset.view.label.toUpperCase(),720,760);}
- place(ctx,sprite,asset,cx,cy,mode==='compare'?570:height);
+ if(mode==='compare'&&original){const oh=Math.min(570,420*original.height/original.width),ow=original.width/original.height*oh;ctx.drawImage(original,270-ow/2,cy-oh,ow,oh);ctx.fillStyle=dark?'#d8decb':'#807357';ctx.font='16px system-ui';ctx.textAlign='center';ctx.fillText(entity.category==='heroes'?'FICHE ORIGINALE':entity.reference_image?'RÉFÉRENCE CHOISIE':'PALETTE D’ORIGINE',270,760);ctx.fillText(asset.view.label.toUpperCase(),720,760);}
+ place(ctx,sprite,asset,cx,cy,mode==='compare'?Math.min(570,420*asset.view.displayHeight/asset.width):height);
  if(mode==='grid'){ctx.fillStyle=dark?'#b5bca6':'#969179';ctx.font='14px system-ui';ctx.textAlign='center';ctx.fillText(entity.name.toUpperCase()+' · '+asset.view.label.toUpperCase(),500,775);}
 }
-function repaint(){if(!asset)return;sprite.width=asset.width;sprite.height=asset.height;sprite.getContext('2d').putImageData(new ImageData(paint(asset,colors,debug),asset.width,asset.height),0,0);if(entity.category!=='heroes'){original=document.createElement('canvas');original.width=asset.width;original.height=asset.height;original.getContext('2d').putImageData(new ImageData(asset.source,asset.width,asset.height),0,0);}draw();}
+function repaint(){if(!asset)return;sprite.width=asset.width;sprite.height=asset.height;sprite.getContext('2d').putImageData(new ImageData(paint(asset,colors,debug),asset.width,asset.height),0,0);if(entity.category!=='heroes'&&!entity.reference_image){original=document.createElement('canvas');original.width=asset.width;original.height=asset.height;original.getContext('2d').putImageData(new ImageData(asset.source,asset.width,asset.height),0,0);}draw();}
 function sync(){for(const ch of recipe.channels){$('#color-'+ch.id).value=colors[ch.id];$('#hex-'+ch.id).value=colors[ch.id];}repaint();}
 function busy(message){document.querySelectorAll('aside button,aside input,.scene button,[data-mode]').forEach(el=>el.disabled=!!message);$('#loading').hidden=!message;if(message)$('#loading').textContent=message;$('#export').disabled=!!message;$('#exportAll').disabled=!!message;document.body.dataset.busy=String(!!message);}
 function selected(){document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)));document.querySelectorAll('[data-direction]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.direction===current)));$('#viewName').textContent=asset.view.label+' · pose de repos';}
@@ -75,6 +75,10 @@ async function chooseEntity(id){
   if(nextEntity.category==='heroes'){
    const bmp=await createImageBitmap(await(await fetch('../../../'+nextEntity.source)).blob());const c=crops[nextEntity.name.toLowerCase()][nextEntity.base],x=Math.round(c[0]/1100*bmp.width),y=Math.round(c[1]/1400*bmp.height),w=Math.round((c[2]-c[0])/1100*bmp.width),h=Math.round((c[3]-c[1])/1400*bmp.height);
    nextOriginal=await createImageBitmap(bmp,x,y,w,h);bmp.close();
+  }
+  if(nextEntity.reference_image){
+   const bmp=await createImageBitmap(await(await fetch('../../../'+nextEntity.reference_image)).blob()),box=nextEntity.reference_crop;
+   if(box){nextOriginal=await createImageBitmap(bmp,box[0],box[1],box[2]-box[0],box[3]-box[1]);bmp.close();}else nextOriginal=bmp;
   }
   if(ticket!==request){nextOriginal?.close();return;}
   original?.close?.();cache.clear();entity=nextEntity;asset=next;views=nextViews;recipe=next.recipe;colors={...next.defaults};current='se';allAssets=null;original=nextOriginal;mode='grid';
